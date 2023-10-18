@@ -1,0 +1,1187 @@
+Mark and Brent Price are brothers.
+True
+False
+
+Clyde Drexler and Hakeem Olajuwon played basketball together in college.
+True
+False
+
+Dennis Rodman did not play basketball in college.
+False
+True
+
+The 1998 NBA All-Star Game was played in Los Angeles.
+False
+True
+
+Keith Van Horn was the first pick in the 1997 NBA Draft.
+False
+True
+
+Hakeem Olajuwon has made more All-Star Teams than any current player.
+True
+False
+
+Karl Malone is in the top 10 in all-time NBA scoring.
+True
+False
+
+Clyde Drexler is in the top 10 in all-time NBA scoring
+False
+True
+
+Karl Malone has won one individual scoring championship.
+False
+True
+
+Hakeem Olajuwon was the NBA's leading scorer in 1993-94
+False
+True
+
+Dale Ellis, who holds the NBA records for most three-pointers made, has led the NBA in three-point shooting percentage at least once.
+False
+True
+
+Patrick Ewing led the NBA in blocked shots during a season.
+False
+True
+
+Dennis Rodman has led the NBA in a statistical category other than rebounding.
+True
+False
+(He led in field goal percentage in 1989)
+
+John Stockton, the NBA leader in career steals, has never led all players in steals during a season.
+False
+True
+
+John Stockton began the 1997-98 NBA season with more career points than David Robinson
+True
+False
+
+Scottie Pippen has scored more career points than Reggie Miller
+False
+True
+
+Kevin Johnson has scored more career points than Detlef Schrempf
+False
+True
+
+The Utah Jazz was once known as the Utah Stars
+False
+True
+
+When the team was formed in 1980, the Dallas Mavericks announced that they preferred to be called the Mavs.
+False
+True
+
+The Washington Wizards were once known as the Capital Bullets
+True
+False
+
+There was a team in Toronto before the Raptors.
+True
+False
+
+The Redskins once played in the NBA.
+True
+False
+
+There was once a team in St. Louis named the Bombers.
+True
+False
+
+The official nickname of the Knicks is Knickerbockers
+True
+False
+
+The Los Angeles Lakers got their nickname because of an abundance of Lakes in the Los Angeles area.
+False
+True
+
+When the Philadelphia Warriors moved to the West Coast, they changed their name to the San Francisco Warriors
+True
+False
+
+The Detroit Pistons were a part of the NBA in its first season.
+False
+True
+
+Dallas was one of four ABA teams to join the NBA in 1976.
+False
+True
+
+The Philadelphia 76ers have won more championships than the New York Knicks.
+True
+False
+
+The Los Angeles Lakers have won more playoff games than the Boston Celtics
+True
+False
+
+The Minneapolis Lakers won five championships before moving to Los Angeles in 1960.
+True
+False
+
+The Cleveland Cavaliers entered the NBA in 1970
+True
+False
+
+The New Jersey Nets were once known as the New Jersey Americans
+True
+False
+
+The Philadelphia 76ers once were known as the Philadelphia Warriors
+False
+True
+
+The Detroit Pistons have been in the NBA since its first year in 1946-47.
+False
+True
+
+The Detroit Pistons hold the record for most points scored in one game in NBA history.
+True
+False
+
+The Miami Heat and Orlando Magic started playing in the NBA in the same season.
+False
+True
+
+The Raptors are the only NBA team to ever call Toronto home?
+False
+True
+The Toronto Huskies were one of the original members of the NBA in 1946-47.
+
+If a player takes off from behind the three-point line, soars through the air, and dunk the ball, is it counted as a three-pointer.
+True
+False
+
+If an offensive player puts up an airball that is grabbed by a defensive player, it is considered a steal.
+False
+True
+
+The Detroit Pistons home games are in Detroit.
+False
+True
+The Pistons play their home games in Auburn Hills
+
+The Three teams that play in Texas are the Mavericks, Rockets and Oilers.
+False
+True
+They are the Mavericks, Rockets and Spurs.
+
+The Nets play in East Rutherford, NJ.
+True
+False
+
+There are 15 teams in the Eastern Conference.
+True
+False
+
+The Lakers have always played in Los Angeles.
+False
+True
+They played in Minneapolis, MN from 1948-49 to 1960.
+
+The Boston Celtics used to be called the Boston Shamrocks.
+False
+True
+
+The New York Knicks won the NBA Championship in 1970 and 1973.
+True
+False
+
+The Boston Celtics have won 16 NBA titles.
+True
+False
+
+Houston's two titles came in back-to-back seasons.
+True
+False
+
+The Milwaukee Bucks have never won an NBA championship.
+False
+True
+
+The NBA Finals have always been played in June.
+False
+True
+They have also been played in May and also in April during the 1940s
+
+The Utah Jazz was once known as the Utah Stars
+False
+True
+
+When the team was formed in 1980, the Dallas Mavericks announced that they preferred to be called the Mavericks.
+False
+True
+
+The Washington Wizards were once known as the Capital Bullets
+True
+False
+
+The Redskins once played in the NBA.
+True
+False
+
+There was once a team in St. Louis named the Bombers.
+True
+False
+
+The official nickname of the Knicks is Knickerbockers
+True
+False
+
+The Los Angeles Lakers got their nickname because of an abundance of Lakes in the Los Angeles area.
+False
+True
+
+When the Philadelphia Warriors moved to the West Coast, they changed their name to the San Francisco Warriors
+True
+False
+
+Dallas was one of four ABA teams to join the NBA in 1976.
+False
+True
+
+The Philadelphia 76ers' franchise has won more championships than the New York Knicks.
+True
+False
+
+The Los Angeles Lakers have won more playoff games than the Boston Celtics
+True
+False
+
+The Minneapolis Lakers won five championships before moving to Los Angeles in 1960.
+True
+False
+
+The Cleveland Cavaliers entered the NBA in 1970
+True
+False
+
+The New Jersey Nets were once known as the New Jersey Americans
+True
+False
+
+The Philadelphia 76ers once were known as the Philadelphia Warriors
+False
+True
+
+The Detroit Pistons have been in the NBA since its first year in 1946-47.
+False
+True
+
+The Detroit Pistons hold the record for most points scored in one game in NBA history.
+True
+False
+
+The Miami Heat and Orlando Magic started playing in the NBA in the same season.
+False
+True
+
+Steve Kerr is Cleveland's all-time assist leader.
+False
+True
+
+A new basketball is used for every game.
+False
+True
+
+A shot that gets blocked counts as a missed field goal for the shooter?
+True
+False
+
+The Boston Celtics have never drafted first in the NBA Draft.
+True
+False
+
+The 1997-98 San Antonio Spurs began the season with three players over seven feet tall on their roster.
+True
+False
+
+Terry Cummings is an ordained minister.
+True
+False
+
+The Seattle SuperSonics have played in the NBA Finals two times.
+False
+True
+
+An NBA team playing in Rochester once won the NBA title.
+True
+False
+
+An NBA team playing in Syracuse once won an NBA title.
+True
+False
+
+The team once known as the Rochester Royals is now the Sacramento Kings.
+True
+False
+
+The team once known as the Syracuse Nationals is now the Philadelphia 76ers
+True
+False
+
+The NBA once had a team that played home games in Beaumont, Texas.
+False
+True
+
+Before they moved to San Antonio, the Spurs were known as the Austin American-Statesmen.
+False
+True
+
+The Cavaliers have always played their home games in Cleveland
+False
+True
+
+The New York Knicks have won more playoff games in their history than the Chicago Bulls
+True
+False
+
+Detroit has won more NBA Finals games than Golden State.
+False
+True
+
+The team with the best road winning percentage in NBA Finals history is Milwaukee
+True
+False
+
+The Atlanta Hawks franchise has never played in the NBA Finals
+False
+True
+
+Danny Ferry has played his entire NBA career with the Cleveland Cavaliers.
+True
+False
+
+The only NBA team Danny Ferry has played for is the Cleveland Cavaliers.
+False
+True
+
+Dale Ellis has represented the Seattle SuperSonics at an NBA All-Star Game.
+True
+False
+
+Four former Florida State University guards playing in the NBA.
+True
+False
+	
+
+The Cavaliers were not the first Cleveland franchise in the NBA.
+True
+False
+
+The Cleveland Cavaliers were once known as the Cleveland Rebels.
+False
+True
+
+Ron Harper and Bob Sura are the only Cavaliers to participate in the Slam Dunk Contest.
+True
+False
+
+Cleveland has had at least one player participate in the Rookie Game each of the last three years (1996-98).
+True
+False
+
+Twice the Dallas Mavericks have come back from 2-1 deficits in the playoffs to win the series.
+True
+False
+
+B.J. Armstrong was a starting guard in the 1994 NBA All-Star Game.
+True
+False
+
+Michael Finley was an NBA All-Rookie First Team selection in 1996.
+True
+False
+
+Charles Barkley has participated in the playoffs in eleven of his 13 NBA seasons.
+True
+False
+
+The Warriors have not been to the NBA Playoffs in the 1990s.
+False
+True
+
+Bimbo Coles was a member of the 1988 bronze-medal-winning U.S. Olympic Team.
+True
+False
+
+Mario Elie was a member of both the 1994 and 1995 Houston Rockets NBA championship teams.
+True
+False
+
+Charles Barkley has never won an NBA Championship.
+True
+False
+
+Patrick Ewing has never won an NBA Championship.
+True
+False
+
+ Mark Price and Brent Price have never played together in the NBA.
+False
+True
+
+Matt Maloney is one of only four rookies in Houston Rockets history to start all 82 regular season games.
+True
+False
+
+Hakeem Olajuwon played for the 1996 United States gold-medal-winning team at the Summer Olympics in Atlanta.
+True
+False
+
+Hakeem Olajuwon has played his entire 14-year NBA career with the Houston Rockets.
+True
+False
+
+Hakeem Olajuwon was known as Akeem prior to 1991.
+True
+False
+
+Entering the 1997-98 season, Hakeem Olajuwon has led the Houston Rockets in rebounding for eleven consecutive seasons.
+True
+False
+
+Entering the 1997-98 season, Hakeem Olajuwon has led the Houston Rockets in scoring for twelve consecutive seasons.
+True
+False
+
+Joe Dumars has played his entire NBA career with the Detroit Pistons.
+True
+False
+
+Charles Oakley has played his entire career with the New York Knicks.
+False
+True
+
+Grant Hill is one of only three players in NBA history to have led his team in points, rebounds and assists in more than one season.
+True
+False
+
+Rick Mahorn has not always played for the Detroit Pistons.
+True
+False
+
+Rick Mahorn was a member of only one Detroit Pistons Championship team.
+True
+False
+
+Houston has been a member of the Pacific Division, Central Division and Midwest Division.
+True
+False
+
+Detroit Pistons Jerome Williams and Don Reid were college teammates at Georgetown.
+True
+False
+
+Malik Sealy once played for the Indiana Pacers.
+True
+False
+
+Brian Williams is playing for his fifth team in his seventh NBA season.
+True
+False
+
+Brian Williams played on the 1997 NBA Champion Chicago Bulls team.
+True
+False
+
+Detroit Pistons' Scot Pollard and Utah Jazz's Greg Ostertag were college teammates.
+True
+False
+
+Entering the 1997-98 season, Joe Dumars has remained in the Detroit Pistons' starting lineup  ever since the middle of his rookie season (1985-86) with the exception of a small stretch in 1995-96.
+True
+False
+
+Grant Hill won two NCAA Championships while at Duke University.
+True
+False
+
+Rick Mahorn was selected by the Minnesota Timberwolves in the 1989 expansion draft.
+True
+False
+
+Joe Dumars once made 62 consecutive free throws over 13 games. 
+True
+False
+
+Grant Hill was the Detroit Pistons first Rookie of the Year since 1966-67.
+True
+False
+
+Grant Hill has never been selected to the NBA All-Defensive Team.
+True
+False
+
+Detroit has not made it past the first round of the NBA Playoffs since 1991.
+True
+False
+
+Chris Childs was undrafted coming out of Boise State University.
+True
+False
+
+Patrick Ewing is the only player in New York Knicks history to play as many as 13 seasons in a New York Knicks uniform.
+True
+False
+
+Patrick Ewing holds the NBA record for most seasons spent with one franchise.
+False
+True
+
+Patrick Ewing's eleven NBA All-Star appearances is a New York Knicks club record.
+True
+False
+
+The Warriors have never had a No. 1 overall draft pick
+False
+True
+
+John Starks has been selected to play in the NBA All-Star Game.
+True
+False
+
+Despite not playing baseball in college, Charlie Ward was drafted by the Milwaukee Brewers (1993) and New York Yankees (1994) of Major Baseball League.
+True
+False
+
+The New Jersey  Nets have won only one NBA playoff series.
+True
+False
+
+The first organized team in baseball history was named the New York Knickerbockers.
+True
+False
+
+The New York Knicks team name owes its origins to the style of pants the Dutch settlers who came to the New World wore.
+True
+False
+
+In two of the last three years, a New York Knicks player has won the Sixth Man of the Year Award.
+True
+False
+
+Patrick Ewing is the New York Knicks' only Rookie of the Year in team history.
+False
+True
+
+The Washington Wizards' Tracy Murray and the Los Angeles Clippers Lamond Murray are first cousins.
+True
+False
+
+The most wins in a single season the Clippers have had in franchise history is 49.
+True
+False
+
+The Clippers have never won a playoff series since moving to Los Angeles.
+True
+False
+
+The Denver Nuggets were once known as the Denver Rockets.
+True
+False
+
+The Warriors have been located in Philadelphia, San Francisco and Golden State.
+True
+False
+
+Dee Brown's given name is DeCovan.
+True
+False
+
+A.C. Green was a member of the Los Angeles Lakers' 1987 and 1988 championship teams.
+True
+False
+
+A.C. Green was a starting forward for the Western Conference in the 1990 NBA All-Star Game.
+True
+False
+
+Tyus Edney was the only second-round draftee to play in the 1996 Rookie Game during All-Star Weekend.
+True
+False
+
+The Celtics' 15-67 record in 1996-97 was the worst in franchise history.
+True
+False
+
+The Celtics have not had a player participate in the NBA All-Star Game since 1992.
+False
+True
+
+Billy Owens and Derrick Coleman were college teammates.
+True
+False
+
+No one team has ever scored more than twice as many points as its opponent.
+False
+True
+
+In 1996-97 Toronto's Doug Christie and Damon Stoudamire combined to be the best rebounding guard pair in the league.
+True
+False
+
+The Warriors played all home games during the 1996-97 season in San Jose.
+True
+False
+
+On April 19,1996 Patrick Ewing recorded the first and only triple-double of his career.
+True
+False
+
+Allan Houston is one of only two players to be named All-SEC four times.
+True
+False
+
+The Charlotte Hornets selected Larry Johnson with the first overall pick in the 1991 NBA Draft.
+True
+False
+
+Entering the 1997-98 season, Larry Johnson has averaged in double figures in scoring every season of his six-year career.
+True
+False
+
+In 1989-90, Charles Oakley and Patrick Ewing became the first New York Knicks duo since 1971-72 to each average 10 or more rebounds.
+True
+False
+
+Charles Oakley has never played in an NBA All-Star Game.
+False
+True
+
+Harvey Grant and Horace Grant are twin brothers.
+True
+False
+
+ Mark Price and Brent Price are brothers.
+True
+False
+
+Tim Hardaway and Anfernee Hardaway are brothers.
+False
+True
+
+The Washington Wizards play their home games in Olympia, WA.
+False
+True
+
+The Detroit Pistons' team colors were once red, white and blue.
+True
+False
+
+The Chicago Bulls always wear red road uniforms.
+False
+True
+
+The Houston Rockets' team colors were once red, yellow and white.
+True
+False
+
+The Portland Trail Blazers play their home games in Portland, ME.
+False
+True
+
+Indiana Pacers Antonio Davis and Dale Davis are brothers.
+False
+True
+
+NBA veterans Buck Williams and Herb Williams are brothers.
+False
+True
+
+Detroit Pistons Brian Williams and Jerome Williams are related.
+False
+True
+
+The San Antonio Spurs were once known as the Dallas Chaparrals.
+True
+False
+
+Seattle's only NBA Championship came in 1979.
+True
+False
+
+The Toronto Huskies were a charter member of the NBA.
+True
+False
+
+The 1995-96 Chicago Bulls hold the best winning percentage in NBA history (.878).
+True
+False
+
+The Philadelphia 76ers new logo for 1996-97 was the team's first major logo change since 1963.
+True
+False
+
+Gary Payton is the Seattle SuperSonics' first and only Defensive Player of the Year award winner.
+True
+False
+
+Dale Ellis is the Seattle SuperSonics' first and only Most Improved Player of the Year Award-winner.
+True
+False
+
+Since 1986-87 Nate McMillan and Gary Payton are the only players to lead the SuperSonics in assists.
+True
+False
+
+Seattle won 55 or more games for five consecutive seasons through 1996-97.
+True
+False
+
+Buck Williams won the 1982 NBA Rookie of the Year Award while playing with the Nets.
+True
+False
+
+The only New Jersey Net to make the All-Rookie First Team was Derrick Coleman.
+True
+False
+
+The New Jersey Nets were once called the New Jersey Americans.
+True
+False
+
+The Nets once played on Long Island, New York.
+True
+False
+
+The Golden State Warriors were once known as the Philadelphia Warriors and the San Francisco Warriors.
+True
+False
+
+The Philadelphia 76ers were once known as the Syracuse Nationals.
+True
+False
+
+The Los Angeles Clippers finished the 1992-93 season with a better record than the Los Angeles Lakers.
+True
+False
+
+The Los Angeles Clippers finished the 1991-92 season with a better record than the Los Angeles Lakers.
+True
+False
+
+The Los Angeles Clippers have never been in the NBA Playoffs.
+False
+True
+
+Milwaukee has never won an NBA championship in franchise history.
+False
+True
+
+Atlanta has never won an NBA championship in franchise history.
+False
+True
+
+Golden State has never won an NBA championship in franchise history.
+False
+True
+
+Washington has never won an NBA championship in franchise history.
+False
+True
+
+Philadelphia has never won an NBA championship in franchise history.
+False
+True
+
+In the 1990s the Los Angeles Lakers have lost more games than they have won in the playoffs.
+True
+False
+
+Kobe Bryant was the first Los Angeles Laker to win a Slam Dunk Championship.
+False
+True
+
+Shaquille O'Neal has won the NBA scoring title once.
+True
+False
+
+Shaquille O'Neal has won the NBA blocked shots title twice.
+False
+True
+
+The Los Angeles Lakers have never had a player lead the league in free-throw percentage.
+False
+True
+
+There has always been a lottery process for ordering the top picks in the NBA Draft.
+False
+True
+
+The NBA Draft has always been composed of two rounds.
+False
+True
+
+Orlando had the first overall NBA draft pick in both 1992 and 1993.
+True
+False
+
+From 1966 through 1984, a coin flip was held between the teams with the worst record in each conference (or division, when there were only two divisions) to determine which teams would pick first in the draft.
+True
+False
+
+The Chicago Bulls have won five consecutive NBA Championships.
+False
+True
+
+The NBA has always had three officials work a game.
+False
+True
+
+In 1964, the NBA widened the foul lane from 12 to 16 feet.
+True
+False
+
+The 24-second shot clock has always been a part of the NBA game.
+False
+True
+
+In 1954 the NBA adopted two playing rules that revolutionized the game: the introduction of the 24-second clock and the awarding of a penalty shot following a team's fifth foul in any one period.
+True
+False
+
+In 1966, the third NBA team to call Chicago home, the Bulls, entered the league as the 10th franchise.
+True
+False
+
+NBA players have always been permitted to play in the Olympic Games.
+False
+True
+
+The Dallas Mavericks have never been to the NBA Playoffs.
+False
+True
+
+Rik Smits has played for the Indiana Pacers his entire career.
+True
+False
+
+Charles Oakley has never played for the team that drafted him, the Cleveland Cavaliers.
+True
+False
+
+Dikembe Mutombo's full name is Dikembe Mutombo Mpolondo Mukamba Jean
+Jacque Wamutombo.
+True
+False
+
+Shareef Abdur-Rahim was selected in the NBA Draft after playing only one year of collegiate basketball.
+True
+False
+
+Kenny Anderson has never appeared in an NBA All-Star Game.
+False
+True
+
+Entering the 1997-98 season, Kenny Anderson has averaged in double figure points every year since his rookie campaign.
+True
+False
+
+Nick Anderson has played his entire career with the Orlando Magic
+True
+False
+
+Entering the 1997-98 season, Nick Anderson has averaged double-figure points every year of his eight-year career.
+True
+False
+
+Nick Anderson and Kenny Anderson are brothers.
+False
+True
+
+Willie Anderson and Shandon Anderson are brothers.
+True
+False
+
+Isaac Austin has been to the NBA Playoffs with two different teams--Utah and Miami.
+True
+False
+
+Vin Baker has participated in four consecutive NBA All-Star Games
+(1995-1998).
+True
+False
+
+Joe Dumars was named one of the 50 Greatest Players in NBA History.
+False
+True
+
+Charles Barkley has made the NBA All-Star team while playing with three different teams.
+True
+False
+
+Mookie Blaylock has twice been named to the NBA All-Defensive First Team.
+True
+False
+
+The Los Angeles Lakers and the Chicago Bulls were the only NBA teams in 1996-97 that did not lose three games in a row.
+True
+False
+
+Scott Brooks was a member of the Houston Rockets' 1994 NBA Championship
+team.
+True
+False
+
+P.J. Brown played one season in Greece before playing in the NBA.
+True
+False
+
+Randy Brown has won two NBA championships with the Chicago Bulls.
+True
+False
+
+Scott Burrell was drafted by the Charlotte Hornets, the Seattle Mariners and the Toronto Blue Jays.
+True
+False
+
+Michael Cage has never been to the NBA Playoffs in his 13-year career.
+False
+True
+
+Elden Campbell has played his entire career with the Los Angeles Lakers.
+True
+False
+
+Of the 50 Greatest Players in NBA History, five played for the 1972-73 New York Knicks.
+True
+False
+
+Terry Cummings has twice been selected to the NBA All-Star Game and has twice been an All-NBA selection.
+True
+False
+
+Dell Curry was selected by the Baltimore Orioles in the 1985 baseball draft.
+True
+False
+
+Dell Curry has played his entire career with the Charlotte Hornets.
+False
+True
+
+Both Antonio Davis and Dale Davis have played their entire careers with the Indiana Pacers.
+True
+False
+
+Dale Davis has never averaged double-figure rebounds in a single season.
+False
+True
+
+Kobe Bryant (at 18 years, 5 months, 5 days) is the youngest person
+ever to start an NBA game.
+True
+False
+
+Entering the 1997-98 season, since David Robinson joined the Spurs in 1989, San Antonio is 379-184 (.673) with him in the lineup and 24-69 (.258) without him.
+True
+False
+
+Rex Chapman has averaged double-figure points every year of his NBA career.
+True
+False
+
+There has always been a three-point line in the NBA.
+False
+True
+
+The NBA used to play with a red, white and blue ball.
+False
+True
+
+A woman has never been drafted by an NBA team.
+False
+True
+
+Joe Dumars was the NBA Finals MVP in 1989.
+True
+False
+
+Sean Elliott was selected by San Antonio in the 1989 NBA Draft and has played his entire career with the Spurs.
+False
+True
+
+Avery Johnson has been to the NBA playoffs with three different teams.
+True
+False
+
+Kevin Johnson has played his entire NBA career with the Phoenix Suns.
+False
+True
+
+Eddie Jones has been to the NBA playoffs in every year of his career.
+True
+False
+
+Toni Kukoc has never averaged in double-figure points for a season.
+False
+True
+
+Chuck Person has averaged double-figure points every season of his career except 1996-97 when he did not play due to injury.
+True
+False
+
+Glen Rice has never shot below 43.9 percent from the field in any season.
+True
+False
+
+Mitch Richmond has won a gold and a bronze medal in the Olympic Games.
+True
+False
+
+Entering the 1998 NBA Playoffs, Anfernee Hardaway has participated in the NBA Playoffs in every year of his career.
+True
+False
+
+Anfernee Hardaway has been selected to the NBA All-Star team in every year of his career.
+False
+True
+
+Arvydas Sabonis was drafted by both the Atlanta Hawks and the Portland Trail Blazers.
+True
+False
+
+Allan Houston's only playoff appearance was with the New York Knicks in 1996-97.
+False
+True
+
+Allen Iverson led the league in turnovers in the 1996-97 season.
+True
+False
+
+In 1996-97, Mark Jackson became the first player in 19 years to lead the NBA in assists while playing for two different teams.
+True
+False
+
+Rik Smits has been a league leader in blocks twice.
+False
+True
+
+In 1996-97, Chris Webber averaged the first double-double (points-rebounds) of his career.
+True
+False
+
+Jacque Vaughn was born and grew up in France.
+False
+True
+
+Dennis Rodman has averaged more than 20 rebounds per game in a single season.
+False
+True
+
+No team in NBA history has gone through a season without having at least one two-game losing streak.
+True
+False
+
+No player has ever won the Rookie of the Year Award and the MVP Award in the same season.
+False
+True
+
+Even though the Boston Celtics have won 16 NBA titles, they have never had an individual scoring champion.
+True
+False
+
+The 1968-69 Boston Celtics are the only team to win the NBA title and then fail to make the playoffs the following year.
+True
+False
+
+Karl Malone was one of the worst three-point shooters in the league in 1996-97, going 0-13 from behind the arc.
+True
+False
+
+No player has ever lead the league in field-goal percentage and free-throw percentage in the same season.
+False
+True
+
+No player has ever lead the league in scoring and assists in the same season.
+False
+True
+
+The Kings have always had purple, black and silver as their team colors.
+False
+True
+
+Gheorghe Muresan is the tallest player in the league, measuring in at 7 feet, 7 inches.
+True
+False
+
+Every NBA team has at least one number retired.
+False
+True
+
+Dennis Rodman is the only NBA player who has won a championship with
+two different teams.
+False
+True
+
+An NBA game is comprised of four 12-minute quarters.
+True
+False
+
+Houston and North Carolina led all colleges with three players each on the list of the 50 Greatest Players in NBA History.
+True
+False
+
+Entering 1997-98, over the last five seasons the Bulls have averaged 60 wins a season and the Mavericks 60 defeats.
+True
+False
+
+Dennis Rodman has averaged double-figure rebounds every season of his career.
+False
+True
+
+In 1996-97, Shaquille O'Neal had a better field-goal percentage than free-throw percentage.
+True
+False
+
+All rounds of the NBA Playoffs are a best-out-of-seven series.
+False
+True
+
+Shaquille O'Neal has never been named to the All-NBA First Team.
+True
+False
+
+Gary Payton has never been named to the All-NBA First Team.
+True
+False
+
+Vancouver and Toronto have both had players make the All-Rookie First Team.
+True
+False
+
+Shaquille O'Neal has won an NBA scoring title.
+True
+False
+
+Chris Morris and Chuck Person were college teammates.
+True
+False
+
+Jeff Hornacek has averaged in double figures (points) every year of his NBA career.
+False
+True
+
+Dan Majerle has appeared in the playoffs every season of his career.
+True
+False
+
+Karl Malone has appeared in the playoffs every season of his career.
+True
+False
+
+Karl Malone holds the Utah Jazz record for highest single-season scoring average.
+False
+True
+
+Miami Heat forward Terry Mills and Detroit Pistons forward Grant Long are cousins.
+True
+False
+
+Hakeem Olajuwon has averaged more than 20 points in every year of his 13-year career.
+True
+False

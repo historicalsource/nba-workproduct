@@ -1,0 +1,42 @@
+NBA on NBC (c) 1998 Midway - TIMK : Paulo Garcia (04/07/99 14:46:31) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SC_PGARC.BNK
+
+Size of .BNK file including header: 33344 bytes ($8240 bytes)
+
+Size of playlist table: 40 bytes ($28 bytes)
+
+Size of playlist and sound data only: 33170 bytes ($8192 bytes)
+
+Checksum: $5E81
+
+Total number of playlists: 9 ($9)
+
+Total number of sound files: 9 ($9)
+
+Average bit rate for bank: 28.6 kbits/sec
+
+Total linear amount of sound: 0:09.231 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1       67.8    77.8  Paulo Garcia
+  2    $0002   1       36.8    42.2  Garcia A
+  3    $0003   1       62.8    72.0  Garcia B
+  4    $0004   1       47.7    54.7  Garcia C
+  5    $0005   1       41.4    47.5  To Garcia
+  6    $0006   1       61.5    70.6  Hands off to Garcia
+  7    $0007   1       61.1    70.1  Dishes to Garcia
+  8    $0008   1       51.5    59.0  Finds Garcia
+  9    $0009   1       72.8    83.5  Nice Feed to Garcia
+
+Total 9 Playlists

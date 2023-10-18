@@ -1,0 +1,20 @@
+#
+# Load file made by Composit version 0.9991R on Sun Mar 21 17:18:24 1999.
+#
+
+HFILE> \video\nba\include\joinin.h
+MIDST> on
+
+
+#
+# The following is a definition for Join_in.wif and its images.
+#
+INPUT> Join_in.wif
+
+#
+# Images.
+#
+-----> JI_BARBLK,JI_BARBLU,JI_BARGLO,JI_JOIN,JI_NEWGAM,JI_PREPAR
+
+EXECUTE> joinin
+MAKEBAT> joinin.bat joinin*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |

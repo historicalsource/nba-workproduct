@@ -1,0 +1,308 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+##601
+Which of the following franchises formerly played in San Diego?
+**a) Los Angeles Clippers ~~b) Portland Trail Blazers ~~c) Los Angeles Lakers ~~d) Golden State Warriors
+##602
+Which of the following franchises formerly played in San Diego?
+**a) Houston Rockets ~~b) Golden State Warriors ~~c) New Jersey Nets ~~d) Utah Jazz
+##603
+Which of the following franchises formerly played in Minneapolis?
+**a) Los Angeles Lakers ~~b) Milwaukee Bucks ~~c) Utah Jazz ~~d) Dallas Mavericks
+##604
+Which 1988 college player of the year led Kansas to the 1988 NCAA Championship and was the first overall pick by the Clippers?
+**a) Danny Manning ~~b) Jacques Vaughn ~~c) Danny Ferry ~~d) Scott Pollard
+##605
+Which NBA guard won college football's Heisman Trophy while at Florida State?
+**a) Charlie Ward ~~b) Bob Sura ~~c) Vernon Maxwell ~~d) Mitch Richmond
+##606
+Which college teammates at the University of Houston played for the Rockets in 1997-98?
+**a) Hakeem Olajuwon and Clyde Drexler ~~b) Robert Horry and Clyde Drexler ~~c) Matt Bullard and Hakeem Olajuwon ~~d) Carl Herrera and Charles Barkley
+##607
+Some consider this All-Star to be a possible future gubernatorial candidate in Alabama. Who is he?
+**a) Charles Barkley ~~b) Karl Malone ~~c) Robert Horry ~~d) Antonio McDyess
+##608
+The band Pearl Jam formerly took the name of which NBA player?
+**a) Mookie Blaylock ~~b) Kelvin Cato ~~c) Joe Smith ~~d) Hersey Hawkins
+##609
+Who funded a new athletic and academic center at his alma mater, Michigan State?
+**a) Steve Smith ~~b) Grant Long ~~c) Eric Snow ~~d) Glen Rice
+##610
+Which former University of Michigan teammates now play together for the Wizards?
+**a) Chris Webber and Juwan Howard ~~b) Chris Webber and Jalen Rose ~~c) Juwan Howard and Loy Vaught ~~d) Juwan Howard and Calbert Cheaney
+##611
+Which team's head coach coached three of his 1997-98 players in college at Kentucky?
+**a) Boston Celtics ~~b) New Jersey Nets ~~c) Philadelphia 76ers ~~d) Los Angeles Lakers
+##612
+Which '97-'98 Rookie of the Year candidate attended the University of Utah?
+**a) Keith Van Horn ~~b) Tim Duncan ~~c) Jim Jackson ~~d) Bobby Jackson
+##613
+Which of the following has been an ordained minister since he was 17 years old?
+**a) Terry Cummings ~~b) Charles Barkley ~~c) John Stockton ~~d) Jeff Hornacek
+##614
+Two players from the Pistons' two NBA Championship teams still play for Detroit in 1997-98. Name them.
+**a) Joe Dumars and Rick Mahorn ~~b) Joe Dumars and Grant Hill ~~c) Grant Hill and Christian Laettner ~~d) Rick Mahorn and Lindsey Hunter
+##615
+Which NBA forward attended Southeastern Oklahoma State?
+**a) Dennis Rodman ~~b) Karl Malone ~~c) Jerry Stackhouse ~~d) Bryon Russell
+##616
+Which NBA All-Star attended tiny Gonzaga University?
+**a) John Stockton ~~b) Scottie Pippen ~~c) Karl Malone ~~d) Patrick Ewing
+##617
+Who is known as "The Mailman" because he always delivers?
+**a) Karl Malone ~~b) John Stockton ~~c) Scottie Pippen ~~d) Charles Oakley
+##618
+Which NBA All-Star attended Louisiana Tech?
+**a) Karl Malone ~~b) Shaquille O'Neal ~~c) Charles Barkley ~~d) David Robinson
+##619
+Which 1998 NBA All-Star made the All-Star team in his tenth season, an NBA record for the longest time between joining the league and making the All-Star team?
+**a) Rik Smits ~~b) Patrick Ewing ~~c) Charles Barkley ~~d) Mitch Richmond
+##620
+Which NBA All-Star attended Marist College?
+**a) Rik Smits ~~b) Joe Smith ~~c) Jim Jackson ~~d) John Stockton
+##621
+Who won the last NBA Slam Dunk competition?
+**a) Kobe Bryant ~~b) Brent Barry ~~c) Glen Rice ~~d) Isaiah Rider
+##622
+Which NBA player starred in both basketball and volleyball at Stanford?
+**a) Adam Keefe ~~b) Brevin Knight ~~c) Jason Kidd ~~d) Travis Knight
+##623
+Which NBA player will star in the 1998 movie entitled "He Got Game" directed by Spike Lee?
+**a) Ray Allen ~~b) Reggie Miller ~~c) Patrick Ewing ~~d) John Starks
+##624
+Who is known as the "Big Dog"?
+**a) Glenn Robinson ~~b) Patrick Ewing ~~c) Charles Oakley ~~d) Bryant Reeves
+##625
+Which NBA All-Star attended the University of Hartford?
+**a) Vin Baker ~~b) Donyell Marshall ~~c) Marcus Camby ~~d) Chris Dudley
+##626
+Which Toronto Raptor came to the NBA straight from high school?
+**a) Tracy McGrady ~~b) Marcus Camby ~~c) Damon Stoudamire ~~d) Walt Williams
+##627
+Which perennial All-Stars starred in the movie Blue Chips with Nick Nolte?
+**a) Shaquille O'Neal and Anfernee Hardaway ~~b) Shaquille O'Neal and Charles Barkley ~~c) Tim Hardaway and Karl Malone ~~d) Shawn Kemp and Danny Manning
+##628
+Where did the Kings play before moving to Sacramento?
+**a) Kansas City - Omaha ~~b) St. Louis ~~c) Nashville ~~d) Pittsburgh
+##629
+In which California city do the Golden State Warriors play?
+**a) Oakland ~~b) San Francisco ~~c) San Diego ~~d) Anaheim
+##630
+How many consecutive NBA titles did the Celtics win during the '50s - 60s?
+**a) 8 ~~b) 6 ~~c) 4 ~~d) 3
+##631
+Entering 1997-98, how many NBA rebounding titles has Dennis Rodman won?
+**a) 6 ~~b) 8 ~~c) 4 ~~d) 3
+##632
+Entering 1997-98, how many consecutive NBA rebounding titles has Dennis Rodman won?
+**a) 6 ~~b) 4 ~~c) 3 ~~d) 2
+##633
+Which Denver Nugget led the University of Minnesota to the Final Four in 1997?
+**a) Bobby Jackson ~~b) Danny Fortson ~~c) LaPhonso Ellis ~~d) Rasheed Wallace
+##634
+Which college had the most players on NBA rosters at the start of the 1996-97 season?
+**a) North Carolina ~~b) Alabama ~~c) Duke ~~d) UCLA
+##635
+Which former New York City playground legend is playing in the NBA?
+**a) Lloyd Daniels ~~b) Chris Dudley ~~c) Kevin Garnett ~~d) Jason Kidd
+##636
+Which NBA player grew seven inches after high school?
+**a) Jerome Williams ~~b) Mark Price ~~c) Anthony Mason ~~d) Nate McMillan
+##637
+Which 1997-98 Indiana Pacers were college teammates at St. John's?
+**a) Chris Mullin and Mark Jackson ~~b) Mark Jackson and Reggie Miller ~~c) Rik Smits and Dale Davis ~~d) Chris Mullin and Bill Wennington
+##638
+Where did Jeff Hornacek attend college?
+**a) Iowa State ~~b) Iowa ~~c) Michigan State ~~d) University of Utah
+##639
+Which team changed its official nickname before the 1997-98 season?
+**a) Washington ~~b) Chicago ~~c) New York ~~d) New Jersey
+##640
+Which NBA player has designed a line of neckties?
+**a) Malik Sealy ~~b) Mark Jackson ~~c) Danny Ferry ~~d) Christian Laettner
+##641
+Which Los Angeles Laker All-Star attended Temple?
+**a) Eddie Jones ~~b) Nick Van Exel ~~c) Shaquille O'Neal ~~d) Rick Fox
+##642
+Which NBA player led Yugoslavia to the silver medal in both 1988 and 1992?
+**a) Toni Kukoc ~~b) Luc Longley ~~c) Arvydas Sabonis ~~d) Detlef Schrempf
+##643
+Which Chicago Bull was born in Beirut, Lebanon?
+**a) Steve Kerr ~~b) Luc Longley ~~c) Bill Wennington ~~d) Scottie Pippen
+##644
+Which Chicago Bull attended the University of New Mexico?
+**a) Luc Longley ~~b) Randy Brown ~~c) Scottie Pippen ~~d) Scott Burrell
+##645
+Which Chicago Bull attended New Mexico State?
+**a) Randy Brown ~~b) Luc Longley ~~c) Scott Burrell ~~d) Jud Buechler
+##646
+Which Chicago Bull was a first-round choice of the Seattle Mariners as a pitcher in the 1989 professional baseball draft?
+**a) Scott Burrell ~~b) Steve Kerr ~~c) Jud Buechler ~~d) Ron Harper
+##647
+Which NBA player is the only person ever to be selected in the first round of drafts in two different sports (basketball and baseball)?
+**a) Scott Burrell ~~b) Mitch Richmond ~~c) Adam Keefe ~~d) John Stockton
+##648
+Which of the following NBA players is a native of Greece?
+**a) Rony Seikaly ~~b) Luc Longley ~~c) Toni Kukoc ~~d) Vinny Del Negro
+##649
+Which of the following NBA players is NOT left-handed?
+**a) Mitch Richmond ~~b) Calbert Cheaney ~~c) David Robinson ~~d) Jalen Rose
+##650
+Which NBA sharpshooter led the Michigan Wolverines to the 1989 NCAA championship?
+**a) Glen Rice ~~b) Steve Smith ~~c) Terry Dehere ~~d) Jim Jackson
+##651
+Which Los Angeles Clipper increased his scoring average in each of his first five seasons?
+**a) Loy Vaught ~~b) Bo Outlaw ~~c) Danny Manning ~~d) Brent Barry
+##652
+Who leads the Los Angeles Clippers in career rebounds?
+**a) Loy Vaught ~~b) Stanley Roberts ~~c) Bo Outlaw ~~d) Rodney Rodgers
+##653
+Which native of Dallas played at UNLV and now plays for the Knicks?
+**a) Larry Johnson ~~b) Charles Oakley ~~c) Allen Houston ~~d) Charlie Ward
+##654
+Which college teammate of Larry Johnson now plays for the Trail Blazers?
+**a) Stacey Augmon ~~b) Rasheed Wallace ~~c) Kenny Anderson ~~d) Jason Kidd
+##655
+Some say this Knick is the best quarterback in New York City. Who is he?
+**a) Charlie Ward ~~b) Charles Oakley ~~c) Allen Houston ~~d) Greg Anthony
+##656
+Which of the following NBA players attended Yale?
+**a) Chris Dudley ~~b) Scott Burrell ~~c) Donyell Marshall ~~d) Vin Baker
+##657
+How many NBA championship rings has Dennis Rodman won?
+**a) 4 ~~b) 5 ~~c) 3 ~~d) 2
+##658
+Who is the only player in NBA history to win back-to-back championships with different teams?
+**a) Dennis Rodman ~~b) Terry Cummings ~~c) Charles Barkley ~~d) Clyde Drexler
+##659
+Which NBA player was the first player to lead the SEC in rebounding for three consecutive seasons since Charles Barkley did it during the 1980s?
+**a) Shaquille O'Neal ~~b) Antonio McDyess ~~c) Antoine Walker ~~d) Walter McCarty
+##660
+Which Washington Wizard scored 64 points and had 15 dunks in an eighth grade game?
+**a) Chris Webber ~~b) Juwan Howard ~~c) Calbert Cheaney ~~d) Rod Strickland
+##661
+Which of the following NBA players attended Wyoming?
+**a) Theo Ratliff ~~b) Damon Stoudamire ~~c) Detlef Schrempf ~~d) Scottie Pippen
+##662
+Which player scored more than 50 points in a game during the 1997-98 season for Washington?
+**a) Tracy Murray ~~b) Chris Webber ~~c) Juwan Howard ~~d) Rod Strickland
+##663
+Which Minnesota Timberwolf did not attend college?
+**a) Kevin Garnett ~~b) Tom Gugliotta ~~c) Stephon Marbury ~~d) Stanley Roberts
+##664
+Which of the following NBA players attended American International College in Springfield, Massachusetts?
+**a) Mario Elie ~~b) Marcus Camby ~~c) Tracy Murray ~~d) Terrell Brandon
+##665
+Which of the following NBA players attended Southern University?
+**a) Avery Johnson ~~b) Joe Dumars ~~c) Shaquille O'Neal ~~d) Charles Barkley
+##666
+Who was the top pick in the 1997 NBA Draft?
+**a) Tim Duncan ~~b) Keith Van Horn ~~c) Ron Mercer ~~d) Allen Iverson
+##667
+Who was the top pick in the 1996 NBA Draft?
+**a) Allan Iverson ~~b) Grant Hill ~~c) Ron Mercer ~~d) Tim Duncan
+##668
+How many total points were scored in the highest scoring game in NBA history, between the Detroit Pistons and the Denver Nuggets in 1983?
+**a) 370 ~~b) 330 ~~c) 314 ~~d) 290
+##669
+How many total points were scored in the lowest scoring game in NBA history, between the Ft. Wayne Pistons and the Minneapolis Lakers in 1950?
+**a) 37 ~~b) 20 ~~c) 62 ~~d) 84
+##670
+Who was the first pick in the 1984 NBA Draft?
+**a) Hakeem Olajuwon ~~b) Chris Mullin ~~c) Charles Barkley ~~d) Patrick Ewing
+##671
+Who is known as the "Rifleman" for his sharpshooting ability?
+**a) Chuck Person ~~b) Chris Mullin ~~c) Glen Rice ~~d) Mark Price
+##672
+Which son of a former NBA player is fluent in Italian and did not attend college?
+**a) Kobe Bryant ~~b) Kevin Garnett ~~c) Tracy McGrady ~~d) Jermaine O'Neal
+##673
+Whose name means "Little Warrior"?
+**a) Shaquille O'Neal ~~b) Toni Kukoc ~~c) Kobe Bryant ~~d) Detlef Schrempf
+##674
+Which NBA All-Star attended Central Arkansas?
+**a) Scottie Pippen ~~b) Karl Malone ~~c) Corliss Williamson ~~d) Joe Kleine
+##675
+Which NBA player has won three medals and was considered by some to be the best center in the world when he played for the Soviet Union during the 1980s?
+**a) Arvydas Sabonis ~~b) Rik Smits ~~c) Toni Kukoc ~~d) Patrick Ewing
+##676
+Which NBA guard scored 25 points in a torrid fourth quarter performance to defeat the New York Knicks in a 1994 playoff game at Madison Square Garden?
+**a) Reggie Miller ~~b) Scottie Pippen ~~c) Tim Hardaway ~~d) Steve Kerr
+##677
+Which of the following NBA players attended Colgate?
+**a) Adonal Foyle ~~b) Bo Outlaw ~~c) Eric Piatkowski ~~d) Dee Brown
+##678
+Who are the only current NBA players who were selected with the first overall draft pick after their sophomore years?
+**a) Joe Smith and Chris Webber ~~b) Juwan Howard and Grant Hill ~~c) Allen Iverson and Stephon Marbury ~~d) Chris Webber and Allen Iverson
+##679
+Who was the first collegiate draft selection in Orlando Magic franchise history?
+**a) Nick Anderson ~~b) Anfernee Hardaway ~~c) Chris Webber ~~d) Horace Grant
+##680
+Who is the Orlando Magic's career franchise leader in games played?
+**a) Nick Anderson ~~b) Horace Grant ~~c) Anfernee Hardaway ~~d) Shaquille O'Neal
+##681
+Who is the only remaining member of the 1989 Orlando Magic's original expansion team?
+**a) Nick Anderson ~~b) Horace Grant ~~c) Derek Strong ~~d) Anfernee Hardaway
+##682
+Who is Orlando's all-time leading scorer?
+**a) Nick Anderson ~~b) Horace Grant ~~c) Shaquille O'Neal ~~d) Anfernee Hardaway
+##683
+Who took a team-high 31 charges for the Orlando Magic during the 1996-97 season?
+**a) Darrell Armstrong ~~b) Nick Anderson ~~c) Horace Grant ~~d) Derek Strong
+##684
+Which Orlando player is the United States Basketball League's all-time leader in steals and three-point field goals made?
+**a) Darrell Armstrong ~~b) Nick Anderson ~~c) Horace Grant ~~d) Derek Strong
+##685
+What NBA player as a senior averaged 21.2 ppg and became the first Indiana player to lead the Big 10 in scoring under Coach Bobby Knight?
+**a) Brian Evans ~~b) Calbert Cheaney ~~c) Alan Henderson ~~d) Grant Hill
+##686
+Which NBA player has shot better than .505 from the field in each of his 10 NBA seasons while also being a four-time NBA All-Defensive Team selection?
+**a) Horace Grant ~~b) Scottie Pippen ~~c) Gary Payton ~~d) Mookie Blaylock
+##687
+What player was a member of three Chicago Bulls NBA championship teams before joining the Orlando Magic?
+**a) Horace Grant ~~b) Charles Outlaw ~~c) Derek Harper ~~d) Steve Kerr
+##688
+What team selected Anfernee Hardaway in the 1993 NBA Draft?
+**a) Golden State ~~b) Orlando ~~c) Charlotte ~~d) Philadelphia
+##689
+What team selected Chris Webber in the 1993 NBA Draft?
+**a) Orlando ~~b) Golden State ~~c) Detroit ~~d) Chicago
+##690
+Who scored a team record and career playoff-high 42 points in Game 3 of the first round of the 1997 NBA Playoffs between Orlando and Miami?
+**a) Anfernee Hardaway ~~b) Tim Hardaway ~~c) Alonzo Mourning ~~d) Nick Anderson
+##691
+Entering the 1997-98 season, who is one of only two players in NBA history to register 15,000 points, 6,000 assists and 1,800 steals?
+**a) Derek Harper ~~b) Gary Payton ~~c) Mark Jackson ~~d) Rod Strickland
+##692
+Entering 1997-98, who is the Dallas Mavericks all-time leader in assists (5,111)?
+**a) Derek Harper ~~b) Jason Kidd ~~c) Avery Johnson ~~d) Matt Maloney
+##693
+Entering 1997-98, who is the Dallas Mavericks all-time leader in steals (1,551)?
+**a) Derek Harper ~~b) Jason Kidd ~~c) Avery Johnson ~~d) Jamal Mashburn
+##694
+Which undrafted Orlando player shot a career-best 61% from the floor during the 1996-97 season?
+**a) Bo Outlaw ~~b) Horace Grant ~~c) Nick Anderson ~~d) David Vaughn
+##695
+What 16-year NBA veteran has seen action in more than 1,045 career games with Utah, Denver, Milwaukee, Los Angeles Lakers, Phoenix, Miami and Orlando?
+**a) Dan Schayes ~~b) Terry Cummings ~~c) Clyde Drexler ~~d) Eddie Johnson
+##696
+Which NBA center attended high school in Greece?
+**a) Rony Seikaly ~~b) Toni Kukoc ~~c) Luc Longley ~~d) Kobe Bryant
+##697
+Who was the first draft choice in Miami Heat history?
+**a) Rony Seikaly ~~b) Tim Hardaway ~~c) P.J. Brown ~~d) Dan Majerle
+##698
+Which Orlando player recorded a triple-double coming off the bench when he tallied 11 points, 10 assists, and 10 rebounds in 28 minutes on December 29, 1995?
+**a) Brian Shaw ~~b) Derek Harper ~~c) Darrell Armstrong ~~d) Brooks Thompson
+##699
+Who was the only Orlando player to appear in all 82 regular season games during the 1996-97 season?
+**a) Derek Strong ~~b) Anfernee Hardaway ~~c) Horace Grant ~~d) Nick Anderson
+##700
+Entering 1997-98, who leads the Phoenix Suns in career playoff game appearances (92)?
+**a) Kevin Johnson ~~b) Charles Barkley ~~c) Danny Manning ~~d) John Williams
+

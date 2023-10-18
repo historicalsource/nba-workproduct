@@ -1,0 +1,42 @@
+NBA on NBC (c) 1998 Midway - TIMK : Iceman  (03/23/99 02:03:25) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SC_ICEMA.BNK
+
+Size of .BNK file including header: 34494 bytes ($86BE bytes)
+
+Size of playlist table: 40 bytes ($28 bytes)
+
+Size of playlist and sound data only: 34320 bytes ($8610 bytes)
+
+Checksum: $8CBA
+
+Total number of playlists: 9 ($9)
+
+Total number of sound files: 9 ($9)
+
+Average bit rate for bank: 28.5 kbits/sec
+
+Total linear amount of sound: 0:09.592 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1       55.7    63.8  Iceman 
+  2    $0002   1       40.2    46.1  Iceman A
+  3    $0003   1       59.0    67.7  Iceman B
+  4    $0004   1       46.9    53.8  Iceman C
+  5    $0005   1       45.2    51.8  To Iceman
+  6    $0006   1       71.2    81.6  Hands Off to Iceman
+  7    $0007   1       70.7    81.1  Dishes to Iceman
+  8    $0008   1       55.7    63.8  Finds Iceman
+  9    $0009   1       78.7    90.2  Nice Feed to Iceman
+
+Total 9 Playlists

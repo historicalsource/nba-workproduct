@@ -1,0 +1,32 @@
+HFILE> \video\nba\include\sweepstk.h
+
+INPUT> sweepstk.wif
+OUTPUTXY> 256 256
+MIDST> ON 
+-----> sw_attract
+MIDST> OFF
+EXECUTE> sw_att
+MAKEBAT> sweepstk.bat sw_att*.tga texus -rn -mn -dn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> sweepstk.wif
+OUTPUTXY> 256 256
+MIDST> ON 
+-----> sw_rule1, sw_rule2, sw_rule3, sw_rule4, sw_rule5
+MIDST> OFF
+EXECUTE> sw_r
+MAKEBAT> sweepstk.bat sw_r*.tga texus -rn -mn -dn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+
+INPUT> sweepstk.wif
+OUTPUTXY> 256 256
+MIDST> ON 
+-----> sw_menu, sw_code, sw_winner, sw_loser
+MIDST> OFF
+EXECUTE> sw_bg
+MAKEBAT> sweepstk.bat sw_bg*.tga texus -rn -mn -dn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+
+INPUT> sweepstk.wif
+-----> l_0,l_1,l_2,l_3,l_4,l_5,l_6,l_7,l_8,l_9,l_pspc,l_pdel
+EXECUTE> sw_pn
+MAKEBAT> sweepstk.bat sw_pn*.tga texus -dn -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |

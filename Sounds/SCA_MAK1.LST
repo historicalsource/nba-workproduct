@@ -1,0 +1,271 @@
+NBA on NBC (c) 1998 Midway - ANNOUNCER - MAKE SHOT (03/24/99 16:37:38) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SCA_MAK1.BNK
+
+Size of .BNK file including header: 846322 bytes ($CE9F2 bytes)
+
+Size of playlist table: 1396 bytes ($574 bytes)
+
+Size of playlist and sound data only: 844792 bytes ($CE3F8 bytes)
+
+Checksum: $429F
+
+Total number of playlists: 189 ($BD)
+
+Total number of sound files: 189 ($BD)
+
+Average bit rate for bank: 25.2 kbits/sec
+
+Total linear amount of sound: 4:27.571 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1       84.5    97.0  _ With the running one-hander (make)
+  2    $0002   1       64.9    74.4  _ Lays it up and in 1
+  3    $0003   1       66.1    75.8  _ With the easy layup 1
+  4    $0004   1       92.1   105.6  The finger roll
+  5    $0005   1       98.8   113.3  And he just finesses it in
+  6    $0006   1       48.6    55.7  _ With the put-back
+  7    $0007   1       68.6    78.7  And he puts it back in
+  8    $0008   1       51.1    58.6  Catch and release
+  9    $0009   1       91.2   104.6  Oh was that a thing of beauty
+  10   $000a   1       92.9   106.6  The bank is open
+
+  12   $000c   1       43.1    49.4  Did he call it ? (bank shot)
+  13   $000d   1       81.2    93.1  Playground rules you gotta call it (bank shot)
+  14   $000e   1       56.5    64.8  _ Off the backboard
+  15   $000f   1       36.8    42.2  _ Hooks it in
+  16   $0010   1       65.7    75.4  _ Drains it for two
+  17   $0011   1       72.0    82.6  Lights it up for two
+  18   $0012   1       51.5    59.0  _ For two
+  19   $0013   1       70.3    80.6  And that's good for two
+  20   $0014   1       94.6   108.5  Again he lights him up for two
+  21   $0015   1       74.5    85.4  A long two ! (foot was on line?)
+  22   $0016   1       30.6    35.0  Count it
+  23   $0017   1       41.0    47.0  And its good
+  24   $0018   1       29.7    34.1  Good 2
+  25   $0019   1       38.1    43.7  _ Its good 3
+  26   $001a   1       41.9    48.0  Its good 1
+  27   $001b   1       41.0    47.0  Yes! 1
+  28   $001c   1       79.5    91.2  _ With the sweet jumper
+  29   $001d   1       68.6    78.7  A beautiful shot
+ 
+NBA on NBC (c) 1998 Midway - ANNOUNCER - MAKE SHOT (03/24/99 16:37:38) page 2
+
+
+Playlist Table (continued)
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  30   $001e   1       41.9    48.0  Ka-boom 1
+  31   $001f   1       55.2    63.4  And scores
+  32   $0020   1       86.6    99.4  A gorgeous fadeaway
+  33   $0021   1       80.4    92.2  You can-t stop that shot
+  34   $0022   1       38.1    43.7  (fades-fires) Scores
+  35   $0023   1       71.2    81.6  _ With the soft touch
+  36   $0024   1       60.3    69.1  It caught the iron
+  37   $0025   1       46.5    53.3  _ Rings it home
+  38   $0026   1       34.3    39.4  _ Drains it
+  39   $0027   1       61.1    70.1  _ Hits it again
+  40   $0028   1       38.5    44.2  And hits
+  41   $0029   1       62.4    71.5  And that ones good
+  42   $002a   1       90.4   103.7  That is a sweet shot
+  43   $002b   1       55.7    63.8  He-s able to connect
+
+  45   $002d   1       57.8    66.2  Great shot !
+  46   $002e   1       54.4    62.4  Right through !
+  47   $002f   1       54.4    62.4  He-s good again
+  48   $0030   1       49.8    57.1  Thats his shot
+  49   $0031   1       87.9   100.8  A very difficult shot (a MISS)
+  50   $0032   1       44.4    50.9  No good 1
+  51   $0033   1       71.6    82.1  No good - rims off
+  52   $0034   1       36.4    41.8  Rims out
+
+  54   $0036   1       41.9    48.0  No !
+  55   $0037   1      106.3   121.9  Takes a crazy bounce off the iron
+  56   $0038   1       57.3    65.8  No good 3
+  57   $0039   1       54.8    62.9  Way off target
+  58   $003a   1       73.7    84.5  He lays a brick
+  59   $003b   1       98.4   112.8  And that was a brick my friend
+  60   $003c   1       62.8    72.0  He missed again !
+  61   $003d   1       46.0    52.8  Off the rim (missed)
+  62   $003e   1       62.4    71.5  Nowhere near
+  63   $003f   1       49.0    56.2  Bounces out
+  64   $0040   1       43.1    49.4  Off the mark
+  65   $0041   1       37.7    43.2  _ Misses
+  66   $0042   1       47.3    54.2  _ Mis-fires
+
+  69   $0045   1       64.5    73.9  _ Misses everything
+  70   $0046   1       95.0   109.0  He was completely off the mark
+  71   $0047   1       50.2    57.6  Terrible shot
+  72   $0048   1       63.6    73.0  He-s unable to connect
+  73   $0049   1       70.7    81.1  What was he thinking ?!
+  74   $004a   1       82.5    94.6  He cannot find the range
+  75   $004b   1       48.1    55.2  Rolls out
+  76   $004c   1      131.0   150.2  That ball was halfway down and then came right out
+  77   $004d   1       79.9    91.7  These are not friendly rims
+  78   $004e   1       77.4    88.8  He may be headed for the bench
+  79   $004f   1       51.5    59.0  He shoulda dunked it
+  80   $0050   1       69.5    79.7  He missed the layup
+  81   $0051   1       44.4    50.9  And he missed it !
+  82   $0052   1       76.6    87.8  How did he miss that shot ?!
+ 
+NBA on NBC (c) 1998 Midway - ANNOUNCER - MAKE SHOT (03/24/99 16:37:38) page 3
+
+
+Playlist Table (continued)
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  83   $0053   1      102.5   117.6  A mental error on his part
+  84   $0054   1       77.9    89.3  And the ball got away from him
+  85   $0055   1       77.4    88.8  That was just a bad shot
+  86   $0056   1       45.2    51.8  And couldnt get it
+  87   $0057   1       80.8    92.6  And he swishes it home
+  88   $0058   1       90.4   103.7  Nothing but the bottom of the net 2
+  89   $0059   1       61.9    71.0  That was all net
+  90   $005a   1       78.3    89.8  A beautiful swish shot
+  91   $005b   1       32.6    37.4  Swish
+  92   $005c   1       73.7    84.5  Nothing but nylon (swish)
+  93   $005d   1       69.5    79.7  How did he make that !?
+  94   $005e   1       58.2    66.7  Impossible
+  95   $005f   1       87.1    99.8  He ties it with a three
+  96   $0060   1       82.0    94.1  The three is good
+
+  99   $0063   1      103.4   118.6  And just crams it home
+  100  $0064   1      148.2   169.9  Ooh baby he wanted all of it and he got it
+  101  $0065   1       79.5    91.2  _ With the power move
+
+  103  $0067   1      128.9   147.8  _ Really throws it through with authority
+  104  $0068   1       72.8    83.5  Ohhhh (screamed) He dunked it !
+  105  $0069   1       54.8    62.9  He dunked on him !
+  106  $006a   1       77.4    88.8  Ohh Boy
+  107  $006b   1       76.6    87.8  And slams it home
+  108  $006c   1       65.3    74.9  _ Dunks it for two
+  109  $006d   1       75.3    86.4  _ With a powerful dunk
+  110  $006e   1       88.7   101.8  _ With the exclamation
+  111  $006f   1      137.3   157.4  And he sent that one home loud and clear
+  112  $0070   1       52.7    60.5  _ Throws it in
+  113  $0071   1       58.2    66.7  _ Ringing the bell
+  114  $0072   1      103.0   118.1  Woah BOOM-SHAKA-LAKA
+  115  $0073   1       67.4    77.3  BOOM SHAKA LAKA
+
+  118  $0076   1      105.1   120.5  Oh my was that a dunk !
+
+  122  $007a   1       90.8   104.2  _ With the rim-rattler
+
+  124  $007c   1       65.7    75.4  Look out below
+  125  $007d   1      115.1   132.0  _ Goes up high with a monster jam
+  126  $007e   1       90.4   103.7  _ With the thunderous dunk
+  127  $007f   1      153.2   175.7  And they are playing above the rim tonight folks
+  128  $0080   1       59.9    68.6  Three-sixty (360)
+  129  $0081   1      150.3   172.3  The dunk contest has just been decided
+
+  133  $0085   1      149.8   171.8  That was an eight-point-oh on the richter scale
+  134  $0086   1       73.7    84.5  That was dunkadelic
+  135  $0087   1      113.8   130.6  And he took the ball strong to the hole
+
+  137  $0089   1       91.2   104.6  That was a showtime dunk
+
+  140  $008c   1       41.0    47.0  _ Takes off
+
+ 
+NBA on NBC (c) 1998 Midway - ANNOUNCER - MAKE SHOT (03/24/99 16:37:38) page 4
+
+  142  $008e   1       87.9   100.8  He goes up over everybody
+  143  $008f   1       56.5    64.8  Up and Over
+
+  145  $0091   1       39.8    45.6  He missed it
+  146  $0092   1       56.5    64.8  He missed the dunk #1
+  147  $0093   1       89.6   102.7  And that dunk went off the iron
+  148  $0094   1      111.3   127.7  And he just got that one over the rim
+  149  $0095   1       96.3   110.4  He just cannot be stopped
+  150  $0096   1       79.1    90.7  He will not be denied
+
+  152  $0098   1       78.7    90.2  Did you see that move ?
+
+  155  $009b   1       43.9    50.4  Awesome
+
+  157  $009d   1       36.0    41.3  Look out !
+  158  $009e   1       85.4    97.9  That-s simply outrageous
+
+  161  $00a1   1      103.0   118.1  This is what they came to see today
+  162  $00a2   1       81.2    93.1  A change of momentum
+  163  $00a3   1      110.1   126.2  You can feel this place buzzing now
+  164  $00a4   1       97.5   111.8  And thats what this crowd wanted
+  165  $00a5   1       55.7    63.8  Bad decision
+  166  $00a6   1       51.1    58.6  What a debacle
+
+  170  $00aa   1      105.5   121.0  I think he got a friendly rim on that one
+  171  $00ab   1       69.9    80.2  It falls through for him
+  172  $00ac   1      117.6   134.9  Oh that was a big time shot
+  173  $00ad   1       93.3   107.0  With the cold blooded shot (make)
+  174  $00ae   1      124.7   143.0  And they are putting on quite an exhibition
+  175  $00af   1       76.2    87.4  I don't think its the shoes
+  176  $00b0   1       98.8   113.3  This guy is really heating up
+  177  $00b1   1      107.6   123.4  Oooooh - Smokin
+  178  $00b2   1       84.5    97.0  This guy is smokin now
+  179  $00b3   1      112.6   129.1  He is absolutely unconscious
+  180  $00b4   1      110.5   126.7  Is there anyone who can stop this guy?
+  181  $00b5   1       89.2   102.2  What a time to get hot
+  182  $00b6   1       69.1    79.2  This guy is red hot
+  183  $00b7   1      113.0   129.6  And suddenly he is on fire
+  184  $00b8   1       93.3   107.0  He is really heating up 2
+  185  $00b9   1       83.7    96.0  Now he has found a Hot Spot
+  186  $00ba   1       74.9    85.9  He is in a zone
+  187  $00bb   1       82.0    94.1  He is on fire
+  188  $00bc   1      154.0   176.6  Dont touch him youll burn your fingers this guy is on fire
+  189  $00bd   1       57.3    65.8  Some like it hot
+
+  300  $012c   1       56.1    64.3  What an alley oop
+  301  $012d   1       67.4    77.3  Alleyyyy Oop
+
+  305  $0131   1       76.6    87.8  Ohhh with the Alley oop
+  306  $0132   1       62.8    72.0  Alleyyy oop (2)
+
+  308  $0134   1       73.7    84.5  It takes two to tango (AO or DD)
+
+  310  $0136   1       89.6   102.7  A beautiful alley oop
+
+  312  $0138   1       82.9    95.0  Oh with the Alley oop dunk
+
+ 
+NBA on NBC (c) 1998 Midway - ANNOUNCER - MAKE SHOT (03/24/99 16:37:38) page 5
+
+  314  $013a   1      107.6   123.4  Theres nothing sweeter than an Alley Oop
+
+  324  $0144   1      112.2   128.6  Double your pleasure double your dunks
+
+  327  $0147   1       69.9    80.2  Ohh the DOUBLE DUNK!
+  328  $0148   1      109.2   125.3  I thought twin killings was just in baseball
+  329  $0149   1       82.0    94.1  And he goes right back to the rim (put back)
+  330  $014a   1       83.7    96.0  This guy is on fire
+  331  $014b   1       79.1    90.7  He is ON FIRE!
+  332  $014c   1       90.4   103.7  This guy is ON FIRE
+  333  $014d   1       77.4    88.8  Thats team fire
+  334  $014e   1      110.9   127.2  The team is on fire
+  335  $014f   1      156.1   179.0  One more alley oop is gonna light this team on fire
+  336  $0150   1      103.4   118.6  The team is ON FIRE
+  337  $0151   1      180.4   206.9  Somebody call the hook and ladder these guys are on fire
+  338  $0152   1       93.8   107.5  And that-ll douse the flames (get rid of fire or teamfire)
+  339  $0153   1       98.4   112.8  And that-ll put out the fire in a hurry (get rid of fire or teamfire)
+  340  $0154   1       65.3    74.9  He-s in the hot spot again
+  341  $0155   1       64.0    73.4  He-s found his hot spot 2
+  342  $0156   1       76.2    87.4  He-s got a hot spot
+  343  $0157   1       83.3    95.5  He is hot from that spot
+  344  $0158   1       57.8    66.2  Good (big)
+  345  $0159   1       70.7    81.1  Good (bigger)
+  346  $015a   1       76.6    87.8  Good (biggest x1)
+  347  $015b   1      136.5   156.5  Good (biggest x2)
+  348  $015c   1       76.2    87.4  Good (biggest longer)
+
+Total 189 Playlists

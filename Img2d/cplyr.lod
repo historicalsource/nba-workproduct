@@ -1,0 +1,254 @@
+#
+# 2D images for create a player with new NBC graphics
+#
+
+HFILE> \video\nba\include\cplyr.h
+MIDST> on
+
+
+#
+# AI88 GRAPHICS
+#
+
+INPUT> cplyr98.wif
+OUTPUTXY> 256 256
+
+# creatp button shadow
+#-----> BARSHADW
+# creatp shadow background middle, bottom piece, and middle bar
+-----> SHADOMID, SHADOBTM, SHMIDBAR
+# creatp player shadow
+#-----> MIDBARSH
+# creatp player name shadow
+-----> RTNAMBRS
+
+# PRIVILEGE MODE
+-----> CHKMRKSH
+
+# EDIT_NAME MODE
+-----> CRESCENT
+-----> PINBKSHD
+
+# the title shadow bar bottom
+-----> MIDINFBT
+
+#total points title
+MIDST> off
+-----> ATRBTOTL
+MIDST> on
+
+
+EXECUTE> cpai88
+MAKEBAT> cplyr.bat cpai88*.tga texus -de -mn -t ai88 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+
+#
+# ARGB4444 GRAPHICS
+#
+
+OUTPUTXY> 256 256
+INPUT> nbaflash.wif
+
+# button flashes
+-----> PFLASH01, PFLASH02, PFLASH03, PFLASH04, PFLASH05, PFLASH06, PFLASH07, PFLASH08
+-----> PFLASH09, PFLASH10, PFLASH11, PFLASH12, PFLASH13, PFLASH14, PFLASH15, PFLASH16
+
+INPUT> cplyr98.wif
+
+# timer outline
+-----> CLOCK
+
+# CREATP MODE
+
+MIDST> off
+-----> CREDTWRD, FREEPLYW
+MIDST> on
+-----> CREDTBAR, CREDTWRN
+
+# creatp button shadow
+-----> REGLBARF
+
+# BACKGROUND ELEMENTS
+# shadow background top piece
+-----> SHADOTOP, SHADTOP2, MIDINFBX, MIDINFB2
+# new background
+-----> BACKGDNW
+# exit screen
+-----> CP_END
+
+MIDST> off
+# the create player title
+-----> MDCPWRD2
+# normal creatp button titles
+-----> VIEWSTS1, HEAD1, UNIFORM1, ATTRIBT1, PRIVILG1, NICKNAM1, EDITNAM1, EXITSAV1
+# mode titles
+-----> VIEWSTSM, HEADM, UNIFORMM, ATTRIBTM, PRIVILGM, NICKNAMM, EDITNAMM, EXITSAVM
+-----> ENTRNAMM, ENTRPINM, NUMBERM, JERSEYM, HOTSPOTM, NAMEPINM
+MIDST> on
+# the create player title
+-----> MIDBAR
+# the player name frame
+-----> RTNAMBAR
+# creatp normal button
+-----> REGLBAR2
+# selected button
+-----> SELCTBAR
+
+
+# EDIT_NAME MODE
+# background plaque
+-----> PINBKDRP2
+# selected character symbol
+-----> EDITDISC
+# A - Z
+MIDST> off
+-----> AWRD, BWRD, CWRD, DWRD, EWRD, FWRD, GWRD, HWRD, IWRD, JWRD, KWRD, LWRD, MWRD
+-----> NWRD, OWRD, PWRD, QWRD, RWRD, SWRD, TWRD, UWRD, VWRD, WWRD, XWRD, YWRD, ZWRD
+# ! <- space END - *
+-----> EXCLMWRD, BACKWRD, SPACEWRD, ENDWRD, TIKWRD, ASTRXWRD
+# 0 - 9
+-----> WRD0, WRD1, WRD2, WRD3, WRD4, WRD5, WRD6, WRD7, WRD8, WRD9
+MIDST> on
+
+
+# VIEW STATS
+-----> STATBAR, SB_FIRST, SB_TOP5, SB_TOP10
+
+# HEAD MODE
+# background
+-----> HEDSFRM2, HEDSFRM3
+# button background
+-----> HEDSPLQ2
+MIDST> off
+# head title
+-----> HEDSWRD2
+MIDST> on
+# left and right arrows
+-----> HARRWLF2, HARRWRT2
+
+
+# UNIFORM MODE
+# uniform normal button
+-----> UNFMDSCR
+# uniform selected button
+-----> UNFMDSCS
+# exit backdrop
+-----> EXTDSCRG, EXTDSCSL
+MIDST> off
+# back buton
+-----> EXTWRDNW
+# jersey button title
+-----> UJRSYWRD
+# number button title
+-----> UNMBRWRD
+MIDST> on
+MIDST> off
+-----> ATLANTA, BOSTON, CHARLOTT, CHICAGO, CLEVELAN, DALLAS, DENVER, DETROIT, GOLDENST, HOUSTON, INDIANA
+-----> LACLIPPR, LALAKERS, MIAMI, MILWAUKE, MINNESOT, NEWJERSE, NEWYORK, ORLANDO, PHILADEL, PHOENIXT, PORTLAND
+-----> SACRAMEN, SANANTON, SEATTLET, TORONTO, UTAH, VANCOUVR, WASHINGT, DEFAULTT, CUSTOM
+
+-----> SASQUATC, BOOMER, THEGORIL, TURBO, CRUNCH, THERAPTO, WOLFMAN, FRANKENS, THEBRIDE, THEMUMMY
+-----> CRISPY, THEALIEN, GRANDPA, RETROROB, JACKONM, SHAMAN, DRAGON, HAWK, ICEMAN, THEROCK, SHOOP
+-----> CREED, FROST, LEGEND, VALKYRIE, THEWIZZ, TZONE, BEAR, COYOTE, DICE, BADGER, ZEPHYR
+-----> CYAN, TWILIGHT, FALCON, KERRI, LIA, STALLION, THEREF, PHAT, TOOLMAN, DART, NIKKONM, PINKERTN
+-----> BENNY_NM, ROCKY_NM, HUGO, SLY, HORSE_NM, OLDMAN, PINTO, SPACEY, THECHIEF, WIZARD
+MIDST> on
+
+# ATTRIBUTE MODE
+# button
+-----> ATRBDSCR, ATRBDSCS
+# empty tick frame
+-----> ATRBARSH
+# 20 different tick states
+-----> ATRBTK01, ATRBTK02, ATRBTK03, ATRBTK04, ATRBTK05, ATRBTK06, ATRBTK07, ATRBTK08, ATRBTK09, ATRBTK10
+-----> ATRBTK11, ATRBTK12, ATRBTK13, ATRBTK14, ATRBTK15, ATRBTK16, ATRBTK17, ATRBTK18, ATRBTK19, ATRBTK20
+
+MIDST> off
+# normal attribute button title
+-----> HEIGHT1, WEIGHT1, POWER1, SPEED1, TWOP1, THREEP1, STEAL1, BLOCK1, DUNKS1, DRIBBLE1
+MIDST> on
+
+
+# PRIVILEGE MODE
+# checkbox button
+-----> PBLUEBOX
+# checkmark
+-----> CHECKMRK
+# normal button
+-----> PRIVIBAR
+# selected button
+-----> PRIVIBRS
+MIDST> off
+# normal privilege button title
+-----> STLTHTRB, BIGHEAD, DROBGHED, HOTSPWRD, CRTSELCT
+-----> HOTSPGRF, HDISCRED
+MIDST> on
+
+
+# NICKNAME MODE
+# list picker pieces
+-----> NKNMGRF2, NKNMBAR, NKNMDSC
+# up and down arrows
+-----> ARRWDWNNWB, ARRWDWNNWG, ARRWUPNWB, ARRWUPNWG
+MIDST> off
+# nickname title
+-----> NAMWRDNW
+# team title (for uniform mode)
+-----> TEAMWRDNW
+MIDST> on
+
+# EXIT_SAVE MODE
+
+# the button backdrops
+-----> EXITDSCR, EXITDSCS
+MIDST> off
+# YES and NO
+-----> YESWRDNW, NOWRDNW
+MIDST> on
+
+MIDST> off
+-----> TIKWRD12, EXCLAM12
+-----> AWRD12, BWRD12, CWRD12, DWRD12, EWRD12, FWRD12, GWRD12, HWRD12, IWRD12, JWRD12, KWRD12, LWRD12, MWRD12
+-----> NWRD12, OWRD12, PWRD12, QWRD12, RWRD12, SWRD12, TWRD12, UWRD12, VWRD12, WWRD12, XWRD12, YWRD12, ZWRD12
+-----> LPOWER, LSPEED, LTWOP, LTHREEP, LSTEAL, LBLOCK, LDUNKS, LDRIBBLE
+-----> LHYPHEN, LPOUNDS
+-----> LATTR_0, LATTR_1, LATTR_2, LATTR_3, LATTR_4, LATTR_5, LATTR_6, LATTR_7, LATTR_8, LATTR_9, LATTR_10
+-----> LATTR_11, LATTR_12, LATTR_13, LATTR_14, LATTR_15, LATTR_16, LATTR_17, LATTR_18, LATTR_19, LATTR_20
+MIDST> on
+
+# Disk glows
+-----> UNFMDSCS2, EXTDSCSL2, ATRBDSCS2, PRIVIBRS2, EDITDISC2, EXITDSCS2, HEDSPLQ3, NKNMDSC2, HDSCREDL
+
+INPUT> cpmug.wif
+# Mugshots
+# 10 NBA All Stars
+-----> cp_spipp, cp_sonea, cp_thard, cp_kbrya, cp_ghill
+-----> cp_rmill, cp_kmalo, cp_grice, cp_gpayt, cp_cmull
+
+# 12 NBA Mascots
+-----> cp_ahawk, cp_chugo, cp_benny, cp_rocky, cp_hbear, cp_boomr
+-----> cp_crunc, cp_njsly, cp_goril, cp_sasqu, cp_rapto, cp_ubear
+
+# Universal Monsters
+-----> cp_frank, cp_bride, cp_mummy, cp_wolfm
+
+# Custom Characters
+-----> cp_lmont, cp_khosk, cp_retro, cp_grand, cp_ref, cp_chad
+-----> cp_alien, cp_jalie, cp_jacko, cp_clown, cp_wizar, cp_horse
+-----> cp_quest, cp_timk, cp_timm, cp_will, cp_jhey, cp_pinto
+
+EXECUTE> cp4444
+MAKEBAT> cplyr.bat cp4444*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+# all artwork added AFTER the golden master 1.0 release!
+
+OUTPUTXY> 256 256
+INPUT> cplyr98.wif, cpmug.wif
+-----> HIDEATTR, NUMBER1, CHOOSEJE, MIDWAYT
+-----> CP_CREAT
+-----> LRPOWER, LRSPEED, LRTWOP, lrthreep, LRSTEAL, LRBLOCK, LRDUNKS, LRDRIBBLE
+-----> LRHYPHEN, LRPOUNDS
+-----> LRATTR_0, LRATTR_1, LRATTR_2, LRATTR_3, LRATTR_4, LRATTR_5, LRATTR_6,LRATTR_7, LRATTR_8, LRATTR_9, LRATTR_10
+-----> LRATTR_11, LRATTR_12, LRATTR_13, LRATTR_14, LRATTR_15, LRATTR_16, LRATTR_17, LRATTR_18, LRATTR_19, LRATTR_20
+EXECUTE> cpxtra
+MAKEBAT> cplyr.bat cpxtra*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |

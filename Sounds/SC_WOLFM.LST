@@ -1,0 +1,42 @@
+NBA on NBC (c) 1998 Midway - TIMK : Wolfman  (03/15/99 14:41:07) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SC_WOLFM.BNK
+
+Size of .BNK file including header: 37446 bytes ($9246 bytes)
+
+Size of playlist table: 40 bytes ($28 bytes)
+
+Size of playlist and sound data only: 37272 bytes ($9198 bytes)
+
+Checksum: $C14C
+
+Total number of playlists: 9 ($9)
+
+Total number of sound files: 9 ($9)
+
+Average bit rate for bank: 28.5 kbits/sec
+
+Total linear amount of sound: 0:10.414 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1       64.5    73.9  Wolfman 
+  2    $0002   1       41.9    48.0  Wolfman A
+  3    $0003   1       69.5    79.7  Wolfman B
+  4    $0004   1       60.3    69.1  Wolfman C
+  5    $0005   1       46.5    53.3  To Wolfman
+  6    $0006   1       73.2    84.0  Hands Off to Wolfman
+  7    $0007   1       63.6    73.0  Dishes to Wolfman
+  8    $0008   1       62.8    72.0  Finds Wolfman
+  9    $0009   1       86.2    98.9  Nice Feed to Wolfman
+
+Total 9 Playlists

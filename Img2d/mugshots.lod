@@ -1,0 +1,187 @@
+#
+# 2D images for the MUGSHOTS
+#
+
+HFILE> \video\nba\include\mugshots.h
+MIDST> on
+
+OUTPUTXY> 256 256
+INPUT> Mugshots.wif
+-----> ssmit, mblay, dmuto, ahend, lelli
+EXECUTE> atlmug
+MAKEBAT> mugshots.bat atlmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> kande, awalk, rmerc, dbarr, tbatt
+EXECUTE> bosmug
+MAKEBAT> mugshots.bat bosmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> amaso, bphil, dcole, ejone, ecamp
+EXECUTE> chamug
+MAKEBAT> mugshots.bat chamug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> rharp, bbarr, tkuko, alang, kdavi
+EXECUTE> chimug
+MAKEBAT> mugshots.bat chimug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> bknig, skemp, bsura, zilga, wpers, jnewm
+EXECUTE> clemug
+MAKEBAT> mugshots.bat clemug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> mfinl, agree, sbrad, cceba, snash
+EXECUTE> dalmug
+MAKEBAT> mugshots.bat dalmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> bstit, amcdy, nvane, cbill, dfort
+EXECUTE> denmug
+MAKEBAT> mugshots.bat denmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> lhunt, bdele, ghill, jstac, claet, jduma
+EXECUTE> detmug
+MAKEBAT> mugshots.bat detmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> dmars, edamp, bcole, jstar, mbogu
+EXECUTE> golmug
+MAKEBAT> mugshots.bat golmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> ejoh1, mmalo, holaj, cbark, spipp
+EXECUTE> houmug
+MAKEBAT> mugshots.bat houmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> rmill, ddavi, jrose, sperk, mjack, cmull
+EXECUTE> indmug
+MAKEBAT> mugshots.bat indmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> dmart, svran, lmurr, mtayl, rroge
+EXECUTE> lacmug
+MAKEBAT> mugshots.bat lacmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> sonea, rfox, kbrya, tknig, grice, drodm
+EXECUTE> lakmug
+MAKEBAT> mugshots.bat lakmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> thard, amour, vlena, tport, pbrow
+EXECUTE> miamug
+MAKEBAT> mugshots.bat miamug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> grobi, ralle, ejoh3, dcurr, scass, cgatl, tthom
+EXECUTE> milmug
+MAKEBAT> mugshots.bat milmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> kgarn, dgarr, jsmit, bjack, mseal, tbran
+EXECUTE> minmug
+MAKEBAT> mugshots.bat minmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> kvanh, jwill, kgill, smarb
+EXECUTE> nwjmug
+MAKEBAT> mugshots.bat nwjmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> pewin, ljohn, cward, lspre, ahous, mcamb
+EXECUTE> nwymug
+MAKEBAT> mugshots.bat nwymug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> ahard, nande, hgran, coutl, dscha, barms
+EXECUTE> orlmug
+MAKEBAT> mugshots.bat orlmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> aiver, amcki, mgeig, tratl, thill
+EXECUTE> phimug
+MAKEBAT> mugshots.bat phimug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> rchap, jkidd, dmann, llong, tgugl
+EXECUTE> phomug
+MAKEBAT> mugshots.bat phomug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> dstou, rwall, iride, jjack, wwill, asabo
+EXECUTE> pormug
+MAKEBAT> mugshots.bat pormug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> cwebb, cwill, vdiva, lfund, jwil2
+EXECUTE> sacmug
+MAKEBAT> mugshots.bat sacmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> drobi, selli, tdunc, wperd, skerr, ajohn
+EXECUTE> sanmug
+MAKEBAT> mugshots.bat sanmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> gpayt, vbake, dschr, delli, bowen
+EXECUTE> seamug
+MAKEBAT> mugshots.bat seamug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> dchri, coakl, tmcgr, kwill, dbrow
+EXECUTE> tormug
+MAKEBAT> mugshots.bat tormug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> jstoc, kmalo, goste, jhorn, bruss
+EXECUTE> utamug
+MAKEBAT> mugshots.bat utamug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> dwest, breev, sabdu, tmass, cpark
+EXECUTE> vanmug
+MAKEBAT> mugshots.bat vanmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> cchea, mrich, jhowa, rstri, tmurr
+EXECUTE> wasmug
+MAKEBAT> mugshots.bat wasmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> darms, vcart, ppier
+EXECUTE> nbamug
+MAKEBAT> mugshots.bat nbamug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> sdivi, rgats, egeer, jgent, mgilm, mguid, slipt, jhey
+-----> jhedr, jjohn, dthom, jroot, mturm, cmedn, tbrya, mlync
+-----> tmora, cskru, jtian, bsmuk, dgros, mwotm, jskil
+-----> pgarc, bleba, agill
+EXECUTE> midmug
+MAKEBAT> mugshots.bat midmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> quest
+-----> lmont, khosk
+-----> ithom, wmorr, tkizr, cedmo, gcutl
+-----> nikko, horse, hrse2
+-----> wolfm, frank, bride, mummy
+-----> retro, alien, jalie, jacko, clown, wizar, grand
+EXECUTE> hidmug
+MAKEBAT> mugshots.bat hidmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> Mugshots.wif
+-----> ahawk, chugo, benny, rocky, hbear, boomr
+-----> crunc, njsly, goril, sasqu, rapto, ubear
+EXECUTE> masmug
+MAKEBAT> mugshots.bat masmug*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+OUTPUTXY> 256 256
+INPUT> Mugshots.wif
+-----> creature, aelof, pmart mbibb
+EXECUTE> hidmg2
+MAKEBAT> mugshots.bat hidmg2*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |

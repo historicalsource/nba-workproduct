@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[img3d.mak]
+SCC_Aux_Path = "\\Nba_server\vss\"
+SCC_Project_Name = "$/video/Archive_Nba/Img3d", QEAAAAAA

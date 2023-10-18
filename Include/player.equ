@@ -1,0 +1,78 @@
+# mirrored in player.h
+
+		.equ	MODE_CHILL,			0
+		.equ	MODE_OFFENSE,		1
+		.equ	MODE_DEFENSE,		2
+		.equ	MODE_OUT_OF_BOUNDS,	3
+		.equ	MODE_TIPOFF,		4
+		.equ	MODE_FREETHROW,		5
+		.equ	MODE_END_OF_GAME,	6
+		.equ	MODE_END_OF_QTR,	7
+
+
+		.equ	MODE_LINEUP,	0
+		.equ	MODE_DEAD,		1
+		.equ	MODE_LINEPS,	2
+		.equ	MODE_LINE,		3
+		.equ	MODE_QBPS,		4
+		.equ	MODE_QB,		5
+		.equ	MODE_WPNPS,		6
+		.equ	MODE_WPN,		7
+		.equ	MODE_DBPS,		8
+		.equ	MODE_DB,		9
+
+
+		.equ	PF_REBOUND,			0x1
+		.equ	PF_ONSCREEN,		0x2
+		.equ	PF_FLASHRED,		0x4
+		.equ	PF_TURBO,			0x8
+		.equ	PF_OLD_TURBO,		0x10
+		.equ	PF_NOCOLL,			0x20
+		.equ	PF_ANITICK,			0x40
+		.equ	PF_INBND,			0x80
+		.equ	PF_CELEBRATE,		0x100
+		.equ	PF_SHOOTING,		0x200
+		.equ	PF_PASSING,			0x400
+		.equ	PF_FLASHWHITE,		0x800
+		.equ	PF_DUNKER,			0x1000
+		.equ	PF_ALLYDUNKER,		0x2000
+		.equ	PF_SWATING,			0x4000
+		.equ	PF_LAYUP,			0x8000
+		.equ	PF_FUNKY_DRIBBLE,	0x10000
+		.equ	PF_STEALING,		0x20000
+		.equ	PF_CATCHING,		0x40000
+		.equ	PF_BOTH_HANDS, 		0x80000
+		.equ	PF_NO_LOOK,    		0x100000
+		.equ	PF_IN_AIR_BLOCK,    0x200000
+		.equ	PF_QUICK_REBOUND,   0x400000
+		.equ	PF_PLYRFLAGS,	PF_SHOOTING|PF_PASSING|PF_DUNKER|PF_ALLYDUNKER|PF_CELEBRATE|PF_SWATING|PF_LAYUP|PF_FUNKY_DRIBBLE|PF_STEALING|PF_CATCHING|PF_BOTH_HANDS|PF_IN_AIR_BLOCK|PF_REBOUND|PF_QUICK_REBOUND
+
+
+		.equ	ATTMODE_NONE,	0
+		.equ	ATTMODE_SWAT,	1
+		.equ	ATTMODE_DUNK,	2
+		.equ	ATTMODE_RUN,	3
+		.equ	ATTMODE_ELBOWS,	4
+		.equ	ATTMODE_PUSH,	5
+		
+
+		.equ	JOINT_BWRIST,	127
+
+		.equ	JOINT_PELVIS,	0
+		.equ	JOINT_TORSO,	1
+		.equ	JOINT_RSHOULDER,2
+		.equ	JOINT_RELBOW,	3
+		.equ	JOINT_RWRIST,	4
+		.equ	JOINT_LSHOULDER,5
+		.equ	JOINT_LELBOW,	6
+		.equ	JOINT_LWRIST,	7
+		.equ	JOINT_NECK,		8
+		.equ	JOINT_RHIP,		9
+		.equ	JOINT_RKNEE,	10
+		.equ	JOINT_RANKLE,	11
+		.equ	JOINT_LHIP,		12
+		.equ	JOINT_LKNEE,	13
+		.equ	JOINT_LANKLE,	14
+		
+		.equ	RIGHT_HAND,	0
+		.equ	LEFT_HAND,	1

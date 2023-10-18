@@ -1,0 +1,89 @@
+#
+# Load file made by Composit version 0.9991R on Tue Nov 03 10:17:28 1998.
+#
+
+
+HFILE> \video\nba\include\vs.h
+MIDST> on
+
+INPUT> UpFront4.wif
+OUTPUTXY> 256 256
+-----> vsbk2
+EXECUTE> vsbk
+MAKEBAT> vs.bat vsbk*.tga texus -de -mn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront4.wif
+OUTPUTXY> 256 256
+-----> vs_nba,vs_nbc,vs_ball,vs_n,vs_b,vs_a,vs_c
+-----> vs_mdwy,vs_ibox,vs
+EXECUTE> vs
+MAKEBAT> vs.bat vs*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront4.wif
+OUTPUTXY> 256 256
+-----> ATLL
+-----> ATLR
+-----> BOSL
+-----> BOSR
+-----> CHA_L
+-----> CHA_R
+-----> CHIL
+-----> CHIR
+-----> CLEL
+-----> CLER
+-----> DALL
+-----> DALR
+-----> DENL
+-----> DENR
+-----> DETL
+-----> DETR
+-----> GOLL
+-----> GOLR
+-----> HOUL
+-----> HOUR
+-----> INDL
+-----> INDR
+-----> LACL
+-----> LACR
+-----> LAKL
+-----> LAKR
+-----> MIAL
+-----> MIAR
+-----> MILL
+-----> MILR
+-----> MINL
+-----> MINR
+-----> NWJL
+-----> NWJR
+-----> NWYL
+-----> NWYR
+-----> ORLL
+-----> ORLR
+-----> PHIL
+-----> PHIR
+-----> PHOL
+-----> PHOR
+-----> PORL
+-----> PORR
+-----> SACL
+-----> SACR
+-----> SANL
+-----> SANR
+-----> SEAL
+-----> SEAR
+-----> TORL
+-----> TORR
+-----> UTAL
+-----> UTAR
+-----> VANL
+-----> VANR
+-----> WASL
+-----> WASR
+EXECUTE> vslogo
+MAKEBAT> vs.bat vslogo*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront4.wif
+OUTPUTXY> 256 256
+-----> ALSL, ALSR
+EXECUTE> vslog2
+MAKEBAT> vs.bat vslog2*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |

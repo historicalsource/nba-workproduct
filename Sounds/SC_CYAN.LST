@@ -1,0 +1,42 @@
+NBA on NBC (c) 1998 Midway - TIMK : Cyan  (03/23/99 02:03:21) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SC_CYAN.BNK
+
+Size of .BNK file including header: 33422 bytes ($828E bytes)
+
+Size of playlist table: 40 bytes ($28 bytes)
+
+Size of playlist and sound data only: 33248 bytes ($81E0 bytes)
+
+Checksum: $7810
+
+Total number of playlists: 9 ($9)
+
+Total number of sound files: 9 ($9)
+
+Average bit rate for bank: 28.8 kbits/sec
+
+Total linear amount of sound: 0:09.185 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1       52.3    60.0  Cyan 
+  2    $0002   1       40.2    46.1  Cyan A
+  3    $0003   1       57.3    65.8  Cyan B
+  4    $0004   1       49.4    56.6  Cyan C
+  5    $0005   1       43.5    49.9  To Cyan
+  6    $0006   1       64.5    73.9  Hands Off to Cyan
+  7    $0007   1       66.6    76.3  Dishes to Cyan
+  8    $0008   1       51.5    59.0  Finds Cyan
+  9    $0009   1       76.2    87.4  Nice Feed to Cyan
+
+Total 9 Playlists

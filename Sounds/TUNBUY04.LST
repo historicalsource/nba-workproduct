@@ -1,0 +1,34 @@
+Buyin4  and/or Loadin tune (02/08/99 15:43:11) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: TUNBUY04.BNK
+
+Size of .BNK file including header: 168594 bytes ($29292 bytes)
+
+Size of playlist table: 8 bytes ($8 bytes)
+
+Size of playlist and sound data only: 168452 bytes ($29204 bytes)
+
+Checksum: $B16C
+
+Total number of playlists: 1 ($1)
+
+Total number of sound files: 1 ($1)
+
+Average bit rate for bank: 49.1 kbits/sec
+
+Total linear amount of sound: 0:27.433 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1     1495.1  1714.6  Dancing beat Buyin
+
+Total 1 Playlists

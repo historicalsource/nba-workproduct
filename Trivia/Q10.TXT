@@ -1,0 +1,308 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+##1001
+What team did Shawn Bradley play for in 1997-98?
+**a) Dallas Mavericks ~~b) Philadelphia 76ers ~~c) New Jersey Nets ~~d) Utah Jazz
+##1002
+What team did Michael Finley play for in 1997-98?
+**a) Dallas Mavericks ~~b) Milwaukee Bucks ~~c) Utah Jazz ~~d) Phoenix Suns
+##1003
+What team did Cedric Ceballos play for in 1997-98?
+**a) Dallas Mavericks ~~b) Los Angeles Clippers ~~c) Utah Jazz ~~d) Milwaukee Bucks
+##1004
+What team did Bobby Jackson play for in 1997-98?
+**a) Denver Nuggets ~~b) Minnesota Timberwolves ~~c) Seattle SuperSonics ~~d) Indiana Pacers
+##1005
+What team did LaPhonso Ellis play for in 1997-98?
+**a) Denver Nuggets ~~b) Minnesota Timberwolves ~~c) Seattle SuperSonics ~~d) Washington Wizards
+##1006
+What team did Ervin Johnson play for in 1997-98?
+**a) Denver Nuggets ~~b) Los Angeles Lakers ~~c) Atlanta Hawks ~~d) Charlotte Hornets
+##1007
+What team did Grant Hill play for in 1997-98?
+**a) Detroit Pistons ~~b) Charlotte Hornets ~~c) Milwaukee Bucks ~~d) Los Angeles Lakers
+##1008
+What team did Joe Dumars play for in 1997-98?
+**a) Detroit Pistons ~~b) Chicago Bulls ~~c) Denver Nuggets ~~d) Cleveland Cavaliers
+##1009
+What team did Brian Williams play for in 1997-98?
+**a) Detroit Pistons ~~b) Chicago Bulls ~~c) Orlando Magic ~~d) Los Angeles Clippers
+##1010
+What team did Lindsey Hunter play for in 1997-98?
+**a) Detroit Pistons ~~b) Chicago Bulls ~~c) Atlanta Hawks ~~d) Portland Trail Blazers
+##1011
+What team did Rick Mahorn play for in 1997-98?
+**a) Detroit Pistons ~~b) Chicago Bulls ~~c) New Jersey Nets ~~d) Philadelphia 76ers
+##1012
+What team did Jerry Stackhouse play for in 1997-98?
+**a) Detroit Pistons ~~b) Charlotte Hornets ~~c) Portland Trail Blazers ~~d) Denver Nuggets
+##1013
+What team did Jim Jackson play for in 1997-98?
+**a) Golden State Warriors ~~b) Dallas Mavericks ~~c) Phoenix Suns ~~d) New Jersey Nets
+##1014
+What team did Donyell Marshall play for in 1997-98?
+**a) Golden State Warriors ~~b) Boston Celtics ~~c) Philadelphia 76ers ~~d) Denver Nuggets
+##1015
+What team did Mark Price play for in 1997-98?
+**a) Orlando Magic ~~b) Washington Wizards ~~c) Cleveland Cavaliers ~~d) Houston Rockets
+##1016
+What team did Hakeem Olajuwon play for in 1997-98?
+**a) Houston Rockets ~~b) Utah Jazz ~~c) Los Angeles Lakers ~~d) New York Knicks
+##1017
+What team did Charles Barkley play for in 1997-98?
+**a) Houston Rockets ~~b) Phoenix Suns ~~c) Philadelphia 76ers ~~d) New Jersey Nets
+##1018
+What team did Kevin Willis play for in 1997-98?
+**a) Houston Rockets ~~b) Atlanta Hawks ~~c) Los Angeles Clippers ~~d) Portland Trail Blazers
+##1019
+What team did Mario Elie play for in 1997-98?
+**a) Houston Rockets ~~b) Golden State Warriors ~~c) Denver Nuggets ~~d) Utah Jazz
+##1020
+What team did Reggie Miller play for in 1997-98?
+**a) Indiana Pacers ~~b) Los Angeles Lakers ~~c) New York Knicks ~~d) Los Angeles Clippers
+##1021
+What team did Chris Mullin play for in 1997-98?
+**a) Indiana Pacers ~~b) Golden State Warriors ~~c) New York Knicks ~~d) Utah Jazz
+##1022
+What team did Mark Jackson play for in 1997-98?
+**a) Indiana Pacers ~~b) Los Angeles Clippers ~~c) New York Knicks ~~d) Denver Nuggets
+##1023
+What team did Rik Smits play for in 1997-98?
+**a) Indiana Pacers ~~b) Milwaukee Bucks ~~c) New York Knicks ~~d) Minnesota Timberwolves
+##1024
+What team did Dale Davis play for in 1997-98?
+**a) Indiana Pacers ~~b) Miami Heat ~~c) Los Angeles Clippers ~~d) Denver Nuggets
+##1025
+What team did Maurice Taylor play for in 1997-98?
+**a) Los Angeles Clippers ~~b) Milwaukee Bucks ~~c) Detroit Pistons ~~d) Denver Nuggets
+##1026
+What team did Loy Vaught play for in 1997-98?
+**a) Los Angeles Clippers ~~b) Chicago Bulls ~~c) Detroit Pistons ~~d) Philadelphia 76ers
+##1027
+What team did Isaac Austin play for in 1997-98?
+**a) Los Angeles Clippers ~~b) Utah Jazz ~~c) Orlando Magic ~~d) Philadelphia 76ers
+##1028
+What team did Rodney Rogers play for in 1997-98?
+**a) Los Angeles Clippers ~~b) Denver Nuggets ~~c) Orlando Magic ~~d) Charlotte Hornets
+##1029
+What team did Shaquille O'Neal play for in 1997-98?
+**a) Los Angeles Lakers ~~b) Los Angeles Clippers ~~c) Orlando Magic ~~d) Charlotte Hornets
+##1030
+What team did Nick Van Exel play for in 1997-98?
+**a) Los Angeles Lakers ~~b) Los Angeles Clippers ~~c) Cleveland Cavaliers ~~d) Vancouver Grizzlies
+##1031
+What team did Kobe Bryant play for in 1997-98?
+**a) Los Angeles Lakers ~~b) Los Angeles Clippers ~~c) Philadelphia 76ers ~~d) Minnesota Timberwolves
+##1032
+What team did Eddie Jones play for in 1997-98?
+**a) Los Angeles Lakers ~~b) Los Angeles Clippers ~~c) Sacramento Kings ~~d) New Jersey Nets
+##1033
+What team did Tim Hardaway play for in 1997-98?
+**a) Miami Heat ~~b) Orlando Magic ~~c) Golden State Warriors ~~d) Sacramento Kings
+##1034
+What team did Alonzo Mourning play for in 1997-98?
+**a) Miami Heat ~~b) Charlotte Hornets ~~c) San Antonio Spurs ~~d) Washington Wizards
+##1035
+What team did P.J. Brown play for in 1997-98?
+**a) Miami Heat ~~b) New Jersey Nets ~~c) Dallas Mavericks ~~d) Utah Jazz
+##1036
+What team did Dan Majerle play for in 1997-98?
+**a) Miami Heat ~~b) Phoenix Suns ~~c) Los Angeles Clippers ~~d) Cleveland Cavaliers
+##1037
+What team did Voshon Lenard play for in 1997-98?
+**a) Miami Heat ~~b) Charlotte Hornets ~~c) Seattle SuperSonics ~~d) Minnesota Timberwolves
+##1038
+What team did Jamal Mashburn play for in 1997-98?
+**a) Miami Heat ~~b) Dallas Mavericks ~~c) Detroit Pistons ~~d) Boston Celtics
+##1039
+What team did Glenn Robinson play for in 1997-98?
+**a) Milwaukee Bucks ~~b) Indiana Pacers ~~c) Seattle SuperSonics ~~d) Boston Celtics
+##1040
+What team did Terrell Brandon play for in 1997-98?
+**a) Milwaukee Bucks ~~b) Indiana Pacers ~~c) Cleveland Cavaliers ~~d) Portland Trail Blazers
+##1041
+What team did Ray Allen play for in 1997-98?
+**a) Milwaukee Bucks ~~b) Boston Celtics ~~c) New Jersey Nets ~~d) Minnesota Timberwolves
+##1042
+What team did Kevin Garnett play for in 1997-98?
+**a) Minnesota Timberwolves ~~b) Vancouver Grizzlies ~~c) Philadelphia 76ers ~~d) Chicago Bulls
+##1043
+What team did Stephon Marbury play for in 1997-98?
+**a) Minnesota Timberwolves ~~b) Milwaukee Bucks ~~c) New York Knicks ~~d) Toronto Raptors
+##1044
+What team did Tom Gugliotta play for in 1997-98?
+**a) Minnesota Timberwolves ~~b) Washington Wizards ~~c) Golden State Warriors ~~d) Charlotte Hornets
+##1045
+What team did Keith Van Horn play for in 1997-98?
+**a) New Jersey Nets ~~b) Utah Jazz ~~c) San Antonio Spurs ~~d) Boston Celtics
+##1046
+What team did Jayson Williams play for in 1997-98?
+**a) New Jersey Nets ~~b) New York Knicks ~~c) Philadelphia 76ers ~~d) Detroit Pistons
+##1047
+What team did Sam Cassell play for in 1997-98?
+**a) New Jersey Nets ~~b) Houston Rockets ~~c) Dallas Mavericks ~~d) Phoenix Suns
+##1048
+What team did Kerry Kittles play for in 1997-98?
+**a) New Jersey Nets ~~b) Philadelphia 76ers ~~c) Indiana Pacers ~~d) Denver Nuggets
+##1049
+What team did Patrick Ewing play for in 1997-98?
+**a) New York Knicks ~~b) Philadelphia 76ers ~~c) Washington Wizards ~~d) Atlanta Hawks
+##1050
+What team did Larry Johnson play for in 1997-98?
+**a) New York Knicks ~~b) Charlotte Hornets ~~c) Miami Heat ~~d) Los Angeles Lakers
+##1051
+What team did Allan Houston play for in 1997-98?
+**a) New York Knicks ~~b) Detroit Pistons ~~c) Dallas Mavericks ~~d) Houston Rockets
+##1052
+What team did John Starks play for in 1997-98?
+**a) New York Knicks ~~b) Seattle SuperSonics ~~c) Utah Jazz ~~d) Indiana Pacers
+##1053
+What team did Charles Oakley play for in 1997-98?
+**a) New York Knicks ~~b) Chicago Bulls ~~c) Charlotte Hornets ~~d) Toronto Raptors
+##1054
+What team did Chris Childs play for in 1997-98?
+**a) New York Knicks ~~b) New Jersey Nets ~~c) San Antonio Spurs ~~d) Sacramento Kings
+##1055
+What team did Charlie Ward play for in 1997-98?
+**a) New York Knicks ~~b) Miami Heat ~~c) San Antonio Spurs ~~d) Orlando Magic
+##1056
+What team did Chris Dudley play for in 1997-98?
+**a) New York Knicks ~~b) Portland Trail Blazers ~~c) San Antonio Spurs ~~d) Phoenix Suns
+##1057
+What team did Anfernee Hardaway play for in 1997-98?
+**a) Orlando Magic ~~b) Miami Heat ~~c) San Antonio Spurs ~~d) Los Angeles Lakers
+##1058
+What team did Horace Grant play for in 1997-98?
+**a) Orlando Magic ~~b) Chicago Bulls ~~c) Portland Trail Blazers ~~d) Washington Wizards
+##1059
+What team did Nick Anderson play for in 1997-98?
+**a) Orlando Magic ~~b) Chicago Bulls ~~c) Detroit Pistons ~~d) Boston Celtics
+##1060
+What team did Charles Outlaw play for in 1997-98?
+**a) Orlando Magic ~~b) Los Angeles Clippers ~~c) Houston Rockets ~~d) Boston Celtics
+##1061
+What team did Derrick Coleman play for in 1997-98?
+**a) Philadelphia 76ers ~~b) New Jersey Nets ~~c) New York Knicks ~~d) Washington Wizards
+##1062
+What team did Allen Iverson play for in 1997-98?
+**a) Philadelphia 76ers ~~b) Toronto Raptors ~~c) Charlotte Hornets ~~d) Washington Wizards
+##1063
+What team did Tim Thomas play for in 1997-98?
+**a) Philadelphia 76ers ~~b) New Jersey Nets ~~c) Denver Nuggets ~~d) Detroit Pistons
+##1064
+What team did Theo Ratliff play for in 1997-98?
+**a) Philadelphia 76ers ~~b) Detroit Pistons ~~c) Denver Nuggets ~~d) Portland Trail Blazers
+##1065
+What team did Danny Manning play for in 1997-98?
+**a) Phoenix Suns ~~b) Los Angeles Clippers ~~c) Atlanta Hawks ~~d) Milwaukee Bucks
+##1066
+What team did Jason Kidd play for in 1997-98?
+**a) Phoenix Suns ~~b) Dallas Maverick ~~c) Golden State Warriors ~~d) Houston Rockets
+##1067
+What team did Antonio McDyess play for in 1997-98?
+**a) Phoenix Suns ~~b) Denver Nuggets ~~c) Miami Heat ~~d) Los Angeles Clippers
+##1068
+What team did Kevin Johnson play for in 1997-98?
+**a) Phoenix Suns ~~b) San Antonio Spurs ~~c) Golden State Warriors ~~d) Sacramento Kings
+##1069
+What team did Rex Chapman play for in 1997-98?
+**a) Phoenix Suns ~~b) Miami Heat ~~c) Houston Rockets ~~d) Charlotte Hornets
+##1070
+What team did Clifford Robinson play for in 1997-98?
+**a) Phoenix Suns ~~b) Portland Trail Blazers ~~c) San Antonio Spurs ~~d) Indiana Pacers
+##1071
+What team did Steve Nash play for in 1997-98?
+**a) Phoenix Suns ~~b) Toronto Raptors ~~c) Houston Rockets ~~d) Vancouver Grizzlies
+##1072
+What team did Rasheed Wallace play for in 1997-98?
+**a) Portland Trail Blazers ~~b) Washington Wizards ~~c) Philadelphia 76ers ~~d) New York Knicks
+##1073
+What team did Isaiah Rider play for in 1997-98?
+**a) Portland Trail Blazers ~~b) Minnesota Timberwolves ~~c) Phoenix Suns ~~d) Washington Wizards
+##1074
+What team did Arvydas Sabonis play for in 1997-98?
+**a) Portland Trail Blazers ~~b) Chicago Bulls ~~c) Charlotte Hornets ~~d) Cleveland Cavaliers
+##1075
+What team did Damon Stoudamire play for in 1997-98?
+**a) Portland Trail Blazers ~~b) Toronto Raptors ~~c) Phoenix Suns ~~d) Atlanta Hawks
+##1076
+What team did Jermaine O'Neal play for in 1997-98?
+**a) Portland Trail Blazers ~~b) Los Angeles Lakers ~~c) Charlotte Hornets ~~d) New Jersey Nets
+##1077
+What team did Mitch Richmond play for in 1997-98?
+**a) Sacramento Kings ~~b) Golden State Warriors ~~c) Milwaukee Bucks ~~d) Miami Heat
+##1078
+What team did Terry Dehere play for in 1997-98?
+**a) Sacramento Kings ~~b) Los Angeles Clippers ~~c) New Jersey Nets ~~d) Miami Heat
+##1079
+What team did Mahmoud Abdul-Rauf play for in 1997-98?
+**a) Sacramento Kings ~~b) Denver Nuggets ~~c) New Jersey Nets ~~d) Vancouver Grizzlies
+##1080
+What team did Billy Owens play for in 1997-98?
+**a) Sacramento Kings ~~b) Philadelphia 76ers ~~c) New Jersey Nets ~~d) Denver Nuggets
+##1081
+What team did David Robinson play for in 1997-98?
+**a) San Antonio Spurs ~~b) Los Angeles Lakers ~~c) Houston Rockets ~~d) Atlanta Hawks
+##1082
+What team did Tim Duncan play for in 1997-98?
+**a) San Antonio Spurs ~~b) Charlotte Hornets ~~c) New Jersey Nets ~~d) Dallas Mavericks
+##1083
+What team did Vinny Del Negro play for in 1997-98?
+**a) San Antonio Spurs ~~b) New York Knicks ~~c) Boston Celtics ~~d) Houston Rockets
+##1084
+What team did Sean Elliott play for in 1997-98?
+**a) San Antonio Spurs ~~b) Detroit Pistons ~~c) Phoenix Suns ~~d) Indiana Pacers
+##1085
+What team did Avery Johnson play for in 1997-98?
+**a) San Antonio Spurs ~~b) Sacramento Kings ~~c) Minnesota Timberwolves ~~d) Utah Jazz
+##1086
+What team did Chuck Person play for in 1997-98?
+**a) San Antonio Spurs ~~b) Cleveland Cavaliers ~~c) Seattle SuperSonics ~~d) Indiana Pacers
+##1087
+What team did Gary Payton play for in 1997-98?
+**a) Seattle SuperSonics ~~b) Indiana Pacers ~~c) Portland Trail Blazers ~~d) Boston Celtics
+##1088
+What team did Vin Baker play for in 1997-98?
+**a) Seattle SuperSonics ~~b) Cleveland Cavaliers ~~c) Milwaukee Bucks ~~d) Boston Celtics
+##1089
+What team did Detlef Schrempf play for in 1997-98?
+**a) Seattle SuperSonics ~~b) Cleveland Cavaliers ~~c) Portland Trail Blazers ~~d) Indiana Pacers
+##1090
+What team did Hersey Hawkins play for in 1997-98?
+**a) Seattle SuperSonics ~~b) Charlotte Hornets ~~c) Portland Trail Blazers ~~d) Chicago Bulls
+##1091
+What team did Nate McMillan play for in 1997-98?
+**a) Seattle SuperSonics ~~b) Utah Jazz ~~c) Los Angeles Lakers ~~d) Detroit Pistons
+##1092
+What team did Sam Perkins play for in 1997-98?
+**a) Seattle SuperSonics ~~b) Charlotte Hornets ~~c) Los Angeles Lakers ~~d) Chicago Bulls
+##1093
+What team did Marcus Camby play for in 1997-98?
+**a) Toronto Raptors ~~b) Hartford Whalers ~~c) Vancouver Grizzlies ~~d) Boston Celtics
+##1094
+What team did Chauncey Billups play for in 1997-98?
+**a) Toronto Raptors ~~b) Denver Nuggets ~~c) Portland Trail Blazers ~~d) Dallas Mavericks
+##1095
+What team did Doug Christie play for in 1997-98?
+**a) Toronto Raptors ~~b) Los Angeles Clippers ~~c) Los Angeles Lakers ~~d) Seattle SuperSonics
+##1096
+What team did John Stockton play for in 1997-98?
+**a) Utah Jazz ~~b) Boston Celtics ~~c) Portland Trail Blazers ~~d) San Antonio Spurs
+##1097
+What team did Karl Malone play for in 1997-98?
+**a) Utah Jazz ~~b) Atlanta Hawks ~~c) Miami Heat ~~d) Sacramento Kings
+##1098
+What team did Jeff Hornacek play for in 1997-98?
+**a) Utah Jazz ~~b) Philadelphia 76ers ~~c) Phoenix Suns ~~d) Milwaukee Bucks
+##1099
+What team did Greg Ostertag play for in 1997-98?
+**a) Utah Jazz ~~b) Houston Rockets ~~c) Vancouver Grizzlies ~~d) Minnesota Timberwolves
+##1100
+What team did Bryant Reeves play for in 1997-98?
+**a) Vancouver Grizzlies ~~b) Toronto Raptors ~~c) Portland Trail Blazers ~~d) New Jersey Nets
+

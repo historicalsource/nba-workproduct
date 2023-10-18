@@ -1,0 +1,42 @@
+NBA on NBC (c) 1998 Midway - TIMK : Dragon  (03/23/99 02:03:23) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SC_DRAGO.BNK
+
+Size of .BNK file including header: 29616 bytes ($73B0 bytes)
+
+Size of playlist table: 40 bytes ($28 bytes)
+
+Size of playlist and sound data only: 29442 bytes ($7302 bytes)
+
+Checksum: $BE15
+
+Total number of playlists: 9 ($9)
+
+Total number of sound files: 9 ($9)
+
+Average bit rate for bank: 26.8 kbits/sec
+
+Total linear amount of sound: 0:08.740 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1       50.6    58.1  Dragon 
+  2    $0002   1       38.9    44.6  Dragon A
+  3    $0003   1       59.4    68.2  Dragon B
+  4    $0004   1       49.0    56.2  Dragon C
+  5    $0005   1       38.1    43.7  To Dragon
+  6    $0006   1       58.2    66.7  Hands Off to Dragon
+  7    $0007   1       61.1    70.1  Dishes to Dragon
+  8    $0008   1       52.7    60.5  Finds Dragon
+  9    $0009   1       69.1    79.2  Nice Feed to Dragon
+
+Total 9 Playlists

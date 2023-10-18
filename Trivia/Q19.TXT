@@ -1,0 +1,308 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+@@1901
+Matt Maloney is one of only four rookies in Houston Rockets history to start all 82 regular season games.
+**True ~~False
+@@1902
+Hakeem Olajuwon played for the 1996 United States gold-medal-winning team at the Summer Olympics in Atlanta.
+**True ~~False
+@@1903
+Hakeem Olajuwon has played his entire 14-year NBA career with the Houston Rockets.
+**True ~~False
+@@1904
+Hakeem Olajuwon was known as Akeem prior to 1991.
+**True ~~False
+@@1905
+Entering the 1997-98 season, Hakeem Olajuwon has led the Houston Rockets in rebounding for eleven consecutive seasons.
+**True ~~False
+@@1906
+Entering the 1997-98 season, Hakeem Olajuwon has led the Houston Rockets in scoring for twelve consecutive seasons.
+**True ~~False
+@@1907
+Joe Dumars has played his entire NBA career with the Detroit Pistons.
+**True ~~False
+@@1908
+Charles Oakley has played his entire career with the New York Knicks.
+**False ~~True
+@@1909
+Grant Hill is one of only three players in NBA history to have led his team in points, rebounds and assists in more than one season.
+**True ~~False
+@@1910
+Rick Mahorn has not always played for the Detroit Pistons.
+**True ~~False
+@@1911
+Rick Mahorn was a member of only one Detroit Pistons Championship team.
+**True ~~False
+@@1912
+Houston has been a member of the Pacific Division, Central Division and Midwest Division.
+**True ~~False
+@@1913
+Detroit Pistons Jerome Williams and Don Reid were college teammates at Georgetown.
+**True ~~False
+@@1914
+Malik Sealy once played for the Indiana Pacers.
+**True ~~False
+@@1915
+Brian Williams is playing for his fifth team in his seventh NBA season.
+**True ~~False
+@@1916
+Brian Williams played on the 1997 NBA Champion Chicago Bulls team.
+**True ~~False
+@@1917
+Detroit Pistons' Scot Pollard and Utah Jazz's Greg Ostertag were college teammates.
+**True ~~False
+@@1918
+Entering the 1997-98 season, Joe Dumars has remained in the Detroit Pistons' starting lineup ever since the middle of his rookie season (1985-86) with the exception of a small stretch in 1995-96.
+**True ~~False
+@@1919
+Grant Hill won two NCAA Championships while at Duke University.
+**True ~~False
+@@1920
+Rick Mahorn was selected by the Minnesota Timberwolves in the 1989 expansion draft.
+**True ~~False
+@@1921
+Joe Dumars once made 62 consecutive free throws over 13 games.
+**True ~~False
+@@1922
+Grant Hill was the Detroit Pistons first Rookie of the Year since 1966-67.
+**True ~~False
+@@1923
+Grant Hill has never been selected to the NBA All-Defensive Team.
+**True ~~False
+@@1924
+Detroit has not made it past the first round of the NBA Playoffs since 1991.
+**True ~~False
+@@1925
+Chris Childs was undrafted coming out of Boise State University.
+**True ~~False
+@@1926
+Patrick Ewing is the only player in New York Knicks history to play as many as 13 seasons in a New York Knicks uniform.
+**True ~~False
+@@1927
+Patrick Ewing holds the NBA record for most seasons spent with one franchise.
+**False ~~True
+@@1928
+Patrick Ewing's eleven NBA All-Star appearances is a New York Knicks club record.
+**True ~~False
+@@1929
+The Warriors have never had a No. 1 overall draft pick.
+**False ~~True
+@@1930
+John Starks has been selected to play in the NBA All-Star Game.
+**True ~~False
+@@1931
+Despite not playing baseball in college, Charlie Ward was drafted by the Milwaukee Brewers (1993) and New York Yankees (1994) of Major Baseball League.
+**True ~~False
+@@1932
+The New Jersey Nets have won only one NBA playoff series.
+**True ~~False
+@@1933
+The first organized team in baseball history was named the New York Knickerbockers.
+**True ~~False
+@@1934
+The New York Knicks team name owes its origins to the style of pants the Dutch settlers who came to the New World wore.
+**True ~~False
+@@1935
+In two of the last three years, a New York Knicks player has won the Sixth Man of the Year Award.
+**True ~~False
+@@1936
+Patrick Ewing is the New York Knicks' only Rookie of the Year in team history.
+**False ~~True
+@@1937
+The Washington Wizards' Tracy Murray and the Los Angeles Clippers Lamond Murray are first cousins.
+**True ~~False
+@@1938
+The most wins in a single season the Clippers have had in franchise history is 49.
+**True ~~False
+@@1939
+The Clippers have never won a playoff series since moving to Los Angeles.
+**True ~~False
+@@1940
+The Denver Nuggets were once known as the Denver Rockets.
+**True ~~False
+@@1941
+The Warriors have been located in Philadelphia, San Francisco and Golden State.
+**True ~~False
+@@1942
+Dee Brown's given name is DeCovan.
+**True ~~False
+@@1943
+A.C. Green was a member of the Los Angeles Lakers' 1987 and 1988 championship teams.
+**True ~~False
+@@1944
+A.C. Green was a starting forward for the Western Conference in the 1990 NBA All-Star Game.
+**True ~~False
+@@1945
+Tyus Edney was the only second-round draftee to play in the 1996 Rookie Game during All-Star Weekend.
+**True ~~False
+@@1946
+The Celtics' 15-67 record in 1996-97 was the worst in franchise history.
+**True ~~False
+@@1947
+The Celtics have not had a player participate in the NBA All-Star Game since 1992.
+**False ~~True
+@@1948
+Billy Owens and Derrick Coleman were college teammates.
+**True ~~False
+@@1949
+No one team has ever scored more than twice as many points as its opponent.
+**False ~~True
+@@1950
+In 1996-97 Toronto's Doug Christie and Damon Stoudamire combined to be the best rebounding guard pair in the league.
+**True ~~False
+@@1951
+The Warriors played all home games during the 1996-97 season in San Jose.
+**True ~~False
+@@1952
+On April 19,1996 Patrick Ewing recorded the first and only triple-double of his career.
+**True ~~False
+@@1953
+Allan Houston is one of only two players to be named All-SEC four times.
+**True ~~False
+@@1954
+The Charlotte Hornets selected Larry Johnson with the first overall pick in the 1991 NBA Draft.
+**True ~~False
+@@1955
+Entering the 1997-98 season, Larry Johnson has averaged in double figures in scoring every season of his six-year career.
+**True ~~False
+@@1956
+In 1989-90, Charles Oakley and Patrick Ewing became the first New York Knicks duo since 1971-72 to each average 10 or more rebounds.
+**True ~~False
+@@1957
+Charles Oakley has never played in an NBA All-Star Game.
+**False ~~True
+@@1958
+Harvey Grant and Horace Grant are twin brothers.
+**True ~~False
+@@1959
+Mark Price and Brent Price are brothers.
+**True ~~False
+@@1960
+Tim Hardaway and Anfernee Hardaway are brothers.
+**False ~~True
+@@1961
+The Washington Wizards play their home games in Olympia, WA.
+**False ~~True
+@@1962
+The Detroit Pistons' team colors were once red, white and blue.
+**True ~~False
+@@1963
+The Chicago Bulls always wear red road uniforms.
+**False ~~True
+@@1964
+The Houston Rockets' team colors were once red, yellow and white.
+**True ~~False
+@@1965
+The Portland Trail Blazers play their home games in Portland, ME.
+**False ~~True
+@@1966
+Indiana Pacers Antonio Davis and Dale Davis are brothers.
+**False ~~True
+@@1967
+NBA veterans Buck Williams and Herb Williams are brothers.
+**False ~~True
+@@1968
+Detroit Pistons Brian Williams and Jerome Williams are related.
+**False ~~True
+@@1969
+The San Antonio Spurs were once known as the Dallas Chaparrals.
+**True ~~False
+@@1970
+Seattle's only NBA Championship came in 1979.
+**True ~~False
+@@1971
+The Toronto Huskies were a charter member of the NBA.
+**True ~~False
+@@1972
+The 1995-96 Chicago Bulls hold the best winning percentage in NBA history (.878).
+**True ~~False
+@@1973
+The Philadelphia 76ers new logo for 1996-97 was the team's first major logo change since 1963.
+**True ~~False
+@@1974
+Gary Payton is the Seattle SuperSonics' first and only Defensive Player of the Year award winner.
+**True ~~False
+@@1975
+Dale Ellis is the Seattle SuperSonics' first and only Most Improved Player of the Year Award-winner.
+**True ~~False
+@@1976
+Since 1986-87 Nate McMillan and Gary Payton are the only players to lead the SuperSonics in assists.
+**True ~~False
+@@1977
+Seattle won 55 or more games for five consecutive seasons through 1996-97.
+**True ~~False
+@@1978
+Buck Williams won the 1982 NBA Rookie of the Year Award while playing with the Nets.
+**True ~~False
+@@1979
+The only New Jersey Net to make the All-Rookie First Team was Derrick Coleman.
+**True ~~False
+@@1980
+The New Jersey Nets were once called the New Jersey Americans.
+**True ~~False
+@@1981
+The Nets once played on Long Island, New York.
+**True ~~False
+@@1982
+The Golden State Warriors were once known as the Philadelphia Warriors and the San Francisco Warriors.
+**True ~~False
+@@1983
+The Philadelphia 76ers were once known as the Syracuse Nationals.
+**True ~~False
+@@1984
+The Los Angeles Clippers finished the 1992-93 season with a better record than the Los Angeles Lakers.
+**True ~~False
+@@1985
+The Los Angeles Clippers finished the 1991-92 season with a better record than the Los Angeles Lakers.
+**True ~~False
+@@1986
+The Los Angeles Clippers have never been in the NBA Playoffs.
+**False ~~True
+@@1987
+Milwaukee has never won an NBA championship in franchise history.
+**False ~~True
+@@1988
+Atlanta has never won an NBA championship in franchise history.
+**False ~~True
+@@1989
+Golden State has never won an NBA championship in franchise history.
+**False ~~True
+@@1990
+Washington has never won an NBA championship in franchise history.
+**False ~~True
+@@1991
+Philadelphia has never won an NBA championship in franchise history.
+**False ~~True
+@@1992
+In the 1990s the Los Angeles Lakers have lost more games than they have won in the playoffs.
+**True ~~False
+@@1993
+Kobe Bryant was the first Los Angeles Laker to win a Slam Dunk Championship.
+**False ~~True
+@@1994
+Shaquille O'Neal has won the NBA scoring title once.
+**True ~~False
+@@1995
+Shaquille O'Neal has won the NBA blocked shots title twice.
+**False ~~True
+@@1996
+The Los Angeles Lakers have never had a player lead the league in free-throw percentage.
+**False ~~True
+@@1997
+There has always been a lottery process for ordering the top picks in the NBA Draft.
+**False ~~True
+@@1998
+The NBA Draft has always been composed of two rounds.
+**False ~~True
+@@1999
+Orlando had the first overall NBA draft pick in both 1992 and 1993.
+**True ~~False
+@@2000
+From 1966 through 1984, a coin flip was held between the teams with the worst record in each conference (or division, when there were only two divisions) to determine which teams would pick first in the draft.
+**True ~~False
+

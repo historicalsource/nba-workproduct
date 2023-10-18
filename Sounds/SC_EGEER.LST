@@ -1,0 +1,42 @@
+NBA on NBC (c) 1998 Midway - TIMK : Eugene Geer (03/16/99 00:42:02) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SC_EGEER.BNK
+
+Size of .BNK file including header: 29554 bytes ($7372 bytes)
+
+Size of playlist table: 40 bytes ($28 bytes)
+
+Size of playlist and sound data only: 29380 bytes ($72C4 bytes)
+
+Checksum: $A191
+
+Total number of playlists: 9 ($9)
+
+Total number of sound files: 9 ($9)
+
+Average bit rate for bank: 28.7 kbits/sec
+
+Total linear amount of sound: 0:08.156 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1       65.3    74.9  Eugene Geer
+  2    $0002   1       28.9    33.1  Geer A
+  3    $0003   1       56.5    64.8  Geer B
+  4    $0004   1       32.6    37.4  Geer C
+  5    $0005   1       32.6    37.4  To Geer 
+  6    $0006   1       54.0    61.9  Hands off to Geer 
+  7    $0007   1       56.5    64.8  Dishes to Geer 
+  8    $0008   1       44.8    51.4  Finds Geer 
+  9    $0009   1       74.1    85.0  Nice Feed to Geer
+
+Total 9 Playlists

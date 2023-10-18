@@ -1,0 +1,34 @@
+End of NBC version for Create or Game Over or Buyi (02/10/99 22:26:23) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: TUNBUY02.BNK
+
+Size of .BNK file including header: 280528 bytes ($447D0 bytes)
+
+Size of playlist table: 8 bytes ($8 bytes)
+
+Size of playlist and sound data only: 280386 bytes ($44742 bytes)
+
+Checksum: $38B6
+
+Total number of playlists: 1 ($1)
+
+Total number of sound files: 1 ($1)
+
+Average bit rate for bank: 71.4 kbits/sec
+
+Total linear amount of sound: 0:31.396 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1     1711.5  1962.7  VersionofNBC Theme for Buyin or G.Over or Create
+
+Total 1 Playlists

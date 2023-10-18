@@ -1,0 +1,73 @@
+#
+# Load file made by Composit version 0.9991R on Mon Nov 02 14:06:49 1998. 
+#
+
+#
+# 2D images for End-Of-Quarter (coaching tips...halftime...game over)
+#
+
+HFILE> \video\nba\include\eoq.h
+MIDST> on
+
+INPUT> eofq.wif
+OUTPUTXY> 256 256
+-----> statbk1
+EXECUTE> hstat
+MAKEBAT> eoq.bat hstat*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> eofq.wif
+OUTPUTXY> 256 256
+-----> statbk2
+EXECUTE> fstat
+MAKEBAT> eoq.bat fstat*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> eofq.wif
+OUTPUTXY> 256 256
+-----> lstatbk1
+EXECUTE> hstatk
+MAKEBAT> eoq.bat hstatk*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> eofq.wif
+OUTPUTXY> 256 256
+-----> lstatbk2
+EXECUTE> fstatk
+MAKEBAT> eoq.bat fstatk*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> eofq.wif
+OUTPUTXY> 256 256
+-----> buyinbg
+EXECUTE> buybg
+MAKEBAT> eoq.bat buybg*.tga texus -de -mn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> eofq.wif
+OUTPUTXY> 256 256
+-----> prkbuyin
+EXECUTE> pbuybg
+MAKEBAT> eoq.bat pbuybg*.tga texus -de -mn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> eofq.wif
+OUTPUTXY> 256 256
+-----> islbuyin
+EXECUTE> ibuybg
+MAKEBAT> eoq.bat ibuybg*.tga texus -de -mn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> upfront6.wif
+OUTPUTXY> 256 256
+-----> chtpsscr
+EXECUTE> ctipsr
+MAKEBAT> eoq.bat ctipsr*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> eofq.wif
+OUTPUTXY> 256 256
+-----> gtrdyfr,scndprd,thrdprd,frthprd,ovrtm
+EXECUTE> qmsgs
+MAKEBAT> eoq.bat qmsgs*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+# Composit crashes when you do size 64 32!
+INPUT> eofq.wif
+OUTPUTXY> 64 64
+-----> st_arro,st_mvp,st_lead
+EXECUTE> stldr
+MAKEBAT> eoq.bat stldr*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+

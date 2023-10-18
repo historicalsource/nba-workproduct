@@ -1,0 +1,42 @@
+NBA on NBC (c) 1998 Midway - TIMK : Crispy  (03/15/99 14:40:54) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SC_CLOWN.BNK
+
+Size of .BNK file including header: 26940 bytes ($693C bytes)
+
+Size of playlist table: 40 bytes ($28 bytes)
+
+Size of playlist and sound data only: 26766 bytes ($688E bytes)
+
+Checksum: $123B
+
+Total number of playlists: 9 ($9)
+
+Total number of sound files: 9 ($9)
+
+Average bit rate for bank: 27.3 kbits/sec
+
+Total linear amount of sound: 0:07.795 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1       40.2    46.1  Crispy 
+  2    $0002   1       32.2    37.0  Crispy A
+  3    $0003   1       60.7    69.6  Crispy B
+  4    $0004   1       41.9    48.0  Crispy C
+  5    $0005   1       35.2    40.3  To Crispy
+  6    $0006   1       57.8    66.2  Hands Off to Crispy
+  7    $0007   1       51.1    58.6  Dishes to Crispy
+  8    $0008   1       45.6    52.3  Finds Crispy
+  9    $0009   1       61.1    70.1  Nice Feed to Crispy
+
+Total 9 Playlists

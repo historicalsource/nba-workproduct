@@ -1,0 +1,308 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+##1601
+Entering the 1997-98 season, what player had scored in double figures in every game over the last five seasons plus the final 57 games of the 1991-92 season?
+**a) Karl Malone ~~b) Scottie Pippen ~~c) Grant Hill ~~d) Reggie Miller
+##1602
+Who led the NBA with 41 double-doubles (points-assists) in the 1996-97 season?
+**a) John Stockton ~~b) Damon Stoudamire ~~c) Tim Hardaway ~~d) Nick Van Exel
+##1603
+Who led the NBA with 47 double-doubles (points-rebounds) in the 1996-97 season?
+**a) Patrick Ewing ~~b) Shawn Kemp ~~c) Chris Webber ~~d) Anthony Mason
+##1604
+Who lead the league in dunks during the 1996-97 season?
+**a) Chris Webber ~~b) Shawn Kemp ~~c) Alonzo Mourning ~~d) Shaquille O'Neal
+##1605
+The "Clean Hands Award" goes to the player credited with more steals than personal fouls. Who won this award in 1996-97 for the fifth straight year?
+**a) Mookie Blaylock ~~b) Muggsy Bogues ~~c) Jason Kidd ~~d) Greg Anthony
+##1606
+What player has had the most dunks during a 10-year stretch from 1987-1997?
+**a) Shaquille O'Neal ~~b) Shawn Kemp ~~c) David Robinson ~~d) Patrick Ewing
+!!1607
+What unusual occurrence took place in the NBA on January 31, 1989?
+**a) Four different players posted triple-doubles ~~b) All scheduled games were canceled due to weather ~~c) The scheduled games were played without referees ~~d) Selected fans were allowed to get in uniform and play as a part of a league-wide promotion
+##1608
+What team topped the list in games lost due to injury or illness in 1996-97?
+**a) Boston ~~b) San Antonio ~~c) Golden State ~~d) Houston
+##1609
+Entering the 1997-98 NBA season, who was the last person to win the rebounding title other than Dennis Rodman?
+**a) David Robinson ~~b) Hakeem Olajuwon ~~c) Charles Barkley ~~d) Michael Cage
+##1610
+What NBA guard blocked the most shots in the 1996-97 season?
+**a) Jerry Stackhouse ~~b) Eddie Jones ~~c) Malik Sealy ~~d) Latrell Sprewell
+##1611
+When was the last time that the Portland Trail Blazers did not make the NBA playoffs?
+**a) 1981-82 ~~b) 1994-95 ~~c) 1988-89 ~~d) 1984-85
+##1612
+When was the last time that the Utah Jazz did not make the NBA Playoffs?
+**a) 1982-83 ~~b) 1994-95 ~~c) 1986-97 ~~d) 1990-91
+##1613
+Who made 13-13 field goals in a single game during the 1996-97 season, the best shooting game of any player that year?
+**a) Vin Baker ~~b) Sam Perkins ~~c) Reggie Miller ~~d) Anthony Mason
+##1614
+In what season did the NBA first institute the salary cap?
+**a) 1984-85 ~~b) 1988-89 ~~c) 1994-95 ~~d) 1976-77
+##1615
+What was the most popular uniform number in 1996-97 with 21 players wearing it?
+**a) 3 ~~b) 33 ~~c) 7 ~~d) 21
+##1616
+Who led the league in triple-doubles with 12 in the 1996-97 season?
+**a) Grant Hill ~~b) Anthony Mason ~~c) Mark Jackson ~~d) Damon Stoudamire
+##1617
+Who had the league's only two rebounds-blocks-points triple-double in 1996-97?
+**a) Shawn Bradley ~~b) Hakeem Olajuwon ~~c) Shaquille O'Neal ~~d) Shawn Kemp
+##1618
+In 1996-97, the Houston Rockets were the oldest team in the league. What was the average age of the Rockets players?
+**a) 30.65 years ~~b) 27.80 years ~~c) 32.49 years ~~d) 36.24 years
+##1619
+In 1996-97, what team was the youngest team in the league with the average age of the players calculated at 26.19 years?
+**a) Vancouver Grizzlies ~~b) Los Angeles Lakers ~~c) Golden State Warriors ~~d) Portland Trail Blazers
+##1620
+In 1996-97, the Seattle SuperSonics were the most experienced team in the league. What was the average number of years of professional experience for the SuperSonics players?
+**a) 8.13 years ~~b) 6.00 years ~~c) 10.24 years ~~d) 7.64 years
+##1621
+Glen Rice was selected fourth in the 1989 NBA Draft. Which one of the following players was not selected ahead of him that year?
+**a) Tim Hardaway ~~b) Danny Ferry ~~c) Pervis Ellison ~~d) Sean Elliott
+##1622
+Which of the following players were not selected ahead of Tim Hardaway in the 1989 NBA Draft?
+**a) Chris Gatling ~~b) J.R. Reid ~~c) Pooh Richardson ~~d) Tom Hammonds
+##1623
+Kobe Bryant was selected with the 13th pick in the 1996 NBA Draft. All but one of the following players was selected ahead of him that year?
+**a) Brent Barry ~~b) Ray Allen ~~c) Erick Dampier ~~d) Todd Fuller
+##1624
+Jason Kidd was the second overall pick in the 1994 NBA Draft. What player was the first overall selection that year?
+**a) Glenn Robinson ~~b) Grant Hill ~~c) Juwan Howard ~~d) Chris Webber
+##1625
+Shaquille O'Neal was the first overall pick in the 1992 NBA Draft. What player was the second overall pick that year?
+**a) Alonzo Mourning ~~b) Gary Payton ~~c) Shawn Bradley ~~d) Dikembe Mutombo
+##1626
+What are the official team colors of the Sacramento Kings?
+**a) purple, black and silver ~~b) red, white and blue ~~c) gold, blue and orange ~~d) teal, black and yellow
+##1627
+What team was both the tallest and the heaviest team in 1996-97?
+**a) Chicago ~~b) Atlanta ~~c) Phoenix ~~d) San Antonio
+##1628
+Who is the tallest player in the league?
+**a) Gheorghe Muresan ~~b) Rik Smits ~~c) Priest Lauderdale ~~d) Shawn Bradley
+##1629
+Which team was the most improved club from the 1995-96 season to 1996-97 season with a 19-game improvement?
+**a) Miami ~~b) Charlotte ~~c) Minnesota ~~d) Houston
+##1630
+Who has the choice as to which basket a team will shoot at in the first half (and subsequently, the teams will alternate for the second half)?
+**a) Visiting team ~~b) Home team ~~c) Referee ~~d) Coin flip determines who has the choice
+!!1631
+For an overtime period how is it determined which basket the teams will shoot at?
+**a) Each team remains shooting at the same basket as it did in second half ~~b) The teams switch baskets (shooting at the one they did not shoot at in second half) ~~c) A coin flip gives one team a choice ~~d) Referee determines
+##1632
+How many minutes is an NBA overtime period?
+**a) 5 ~~b) 12 ~~c) 10 ~~d) 3
+##1633
+Who was the first Milwaukee Bucks player to be selected for and play in the Rookie All-Star Game?
+**a) Glenn Robinson ~~b) Vin Baker ~~c) Ray Allen ~~d) Terrell Brandon
+##1634
+Who was the first Milwaukee Bucks player since 1986 to participate in the Slam Dunk Competition?
+**a) Ray Allen ~~b) Vin Baker ~~c) Glenn Robinson ~~d) Terrell Brandon
+##1635
+Whose mother founded the NBA Mother's Association, a support group for NBA mothers and their families?
+**a) Terrell Brandon ~~b) Shaquille O'Neal ~~c) Christian Laettner ~~d) Grant Hill
+##1636
+In 1996-97 season, what Milwaukee Buck player pulled down a career-high 22 rebounds which was the highest rebound total for a Bucks player since 1989?
+**a) Armon Gilliam ~~b) Vin Baker ~~c) Glenn Robinson ~~d) Tyrone Hill
+##1637
+Who is nicknamed "The Hammer" for his physical style of play?
+**a) Armon Gilliam ~~b) Charles Oakley ~~c) Rasheed Wallace ~~d) Rick Mahorn
+##1638
+What overall pick was Armon Gilliam in the 1987 NBA Draft?
+**a) 2 ~~b) 1 ~~c) 10 ~~d) 18
+##1639
+Following high school, who worked for two and one half years in a Baton Rouge supermarket before enrolling in the University of New Orleans in January 1989?
+**a) Ervin Johnson ~~b) Joe Dumars ~~c) Chris Gatling ~~d) John Starks
+##1640
+Which of the following teams has Andrew Lang not played for?
+**a) Los Angeles Clippers ~~b) Milwaukee ~~c) Atlanta ~~d) Phoenix
+##1641
+What NBA player won two gold medals in gymnastics at the Junior Olympics?
+**a) Elliot Perry ~~b) Gary Payton ~~c) Dennis Rodman ~~d) Steve Kerr
+!!1642
+What do the following players have in common-- Elliot Perry, Cedric Henderson, and Anfernee Hardaway?
+**a) All went to the University of Memphis ~~b) All pull their socks up as high as they can ~~c) All have been on the Orlando Magic ~~d) All were drafted in the first round
+##1643
+In January, 1997, who won Milwaukee's first Player of the Week award since December, 1990?
+**a) Glenn Robinson ~~b) Vin Baker ~~c) Ray Allen ~~d) Elliot Perry
+##1644
+How many number one draft picks have the Milwaukee Bucks had in team history?
+**a) 3 ~~b) 0 ~~c) 5 ~~d) 2
+##1645
+How many seasons had the Milwaukee Bucks been in the league when they won their first and only NBA Championship in 1971?
+**a) 3 ~~b) 1 ~~c) 10 ~~d) 14
+##1646
+When was the last year the Milwaukee Bucks were in the NBA Playoffs?
+**a) 1991 ~~b) 1996 ~~c) 1988 ~~d) 1984
+##1647
+Which of the following Milwaukee Bucks players did not make the All-Rookie Team?
+**a) Elliot Perry ~~b) Ray Allen ~~c) Vin Baker ~~d) Glenn Robinson
+##1648
+Which was the first season that the three-point line was in effect?
+**a) 1979-80 ~~b) 1990-91 ~~c) 1984-85 ~~d) 1964-65
+##1649
+What team drafted Stephon Marbury in the 1996 Draft?
+**a) Milwaukee ~~b) Minnesota ~~c) Atlanta ~~d) Washington
+##1650
+What team drafted Ray Allen in the 1996 NBA Draft?
+**a) Minnesota ~~b) Milwaukee ~~c) Boston ~~d) New Jersey
+!!1651
+What is the distance of the three-point line?
+**a) 23 feet, 9 inches and 22 feet at the corners ~~b) 22 feet all around ~~c) 15 feet all around ~~d) 25 feet at the corners and 22 feet all around
+##1652
+Who holds the Milwaukee Bucks record for three-point shooting in a career?
+**a) Dale Ellis ~~b) Ray Allen ~~c) Glenn Robinson ~~d) Terrell Brandon
+##1653
+What team had the longest winning streak, 15 games, in the 1996-97 season?
+**a) Utah ~~b) Chicago ~~c) Seattle ~~d) Los Angeles Lakers
+##1654
+What team had the lowest scoring output, only 57 points, in the 1996-97 season?
+**a) Orlando ~~b) Los Angeles Clippers ~~c) Toronto ~~d) Cleveland
+##1655
+What Milwaukee Buck player twice won the Sixth Man of the Year award?
+**a) Ricky Pierce ~~b) Detlef Schrempf ~~c) John Starks ~~d) Elliot Perry
+##1656
+Who was the Milwaukee Bucks leading scorer for the 1996-97 season?
+**a) Glenn Robinson ~~b) Vin Baker ~~c) Ray Allen ~~d) Sherman Douglas
+##1657
+What NBA player owns an Excavating Company in Dallas?
+**a) Dennis Rodman ~~b) Jason Kidd ~~c) Larry Johnson ~~d) Anthony Mason
+##1658
+What NBA player co-starred with Jean Claude Van Damme in the movie entitled "Double Team"?
+**a) Dennis Rodman ~~b) Shaquille O'Neal ~~c) Scottie Pippen ~~d) Ray Allen
+##1659
+What NBA player wrote a children's book entitled "Reach Higher"?
+**a) Scottie Pippen ~~b) Karl Malone ~~c) Anfernee Hardaway ~~d) Hakeem Olajuwon
+##1660
+Entering the 1997-98 season, how many NBA Championships has Scottie Pippen won?
+**a) 5 ~~b) 3 ~~c) 2 ~~d) 8
+##1661
+What NBA player played table tennis and became an Croatian champion at age 14?
+**a) Toni Kukoc ~~b) Luc Longley ~~c) Vlade Divac ~~d) Arvydas Sabonis
+##1662
+What overall pick was Scottie Pippen selected with in the 1987 NBA Draft?
+**a) 5th ~~b) 1st ~~c) 10th ~~d) 14th
+##1663
+In what year did the Bulls have three players on the NBA All-Star Team for the first time in team history?
+**a) 1994 ~~b) 1996 ~~c) 1990 ~~d) 1984
+##1664
+What is the most number of seasons that any individual has played in the NBA?
+**a) 21 ~~b) 10 ~~c) 30 ~~d) 15
+##1665
+Which of the following did not grow up in the Los Angeles area?
+**a) Shaquille O'Neal ~~b) Chris Mills ~~c) Stacey Augmon ~~d) Jacque Vaughn
+##1666
+Who holds the NBA record for most minutes played in a regular season game having played 69 minutes in a quintuple overtime game in 1989?
+**a) Dale Ellis ~~b) Charles Barkley ~~c) John Stockton ~~d) Patrick Ewing
+##1667
+What team holds the NBA record for the lowest winning percentage in a season?
+**a) Philadelphia 76ers ~~b) Los Angeles Clippers ~~c) Dallas Mavericks ~~d) Minnesota Timberwolves
+##1668
+Which of the following players is from the San Francisco Bay area?
+**a) Gary Payton ~~b) Tracy Murray ~~c) Eddie Jones ~~d) Shawn Kemp
+##1669
+Which of the following players did not grow up in Florida?
+**a) Anfernee Hardaway ~~b) Eddie Jones ~~c) Mitch Richmond ~~d) Charlie Ward
+##1670
+What team holds the record for most points allowed (highest average of opponents) in a season?
+**a) Denver ~~b) Los Angeles Clippers ~~c) Philadelphia ~~d) Minnesota
+##1671
+What NBA team hold the NBA record for fewest points allowed (lowest average of opponents) in a season?
+**a) Cleveland ~~b) Seattle ~~c) Phoenix ~~d) New York
+##1672
+What team holds the NBA record for most consecutive games lost (24)?
+**a) Cleveland ~~b) Los Angeles Clippers ~~c) Milwaukee ~~d) Dallas
+##1673
+What team holds the NBA record for most consecutive games lost in a single season (23)?
+**a) Vancouver ~~b) Cleveland ~~c) Minnesota ~~d) Los Angeles Clippers
+##1674
+What team holds the NBA record with 44 consecutive home games won?
+**a) Chicago ~~b) Utah ~~c) Seattle ~~d) Orlando
+##1675
+What team holds the NBA record for most consecutive home games lost (19)?
+**a) Dallas ~~b) Vancouver ~~c) Los Angeles Clippers ~~d) Toronto
+##1676
+What team holds the NBA record for most overtime games played in a season with 14 TO games?
+**a) Philadelphia ~~b) New York ~~c) Phoenix ~~d) San Antonio
+##1677
+Which team went 7-0 in overtime games in 1961-62 to set the NBA record for most overtime games won without any lost in a single season?
+**a) Los Angeles Lakers ~~b) Phoenix ~~c) Seattle ~~d) New York
+##1678
+What is the NBA record for most overtime periods in a single game?
+**a) 6 ~~b) 4 ~~c) 2 ~~d) 8
+##1679
+How many times have the Chicago Bulls appeared in the NBA Finals and not won the Championship?
+**a) 0 ~~b) 3 ~~c) 5 ~~d) 2
+##1680
+How many NBA All-Star Game Most Valuable Player awards has Karl Malone won?
+**a) 2 ~~b) 1 ~~c) 4 ~~d) 6
+##1681
+Entering the 1997-98 season, how many All-NBA teams has Karl Malone been named to in his career?
+**a) 10 ~~b) 5 ~~c) 13 ~~d) 8
+##1682
+Which of the following players has been named to an All-NBA First Team?
+**a) Chris Mullin ~~b) Gary Payton ~~c) Shaquille O'Neal ~~d) Larry Johnson
+##1683
+When was the first All-NBA Team selected?
+**a) 1946-47 ~~b) 1990-91 ~~c) 1982-83 ~~d) 1967-68
+##1684
+When was the first All-Rookie Team selected?
+**a) 1962-63 ~~b) 1993-94 ~~c) 1986-87 ~~d) 1972-73
+##1685
+When was the first All-Defensive Team selected?
+**a) 1968-69 ~~b) 1991-92 ~~c) 1985-86 ~~d) 1974-75
+##1686
+Which of the following players has never won the NBA Most Valuable Player award?
+**a) Patrick Ewing ~~b) Charles Barkley ~~c) David Robinson ~~d) Karl Malone
+##1687
+Which of the following players has never won the NBA Defensive Player of the Year award?
+**a) Patrick Ewing ~~b) Gary Payton ~~c) Dikembe Mutombo ~~d) Hakeem Olajuwon
+##1688
+Which of the following players are not from the Philadelphia area?
+**a) Allen Iverson ~~b) Pooh Richardson ~~c) Aaron McKie ~~d) Kobe Bryant
+##1689
+Which of the following players did not win the Rookie of the Year Award?
+**a) Alonzo Mourning ~~b) Chris Webber ~~c) Damon Stoudamire ~~d) Larry Johnson
+##1690
+Which of the following players grew up in the Chicago area?
+**a) Scottie Pippen ~~b) Tim Hardaway ~~c) Kevin Garnett ~~d) Nick Anderson
+##1691
+Where is the Basketball Hall of Fame located?
+**a) Springfield, MA ~~b) New York, NY ~~c) Canton, OH ~~d) Cooperstown, NY
+##1692
+Which of the following players did not attend college in the state of Utah?
+**a) John Stockton ~~b) Shawn Bradley ~~c) Keith Van Horn ~~d) Tom Chambers
+!!1693
+What do the following players have in common-- Dale Ellis, Rony Seikaly, Dana Barros?
+**a) All have won the NBA's Most Improved Player award ~~b) All have played for Seattle ~~c) All play in the Eastern Conference ~~d) All have won the three-point contest
+##1694
+What player attended both the University of Maryland and the University of Arizona?
+**a) Brian Williams ~~b) Joe Smith ~~c) Steve Kerr ~~d) Sean Elliott
+##1695
+Which of the following players is not from the Detroit, MI area?
+**a) Grant Hill ~~b) Chris Webber ~~c) Jalen Rose ~~d) B.J. Armstrong
+##1696
+What NBA player was born in Eindhoven, Holland?
+**a) Rik Smits ~~b) Jacque Vaughn ~~c) Arvydas Sabonis ~~d) Steve Kerr
+##1697
+Which of the following players are shorter than seven feet?
+**a) Hakeem Olajuwon ~~b) David Robinson ~~c) Greg Ostertag ~~d) Rik Smits
+##1698
+Which of the following players are shorter than six feet?
+**a) Muggsy Bogues ~~b) B.J. Armstrong ~~c) Vinny Del Negro ~~d) Terry Dehere
+##1699
+Which of the following players has played for the Clippers, Sonics, Cavaliers and 76ers?
+**a) Michael Cage ~~b) Ron Harper ~~c) Charles Barkley ~~d) Vin Baker
+##1700
+Which of the following players went to Oregon State?
+**a) Brent Barry ~~b) Terrell Brandon ~~c) Damon Stoudamire ~~d) Kenny Anderson
+

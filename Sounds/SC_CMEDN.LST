@@ -1,0 +1,42 @@
+NBA on NBC (c) 1998 Midway - TIMK : Cary Mednick (03/21/99 23:54:56) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SC_CMEDN.BNK
+
+Size of .BNK file including header: 25844 bytes ($64F4 bytes)
+
+Size of playlist table: 40 bytes ($28 bytes)
+
+Size of playlist and sound data only: 25670 bytes ($6446 bytes)
+
+Checksum: $2644
+
+Total number of playlists: 9 ($9)
+
+Total number of sound files: 9 ($9)
+
+Average bit rate for bank: 24.8 kbits/sec
+
+Total linear amount of sound: 0:08.218 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1       60.3    69.1  Cary Mednick
+  2    $0002   1       30.6    35.0  Mednick A
+  3    $0003   1       52.7    60.5  Mednick B
+  4    $0004   1       36.8    42.2  Mednick C
+  5    $0005   1       35.2    40.3  To Mednick 
+  6    $0006   1       55.2    63.4  Hands off to Mednick 
+  7    $0007   1       60.7    69.6  Dishes to Mednick 
+  8    $0008   1       47.7    54.7  Finds Mednick 
+  9    $0009   1       70.3    80.6  Nice Feed to Mednick 
+
+Total 9 Playlists

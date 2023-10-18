@@ -1,0 +1,34 @@
+Halftime Tune (02/26/99 16:12:12) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: TUNHALFT.BNK
+
+Size of .BNK file including header: 110094 bytes ($1AE0E bytes)
+
+Size of playlist table: 4 bytes ($4 bytes)
+
+Size of playlist and sound data only: 109956 bytes ($1AD84 bytes)
+
+Checksum: $F7DA
+
+Total number of playlists: 1 ($1)
+
+Total number of sound files: 4 ($4)
+
+Average bit rate for bank: 70.7 kbits/sec
+
+Total linear amount of sound: 0:12.434 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  0    $0000   1     1033.8  1185.6  Halftime small cut
+
+Total 1 Playlists

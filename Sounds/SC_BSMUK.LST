@@ -1,0 +1,42 @@
+NBA on NBC (c) 1998 Midway - TIMK : Beth Smukowski (03/22/99 01:58:34) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SC_BSMUK.BNK
+
+Size of .BNK file including header: 35960 bytes ($8C78 bytes)
+
+Size of playlist table: 40 bytes ($28 bytes)
+
+Size of playlist and sound data only: 35786 bytes ($8BCA bytes)
+
+Checksum: $F1AF
+
+Total number of playlists: 9 ($9)
+
+Total number of sound files: 9 ($9)
+
+Average bit rate for bank: 28.4 kbits/sec
+
+Total linear amount of sound: 0:10.038 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1       71.6    82.1  Beth Smukowski
+  2    $0002   1       43.1    49.4  Smukowski A
+  3    $0003   1       69.1    79.2  Smukowski B
+  4    $0004   1       54.4    62.4  Smukowski C
+  5    $0005   1       44.8    51.4  To Smukowski 
+  6    $0006   1       72.0    82.6  Hands off to Smukowski 
+  7    $0007   1       65.3    74.9  Dishes to Smukowski 
+  8    $0008   1       54.4    62.4  Finds Smukowski 
+  9    $0009   1       72.8    83.5  Nice Feed to Smukowski 
+
+Total 9 Playlists

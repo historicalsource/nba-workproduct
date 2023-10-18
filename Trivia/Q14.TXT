@@ -1,0 +1,308 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+##1401
+In what year did the Golden State Warriors maintain a winning record throughout the entire season for the first time in franchise history?
+**a) 1991-92 ~~b) 1996-97 ~~c) 1980-81 ~~d) 1995-96
+##1402
+Who was the first guard in Golden State Warriors history to be named to the All-NBA First Team (1994)?
+**a) Latrell Sprewell ~~b) Tim Hardaway ~~c) Joe Smith ~~d) Chris Mullin
+##1403
+In 1994, who became the youngest guard in history to make an NBA All-Defensive Team when he was voted to the second team?
+**a) Latrell Sprewell ~~b) Tim Hardaway ~~c) Chris Mullin ~~d) Avery Johnson
+##1404
+During the 1993-94 season, who was the youngest player in the league at age 21 to win the NBA Rookie of the Year Award?
+**a) Kobe Bryant ~~b) Grant Hill ~~c) Anfernee Hardaway ~~d) Joe Smith
+##1405
+Who was the first rookie in NBA history to total more than 1,000 points, 500 rebounds, 250 assists, 150 blocks and 75 steals in a season?
+**a) Chris Webber ~~b) Anfernee Hardaway ~~c) Joe Smith ~~d) Jerry Stackhouse
+##1406
+Who was the first Warrior since 1962-63 to lead the NBA in field goal shooting when he shot .633 during the 1994-95 season?
+**a) Chris Gatling ~~b) Joe Smith ~~c) Chris Mullin ~~d) Donyell Marshall
+##1407
+In 1995-96, Golden State allowed the lowest opponents points per game average (103.1 ppg) by a Warriors team in _____ seasons.
+**a) 20 ~~b) 5 ~~c) 10 ~~d) 15
+##1408
+How many different teams has 13-year veteran Tyrone Corbin played with?
+**a) 8 ~~b) 1 ~~c) 3 ~~d) 11
+##1409
+What team did Steve Smith play on before joining the Atlanta Hawks?
+**a) Miami ~~b) Detroit ~~c) Orlando ~~d) Los Angeles Lakers
+##1410
+Who was the only player selected ahead of Marcus Camby in the 1996 NBA Draft?
+**a) Allen Iverson ~~b) Chris Webber ~~c) Damon Stoudamire ~~d) Keith Van Horn
+##1411
+Who led all rookies in blocks and field goal shooting in the 1996-97 season?
+**a) Marcus Camby ~~b) Tim Duncan ~~c) Damon Stoudamire ~~d) Shawn Bradley
+##1412
+Where did Toronto's Tracy McGrady attend college?
+**a) He did not attend college ~~b) North Carolina ~~c) Michigan ~~d) UCLA
+##1413
+Who is the Toronto Raptors all-time leader in points?
+**a) Damon Stoudamire ~~b) Doug Christie ~~c) Marcus Camby ~~d) Kenny Anderson
+##1414
+Who is the Toronto Raptors all-time leader in assists?
+**a) Damon Stoudamire ~~b) Chauncey Billups ~~c) Doug Christie ~~d) Walt Williams
+##1415
+What Toronto Raptor was one of only four guards in the 1996-97 NBA season to rank among league leaders in five different statistical categories?
+**a) Damon Stoudamire ~~b) Marcus Camby ~~c) Steve Nash ~~d) Chauncey Billups
+##1416
+For the 1996-97 season, who led the Toronto Raptors in scoring, assists, free throw percentage and minutes?
+**a) Damon Stoudamire ~~b) Doug Christie ~~c) Walt Williams ~~d) Popeye Jones
+##1417
+Entering the 1997-98 season, who had all three triple-doubles in Toronto Raptors history?
+**a) Damon Stoudamire ~~b) Walt Williams ~~c) Marcus Camby ~~d) Doug Christie
+##1418
+In 1995-96, who was the only unanimous selection to the All-Rookie First Team and the only rookie to receive consideration for the All-NBA Team?
+**a) Damon Stoudamire ~~b) Jerry Stackhouse ~~c) Tim Duncan ~~d) Joe Smith
+##1419
+In 1996, who became the lowest drafted player (7th overall) to win the NBA Rookie of the Year award since Mark Jackson (18th overall selection) claimed the award in 1988?
+**a) Damon Stoudamire ~~b) Nick Van Exel ~~c) Rasheed Wallace ~~d) Lamond Murray
+##1420
+Who is the shortest player to ever have won the NBA Rookie of the Year award?
+**a) Damon Stoudamire ~~b) Muggsy Bogues ~~c) Kenny Anderson ~~d) Gary Payton
+##1421
+Who holds the NBA record for most assists by a player on a first year team?
+**a) Damon Stoudamire ~~b) Muggsy Bogues ~~c) Tim Hardaway ~~d) Anfernee Hardaway
+##1422
+What player posted his first career triple-double in only his 11th professional game?
+**a) Damon Stoudamire ~~b) Anfernee Hardaway ~~c) Grant Hill ~~d) Chris Webber
+##1423
+Who recorded the Toronto Raptors' first franchise triple-double?
+**a) Damon Stoudamire ~~b) Doug Christie ~~c) Walt Williams ~~d) Chauncey Billups
+##1424
+Who ranks in the top 10 in points, assists, steals, field goals made and attempted, free throws made and attempted and blocks in the Sacramento era of Kings history?
+**a) Walt Williams ~~b) Chris Webber ~~c) Terry Dehere ~~d) Otis Thorpe
+##1425
+What is Walt Williams' nickname?
+**a) The Wizard ~~b) The Walrus ~~c) The Warrior ~~d) The Worm
+##1426
+Which of the following NBA players appeared in the video for "Only Want to Be with You" by Hootie and the Blowfish?
+**a) Walt Williams ~~b) Grant Hill ~~c) Shaquille O'Neal ~~d) Hubert Davis
+##1427
+After what player was traded did the Sacramento Kings' starters recognize him by wearing their socks as high as they could too for the next game?
+**a) Walt Williams ~~b) Terry Dehere ~~c) Bobby Hurley ~~d) Olden Polynice
+##1428
+Which of the following players was not a draft pick of the Toronto Raptors?
+**a) Doug Christie ~~b) Damon Stoudamire ~~c) Marcus Camby ~~d) Tracy McGrady
+##1429
+In 1996-97, the Toronto Raptors had the second most productive duo of three-point shooters. What two players comprised this sharpshooting backcourt?
+**a) Damon Stoudamire and Walt Williams ~~b) Damon Stoudamire and Doug Christie ~~c) Walt Williams and Marcus Camby ~~d) Popeye Jones and Chauncey Billups
+##1430
+In 1996-97, the Miami Heat had the most productive duo of three-point shooters. What two players comprised this sharpshooting backcourt?
+**a) Tim Hardaway and Voshon Lenard ~~b) Tim Hardaway and Alonzo Mourning ~~c) Dan Majerle and Jamal Mashburn ~~d) Dan Majerle and P.J. Brown
+##1431
+Entering 1997-98, who held the Toronto Raptors record for most assists in a game (19)?
+**a) Damon Stoudamire ~~b) Marcus Camby ~~c) Walt Williams ~~d) Doug Christie
+##1432
+Entering 1997-98, who held the Toronto Raptors record for most rebounds in a single game (21)?
+**a) Popeye Jones ~~b) Walt Williams ~~c) Marcus Camby ~~d) Clifford Rozier
+##1433
+In 1995, for the first time ever, the NBA Draft was held outside the United States. Where was it held?
+**a) Toronto ~~b) Montreal ~~c) Mexico City ~~d) Vancouver
+##1434
+Entering 1997-98, who held the Toronto Raptors record for most steals in a single game (9)?
+**a) Doug Christie ~~b) Walt Williams ~~c) Marcus Camby ~~d) Clifford Rozier
+##1435
+Entering 1997-98, who held the Toronto Raptors record for most minutes in a single game (56)?
+**a) Popeye Jones ~~b) Walt Williams ~~c) Marcus Camby ~~d) Damon Stoudamire
+##1436
+What team did the Toronto Raptors defeat to win their first game ever played?
+**a) New Jersey ~~b) Denver ~~c) Dallas ~~d) Detroit
+##1437
+What team holds the modern-era expansion record for most wins in their inaugural season?
+**a) Minnesota ~~b) Toronto ~~c) Vancouver ~~d) Miami
+##1438
+Which of the following teams did the Toronto Raptors not defeat in their inaugural 1995-96 season?
+**a) Los Angeles Lakers ~~b) Utah ~~c) Seattle ~~d) Chicago
+##1439
+Who is the Toronto Raptors all-time leader in three-point field goal percentage (.422)?
+**a) Tracy Murray ~~b) Doug Christie ~~c) Damon Stoudamire ~~d) Carlos Rogers
+##1440
+Who is the Toronto Raptors all-time leader in steals (258)?
+**a) Doug Christie ~~b) Oliver Miller ~~c) Marcus Camby ~~d) Walt Williams
+##1441
+Entering the 1997-98 season, who was the Toronto Raptors all-time blocked shots leader (156)?
+**a) Oliver Miller ~~b) Marcus Camby ~~c) Walt Williams ~~d) Sharone Wright
+##1442
+Entering the 1997-98 season, the Toronto Raptors had lost the most games (12 regular and preseason losses) to what team?
+**a) Atlanta ~~b) Chicago ~~c) New York ~~d) Detroit
+##1443
+Entering the 1997-98 season, what team had the highest scoring average of any Toronto Raptors opponent (112.4 ppg)?
+**a) Boston ~~b) Chicago ~~c) Utah ~~d) Phoenix
+##1444
+On January 9, 1996, the Toronto Raptors set an NBA record by making _____ free throws in an NBA game.
+**a) 0 ~~b) 1 ~~c) 30 ~~d) 40
+##1445
+What team had the most prolific three-point shooting trio in the NBA in 1996-97?
+**a) Detroit ~~b) Phoenix ~~c) Chicago ~~d) Seattle
+##1446
+What two members of the Houston Rockets 1995 NBA Championship team played for the Raptors the following season?
+**a) Tracy Murray and Zan Tabak ~~b) Doug Christie and Tracy Murray ~~c) Mario Elie and Popeye Jones ~~d) Zan Tabak and Walt Williams
+##1447
+What team was the best shot-blocking team in the NBA in 1996-97?
+**a) Los Angeles Lakers ~~b) Houston Rockets ~~c) Atlanta Hawks ~~d) Chicago Bulls
+##1448
+On January 15, 1997 the Seattle SuperSonics recorded an NBA record for steals in a game. How many thefts did they have?
+**a) 27 ~~b) 50 ~~c) 10 ~~d) 34
+##1449
+Who is the only player to suit up for the Toronto Raptors and Vancouver Grizzlies?
+**a) Benoit Benjamin ~~b) Otis Thorpe ~~c) Anthony Peeler ~~d) Doug Christie
+##1450
+Which of the following Detroit Pistons has not won an NBA Championship?
+**a) Grant Hill ~~b) Brian Williams ~~c) Joe Dumars ~~d) Rick Mahorn
+##1451
+Which of the following teams has Malik Sealy not played for?
+**a) New York ~~b) Indiana ~~c) Los Angeles Clippers ~~d) Detroit
+##1452
+What team established a new NBA record for three-point shooting percentage in 1996-97 by registering a .428 mark from beyond the arc?
+**a) Charlotte ~~b) New York ~~c) Seattle ~~d) Indiana
+##1453
+How many NBA Championship rings did B.J. Armstrong earn while playing for the Chicago Bulls?
+**a) 3 ~~b) 0 ~~c) 5 ~~d) 1
+##1454
+What Indiana Pacer entered the 1996-97 season ranked second on the NBA's all-time list for career field goal percentage (.584)?
+**a) Mark West ~~b) Reggie Miller ~~c) Chris Mullin ~~d) Dale Davis
+##1455
+What player is serving as an assistant coach for his team this season while he recovers from ankle surgery?
+**a) Kurt Thomas ~~b) Anfernee Hardaway ~~c) Loy Vaught ~~d) Patrick Ewing
+##1456
+Entering the 1997-98 season, how many games had Karl Malone missed in 12 seasons?
+**a) 4 ~~b) 20 ~~c) 10 ~~d) 50
+##1457
+How many timeouts does each team get per game?
+**a) 7 ~~b) 5 ~~c) 10 ~~d) 3
+##1458
+Prior to 1997, when was the last time the Washington Wizards appeared in the NBA playoffs?
+**a) 1988 ~~b) 1995 ~~c) 1990 ~~d) 1984
+##1459
+Who did Washington give up along with three future first round picks to acquire Chris Webber in 1994?
+**a) Tom Gugliotta ~~b) Rod Strickland ~~c) Anfernee Hardaway ~~d) Alonzo Mourning
+##1460
+What team holds the NBA's all-time home winning percentage for a single season (.976, 40-1)?
+**a) Boston ~~b) Chicago ~~c) Milwaukee ~~d) Utah
+##1461
+What team did Washington acquire Chris Webber from?
+**a) Golden State ~~b) Orlando ~~c) Detroit ~~d) Minnesota
+##1462
+What team holds the NBA's all-time winning percentage for a single season (.878, 72-10)?
+**a) Chicago ~~b) Los Angeles ~~c) Boston ~~d) Washington
+##1463
+What team holds the NBA's all-time road winning percentage for a single season (.816, 31-7)?
+**a) Los Angeles ~~b) New York ~~c) Philadelphia ~~d) Chicago
+##1464
+What is Brent Price's given name?
+**a) Hartley ~~b) Brent ~~c) Calbert ~~d) Robert
+##1465
+What is Chris Webber's given name?
+**a) Mayce ~~b) Christopher ~~c) Christian ~~d) Charles
+##1466
+Who led the league with the most double figure assist games in 1996-97?
+**a) Mark Jackson ~~b) John Stockton ~~c) Damon Stoudamire ~~d) Tim Hardaway
+##1467
+Which of the following players did not attend high school at Oak Hill Academy in Virginia?
+**a) Grant Hill ~~b) Jerry Stackhouse ~~c) Rod Strickland ~~d) Cory Alexander
+##1468
+Which of the following players did not attend high school at Dunbar in Baltimore?
+**a) Rod Strickland ~~b) Sam Cassell ~~c) David Wingate ~~d) Muggsy Bogues
+##1469
+Which of the following players did not attend Murrah High School in Jackson, Mississippi?
+**a) Erick Dampier ~~b) Othella Harrington ~~c) James Robinson ~~d) Lindsey Hunter
+##1470
+Which of the following players did not attend St. Augustine High School in New Orleans?
+**a) Isaiah Rider ~~b) Avery Johnson ~~c) Kerry Kittles ~~d) Donald Royal
+##1471
+Before Grant Hill won the Rookie of the Year award in 1995, the last time a Detroit Piston player won the award was _____.
+**a) 1967 ~~b) 1990 ~~c) 1988 ~~d) 1978
+##1472
+How many NBA teams play their home games in Texas?
+**a) 3 ~~b) 2 ~~c) 1 ~~d) 4
+##1473
+How many Pacific Division Championships have the Los Angeles Lakers won?
+**a) 15 ~~b) 25 ~~c) 5 ~~d) 2
+##1474
+How many Western Conference Championships have the Lakers won in franchise history?
+**a) 18 ~~b) 2 ~~c) 10 ~~d) 13
+##1475
+How many NBA Championships have the Lakers won in franchise history?
+**a) 11 ~~b) 2 ~~c) 8 ~~d) 16
+##1476
+How many NBA Championships have the Lakers won while playing in Los Angeles?
+**a) 6 ~~b) 3 ~~c) 2 ~~d) 10
+##1477
+When the franchise was located in Minneapolis, how many NBA Championships did the Lakers win?
+**a) 5 ~~b) 0 ~~c) 8 ~~d) 3
+##1478
+In what year did the Los Angeles Lakers win their last NBA Championship?
+**a) 1988 ~~b) 1992 ~~c) 1996 ~~d) 1983
+##1479
+When was the Lakers first season playing in Los Angeles?
+**a) 1960-61 ~~b) 1970-71 ~~c) 1980-81 ~~d) 1985-86
+##1480
+How many times have the Los Angeles Lakers finished the season with the league's best overall record?
+**a) 5 ~~b) 0 ~~c) 10 ~~d) 8
+##1481
+How many players represented the Los Angeles Lakers in the 1998 All-Star Game?
+**a) 4 ~~b) 1 ~~c) 2 ~~d) 3
+##1482
+Who holds the all-time longest winning streak in professional sports?
+**a) 1971-72 Los Angeles Lakers ~~b) 1996-97 Chicago Bulls ~~c) 1933-34 Chicago Bears ~~d) 1916 New York Giants
+##1483
+How many consecutive games did the Los Angeles Lakers win in the 1971-72 season to establish the longest winning streak in professional sports?
+**a) 33 ~~b) 24 ~~c) 52 ~~d) 12
+##1484
+What team holds the NBA's longest winning streak on the road?
+**a) Los Angeles Lakers ~~b) Chicago Bulls ~~c) Utah Jazz ~~d) Seattle SuperSonics
+##1485
+How many consecutive games did the Los Angeles Lakers win on the road during the 1971-72 season to establish the longest road winning streak in NBA history?
+**a) 16 ~~b) 12 ~~c) 24 ~~d) 8
+##1486
+What team snapped the Los Angeles Lakers NBA record 33-game winning streak in January, 1972?
+**a) Milwaukee Bucks ~~b) Philadelphia 76ers ~~c) Boston Celtics ~~d) Miami Heat
+##1487
+Who has led the Lakers in steals for the previous three seasons before 1997-98?
+**a) Eddie Jones ~~b) Nick Van Exel ~~c) Shaquille O'Neal ~~d) Kobe Bryant
+##1488
+Who led the Lakers in rebounds for four consecutive years from the 1992-93 season through 1995-96?
+**a) Vlade Divac ~~b) Shaquille O'Neal ~~c) Elden Campbell ~~d) Robert Horry
+##1489
+In 1960, how many rounds were in the NBA Draft?
+**a) 21 ~~b) 2 ~~c) 8 ~~d) 12
+##1490
+What team had the first overall draft pick in both 1992 and 1993?
+**a) Orlando ~~b) Los Angeles Lakers ~~c) Philadelphia ~~d) Minnesota
+##1491
+In what year was the NBA Draft Lottery instituted?
+**a) 1985 ~~b) 1975 ~~c) 1988 ~~d) 1962
+##1492
+When was the first basketball game in history believed to have been played?
+**a) 1896 ~~b) 1776 ~~c) 1924 ~~d) 1969
+##1493
+In what year did the Boston Celtics win their first of eight consecutive NBA championships with a victory over Minneapolis for a four-game sweep of the NBA Finals?
+**a) 1959 ~~b) 1965 ~~c) 1970 ~~d) 1980
+##1494
+When was the inaugural season for the 24-second shot clock?
+**a) 1954-55 ~~b) 1964-65 ~~c) 1972-73 ~~d) 1980-81
+##1495
+Who was the first team to win back-to-back NBA Championships?
+**a) Minneapolis Lakers ~~b) Chicago Bulls ~~c) Boston Celtics ~~d) Detroit Pistons
+##1496
+In what year did the NBA adopt the rule of awarding a penalty shot following a team's fifth foul in any one period?
+**a) 1954 ~~b) 1980 ~~c) 1964 ~~d) 1992
+##1497
+In 1967, what two teams entered the NBA as the league's 11th and 12th franchises?
+**a) Seattle and San Diego ~~b) Seattle and Portland ~~c) Vancouver and Toronto ~~d) San Diego and Miami
+##1498
+In 1968, what two teams entered the NBA as the league's 13th and 14th franchises?
+**a) Milwaukee and Phoenix ~~b) Chicago and Boston ~~c) New York and Milwaukee ~~d) Orlando and Phoenix
+##1499
+In 1974, what southern city became the NBA's 18th franchise?
+**a) New Orleans ~~b) Miami ~~c) Memphis ~~d) Atlanta
+##1500
+In what season did the NBA introduce the three-point field goal?
+**a) 1979-80 ~~b) 1966-67 ~~c) 1984-85 ~~d) 1990-91
+

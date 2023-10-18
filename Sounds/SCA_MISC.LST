@@ -1,0 +1,386 @@
+NBA on NBC (c) 1998 Midway - ANNOUNCER - MISCELLAN (04/14/99 17:21:46) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SCA_MISC.BNK
+
+Size of .BNK file including header: 935132 bytes ($E44DC bytes)
+
+Size of playlist table: 2332 bytes ($91C bytes)
+
+Size of playlist and sound data only: 932666 bytes ($E3B3A bytes)
+
+Checksum: $1906
+
+Total number of playlists: 221 ($DD)
+
+Total number of sound files: 221 ($DD)
+
+Average bit rate for bank: 25.1 kbits/sec
+
+Total linear amount of sound: 4:55.542 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  4    $0004   1      105.9   121.4  Oh did he shake him or what ?
+
+  6    $0006   1       83.3    95.5  He shook him out of his drawers
+  7    $0007   1      107.6   123.4  That was a silky smooth move
+
+  9    $0009   1       55.2    63.4  Beautiful move
+  10   $000a   1       56.9    65.3  _ With the cross-over
+
+  13   $000d   1       97.5   111.8  _ With a beautiful spin move
+  14   $000e   1       41.0    47.0  _ Fakes left 
+  15   $000f   1       39.3    45.1  _ Goes Right
+
+  20   $0014   1       95.9   109.9  He just left him standing there
+  21   $0015   1       83.7    96.0  _ Left him clueless
+
+  23   $0017   1      100.0   114.7  _ Totally faked him out of his shoes
+
+  27   $001b   1       62.4    71.5  Out of control
+
+  37   $0025   1       49.8    57.1  _ With the steal
+  38   $0026   1       46.9    53.8  He steals it
+  39   $0027   1       64.0    73.4  Has it stolen from him
+
+  41   $0029   1       61.5    70.6  He lost the ball
+  42   $002a   1       65.7    75.4  Awesome defense
+
+  44   $002c   1       44.8    51.4  He blocks it
+
+  47   $002f   1       70.7    81.1  Oh rejected
+ 
+NBA on NBC (c) 1998 Midway - ANNOUNCER - MISCELLAN (04/14/99 17:21:46) page 2
+
+
+Playlist Table (continued)
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  48   $0030   1       67.8    77.8  The ball is deflected
+
+  50   $0032   1       54.4    62.4  He stuffed him
+
+  58   $003a   1       93.3   107.0  He should never have been taking that shot
+  59   $003b   1       81.2    93.1  He probably should have passed
+
+  61   $003d   1      102.1   117.1  Oh did he block that shot !
+
+  67   $0043   1       81.6    93.6  And he swats it away
+
+  69   $0045   1       70.7    81.1  That-s a solid block
+
+  72   $0048   1       97.1   111.4  Wham bam look at that block
+
+  77   $004d   1      115.5   132.5  And that was a bigtime block #2
+
+  87   $0057   1      106.3   121.9  _ With the alley-oop to himself (off the backboard)
+
+  130  $0082   1       90.8   104.2  He just got it off in time
+
+  137  $0089   1       87.1    99.8  And this game is on the line
+
+  143  $008f   1       67.0    76.8  Let-s see that one again
+  144  $0090   1       97.9   112.3  That was one for the highlight reel
+  145  $0091   1       95.4   109.4  And we gotta see that one again
+
+  149  $0095   1       85.4    97.9  I want to see the replay on that one
+
+  164  $00a4   1       97.5   111.8  He goes left - NO he goes right
+
+  167  $00a7   1       69.9    80.2  Quick as lightning
+
+  169  $00a9   1       82.9    95.0  With the hesitation move
+  170  $00aa   1       82.5    94.6  And now he spins right by him
+
+  172  $00ac   1       95.0   109.0  They are really banging away in there
+
+  175  $00af   1       68.6    78.7  He clears his man out
+
+  178  $00b2   1       62.4    71.5  And he frees himself
+
+  194  $00c2   1       41.0    47.0  Stolen 
+
+  203  $00cb   1       39.3    45.1  _ Versus _
+  204  $00cc   1       23.9    27.4  _ Host _ (equal to versus - home team hosts visitor)
+
+  208  $00d0   1       87.5   100.3  And the player of the game __ (attach name)
+
+  211  $00d3   1       80.4    92.2  And its all over but the shouting
+
+  215  $00d7   1       69.1    79.2  That should just about do it
+ 
+NBA on NBC (c) 1998 Midway - ANNOUNCER - MISCELLAN (04/14/99 17:21:46) page 3
+
+
+Playlist Table (continued)
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  216  $00d8   1      138.1   158.4  Now they-ve got to find some way to get back into this game
+  217  $00d9   1       88.3   101.3  They need to get something going here
+
+  240  $00f0   1       86.2    98.9  Oh errant pass
+
+  245  $00f5   1       60.7    69.6  _ Comes away with the rebound
+  246  $00f6   1       95.4   109.4  And he comes away with the ball
+
+  249  $00f9   1       62.8    72.0  And he grabs the ball
+  250  $00fa   1       93.8   107.5  _ Goes up high for the rebound
+  251  $00fb   1       58.6    67.2  _ Pulls down the board
+  252  $00fc   1       55.2    63.4  He hauls it in
+
+  256  $0100   1       79.5    91.2  And he had great position (rebound)
+
+  264  $0108   1      107.2   122.9  And theres ANOTHER offensive rebound
+
+  268  $010c   1      118.0   135.4  This is the matchup everyones been waiting for
+  269  $010d   1      144.8   166.1  And we have got a great matchup for you today
+
+  271  $010f   1       37.7    43.2  Heres the tip
+  272  $0110   1      111.8   128.2  And this game is underway
+  273  $0111   1      106.3   121.9  And it is Showtime here
+
+  278  $0116   1      117.2   134.4  They are taking no prisoners in this one
+
+  281  $0119   1       57.8    66.2  That was brutal
+  282  $011a   1      103.4   118.6  And his head is just not in this game
+  283  $011b   1       61.5    70.6  Rejected
+  284  $011c   1      143.6   164.6  Oh the dejection of the rejection
+
+  286  $011e   1       81.6    93.6  There is one minute left
+  287  $011f   1      102.5   117.6  One minute left in regulation
+  288  $0120   1       90.0   103.2  And they are right back in it
+  289  $0121   1       85.0    97.4  The momentum has shifted
+  290  $0122   1       66.6    76.3  Dont count em out yet
+  291  $0123   1       74.1    85.0  Anything can happen
+  292  $0124   1       85.4    97.9  They could not have scripted this better
+  293  $0125   1      118.9   136.3  And its all starting to unravel now
+
+  295  $0127   1       83.3    95.5  With 30 seconds to go
+
+  297  $0129   1       52.3    60.0  And its tied up
+
+  300  $012c   1       83.7    96.0  Theyre still right in the thick of it
+  301  $012d   1       61.5    70.6  And thats gonna do it
+  302  $012e   1       79.1    90.7  What a turn of events
+  303  $012f   1      117.6   134.9  Everything is riding on this one possession
+
+  306  $0132   1      103.8   119.0  And now its all even folks
+  307  $0133   1       74.1    85.0  It is all tied up
+  308  $0134   1       97.9   112.3  It all comes down to this play
+ 
+NBA on NBC (c) 1998 Midway - ANNOUNCER - MISCELLAN (04/14/99 17:21:46) page 4
+
+
+Playlist Table (continued)
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  309  $0135   1      114.3   131.0  That was the straw that broke the camels back
+
+  311  $0137   1      127.2   145.9  And he just put the nail in the coffin
+  312  $0138   1      159.9   183.4  That was one of the most incredible comebacks Ive ever seen
+  313  $0139   1       90.8   104.2  That was totally unexpected
+  314  $013a   1       71.2    81.6  We thought this thing was over
+  315  $013b   1       96.7   110.9  Hold on folks we got a game here
+  316  $013c   1      145.2   166.6  And they have come away with an impressive victory
+
+  320  $0140   1      117.2   134.4  This was a flat out knockout
+  321  $0141   1       90.0   103.2  And we are going to go to Overtime
+  322  $0142   1      119.7   137.3  Its Showtime Overtime
+  323  $0143   1       74.9    85.9  Time is winding down
+  324  $0144   1       98.4   112.8  And hes not gonna get it off in time
+  325  $0145   1       90.8   104.2  He didnt get it off in time
+  326  $0146   1       66.1    75.8  The shot clock went off
+  327  $0147   1       55.2    63.4  Somebody-s got to shoot it
+  328  $0148   1       85.4    97.9  A terrible mental error
+  329  $0149   1       54.8    62.9  Somebody-s got to shoot
+  330  $014a   1       56.5    64.8  The clock is ticking
+
+  332  $014c   1       61.5    70.6  He knocks the ball loose
+
+  334  $014e   1       52.3    60.0  Theres the steal
+  335  $014f   1       51.5    59.0  He pokes it away
+
+  338  $0152   1       71.2    81.6  A careless pass
+
+  340  $0154   1       55.2    63.4  He turns it over
+  341  $0155   1       40.2    46.1  He looses it
+  342  $0156   1       53.6    61.4  What a steal
+  343  $0157   1       53.6    61.4  Great steal
+  344  $0158   1       57.3    65.8  Oh those hands are quick
+  345  $0159   1       59.0    67.7  Nice steal (laughing)
+  346  $015a   1       61.1    70.1  The ball is loose !
+  347  $015b   1       50.2    57.6  Intercepted
+
+  349  $015d   1       62.4    71.5  He just picked his pocket
+
+  352  $0160   1       83.7    96.0  That was NOT a heads-up play
+
+  354  $0162   1       36.8    42.2  _ Take on _ (equals Versus)
+  355  $0163   1       53.6    61.4  _ Go up against _ (equals Versus)
+
+  360  $0168   1       69.1    79.2  Nice Sportsmanship (push)
+  361  $0169   1       51.5    59.0  He gave him a push
+
+  365  $016d   1       23.4    26.9  What!?
+  366  $016e   1       40.6    46.6  What was that !?
+
+  370  $0172   1       73.2    84.0  He just flat out leveled him
+  371  $0173   1       61.5    70.6  And he gets hit hard
+ 
+NBA on NBC (c) 1998 Midway - ANNOUNCER - MISCELLAN (04/14/99 17:21:46) page 5
+
+
+Playlist Table (continued)
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  372  $0174   1       55.2    63.4  And he caught an elbow
+  373  $0175   1       89.6   102.7  Oh that guy just took a shot
+  374  $0176   1       57.3    65.8  That was a cheap shot
+  375  $0177   1       67.4    77.3  Now he just knocked him down
+
+  377  $0179   1       89.6   102.7  Play is getting very physical
+
+  380  $017c   1       63.2    72.5  Theres a hard shove
+
+  382  $017e   1       48.1    55.2  He gets by him
+  383  $017f   1       60.7    69.6  He gets by his man
+  384  $0180   1       53.2    61.0  He goes right by him
+  385  $0181   1       49.4    56.6  He slips by
+  386  $0182   1       54.0    61.9  He slides by
+  387  $0183   1       49.4    56.6  He gets past him
+  388  $0184   1       71.2    81.6  And he faked his man out
+  389  $0185   1       60.3    69.1  He fakes him right out
+
+  392  $0188   1       56.1    64.3  With the juke move
+  393  $0189   1       36.4    41.8  Quick fake
+  394  $018a   1       42.3    48.5  And he pump fakes
+  395  $018b   1       55.2    63.4  Blows right by him
+  396  $018c   1       63.6    73.0  Twisting and turning
+  397  $018d   1       74.1    85.0  He spun right by his man
+
+  399  $018f   1       40.6    46.6  Great fake
+  400  $0190   1       67.8    77.8  And he gets him with the head fake
+  401  $0191   1       51.9    59.5  Quick crossover
+
+  405  $0195   1       71.6    82.1  With a fancy crossover
+  406  $0196   1       71.6    82.1  With the fancy dribbling
+  407  $0197   1       60.7    69.6  Goes between his legs
+
+  409  $0199   1       44.8    51.4  Crosses over
+  410  $019a   1       68.2    78.2  Shows left and goes right
+  411  $019b   1       78.7    90.2  Shows right and goes left
+  412  $019c   1       33.5    38.4  Fakes left
+  413  $019d   1       33.9    38.9  Fakes right
+
+  415  $019f   1       61.9    71.0  Nice hesitation
+
+  418  $01a2   1       50.2    57.6  With the juke move
+  419  $01a3   1       71.2    81.6  And with one quick move
+  420  $01a4   1       47.3    54.2  Fancy footwork
+  421  $01a5   1       46.9    53.8  Nice footwork
+
+  423  $01a7   1       42.7    49.0  Ohhhh (a fake)
+
+  425  $01a9   1       46.5    53.3  Look at him go
+  426  $01aa   1       47.3    54.2  Nice move
+  427  $01ab   1       60.3    69.1  Oh with the spin
+
+ 
+NBA on NBC (c) 1998 Midway - ANNOUNCER - MISCELLAN (04/14/99 17:21:46) page 6
+
+  430  $01ae   1       63.6    73.0  And he finds an opening
+  431  $01af   1       55.7    63.8  How did he get through ?
+
+  434  $01b2   1       45.2    51.8  Nicely done
+  435  $01b3   1       48.6    55.7  Smooth move
+  436  $01b4   1       66.1    75.8  That is a thing of beauty
+
+  440  $01b8   1       72.8    83.5  That is showtime
+  441  $01b9   1       83.7    96.0  With the showtime move
+
+  448  $01c0   1       55.7    63.8  Goaltending !
+  449  $01c1   1       59.4    68.2  That was goaltending
+  450  $01c2   1       78.7    90.2  That looked like goaltending
+  451  $01c3   1       76.6    87.8  Goaltending is called
+  452  $01c4   1       84.1    96.5  That ball was one its way down
+
+  455  $01c7   1       87.5   100.3  Blocks it and pulls it in
+  456  $01c8   1       48.6    55.7  He intercepts it
+
+  460  $01cc   1       91.2   104.6  Blocked it and kept posession
+
+  462  $01ce   1       93.3   107.0  With the block and he keeps it
+
+  467  $01d3   1       82.0    94.1  Get that shot out of here (1)
+  468  $01d4   1       82.0    94.1  Get that shot out of here (2)
+  469  $01d5   1       57.3    65.8  Not today baby
+  470  $01d6   1       50.2    57.6  The takeaway
+  471  $01d7   1       57.3    65.8  And he-ll take it away
+  472  $01d8   1       37.7    43.2  Steals it
+
+  480  $01e0   1       52.3    60.0  And he deflects it
+  481  $01e1   1       56.5    64.8  Deflected away
+  482  $01e2   1       59.4    68.2  And he got a piece of it
+  483  $01e3   1       46.9    53.8  He got a piece of it
+  484  $01e4   1       59.9    68.6  He got his fingers on it
+  485  $01e5   1       41.4    47.5  Deflected
+
+  487  $01e7   1       56.1    64.3  Knocks it away
+  488  $01e8   1       69.9    80.2  He just got his hand on it
+  489  $01e9   1       77.4    88.8  Just got enough to deflect it
+  490  $01ea   1       74.5    85.4  He redirected that one
+  491  $01eb   1       84.5    97.0  I think he changed the flight of the ball
+  492  $01ec   1      103.0   118.1  And he might have gottena fingertip on that
+  493  $01ed   1       50.2    57.6  He got a piece of it!
+  494  $01ee   1       59.0    67.7  That was all ball
+
+  505  $01f9   1      109.2   125.3  And he got that ball off just in time (over opponent or shot clock)
+
+  530  $0212   1       56.1    64.3  And he-s fouled
+
+  532  $0214   1       60.3    69.1  They called a foul
+  533  $0215   1       82.9    95.0  And they call the foul
+  534  $0216   1       67.8    77.8  And a foul is called
+  535  $0217   1       64.9    74.4  And he-ll go to the line
+
+  537  $0219   1       67.8    77.8  He-ll be going to the line
+  538  $021a   1       70.7    81.1  And they are over the limit
+ 
+NBA on NBC (c) 1998 Midway - ANNOUNCER - MISCELLAN (04/14/99 17:21:46) page 7
+
+
+Playlist Table (continued)
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  539  $021b   1      105.5   121.0  You dont want to give them free throws here
+
+  543  $021f   1       68.6    78.7  One push too many
+
+  546  $0222   1      100.0   114.7  What a time to send em to the line
+  547  $0223   1       97.5   111.8  And that free throw could seal it
+  548  $0224   1      126.0   144.5  And if he hits this one its all over
+
+  568  $0238   1       67.0    76.8  And he hits the free throw
+  569  $0239   1       49.4    56.6  And thats good
+  570  $023a   1       61.9    71.0  Is it the shoes? (rim-hang)
+  571  $023b   1       48.1    55.2  Why!?
+
+  573  $023d   1      105.9   121.4  Oh what a way to end the game
+
+  582  $0246   1      100.0   114.7  The Double Rule is in effect
+
+Total 221 Playlists

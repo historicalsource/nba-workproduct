@@ -1,0 +1,864 @@
+DEFINITION	/* ALIAS SDL File Version 8.5 */
+			/* Apparently from wire file '/matt/mgilmore/user_data/NBAonNBC/wire/crowds/CrowdCollision2'. */
+	version = 8.5;
+
+	xleft  = 0;
+	xright = 1279;
+	ylow   = 0;
+	yhigh  = 1023;
+	resolution = 1280 1024;
+	aalevelmin   = 3;
+	aalevelmax   = 12;
+	aathreshold  = 0.6;
+	post_filter   = OFF;
+	post_center   = 8;    /* Values for a bartlet filter. */
+	post_adjacent = 1;
+	post_diagonal = 1;
+
+	composite_rendering = OFF;
+	invisible_objects_cast_shadows = OFF;
+	image_format = ALIAS;
+	jitter       = ON;
+	reduced_samples = OFF;
+	textures_active    = ON;
+
+	clamp_bumpsize = 0.0;
+
+	up = yaxis;
+
+	motion_blur_on = OFF;
+	shutter_angle  = 144.0;
+	animation  = OFF;
+	startframe = 17.0;
+	endframe = 17.0;
+	fields          = FALSE;
+	odd             = FALSE;
+	even            = FALSE;
+	odd_field_first = TRUE;
+
+
+	subdivision_recursion_limit = 2;
+	grid_cache = 4000;
+	bbox_memory = FULL;
+	rt_voxel_res_type = AUTOMATIC;
+
+	max_reflections             = 10;
+	max_refractions             = 10;
+	max_shadow_level            = 10;
+	preview_ray_trace           = OFF;
+
+	scalar pixel_aspect ( 1.0 );
+	hline_to_fill_color  = FALSE;
+	hline_fill_color     = (255.0, 255.0, 255.0);
+	hline_line_color     = (0.0, 255.0, 255.0);
+	hline_isoparam_u     = 0;
+	hline_isoparam_v     = 0;
+
+	show_particles       = TRUE;
+	simulation_substeps  = 1;
+	simulation_frames_per_second = 30;
+
+
+shader fanboysA ( model = blinn,
+        diffuse = 0.8,
+        specular = (0.5, 0.5, 0.5),
+        specular_rolloff = 0.3,
+        eccentricity = 0.222624,
+        reflectivity = 0.5,
+        reflect_background = OFF,
+        color = (255.0, 0.0, 0.0),
+        incandescence = (0.0, 0.0, 0.0),
+        transparency = (0.0, 0.0, 0.0),
+        shading_map = (0.0, 0.0, 0.0),
+        translucence = 0.0,
+        translucence_depth = 0.5,
+        opacity_depth = 0.0,
+        use_background_color = OFF,
+        matte_fraction = 0.0,
+        psys_emission = OFF,
+        glow_intensity = 0.0,
+        hide_glow_source = OFF,
+        refractive_index = 1.6,
+        reflection_limit = 1,
+        refraction_limit = 6,
+        shadow_level_limit = 0,
+        surface_width = 0.0,
+        transparency_shade = 0.0,
+        transparency_depth = 0.0,
+        chromatic_abberation = 0.0,
+        refraction_jitter = 0.0,
+        refraction_samples = 0,
+        respect_reflection_map = OFF,
+        use_fill_color = ON,
+        fill_color = (255.0, 255.0, 255.0),
+        u_patch_lines = 0,
+        v_patch_lines = 0,
+        density = 1.0,
+        elasticity = 0.707,
+        friction = 0.0,
+        drag_coeff = 0.5
+);
+
+polyset section_1a_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-12.157285, 6.289209, -15.233693), 1)),
+			(cv((-5.502679, 6.289209, -15.250989), 1)),
+			(cv((-5.399994, 2.085412, -6.175294), 1)),
+			(cv((-9.171827, 2.085412, -6.175294), 1)),
+			(cv((-5.502679, 4.204414, -15.250989), 1)),
+			(cv((-5.399994, 0.000618, -6.175294), 1)),
+			(cv((-9.171827, 0.000618, -6.175294), 1)),
+			(cv((-12.157285, 4.204414, -15.233693), 1))	),
+	texture_vertices = (
+			st( 1.354158, 0.995212 ),
+			st( -0.001506, 0.995211 ),
+			st( 1.000000, 0.997268 ),
+			st( 0.190451, 0.997268 ),
+			st( -0.003534, -0.000463 ),
+			st( 1.000000, -0.002732 ),
+			st( 0.188689, 0.004782 ),
+			st( 1.354158, -0.009114 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((2, 1, 4, 5),(2, 1, 4, 5), 0 ),
+		polygon ((5, 6, 3, 2),(5, 6, 3, 2), 0 ),
+		polygon ((3, 6, 7, 0),(3, 6, 7, 0), 0 ),
+		polygon ((4, 1, 0, 7),(4, 1, 0, 7), 0 ),
+		polygon ((6, 5, 4, 7),(6, 5, 4, 7), 0 )
+	)
+); /* end of polyset 'section_1a_collision' */
+
+polyset section_1b_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((4.410303, 2.100084, -6.175306), 1)),
+			(cv((-4.597031, 2.100084, -6.175306), 1)),
+			(cv((-4.518481, 6.303881, -15.251), 1)),
+			(cv((4.420731, 6.303881, -15.251), 1)),
+			(cv((4.420702, 4.204414, -15.250988), 1)),
+			(cv((4.410273, 0.000618, -6.175294), 1)),
+			(cv((-4.597001, 0.000618, -6.175294), 1)),
+			(cv((-4.518511, 4.204414, -15.250988), 1))	),
+	texture_vertices = (
+			st( 1.151980, 1.005975 ),
+			st( 0.997383, 0.999545 ),
+			st( 0.000000, 0.991365 ),
+			st( 2.000000, 0.995520 ),
+			st( 2.000000, -0.004480 ),
+			st( 1.154468, 0.005975 ),
+			st( 0.999871, -0.000455 ),
+			st( 0.000000, -0.008635 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((3, 4, 5, 0),(3, 4, 5, 0), 0 ),
+		polygon ((0, 5, 6, 1),(0, 5, 6, 1), 0 ),
+		polygon ((2, 1, 6, 7),(2, 1, 6, 7), 0 ),
+		polygon ((3, 2, 7, 4),(3, 2, 7, 4), 0 ),
+		polygon ((5, 4, 7, 6),(5, 4, 7, 6), 0 )
+	)
+); /* end of polyset 'section_1b_collision' */
+
+polyset section_1c_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((5.617844, 2.085412, -6.175294), 1)),
+			(cv((5.5338, 6.289209, -15.250989), 1)),
+			(cv((12.0328, 6.289209, -15.233693), 1)),
+			(cv((9.078463, 2.085412, -6.175294), 1)),
+			(cv((9.078463, 0.000618, -6.175294), 1)),
+			(cv((5.617844, 0.000618, -6.175294), 1)),
+			(cv((5.5338, 4.204414, -15.250989), 1)),
+			(cv((12.0328, 4.204414, -15.233693), 1))	),
+	texture_vertices = (
+			st( 0.883214, 1.000263 ),
+			st( -0.001506, 0.995211 ),
+			st( 1.354158, 0.995212 ),
+			st( 0.155479, 0.997268 ),
+			st( 0.156602, -0.001209 ),
+			st( 0.883214, 0.000263 ),
+			st( -0.003534, -0.000463 ),
+			st( 1.354158, -0.009114 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((3, 4, 5, 0),(3, 4, 5, 0), 0 ),
+		polygon ((0, 5, 6, 1),(0, 5, 6, 1), 0 ),
+		polygon ((7, 2, 1, 6),(7, 2, 1, 6), 0 ),
+		polygon ((4, 3, 2, 7),(4, 3, 2, 7), 0 ),
+		polygon ((4, 7, 6, 5),(4, 7, 6, 5), 0 )
+	)
+); /* end of polyset 'section_1c_collision' */
+
+polyset section_2a_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((8.955555, 2.105049, -6.438928), 1)),
+			(cv((12.215125, 6.308846, -15.603409), 1)),
+			(cv((16.054305, 6.308845, -11.572084), 1)),
+			(cv((9.683943, 2.105049, -5.674931), 1)),
+			(cv((8.955555, 0.000618, -6.438928), 1)),
+			(cv((12.215125, 3.92523, -15.603408), 1)),
+			(cv((9.683943, 0.000618, -5.674931), 1)),
+			(cv((16.054305, 3.92523, -11.572084), 1))	),
+	texture_vertices = (
+			st( 0.193428, 0.999264 ),
+			st( 0.191468, 1.000000 ),
+			st( 1.191468, 1.000000 ),
+			st( 0.352779, 0.999264 ),
+			st( 0.193428, 0.002732 ),
+			st( 0.191468, 0.000000 ),
+			st( 0.352780, 0.002732 ),
+			st( 1.191468, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((0, 4, 5, 1),(0, 4, 5, 1), 0 ),
+		polygon ((0, 3, 6, 4),(0, 3, 6, 4), 0 ),
+		polygon ((6, 3, 2, 7),(6, 3, 2, 7), 0 ),
+		polygon ((7, 2, 1, 5),(7, 2, 1, 5), 0 ),
+		polygon ((6, 7, 5, 4),(6, 7, 5, 4), 0 )
+	)
+); /* end of polyset 'section_2a_collision' */
+
+polyset section_2b_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((11.107866, 2.099502, -4.229658), 1)),
+			(cv((17.445513, 6.303298, -10.214196), 1)),
+			(cv((21.491839, 6.303298, -6.193401), 1)),
+			(cv((11.85488, 2.099502, -3.521431), 1)),
+			(cv((11.107866, 0.000618, -4.229658), 1)),
+			(cv((17.445513, 4.204414, -10.214196), 1)),
+			(cv((11.85488, 0.000618, -3.521431), 1)),
+			(cv((21.491839, 6.303298, -6.193401), 1)),
+			(cv((21.491839, 4.204414, -6.193401), 1)),
+			(cv((11.85488, 0.000618, -3.521431), 1)),
+			(cv((11.85488, 2.099502, -3.521431), 1))	),
+	texture_vertices = (
+			st( -0.000092, 1.000000 ),
+			st( 0.191659, 0.996166 ),
+			st( -0.000411, 0.994693 ),
+			st( 0.157156, 0.999161 ),
+			st( -0.000091, 0.000000 ),
+			st( 0.189897, 0.003680 ),
+			st( 0.157512, 0.002996 ),
+			st( 1.354827, 0.996166 ),
+			st( 1.354827, 0.000000 ),
+			st( 0.487843, 0.000827 ),
+			st( 0.488384, 1.000827 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((0, 4, 5, 1),(0, 4, 5, 1), 0 ),
+		polygon ((4, 0, 3, 6),(4, 0, 3, 6), 0 ),
+		polygon ((7, 1, 5, 8),(7, 1, 5, 8), 0 ),
+		polygon ((9, 10, 7, 8),(9, 10, 7, 8), 0 ),
+		polygon ((4, 6, 8, 5),(4, 6, 8, 5), 0 )
+	)
+); /* end of polyset 'section_2b_collision' */
+
+polyset section_3a_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((11.826404, 2.09194, -0.526429), 1)),
+			(cv((11.826404, 2.09194, -3.556645), 1)),
+			(cv((21.436748, 6.295737, -6.503519), 1)),
+			(cv((21.469449, 6.295737, -0.492805), 1)),
+			(cv((21.469449, 4.204414, -0.492805), 1)),
+			(cv((11.826404, 0.000618, -0.526429), 1)),
+			(cv((11.826404, 0.000618, -3.556645), 1)),
+			(cv((21.436748, 4.204414, -6.503519), 1))	),
+	texture_vertices = (
+			st( 1.162040, 1.006134 ),
+			st( 0.488384, 1.000827 ),
+			st( -0.000411, 0.994693 ),
+			st( 1.352868, 0.994693 ),
+			st( 1.352868, -0.005307 ),
+			st( 1.162040, 0.006134 ),
+			st( 0.487843, 0.000827 ),
+			st( 0.002077, -0.005307 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((3, 4, 5, 0),(3, 4, 5, 0), 0 ),
+		polygon ((0, 5, 6, 1),(0, 5, 6, 1), 0 ),
+		polygon ((6, 7, 2, 1),(6, 7, 2, 1), 0 ),
+		polygon ((4, 3, 2, 7),(4, 3, 2, 7), 0 ),
+		polygon ((5, 4, 7, 6),(5, 4, 7, 6), 0 )
+	)
+); /* end of polyset 'section_3a_collision' */
+
+polyset section_3b_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((11.826404, 2.09194, 0.514534), 1)),
+			(cv((21.469449, 6.295737, 0.510446), 1)),
+			(cv((21.469449, 6.295737, 6.577904), 1)),
+			(cv((11.826404, 2.09194, 3.625944), 1)),
+			(cv((11.826404, 0.000618, 3.625944), 1)),
+			(cv((11.826404, 0.000618, 0.514534), 1)),
+			(cv((21.469449, 4.204414, 0.510446), 1)),
+			(cv((21.469449, 4.204414, 6.577904), 1))	),
+	texture_vertices = (
+			st( 1.000071, 0.999015 ),
+			st( 1.487865, 1.000000 ),
+			st( 0.166928, 1.000000 ),
+			st( 0.362533, 0.996441 ),
+			st( 0.360046, 0.001748 ),
+			st( 1.001180, 0.001748 ),
+			st( 1.490353, -0.005307 ),
+			st( 0.166928, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((3, 4, 5, 0),(3, 4, 5, 0), 0 ),
+		polygon ((0, 5, 6, 1),(0, 5, 6, 1), 0 ),
+		polygon ((6, 7, 2, 1),(6, 7, 2, 1), 0 ),
+		polygon ((4, 3, 2, 7),(4, 3, 2, 7), 0 ),
+		polygon ((6, 5, 4, 7),(6, 5, 4, 7), 0 )
+	)
+); /* end of polyset 'section_3b_collision' */
+
+polyset section_4a_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((21.661843, 4.204414, 6.534062), 1)),
+			(cv((21.661843, 6.308846, 6.534062), 1)),
+			(cv((12.060959, 2.105049, 3.422655), 1)),
+			(cv((12.060959, 0.000618, 3.422655), 1)),
+			(cv((11.216906, 2.105049, 4.171492), 1)),
+			(cv((11.216906, 0.000618, 4.171492), 1)),
+			(cv((17.394875, 6.308845, 10.252292), 1)),
+			(cv((17.394875, 3.92523, 10.252292), 1))	),
+	texture_vertices = (
+			st( 0.191468, 0.000000 ),
+			st( 0.191468, 1.000000 ),
+			st( 0.193428, 0.999264 ),
+			st( 0.193428, 0.002732 ),
+			st( 0.352779, 0.999264 ),
+			st( 0.352780, 0.002732 ),
+			st( 1.191468, 1.000000 ),
+			st( 1.191468, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((3, 2, 4, 5),(3, 2, 4, 5), 0 ),
+		polygon ((4, 2, 1, 6),(4, 2, 1, 6), 0 ),
+		polygon ((7, 5, 4, 6),(7, 5, 4, 6), 0 ),
+		polygon ((6, 1, 0, 7),(6, 1, 0, 7), 0 ),
+		polygon ((5, 7, 0, 3),(5, 7, 0, 3), 0 )
+	)
+); /* end of polyset 'section_4a_collision' */
+
+polyset section_4b_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((9.855834, 0.000618, 5.402919), 1)),
+			(cv((16.125351, 4.204414, 11.484608), 1)),
+			(cv((16.125351, 6.303298, 11.484608), 1)),
+			(cv((9.855834, 2.099502, 5.402919), 1)),
+			(cv((12.040314, 6.303298, 15.205234), 1)),
+			(cv((8.706824, 2.099502, 6.488083), 1)),
+			(cv((8.706824, 0.000618, 6.488084), 1)),
+			(cv((12.040314, 4.204414, 15.205234), 1))	),
+	texture_vertices = (
+			st( -0.000091, 0.000000 ),
+			st( -0.000475, 0.003680 ),
+			st( -0.000852, 0.996166 ),
+			st( -0.000092, 1.000000 ),
+			st( 1.158038, 0.996166 ),
+			st( 0.162923, 0.996166 ),
+			st( 0.164721, 0.000000 ),
+			st( 1.155899, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((3, 2, 4, 5),(3, 2, 4, 5), 0 ),
+		polygon ((7, 1, 0, 6),(7, 1, 0, 6), 0 ),
+		polygon ((6, 0, 3, 5),(6, 0, 3, 5), 0 ),
+		polygon ((5, 4, 7, 6),(5, 4, 7, 6), 0 ),
+		polygon ((2, 1, 7, 4),(2, 1, 7, 4), 0 )
+	)
+); /* end of polyset 'section_4b_collision' */
+
+polyset section_5a_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((9.171827, 2.085412, 6.175294), 1)),
+			(cv((12.344013, 6.289209, 15.233693), 1)),
+			(cv((5.564922, 6.289209, 15.250989), 1)),
+			(cv((5.462237, 2.085412, 6.175294), 1)),
+			(cv((5.462237, 0.000618, 6.175294), 1)),
+			(cv((9.171827, 0.000618, 6.175294), 1)),
+			(cv((12.344013, 4.204414, 15.233693), 1)),
+			(cv((5.564922, 4.204414, 15.250989), 1))	),
+	texture_vertices = (
+			st( 0.158366, 0.997268 ),
+			st( 1.354158, 0.995212 ),
+			st( -0.001506, 0.995211 ),
+			st( 1.000000, 1.001712 ),
+			st( 0.997861, -0.002732 ),
+			st( 0.156604, 0.004782 ),
+			st( 1.354158, -0.009114 ),
+			st( -0.003534, -0.000463 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((3, 4, 5, 0),(3, 4, 5, 0), 0 ),
+		polygon ((0, 5, 6, 1),(0, 5, 6, 1), 0 ),
+		polygon ((7, 2, 1, 6),(7, 2, 1, 6), 0 ),
+		polygon ((5, 4, 7, 6),(5, 4, 7, 6), 0 ),
+		polygon ((4, 3, 2, 7),(4, 3, 2, 7), 0 )
+	)
+); /* end of polyset 'section_5a_collision' */
+
+polyset section_5b_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((4.425147, 4.204414, 15.250988), 1)),
+			(cv((4.425117, 6.303881, 15.251), 1)),
+			(cv((4.441425, 2.100084, 6.175306), 1)),
+			(cv((4.441395, 0.000618, 6.175294), 1)),
+			(cv((-4.410303, 2.100084, 6.175306), 1)),
+			(cv((-4.410273, 0.000618, 6.175294), 1)),
+			(cv((-4.420702, 4.204414, 15.250988), 1)),
+			(cv((-4.420731, 6.303881, 15.251), 1))	),
+	texture_vertices = (
+			st( 0.000000, -0.008635 ),
+			st( 0.000000, 0.991365 ),
+			st( 0.997383, 0.999545 ),
+			st( 0.999871, -0.000455 ),
+			st( 1.353150, 0.999545 ),
+			st( 1.355639, -0.000455 ),
+			st( 2.000000, -0.004480 ),
+			st( 2.000000, 0.995520 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((3, 2, 4, 5),(3, 2, 4, 5), 0 ),
+		polygon ((4, 7, 6, 5),(4, 7, 6, 5), 0 ),
+		polygon ((4, 2, 1, 7),(4, 2, 1, 7), 0 ),
+		polygon ((1, 0, 6, 7),(1, 0, 6, 7), 0 ),
+		polygon ((3, 5, 6, 0),(3, 5, 6, 0), 0 )
+	)
+); /* end of polyset 'section_5b_collision' */
+
+polyset section_5c_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-5.617844, 0.000618, 6.175294), 1)),
+			(cv((-5.617844, 2.085412, 6.175294), 1)),
+			(cv((-9.078463, 2.085412, 6.175294), 1)),
+			(cv((-9.078463, 0.000618, 6.175294), 1)),
+			(cv((-5.658286, 4.204414, 15.250989), 1)),
+			(cv((-5.658286, 6.289209, 15.250989), 1)),
+			(cv((-12.0328, 4.204414, 15.233693), 1)),
+			(cv((-12.0328, 6.289209, 15.233693), 1))	),
+	texture_vertices = (
+			st( 1.000000, -0.002732 ),
+			st( 1.000000, 0.997268 ),
+			st( 0.165572, 0.997268 ),
+			st( 0.163811, 0.004782 ),
+			st( -0.003534, -0.000463 ),
+			st( -0.001506, 0.995211 ),
+			st( 1.354158, -0.009114 ),
+			st( 1.354158, 0.995212 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((0, 4, 5, 1),(0, 4, 5, 1), 0 ),
+		polygon ((2, 7, 6, 3),(2, 7, 6, 3), 0 ),
+		polygon ((2, 1, 5, 7),(2, 1, 5, 7), 0 ),
+		polygon ((6, 7, 5, 4),(6, 7, 5, 4), 0 ),
+		polygon ((3, 6, 4, 0),(3, 6, 4, 0), 0 )
+	)
+); /* end of polyset 'section_5c_collision' */
+
+polyset section_6a_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-9.024248, 0.000618, 6.252339), 1)),
+			(cv((-11.93419, 4.204414, 15.334319), 1)),
+			(cv((-11.93419, 6.308846, 15.334319), 1)),
+			(cv((-9.024248, 2.105049, 6.252339), 1)),
+			(cv((-9.682864, 2.105049, 5.615536), 1)),
+			(cv((-9.682864, 0.000618, 5.615536), 1)),
+			(cv((-15.770774, 6.308845, 11.551456), 1)),
+			(cv((-15.770774, 3.92523, 11.551456), 1))	),
+	texture_vertices = (
+			st( 0.728180, -0.001712 ),
+			st( 0.191468, 0.000000 ),
+			st( 0.191468, 1.000000 ),
+			st( 0.728180, 0.994820 ),
+			st( 0.885393, 0.994820 ),
+			st( 0.883254, -0.001712 ),
+			st( 1.191468, 1.000000 ),
+			st( 1.191468, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((3, 4, 5, 0),(3, 4, 5, 0), 0 ),
+		polygon ((3, 2, 6, 4),(3, 2, 6, 4), 0 ),
+		polygon ((5, 0, 1, 7),(5, 0, 1, 7), 0 ),
+		polygon ((5, 4, 6, 7),(5, 4, 6, 7), 0 ),
+		polygon ((7, 6, 2, 1),(7, 6, 2, 1), 0 ),
+		polygon ((7, 5, 0, 1),(7, 5, 0, 1), 0 )
+	)
+); /* end of polyset 'section_6a_collision' */
+
+polyset section_6b_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-11.179256, 0.000618, 4.193949), 1)),
+			(cv((-17.510894, 4.204414, 10.085471), 1)),
+			(cv((-17.510894, 6.303298, 10.085471), 1)),
+			(cv((-11.179256, 2.099502, 4.193949), 1)),
+			(cv((-21.629554, 6.303298, 6.220103), 1)),
+			(cv((-12.16913, 2.099502, 3.26282), 1)),
+			(cv((-12.16913, 0.000618, 3.26282), 1)),
+			(cv((-21.629554, 4.204414, 6.220103), 1))	),
+	texture_vertices = (
+			st( -0.000091, 0.000000 ),
+			st( 0.189897, 0.003680 ),
+			st( 0.191659, 0.996166 ),
+			st( -0.000092, 1.000000 ),
+			st( 1.354827, 0.996166 ),
+			st( 0.162923, 0.996166 ),
+			st( 0.164721, 0.000000 ),
+			st( 1.354827, 0.000000 ) ),
+	polygons = (
+		polygon ((3, 2, 1, 0),(3, 2, 1, 0), 0 ),
+		polygon ((5, 4, 2, 3),(5, 4, 2, 3), 0 ),
+		polygon ((3, 0, 6, 5),(3, 0, 6, 5), 0 ),
+		polygon ((7, 4, 5, 6),(7, 4, 5, 6), 0 ),
+		polygon ((7, 6, 0, 1),(7, 6, 0, 1), 0 ),
+		polygon ((1, 2, 4, 7),(1, 2, 4, 7), 0 )
+	)
+); /* end of polyset 'section_6b_collision' */
+
+polyset section_7a_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-11.826404, 0.000618, 3.535942), 1)),
+			(cv((-21.436748, 4.204414, 6.462113), 1)),
+			(cv((-21.436748, 6.295737, 6.462113), 1)),
+			(cv((-11.826404, 2.09194, 3.535942), 1)),
+			(cv((-11.826404, 2.09194, 0.547132), 1)),
+			(cv((-11.826404, 0.000618, 0.547132), 1)),
+			(cv((-21.469449, 6.295737, 0.513508), 1)),
+			(cv((-21.469449, 4.204414, 0.513508), 1))	),
+	texture_vertices = (
+			st( 0.487843, 0.000827 ),
+			st( 0.002077, -0.005307 ),
+			st( -0.000411, 0.994693 ),
+			st( 0.488384, 1.000827 ),
+			st( 1.162040, 1.006134 ),
+			st( 1.162040, 0.006134 ),
+			st( 1.352868, 0.994693 ),
+			st( 1.352868, -0.005307 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((3, 4, 5, 0),(3, 4, 5, 0), 0 ),
+		polygon ((3, 2, 6, 4),(3, 2, 6, 4), 0 ),
+		polygon ((7, 1, 0, 5),(7, 1, 0, 5), 0 ),
+		polygon ((6, 2, 1, 7),(6, 2, 1, 7), 0 ),
+		polygon ((7, 5, 4, 6),(7, 5, 4, 6), 0 )
+	)
+); /* end of polyset 'section_7a_collision' */
+
+polyset section_7b_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-11.826404, 0.000618, -0.473128), 1)),
+			(cv((-21.469449, 4.204414, -0.46904), 1)),
+			(cv((-21.469449, 6.295737, -0.46904), 1)),
+			(cv((-11.826404, 2.09194, -0.473128), 1)),
+			(cv((-21.469449, 6.295737, -6.764229), 1)),
+			(cv((-11.826404, 2.09194, -3.709178), 1)),
+			(cv((-11.826404, 0.000618, -3.709178), 1)),
+			(cv((-21.469449, 4.204414, -6.764229), 1))	),
+	texture_vertices = (
+			st( 0.729876, -0.000591 ),
+			st( 1.490353, -0.005307 ),
+			st( 1.487865, 1.000000 ),
+			st( 0.729893, 0.999015 ),
+			st( 0.166928, 1.000000 ),
+			st( 0.155397, 0.998780 ),
+			st( 0.156286, 0.001748 ),
+			st( 0.166928, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((3, 2, 4, 5),(3, 2, 4, 5), 0 ),
+		polygon ((5, 6, 0, 3),(5, 6, 0, 3), 0 ),
+		polygon ((6, 7, 1, 0),(6, 7, 1, 0), 0 ),
+		polygon ((5, 4, 7, 6),(5, 4, 7, 6), 0 ),
+		polygon ((7, 4, 2, 1),(7, 4, 2, 1), 0 )
+	)
+); /* end of polyset 'section_7b_collision' */
+
+polyset section_8a_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-21.539215, 4.204414, -6.488451), 1)),
+			(cv((-21.539216, 6.308846, -6.488451), 1)),
+			(cv((-12.063651, 2.105049, -3.385381), 1)),
+			(cv((-12.063651, 0.000618, -3.385381), 1)),
+			(cv((-11.239952, 2.105049, -4.157892), 1)),
+			(cv((-11.239952, 0.000618, -4.157892), 1)),
+			(cv((-17.436596, 3.92523, -10.244945), 1)),
+			(cv((-17.436596, 6.308845, -10.244945), 1))	),
+	texture_vertices = (
+			st( 0.191468, 0.000000 ),
+			st( 0.191468, 1.000000 ),
+			st( 0.882617, 0.997104 ),
+			st( 0.883657, -0.010227 ),
+			st( 0.997270, 0.999264 ),
+			st( 0.998310, -0.001587 ),
+			st( 1.191468, 0.000000 ),
+			st( 1.191468, 1.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((3, 2, 4, 5),(3, 2, 4, 5), 0 ),
+		polygon ((4, 7, 6, 5),(4, 7, 6, 5), 0 ),
+		polygon ((4, 2, 1, 7),(4, 2, 1, 7), 0 ),
+		polygon ((3, 5, 6, 0),(3, 5, 6, 0), 0 ),
+		polygon ((6, 7, 1, 0),(6, 7, 1, 0), 0 )
+	)
+); /* end of polyset 'section_8a_collision' */
+
+polyset section_8b_collision (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (fanboysA ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-9.749105, 0.000618, -5.57985), 1)),
+			(cv((-16.093632, 4.204414, -11.557013), 1)),
+			(cv((-16.093632, 6.303298, -11.557013), 1)),
+			(cv((-9.749105, 2.099502, -5.57985), 1)),
+			(cv((-8.693192, 2.099502, -6.598534), 1)),
+			(cv((-8.693192, 0.000618, -6.598534), 1)),
+			(cv((-12.09071, 6.303298, -15.357534), 1)),
+			(cv((-12.09071, 4.204414, -15.357534), 1))	),
+	texture_vertices = (
+			st( -0.000091, 0.000000 ),
+			st( 0.189897, 0.003680 ),
+			st( 0.191659, 0.996166 ),
+			st( -0.000092, 1.000000 ),
+			st( 0.155647, 0.996166 ),
+			st( 0.155365, 0.004320 ),
+			st( 1.354827, 0.996166 ),
+			st( 1.354827, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2, 3),(0, 1, 2, 3), 0 ),
+		polygon ((3, 4, 5, 0),(3, 4, 5, 0), 0 ),
+		polygon ((3, 2, 6, 4),(3, 2, 6, 4), 0 ),
+		polygon ((6, 7, 5, 4),(6, 7, 5, 4), 0 ),
+		polygon ((2, 1, 7, 6),(2, 1, 7, 6), 0 ),
+		polygon ((0, 5, 7, 1),(0, 5, 7, 1), 0 )
+	)
+); /* end of polyset 'section_8b_collision' */
+
+ENVIRONMENT
+background ( 
+        color = (0.0, 0.0, 0.0)
+);
+shader_glow ( 
+,
+        glow_type =  LINEAR_GLOW,
+        halo_type =  LINEAR_GLOW,
+        auto_exposure = ON,
+        quality = 0.5,
+        threshold = 0.0,
+        glow_color = (100.0, 100.0, 100.0),
+        glow_intensity = 1.0,
+        glow_spread = 0.05,
+        glow_eccentricity = 0.1,
+        glow_radial_noise = 0.0,
+        glow_star_level = 0.0,
+        glow_opacity = 0.0,
+        halo_color = (100.0, 100.0, 100.0),
+        halo_intensity = 1.0,
+        halo_spread = 0.3,
+        halo_eccentricity = 0.1,
+        halo_radial_noise = 0.0,
+        halo_star_level = 0.0,
+        halo_lens_flare = 0.0,
+        rotation = 0.0,
+        radial_noise_frequency = 0.5,
+        star_points = 4.0
+);
+photo_effects ( 
+,
+        film_grain = 0.0,
+        filter = (255.0, 255.0, 255.0)
+);
+master_light ( 
+,
+        intensity = 1.0,
+        light_color = (255.0, 255.0, 255.0)
+);
+dynamics ( 
+,
+        gravity = 1.0,
+        air_density = 0.05,
+        Floor = ON,
+        floor_offset = 0.0,
+        ceiling = OFF,
+        ceiling_offset = 20.0,
+        left = OFF,
+        left_offset = -10.0,
+        right = OFF,
+        right_offset = 10.0,
+        front = OFF,
+        front_offset = -10.0,
+        back = OFF,
+        back_offset = 10.0,
+        wall_friction = 0.0,
+        wall_elasticity = 0.707,
+        turbulence_intensity = 0.0,
+        turbulence_spread = 0.5,
+        turbulence_persistence = 5.0,
+        turbulence_animated = ON,
+        turbulence_space_resolution =  16,
+        turbulence_time_resolution =  16,
+        turbulence_roughness = 0.5,
+        turbulence_variability = 0.5,
+        turbulence_granularity = 0.0
+);
+
+MODEL
+/* Only expression assignments should appear above this line and below the MODEL directive. */
+/* Placing any other commands in the above section will produce incorrect expression behaviour. */
+{
+	instance section_1a_collision();
+}
+{
+	instance section_1b_collision();
+}
+{
+	instance section_1c_collision();
+}
+{
+	instance section_2a_collision();
+}
+{
+	instance section_2b_collision();
+}
+{
+	instance section_3a_collision();
+}
+{
+	instance section_3b_collision();
+}
+{
+	instance section_4a_collision();
+}
+{
+	instance section_4b_collision();
+}
+{
+	instance section_5a_collision();
+}
+{
+	instance section_5b_collision();
+}
+{
+	instance section_5c_collision();
+}
+{
+	instance section_6a_collision();
+}
+{
+	instance section_6b_collision();
+}
+{
+	instance section_7a_collision();
+}
+{
+	instance section_7b_collision();
+}
+{
+	instance section_8a_collision();
+}
+{
+	instance section_8b_collision();
+}
+

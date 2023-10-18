@@ -1,0 +1,43 @@
+#
+# Load file made by Composit version 0.9991R on Tue Nov 03 10:27:54 1998.
+#
+
+
+#
+# 2D images for create a player with new NBC graphics
+#
+
+HFILE> \video\nba\include\selplr.h
+MIDST> on
+
+
+#INPUT> UpFront5.wif
+#OUTPUTXY> 256 256
+#-----> selbk
+#EXECUTE> selbk
+#MAKEBAT> selplr.bat selbk*.tga texus -de -mn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+#INPUT> upfront5.wif
+#OUTPUTXY> 256 128
+#-----> SLPMDBRS
+#EXECUTE> selp88
+#MAKEBAT> selplr.bat selp88*.tga texus -de -mn -t ai88 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront5.wif
+OUTPUTXY> 256 256
+MIDST> off
+-----> statbx
+MIDST> on
+-----> frmtopr,frmtopb,frmtoprg,frmtopbg
+-----> plyrfrmb,plyrfrmr,plyrfrmgry,plyrfrmshdw
+-----> dronewrd,plyr1wrd,plyr2wrd,plyr3wrd,plyr4wrd,frmcrest
+EXECUTE> selplr.tga
+MAKEBAT> selplr.bat selplr*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront5.wif
+OUTPUTXY> 256 128
+-----> statbxhid, hiddentxt
+-----> statbxl
+-----> quest1, quest2, quest3, quest4, quest5, quest6, quest7, quest8
+EXECUTE> hidatr.tga
+MAKEBAT> selplr.bat hidatr*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |

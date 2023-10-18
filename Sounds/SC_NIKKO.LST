@@ -1,0 +1,42 @@
+NBA on NBC (c) 1998 Midway - TIMK : Nikko  (03/15/99 14:41:01) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SC_NIKKO.BNK
+
+Size of .BNK file including header: 28830 bytes ($709E bytes)
+
+Size of playlist table: 40 bytes ($28 bytes)
+
+Size of playlist and sound data only: 28656 bytes ($6FF0 bytes)
+
+Checksum: $0CC0
+
+Total number of playlists: 9 ($9)
+
+Total number of sound files: 9 ($9)
+
+Average bit rate for bank: 27.1 kbits/sec
+
+Total linear amount of sound: 0:08.425 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1       55.2    63.4  Nikko 
+  2    $0002   1       36.0    41.3  Nikko A
+  3    $0003   1       58.2    66.7  Nikko B
+  4    $0004   1       47.7    54.7  Nikko C
+  5    $0005   1       35.2    40.3  To Nikko
+  6    $0006   1       56.1    64.3  Hands Off to Nikko
+  7    $0007   1       55.7    63.8  Dishes to Nikko
+  8    $0008   1       48.1    55.2  Finds Nikko
+  9    $0009   1       67.8    77.8  Nice Feed to Nikko
+
+Total 9 Playlists

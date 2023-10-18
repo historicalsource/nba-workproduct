@@ -1,0 +1,310 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+##501
+Which of the following players was not a lottery pick in the 1996 NBA Draft?
+**a) Steve Nash ~~b) Kobe Bryant ~~c) Erick Dampier ~~d) Samaki Walker
+##502
+Which of the following teams has Sam Cassell not played for?
+**a) San Antonio ~~b) Dallas ~~c) Houston ~~d) Phoenix
+##503
+Of the following players, who was the only one taken in the second round of the 1996 NBA Draft?
+**a) Shandon Anderson ~~b) Travis Knight ~~c) Priest Lauderdale ~~d) Derek Fisher
+##504
+Of Vitaly Potapenko, Kobe Bryant, Steve Nash and John Wallace, who was taken first in the 1996 NBA Draft.
+**a) Potapenko ~~b) Bryant ~~c) Nash ~~d) Wallace
+##505
+Which of the following players did not make the NBA All-Rookie First Team in 1995-96?
+**a) Kevin Garnett ~~b) Joe Smith ~~c) Jerry Stackhouse ~~d) Michael Finley
+##506
+Which of the following players did not make any of the first three All-NBA teams in 1995-96?
+**a) Jason Kidd ~~b) Mitch Richmond ~~c) Juwan Howard ~~d) Reggie Miller
+##507
+Which of the following players did not make either of the first two All-Rookie teams in 1995-96?
+**a) Kurt Thomas ~~b) Tyus Edney ~~c) Brent Barry ~~d) Michael Finley
+##508
+Which of the following players did not make the All-NBA First Team in the 1995-96 season?
+**a) Gary Payton ~~b) Anfernee Hardaway ~~c) Scottie Pippen ~~d) David Robinson
+##509
+Who won the Sixth Man Award in the 1995-96 season?
+**a) Toni Kukoc ~~b) John Starks ~~c) Detlef Schrempf ~~d) Rex Chapman
+##510
+Which of the following players did not make the All-NBA Defensive First Team in 1995-96?
+**a) Hakeem Olajuwon ~~b) Dennis Rodman ~~c) David Robinson ~~d) Scottie Pippen
+##511
+Who led the NBA in scoring in the 1994-95 season?
+**a) Shaquille O'Neal ~~b) Karl Malone ~~c) Dominique Wilkins ~~d) David Robinson
+##512
+Who led the NBA in scoring in the 1993-94 season?
+**a) David Robinson ~~b) Shaquille O'Neal ~~c) Karl Malone ~~d) Charles Barkley
+##513
+Who led the NBA in field goal percentage in consecutive seasons from 1995 to 1997?
+**a) Gheorghe Muresan ~~b) Dennis Rodman ~~c) Shaquille O'Neal ~~d) Chris Gatling
+##514
+Who led the NBA in field goal percentage in consecutive seasons from 1990-1992?
+**a) Buck Williams ~~b) Dennis Rodman ~~c) Cedric Ceballos ~~d) Chris Gatling
+##515
+Who has led the league three times in free throw percentage during the '90s?
+**a) Mark Price ~~b) Mahmoud Abdul-Rauf ~~c) Reggie Miller ~~d) Dana Barros
+##516
+Dennis Rodman won consecutive rebounding titles from 1991-97. Who led the NBA in rebounding the season before Rodman's streak began?
+**a) David Robinson ~~b) Charles Barkley ~~c) Karl Malone ~~d) Hakeem Olajuwon
+##517
+John Stockton is the NBA's all-time leader in steals, but how many years has he led the NBA in steals?
+**a) 2 ~~b) 3 ~~c) 4 ~~d) 5
+##518
+Who led the NBA in blocked shots in 1996-97?
+**a) Shawn Bradley ~~b) Dikembe Mutombo ~~c) Gheorghe Muresan ~~d) Hakeem Olajuwon
+##519
+Who led the NBA in blocked shots for three consecutive seasons from 1994 to 1996?
+**a) Dikembe Mutombo ~~b) Hakeem Olajuwon ~~c) David Robinson ~~d) Shawn Bradley
+##520
+Who was the player who made the All-NBA Defensive First Team for five consecutive seasons beginning in 1992-93?
+**a) Scottie Pippen ~~b) Dennis Rodman ~~c) Karl Malone ~~d) Horace Grant
+##521
+Which of the following players did not make the All-NBA Defensive First Team in 1996-97?
+**a) John Stockton ~~b) Gary Payton ~~c) Karl Malone ~~d) Dikembe Mutombo
+##522
+Which of the following players did not win the Rookie of the Year award?
+**a) Charles Barkley ~~b) Patrick Ewing ~~c) Mitch Richmond ~~d) Larry Johnson
+##523
+Which of the following players has won the Sixth Man Award twice?
+**a) Detlef Schrempf ~~b) John Starks ~~c) Anthony Mason ~~d) Dell Curry
+##524
+Who has made the All-NBA First Team every year during the '90s?
+**a) Karl Malone ~~b) Scottie Pippen ~~c) David Robinson ~~d) John Stockton
+##525
+Which of the following players has never made the All-NBA First Team?
+**a) Mitch Richmond ~~b) Tim Hardaway ~~c) Mark Price ~~d) Clyde Drexler
+##526
+Which NBA team first drafted Rasheed Wallace?
+**a) Washington ~~b) Portland ~~c) Charlotte ~~d) Philadelphia
+##527
+Which NBA team first drafted Dell Curry?
+**a) Utah ~~b) Charlotte ~~c) Miami ~~d) Cleveland
+Who was known as the "Round Mound of Rebound" as a collegian?
+**a) Charles Barkley ~~b) Oliver Miller ~~c) Dennis Rodman ~~d) Jayson Williams
+##528
+Who is known as "The Reign Man"?
+**a) Shawn Kemp ~~b) Gary Payton ~~c) Rik Smits ~~d) Karl Malone
+##529
+Who has acquired the nickname "The Glove" for his stifling defense?
+**a) Gary Payton ~~b) Lindsey Hunter ~~c) Scottie Pippen ~~d) Jason Kidd
+##530
+Which 1997-98 NBA team has three players now playing for their former college coach?
+**a) Boston Celtics ~~b) New Jersey Nets ~~c) Golden State Warriors ~~d) Seattle Sonics
+##531
+During the 1996-97 season, who became the first player in NBA history to score 40 or more points in consecutive games while his team failed to reach the 100-point mark?
+**a) Anfernee Hardaway ~~b) Shaquille O'Neal ~~c) Grant Hill ~~d) Gary Payton
+##532
+Who was the NCAA's all-time leading scorer and rebounder after finishing his career at Syracuse University?
+**a) Derrick Coleman ~~b) Rony Seikaly ~~c) Patrick Ewing ~~d) Sherman Douglas
+##533
+In 1995, who became the first reserve to win MVP honors in the NBA All-Star Game?
+**a) Mitch Richmond ~~b) Gary Payton ~~c) Glen Rice ~~d) John Starks
+##534
+What guard is an Eucharistic Minister in the Roman Catholic Church?
+**a) Kerry Kittles ~~b) Christian Laettner ~~c) Mark Jackson ~~d) Keith Van Horn
+##535
+What player is nicknamed "Big Country"?
+**a) Bryant Reeves ~~b) Shawn Bradley ~~c) Priest Lauderdale ~~d) Jim McIlvaine
+##536
+Who was known as Chris Jackson when he played college basketball at LSU?
+**a) Mahmoud Abdul-Rauf ~~b) Shareef Abdur-Rahim ~~c) Hakeem Olajuwon ~~d) Shaquille O'Neal
+##537
+Which Chicago Bull would have pursued a professional volleyball career had he not made it in the NBA?
+**a) Jud Buechler ~~b) Steve Kerr ~~c) Dennis Rodman ~~d) Scottie Pippen
+##538
+Which NBA player has the only retired number in the history of Miami-Ohio Basketball?
+**a) Ron Harper ~~b) Charlie Ward ~~c) Jim Jackson ~~d) Danny Fortson
+##539
+Who is the first Australian to ever play in the NBA?
+**a) Luc Longley ~~b) Steve Nash ~~c) Mark Price ~~d) Jeff Hornacek
+##540
+What NBA player is nicknamed "The Worm"?
+**a) Dennis Rodman ~~b) David Robinson ~~c) John Stockton ~~d) Sam Cassell
+##541
+Which NBA player speaks nine languages or dialects?
+**a) Dikembe Mutombo ~~b) Shaquille O'Neal ~~c) Kobe Bryant ~~d) Patrick Ewing
+##542
+For his play during the 1996-97 season, he earned the Hawks first Defensive Player of the Year Award?
+**a) Dikembe Mutombo ~~b) Steve Smith ~~c) Christian Laettner ~~d) Gary Payton
+##543
+Which team sent four players to the 1998 NBA All-Star Game?
+**a) Los Angeles Lakers ~~b) Seattle SuperSonics ~~c) Chicago Bulls ~~d) Indiana Pacers
+##544
+What team was formerly the Buffalo Braves?
+**a) Los Angeles Clippers ~~b) New York Knicks ~~c) Atlanta Hawks ~~d) Cleveland Indians
+##545
+What team selected Scottie Pippen in the 1987 NBA Draft?
+**a) Seattle SuperSonics ~~b) Chicago Bulls ~~c) Philadelphia 76ers ~~d) Miami Heat
+##546
+Which Laker player is one of only seven players in NBA history to increase his scoring average in each of his first seven seasons in the league?
+**a) Elden Campbell ~~b) Kobe Bryant ~~c) Eddie Jones ~~d) Rick Fox
+##547
+During the 1996-97 season, who established an all-time Boston franchise record in steals (167)?
+**a) Rick Fox ~~b) Antoine Walker ~~c) Dana Barros ~~d) Gary Payton
+##548
+What Los Angeles Laker player established an all-time NBA playoff record last season for most three-point field goals made in a game without a miss?
+**a) Robert Horry ~~b) Shaquille O'Neal ~~c) Nick Van Exel ~~d) Sam Perkins
+##549
+Which two NBA players led Detroit Southwestern to back-to-back Michigan state high school titles?
+**a) Jalen Rose and Voshon Leonard ~~b) Chris Webber and Derrick Coleman ~~c) Juwan Howard and Loy Vaught ~~d) Steve Smith and Grant Hill
+##550
+What NBA All-Star played at the University of Texas-El Paso and is known for his "UTEP two-step"?
+**a) Tim Hardaway ~~b) Bimbo Coles ~~c) Brent Barry ~~d) Allen Iverson
+##551
+What Navy graduate is nicknamed "The Admiral"?
+**a) David Robinson ~~b) Tim Duncan ~~c) Keith Van Horn ~~d) Grant Hill
+##552
+Prior to his professional basketball career, what player was known as an outstanding soccer goalie?
+**a) Hakeem Olajuwon ~~b) Nick Van Exel ~~c) Mitch Richmond ~~d) Detlef Schrempf
+##553
+After earning the league's assist title for nine consecutive years, John Stockton's title was taken by which NBA player in the 1996-97 season?
+**a) Mark Jackson ~~b) Gary Payton ~~c) Nick Van Exel ~~d) Tim Hardaway
+##554
+Prior to the 1996-97 season, how many consecutive assist titles did John Stockton win?
+**a) Nine ~~b) Five ~~c) Fifteen ~~d) Seven
+##555
+What NBA player's father played in the NFL for the Dallas Cowboys?
+**a) Grant Hill ~~b) Oliver Miller ~~c) Michael Finley ~~d) Anthony Mason
+##556
+Which NBA All-Star was born in Jamaica?
+**a) Patrick Ewing ~~b) Dikembe Mutombo ~~c) Tyrone Corbin ~~d) Terrell Brandon
+##557
+Who is known as "The Plastic Man"?
+**a) Stacey Augmon ~~b) Gary Payton ~~c) Joe Smith ~~d) Jerry Stackhouse
+##558
+Which of these player's mother was Hillary Clinton's college roommate?
+**a) Grant Hill ~~b) Rod Strickland ~~c) Christian Laettner ~~d) Danny Ferry
+##559
+What NBA player was a college teammate of Shaquille O'Neal and Mahmoud Abdul-Rauf?
+**a) Stanley Roberts ~~b) Roderick Rhodes ~~c) Eddie Jones ~~d) P.J. Brown
+##560
+Who is known as the "Dunking Dutchman"?
+**a) Rik Smits ~~b) Keith Van Horn ~~c) Chris Dudley ~~d) Kobe Bryant
+##561
+What two NBA point guards are from Portland, Oregon?
+**a) Damon Stoudamire & Terrell Brandon ~~b) Gary Payton & Rod Strickland ~~c) Mookie Blaylock & Nick Van Exel ~~d) Avery Johnson & Jason Kidd
+##562
+Which SuperSonic is playing in the same city where he played in college?
+**a) Detlef Schrempf ~~b) Gary Payton ~~c) Jim McIlvaine ~~d) Hersey Hawkins
+##563
+Which Atlanta Hawk led the league in steals for the 1996-97 season?
+**a) Mookie Blaylock ~~b) Christian Laettner ~~c) Steve Smith ~~d) Rod Strickland
+##564
+What team was once located in Fort Wayne, IN?
+**a) Detroit Pistons ~~b) Indiana Pacers ~~c) Milwaukee Bucks ~~d) Charlotte Hornets
+##565
+Who holds the NBA all-time record for career blocks?
+**a) Hakeem Olajuwon ~~b) Rik Smits ~~c) Patrick Ewing ~~d) Shaquille O'Neal
+##566
+Who is the NBA's all-time steals leader?
+**a) John Stockton ~~b) Gary Payton ~~c) Scottie Pippen ~~d) Tim Hardaway
+##567
+Which former Michigan "Fab Five" players are now teammates in the NBA?
+**a) Juwan Howard and Chris Webber ~~b) Jalen Rose and Mark Jackson ~~c) Chris Webber and Rod Strickland ~~d) Juwan Howard and Tracy Murray
+##568
+What team was originally the Chicago Packers?
+**a) Washington Wizards ~~b) Chicago Bulls ~~c) Cleveland Cavaliers ~~d) Milwaukee Bucks
+##569
+What team was once known as the Chicago Zephyrs?
+**a) Washington Wizards ~~b) Chicago Bulls ~~c) Cleveland Cavaliers ~~d) Detroit Pistons
+##570
+Who led the league in field goal percentage for the 1996-97 season?
+**a) Gheorghe Muresan ~~b) Chris Gatling ~~c) Dennis Rodman ~~d) Shaquille O'Neal
+##571
+Which player won the 1993 Wooden Award while at Indiana University?
+**a) Calbert Cheaney ~~b) Alan Henderson ~~c) Chris Webber ~~d) Christian Laettner
+##572
+What NBA player is Indiana University's all-time leader in three-pointers attempted and made?
+**a) Calbert Cheaney ~~b) Alan Henderson ~~c) Tracy Murray ~~d) Steve Kerr
+##573
+Who won the 1996-97 rebounding title by averaging 16.1 rebounds per game?
+**a) Dennis Rodman ~~b) Charles Barkley ~~c) David Robinson ~~d) Charles Oakley
+##574
+Which player averaged the most blocks during the 1996-97 season?
+**a) Shawn Bradley ~~b) Hakeem Olajuwon ~~c) Patrick Ewing ~~d) Shawn Kemp
+##575
+What player led the league in free throw percentage for the 1996-97 season?
+**a) Mark Price ~~b) Steve Kerr ~~c) Reggie Miller ~~d) Chris Mullin
+##576
+Who had the highest three-point field goal percentage for the 1996-97 season?
+**a) Glen Rice ~~b) Reggie Miller ~~c) Tracy Murray ~~d) Allan Houston
+##577
+Entering the 1997-98 season, this Chicago Bull had the highest career three-point field percentage among active players?
+**a) Steve Kerr ~~b) Mark Price ~~c) Ron Harper ~~d) Toni Kukoc
+##578
+Entering the 1997-98 season, who, among active players, had made the most three-point field goals?
+**a) Dale Ellis ~~b) Sam Perkins ~~c) Eddie Johnson ~~d) Reggie Miller
+##579
+Entering the 1997-98 season, who, among active players, had attempted the most three-point field goals?
+**a) Dale Ellis ~~b) Reggie Miller ~~c) Eddie Johnson ~~d) John Starks
+##580
+Entering the 1997-98 season, what player had attempted the most career free throws among active players?
+**a) Karl Malone ~~b) Grant Hill ~~c) Patrick Ewing ~~d) Mitch Richmond
+##581
+What player has a peak in the Rocky Mountains named after him?
+**a) Dikembe Mutombo ~~b) Rodney Rogers ~~c) Bobby Jackson ~~d) Glenn Robinson
+##582
+Which NBA All-Star briefly attended Trinity Valley Community College, but then made the jump directly from high school to the NBA?
+**a) Shawn Kemp ~~b) Tracy McGrady ~~c) Kobe Bryant ~~d) Allen Iverson
+##583
+Who won the MVP Award in 1997 for the first time in his All-Star career?
+**a) Karl Malone ~~b) David Robinson ~~c) Scottie Pippen ~~d) Patrick Ewing
+##584
+What team was once known as the Milwaukee Hawks?
+**a) Atlanta Hawks ~~b) Milwaukee Bucks ~~c) Detroit Pistons ~~d) Indiana Pacers
+##585
+Which team does not wear white jerseys when playing at home?
+**a) Los Angeles Lakers ~~b) Detroit Pistons ~~c) Chicago Bulls ~~d) New York Knicks
+##586
+Whose father was his head coach while at the University of Tennessee?
+**a) Allan Houston ~~b) Dale Ellis ~~c) Grant Hill ~~d) Rex Chapman
+##587
+Who shared 1995 Rookie of the Year honors with Grant Hill?
+**a) Jason Kidd ~~b) Glenn Robinson ~~c) Stephon Marbury ~~d) Kevin Garnett
+##588
+Who is the NBA's all-time assists leader?
+**a) John Stockton ~~b) Gary Payton ~~c) Mark Jackson ~~d) Anfernee Hardaway
+##589
+What active NBA center scored 71 points in a single game?
+**a) David Robinson ~~b) Hakeem Olajuwon ~~c) Patrick Ewing ~~d) Shaquille O'Neal
+##590
+Who won the league's NBA scoring title in 1993-94 after scoring 71 points in the final game of the season against the Clippers?
+**a) David Robinson ~~b) Hakeem Olajuwon ~~c) Patrick Ewing ~~d) Shaquille O'Neal
+##591
+Who set the record for the most points scored (131) by any player in NBA history in a four-game series in 1995 when the Rockets defeated the Magic in a sweep?
+**a) Hakeem Olajuwon ~~b) Charles Barkley ~~c) Anfernee Hardaway ~~d) Shaquille O'Neal
+##592
+What player set the record for playing the most minutes by any player in a four-game series in NBA history during the 1995 NBA Finals between Houston and Orlando?
+**a) Robert Horry ~~b) Anfernee Hardaway ~~c) Horace Grant ~~d) Hakeem Olajuwon
+##593
+Who set the record for the most three-point shots taken during any NBA Finals when he attempted 50 in the New York-Houston series in 1994?
+**a) John Starks ~~b) Allan Houston ~~c) Vernon Maxwell ~~d) Mario Elie
+##594
+Who set the record for the highest free throw percentage (1.000) by any player in NBA history in a four-game NBA Finals series in 1995 when Houston played Orlando?
+**a) Dennis Scott ~~b) Nick Anderson ~~c) Clyde Drexler ~~d) Matt Bullard
+##595
+What player holds the record for most blocked shots (30) in a seven-game NBA Finals series?
+**a) Patrick Ewing ~~b) Hakeem Olajuwon ~~c) Dikembe Mutombo ~~d) Shaquille O'Neal
+##596
+Which Orlando first-round draft choice was the Southern Conference Player of the Year and led the University of Chattanooga to the Sweet 16 in the NCAA Tournament in 1997?
+**a) Johnny Taylor ~~b) Austin Croshere ~~c) Bob Sura ~~d) Antonio Daniels
+##597
+Who holds the Portland Trail Blazer record for most playoff games played (94) in the franchise's history?
+**a) Clyde Drexler ~~b) Terry Porter ~~c) Clifford Robinson ~~d) Jerome Kersey
+##598
+Which member of the Washington Wizards stands 7'7" tall?
+**a) Gheorghe Muresan ~~b) Chris Webber ~~c) Lorenzen Wright ~~d) Shawn Bradley
+##599
+Drafted directly out of high school, who was Portland's first round selection (17th overall) in the 1996 NBA Draft?
+**a) Jermaine O'Neal ~~b) Rasheed Wallace ~~c) Brian Grant ~~d) Isaiah Rider
+##600
+Who is the shortest player in the NBA at only 5'3" tall?
+**a) Muggsy Bogues ~~b) Gary Payton ~~c) Avery Johnson ~~d) Darrick Martin
+

@@ -1,0 +1,81 @@
+NBA 3-D (c) 1999 Midway - Jungle backgrounds NO CR (04/12/99 14:42:34) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: JNGCROWD.BNK
+
+Size of .BNK file including header: 112546 bytes ($1B7A2 bytes)
+
+Size of playlist table: 164 bytes ($A4 bytes)
+
+Size of playlist and sound data only: 112248 bytes ($1B678 bytes)
+
+Checksum: $653D
+
+Total number of playlists: 12 ($C)
+
+Total number of sound files: 12 ($C)
+
+Average bit rate for bank: 21.0 kbits/sec
+
+Total linear amount of sound: 0:42.593 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  7    $0007   1      132.3   151.7  Crowd Oh
+  8    $0008   1      260.3   298.6  Crowd ambient 1
+  9    $0009   1      208.4   239.0  Swell #1
+
+  16   $0010   1      208.0   238.6  Crowd ambient 3
+
+  30   $001e   1          -       -  Jungle background
+  31   $001f   1       73.2    84.0  Elephant drop-in
+
+  33   $0021   1       72.0    82.6  Seagull drop-in
+  34   $0022   1      215.1   246.7  Jungle exotic Birds drop-in
+  35   $0023   1       97.9   112.3  Monkeys 1
+  36   $0024   1      100.0   114.7  Monkeys 2
+
+  38   $0026   1      325.2   373.0  JUNGLE DRUMS
+
+  40   $0028   1      146.9   168.5  JUNGLE GUYS
+
+Total 12 Playlists
+ 
+NBA 3-D (c) 1999 Midway - Jungle backgrounds NO CR (04/12/99 14:42:34) page 2
+
+
+Region Table 
+
+File         Size      Length   Length    Bitrate   Compression
+Name         bytes     frames   seconds   kbit/sec  Parameters
+-----------  --------  -------  --------  --------  -----------
+3DCROWDA        19406      622  0:04.777     32.50  HENRY -v7.00 -vb63 -vi7 -vt3 
+3DCROWDC        15012      497  0:03.817     31.46  HENRY -v7.00 -vb63 -vi7 -vt3 
+3DOHMIX          7990      316  0:02.427     26.34  HENRY -v6.50 -vb63 -vi7 -vt3 
+BIRDDRP1         7100      514  0:03.948     14.39  HENRY -v7.50 -vb79 -vi7 -vt3 
+ELEPDRP1         4800      175  0:01.344     28.57  HENRY -v7.50 -vb79 -vi7 -vt3 
+JUNGGUY2         6554      350  0:02.688     19.51  HENRY -v7.50 -vb79 -vi7 -vt3 
+JUNGLBK4        25822     1672  0:12.841     16.09  HENRY -v7.00 -vb79 -vi7 -vt3 
+JUNGLUP1         3256      258  0:01.981     13.15  HENRY -v7.00 -vb79 -vi7 -vt3 
+MONKEY02         2232      239  0:01.836      9.73  HENRY -v7.50 -vb79 -vi7 -vt3 
+MONKEY03         1882      234  0:01.797      8.38  HENRY -v7.50 -vb79 -vi7 -vt3 
+SEAGULL1         2404      172  0:01.321     14.56  HENRY -v7.50 -vb79 -vi7 -vt3 
+SWELL1          15550      497  0:03.817     32.59  HENRY -v7.50 -vb63 -vi7 -vt3 
+ 
+NBA 3-D (c) 1999 Midway - Jungle backgrounds NO CR (04/12/99 14:42:34) page 3
+
+
+Summary
+
+Total Average Bitrate:  21.0 kbits/sec
+Total Time:             0:42.593 minutes
+Total Number of .CMP's: 12
+Total Size of .CMP's:   109.38 kbytes

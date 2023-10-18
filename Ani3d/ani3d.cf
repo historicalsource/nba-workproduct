@@ -1,0 +1,16 @@
+-mhard-float
+-DJONHEY
+-D__DJGPP__
+-fsigned-char
+-fno-builtin
+-g
+-mips4
+-fomit-frame-pointer
+-c
+-G 0
+-mcpu=r8000
+-nostdinc
+-I\video\include
+-I\video\nba\include
+-Wall
+-Wa,mips4

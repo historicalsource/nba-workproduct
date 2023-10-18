@@ -1,0 +1,308 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+##1201
+Who led the NBA in total minutes played in the 1995-96 season (3,457)?
+**a) Anthony Mason ~~b) Reggie Miller ~~c) Tom Gugliotta ~~d) Anfernee Hardaway
+##1202
+Who led the NBA in total minutes played in the 1996-97 season (3,362)?
+**a) Glen Rice ~~b) Allen Iverson ~~c) Anfernee Hardaway ~~d) Nick Van Exel
+##1203
+Who led the NBA in rebounds per game in the 1986-87 season (14.6)?
+**a) Charles Barkley ~~b) Patrick Ewing ~~c) Hakeem Olajuwon ~~d) Dennis Rodman
+##1204
+Who led the NBA in rebounds per game in the 1987-88 season (13.03 rpg)?
+**a) Michael Cage ~~b) David Robinson ~~c) Dennis Rodman ~~d) Patrick Ewing
+##1205
+Who led the NBA in rebounds per game in the 1988-89 season (13.5 rpg)?
+**a) Hakeem Olajuwon ~~b) Michael Cage ~~c) Dennis Rodman ~~d) Patrick Ewing
+##1206
+Who led the NBA in rebounds per game in the 1989-90 season (14.0 rpg)?
+**a) Hakeem Olajuwon ~~b) David Robinson ~~c) Dennis Rodman ~~d) Charles Barkley
+##1207
+Who led the NBA in rebounds per game in the 1990-91 season (13.0 rpg)?
+**a) David Robinson ~~b) Rik Smits ~~c) Dennis Rodman ~~d) Charles Barkley
+##1208
+Who led the NBA in rebounds per game in the 1991-92 season (18.7 rpg)?
+**a) Dennis Rodman ~~b) Rik Smits ~~c) David Robinson ~~d) Charles Barkley
+##1209
+Who led the NBA in rebounds per game in the 1992-93 season (18.3 rpg)?
+**a) Dennis Rodman ~~b) Patrick Ewing ~~c) David Robinson ~~d) Charles Barkley
+##1210
+Who led the NBA in rebounds per game in the 1993-94 season (17.3 rpg)?
+**a) Dennis Rodman ~~b) Hakeem Olajuwon ~~c) David Robinson ~~d) Charles Barkley
+##1211
+Who led the NBA in rebounds per game in the 1994-95 season (16.8 rpg)?
+**a) Dennis Rodman ~~b) Hakeem Olajuwon ~~c) David Robinson ~~d) Charles Barkley
+##1212
+Who led the NBA in rebounds per game in the 1994-95 season (16.8 rpg)?
+**a) Dennis Rodman ~~b) Hakeem Olajuwon ~~c) Patrick Ewing ~~d) Charles Barkley
+##1213
+Who led the NBA in rebounds per game in the 1995-96 season (14.9 rpg)?
+**a) Dennis Rodman ~~b) Hakeem Olajuwon ~~c) Shaquille O'Neal ~~d) Charles Barkley
+##1214
+Who led the NBA in rebounds per game in the 1996-97 season (16.1 rpg)?
+**a) Dennis Rodman ~~b) Hakeem Olajuwon ~~c) Shaquille O'Neal ~~d) Dikembe Mutombo
+##1215
+Who led the NBA in assists per game in the 1987-88 season (13.8 apg)?
+**a) John Stockton ~~b) Derek Harper ~~c) Mark Jackson ~~d) Terry Porter
+##1216
+Who led the NBA in assists per game in the 1988-89 season (13.6 apg)?
+**a) John Stockton ~~b) Derek Harper ~~c) Dana Barros ~~d) Terry Porter
+##1217
+Who led the NBA in assists per game in the 1989-90 season (14.5 apg)?
+**a) John Stockton ~~b) Derek Harper ~~c) Mark Jackson ~~d) Terry Porter
+##1218
+Who led the NBA in assists per game in the 1990-91 season (14.2 apg)?
+**a) John Stockton ~~b) Derek Harper ~~c) Mark Jackson ~~d) Terry Porter
+##1219
+Who led the NBA in assists per game in the 1991-92 season (13.7 apg)?
+**a) John Stockton ~~b) Derek Harper ~~c) Mark Jackson ~~d) Mookie Blaylock
+##1220
+Who led the NBA in assists per game in the 1992-93 season (12.0 apg)?
+**a) John Stockton ~~b) Kenny Anderson ~~c) Mark Jackson ~~d) Mookie Blaylock
+##1221
+Who led the NBA in assists per game in the 1993-94 season (12.6 apg)?
+**a) John Stockton ~~b) Kenny Anderson ~~c) Gary Payton ~~d) Mookie Blaylock
+##1222
+Who led the NBA in assists per game in the 1994-95 season (12.3 apg)?
+**a) John Stockton ~~b) Kenny Anderson ~~c) Gary Payton ~~d) Anfernee Hardaway
+##1223
+Who led the NBA in assists per game in the 1995-96 season (11.2 apg)?
+**a) John Stockton ~~b) Tim Hardaway ~~c) Gary Payton ~~d) Anfernee Hardaway
+##1224
+Who led the NBA in assists per game in the 1996-97 season (11.4 apg)?
+**a) Mark Jackson ~~b) Tim Hardaway ~~c) Gary Payton ~~d) John Stockton
+##1225
+Who led the NBA in steals per game in the 1988-89 season (3.21 spg)?
+**a) John Stockton ~~b) Dikembe Mutombo ~~c) Gary Payton ~~d) Derek Harper
+##1226
+Who led the NBA in steals per game in the 1991-92 season (2.98 spg)?
+**a) John Stockton ~~b) Scottie Pippen ~~c) Gary Payton ~~d) Derek Harper
+##1227
+Who led the NBA in steals per game in the 1993-94 season (2.96 spg)?
+**a) Nate McMillan ~~b) Kendall Gill ~~c) Gary Payton ~~d) Mookie Blaylock
+##1228
+Who led the NBA in steals per game in the 1994-95 season (2.94 spg)?
+**a) Scottie Pippen ~~b) Tim Hardaway ~~c) Gary Payton ~~d) Mookie Blaylock
+##1229
+Who led the NBA in steals per game in the 1995-96 season (2.85 spg)?
+**a) Gary Payton ~~b) Tim Hardaway ~~c) Scottie Pippen ~~d) Mookie Blaylock
+##1230
+Who led the NBA in steals per game in the 1996-97 season (2.72 spg)?
+**a) Mookie Blaylock ~~b) Tim Hardaway ~~c) Scottie Pippen ~~d) Gary Payton
+##1231
+Who led the NBA in blocks per game in the 1989-90 season (4.59 bpg)?
+**a) Hakeem Olajuwon ~~b) Dikembe Mutombo ~~c) Shaquille O'Neal ~~d) Patrick Ewing
+##1232
+Who led the NBA in blocks per game in the 1990-91 season (3.95 bpg)?
+**a) Hakeem Olajuwon ~~b) Dikembe Mutombo ~~c) Buck Williams ~~d) Patrick Ewing
+##1233
+Who led the NBA in blocks per game in the 1991-92 season (4.49 bpg)?
+**a) David Robinson ~~b) Dikembe Mutombo ~~c) Buck Williams ~~d) Patrick Ewing
+##1234
+Who led the NBA in blocks per game in the 1992-93 season (4.17 bpg)?
+**a) Hakeem Olajuwon ~~b) Dikembe Mutombo ~~c) Shaquille O'Neal ~~d) Patrick Ewing
+##1235
+Who led the NBA in blocks per game in the 1993-94 season (4.10 bpg)?
+**a) Dikembe Mutombo ~~b) Hakeem Olajuwon ~~c) Shaquille O'Neal ~~d) Patrick Ewing
+##1236
+Who led the NBA in blocks per game in the 1994-95 season (3.91 bpg)?
+**a) Dikembe Mutombo ~~b) Hakeem Olajuwon ~~c) Shaquille O'Neal ~~d) David Robinson
+##1237
+Who led the NBA in blocks per game in the 1995-96 season (4.49 bpg)?
+**a) Dikembe Mutombo ~~b) Hakeem Olajuwon ~~c) Shaquille O'Neal ~~d) David Robinson
+##1238
+Who led the NBA in blocks per game in the 1996-97 season (3.40 bpg)?
+**a) Shawn Bradley ~~b) Hakeem Olajuwon ~~c) Shaquille O'Neal ~~d) Dikembe Mutombo
+##1239
+Who won the 1986-87 NBA Sixth Man of the Year Award?
+**a) Ricky Pierce ~~b) Buck Williams ~~c) Derrick McKey ~~d) Derek Harper
+##1240
+Who won the 1988-89 NBA Sixth Man of the Year Award?
+**a) Eddie Johnson ~~b) Derrick McKey ~~c) Detlef Schrempf ~~d) Derek Harper
+##1241
+Who won the 1989-90 NBA Sixth Man of the Year Award?
+**a) Ricky Pierce ~~b) Derrick McKey ~~c) Detlef Schrempf ~~d) Derek Harper
+##1242
+Who won the 1990-91 NBA Sixth Man of the Year Award?
+**a) Detlef Schrempf ~~b) Derrick McKey ~~c) Ricky Pierce ~~d) Eddie Johnson
+##1243
+Who won the 1991-92 NBA Sixth Man of the Year Award?
+**a) Detlef Schrempf ~~b) Derrick McKey ~~c) Ricky Pierce ~~d) Eddie Johnson
+##1244
+Who won the 1992-93 NBA Sixth Man of the Year Award?
+**a) Clifford Robinson ~~b) Derrick McKey ~~c) Ricky Pierce ~~d) Detlef Schrempf
+##1245
+Who won the 1993-94 NBA Sixth Man of the Year Award?
+**a) Dell Curry ~~b) Toni Kukoc ~~c) John Starks ~~d) Detlef Schrempf
+##1246
+Who won the 1994-95 NBA Sixth Man of the Year Award?
+**a) Anthony Mason ~~b) Toni Kukoc ~~c) John Starks ~~d) Dell Curry
+##1247
+Who won the 1995-96 NBA Sixth Man of the Year Award?
+**a) Toni Kukoc ~~b) Anthony Mason ~~c) John Starks ~~d) Detlef Schrempf
+##1248
+Who won the 1996-97 NBA Sixth Man of the Year Award?
+**a) John Starks ~~b) Anthony Mason ~~c) Toni Kukoc ~~d) Detlef Schrempf
+##1249
+Who won the 1992-93 NBA Most Valuable Player Award?
+**a) Charles Barkley ~~b) Scottie Pippen ~~c) Reggie Miller ~~d) Karl Malone
+##1250
+Who won the 1993-94 NBA Most Valuable Player Award?
+**a) Hakeem Olajuwon ~~b) Scottie Pippen ~~c) Patrick Ewing ~~d) Karl Malone
+##1251
+Who won the 1994-95 NBA Most Valuable Player Award?
+**a) David Robinson ~~b) Scottie Pippen ~~c) Patrick Ewing ~~d) Hakeem Olajuwon
+##1252
+Who won the 1996-97 NBA Most Valuable Player Award?
+**a) Karl Malone ~~b) Scottie Pippen ~~c) Patrick Ewing ~~d) Hakeem Olajuwon
+##1253
+Who won the 1981-82 NBA Rookie of the Year Award?
+**a) Buck Williams ~~b) Derek Harper ~~c) Patrick Ewing ~~d) Sam Perkins
+##1254
+Who won the 1982-83 NBA Rookie of the Year Award?
+**a) Terry Cummings ~~b) Derek Harper ~~c) Patrick Ewing ~~d) Sam Perkins
+##1255
+Who won the 1985-86 NBA Rookie of the Year Award?
+**a) Patrick Ewing ~~b) Charles Barkley ~~c) Terry Cummings ~~d) Sam Perkins
+##1256
+Who won the 1986-87 NBA Rookie of the Year Award?
+**a) Chuck Person ~~b) Charles Barkley ~~c) Mark Jackson ~~d) Hakeem Olajuwon
+##1257
+Who won the 1987-88 NBA Rookie of the Year Award?
+**a) Mark Jackson ~~b) Detlef Schrempf ~~c) Rick Mahorn ~~d) Hakeem Olajuwon
+##1258
+Who won the 1988-89 NBA Rookie of the Year Award?
+**a) Mitch Richmond ~~b) Detlef Schrempf ~~c) Rick Mahorn ~~d) Chris Mullin
+##1259
+Who won the 1989-90 NBA Rookie of the Year Award?
+**a) David Robinson ~~b) Alonzo Mourning ~~c) Gary Payton ~~d) Chris Webber
+##1260
+Who won the 1990-91 NBA Rookie of the Year Award?
+**a) Derrick Coleman ~~b) Alonzo Mourning ~~c) Gary Payton ~~d) Rony Seikaly
+##1261
+Who won the 1991-92 NBA Rookie of the Year Award?
+**a) Larry Johnson ~~b) Alonzo Mourning ~~c) Gary Payton ~~d) Vin Baker
+##1262
+Who won the 1992-93 NBA Rookie of the Year Award?
+**a) Shaquille O'Neal ~~b) Tim Hardaway ~~c) Anfernee Hardaway ~~d) Vin Baker
+##1263
+Who won the 1993-94 NBA Rookie of the Year Award?
+**a) Chris Webber ~~b) Juwan Howard ~~c) Anfernee Hardaway ~~d) Glenn Robinson
+##1264
+Who won the 1995-96 NBA Rookie of the Year Award?
+**a) Damon Stoudamire ~~b) Jerry Stackhouse ~~c) Rasheed Wallace ~~d) Glenn Robinson
+##1265
+Who won the 1996-97 NBA Rookie of the Year Award?
+**a) Allen Iverson ~~b) Marcus Camby ~~c) Joe Smith ~~d) Tim Duncan
+##1266
+Who won the 1986-87 NBA Most Improved Player Award?
+**a) Dale Ellis ~~b) Derek Harper ~~c) Terry Cummings ~~d) Sam Perkins
+##1267
+Who won the 1987-88 NBA Most Improved Player Award?
+**a) Kevin Duckworth ~~b) Patrick Ewing ~~c) Terry Cummings ~~d) Sam Perkins
+##1268
+Who won the 1988-89 NBA Most Improved Player Award?
+**a) Kevin Johnson ~~b) Derrick McKey ~~c) Terry Cummings ~~d) Detlef Schrempf
+##1269
+Who won the 1989-90 NBA Most Improved Player Award?
+**a) Rony Seikaly ~~b) Derrick McKey ~~c) Eddie Johnson ~~d) Clifford Robinson
+##1270
+Who won the 1992-93 NBA Most Improved Player Award?
+**a) Mahmoud Abdul-Rauf ~~b) John Starks ~~c) Mitch Richmond ~~d) Kenny Anderson
+##1271
+Who won the 1994-95 NBA Most Improved Player Award?
+**a) Dana Barros ~~b) John Starks ~~c) Loy Vaught ~~d) Rod Strickland
+##1272
+Who won the 1995-96 NBA Most Improved Player Award?
+**a) Gheorghe Muresan ~~b) Allan Houston ~~c) Lindsey Hunter ~~d) Nick Van Exel
+##1273
+Who won the 1996-97 NBA Most Improved Player Award?
+**a) Isaac Austin ~~b) Allan Houston ~~c) Rasheed Wallace ~~d) Nick Van Exel
+##1274
+Who won the 1989-90 NBA Defensive Player Award?
+**a) Dennis Rodman ~~b) Patrick Ewing ~~c) Rick Mahorn ~~d) Joe Dumars
+##1275
+Who won the 1990-91 NBA Defensive Player Award?
+**a) Dennis Rodman ~~b) Patrick Ewing ~~c) Rick Mahorn ~~d) Hakeem Olajuwon
+##1276
+Who won the 1991-92 NBA Defensive Player Award?
+**a) David Robinson ~~b) Patrick Ewing ~~c) Dennis Rodman ~~d) Hakeem Olajuwon
+##1277
+Who won the 1992-93 NBA Defensive Player Award?
+**a) Hakeem Olajuwon ~~b) Patrick Ewing ~~c) Shaquille O'Neal ~~d) Dikembe Mutombo
+##1278
+Who won the 1993-94 NBA Defensive Player Award?
+**a) Hakeem Olajuwon ~~b) Gary Payton ~~c) Shaquille O'Neal ~~d) Dikembe Mutombo
+##1279
+Who won the 1994-95 NBA Defensive Player Award?
+**a) Dikembe Mutombo ~~b) Gary Payton ~~c) Shaquille O'Neal ~~d) Scottie Pippen
+##1280
+Who won the 1995-96 NBA Defensive Player Award?
+**a) Gary Payton ~~b) Hakeem Olajuwon ~~c) Shaquille O'Neal ~~d) Scottie Pippen
+##1281
+Who won the 1996-97 NBA Defensive Player Award?
+**a) Dikembe Mutombo ~~b) Hakeem Olajuwon ~~c) Shaquille O'Neal ~~d) Scottie Pippen
+##1282
+Which of the following is NOT an official team color of the Atlanta Hawks?
+**a) Brown ~~b) Red ~~c) Gold ~~d) Black
+##1283
+Which of the following teams official colors are red, white, gold and black?
+**a) Atlanta Hawks ~~b) Los Angeles Clippers ~~c) Cleveland Cavaliers ~~d) Golden State Warriors
+##1284
+Which of the following is NOT an official team color of the Boston Celtics?
+**a) Purple ~~b) Green ~~c) Gold ~~d) White
+##1285
+Which of the following teams official colors are green, gold, beige, brown, black and white?
+**a) Boston Celtics ~~b) Charlotte Hornets ~~c) Milwaukee Bucks ~~d) Dallas Mavericks
+##1286
+Which of the following is NOT an official team color of the Charlotte Hornets?
+**a) Yellow ~~b) Teal ~~c) Purple ~~d) White
+##1287
+Which of the following teams official colors are teal, purple and white?
+**a) Charlotte Hornets ~~b) Los Angeles Lakers ~~c) Houston Rockets ~~d) Denver Nuggets
+##1288
+Which of the following teams official colors are red and black?
+**a) Chicago Bulls ~~b) Los Angeles Clippers ~~c) Seattle SuperSonics ~~d) Vancouver Grizzlies
+##1289
+Which of the following is NOT an official team color of the Cleveland Cavaliers?
+**a) Yellow ~~b) Blue ~~c) Black ~~d) Orange
+##1290
+Which of the following teams official colors are blue, black, and orange?
+**a) Cleveland Cavaliers ~~b) Chicago Bulls ~~c) Milwaukee Bucks ~~d) San Antonio Spurs
+##1291
+Which of the following teams official colors are blue and green?
+**a) Dallas Mavericks ~~b) Orlando Magic ~~c) Boston Celtics ~~d) Toronto Raptors
+##1292
+Which of the following is NOT an official team color of the Denver Nuggets?
+**a) Purple ~~b) Red ~~c) Gold ~~d) Blue
+##1293
+Which of the following teams official colors are red, gold and blue?
+**a) Denver Nuggets ~~b) Los Angeles Lakers ~~c) Golden State Warriors ~~d) Houston Rockets
+##1294
+Which of the following is NOT an official team color of the Detroit Pistons?
+**a) Blue ~~b) Red ~~c) Teal ~~d) Yellow
+##1295
+Which of the following teams official colors are teal, red, black, yellow and metallic silver?
+**a) Detroit Pistons ~~b) Charlotte Hornets ~~c) Chicago Bulls ~~d) San Antonio Spurs
+##1296
+Which of the following is NOT an official team color of the Golden State Warriors?
+**a) Purple ~~b) Yellow ~~c) Orange ~~d) Blue
+##1297
+Which of the following teams official colors are yellow, orange, midnight blue and sky blue?
+**a) Golden State Warriors ~~b) Cleveland Cavaliers ~~c) Orlando Magic ~~d) Denver Nuggets
+##1298
+Which of the following is NOT an official team color of the Houston Rockets?
+**a) Orange ~~b) Red ~~c) Blue ~~d) Silver
+##1299
+Which of the following teams official colors are red, blue and silver?
+**a) Houston Rockets ~~b) Chicago Bulls ~~c) Miami Heat ~~d) Los Angeles Clippers
+##1300
+Which of the following teams official colors are navy blue and gold?
+**a) Indiana Pacers ~~b) New York Knicks ~~c) Phoenix Suns ~~d) Los Angeles Lakers
+

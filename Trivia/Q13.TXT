@@ -1,0 +1,310 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+##1301
+Which of the following is NOT an official team color of the Los Angeles Clippers?
+**a) Yellow ~~b) Red ~~c) White ~~d) Blue
+##1302
+Which of the following teams official colors are red, white and blue?
+**a) Los Angeles Clippers ~~b) Sacramento Kings ~~c) Portland Trail Blazers ~~d) Washington Wizards
+##1303
+Which of the following teams official colors are royal purple and gold?
+**a) Los Angeles Lakers ~~b) Charlotte Hornets ~~c) Sacramento Kings ~~d) Toronto Raptors
+##1304
+Which of the following is NOT an official team color of the Miami Heat?
+**a) Purple ~~b) Red ~~c) Yellow ~~d) Black
+##1305
+Which of the following teams official colors are red, yellow, black and white?
+**a) Miami Heat ~~b) Phoenix Suns ~~c) Denver Nuggets ~~d) Philadelphia 76ers
+##1306
+Which of the following is NOT an official team color of the Milwaukee Bucks?
+**a) Buck Brown ~~b) Hunter Green ~~c) Purple ~~d) Silver
+##1307
+Which of the following teams official colors are hunter green, purple and silver?
+**a) Milwaukee Bucks ~~b) Dallas Mavericks ~~c) Seattle SuperSonics ~~d) Vancouver Grizzlies
+##1308
+Which of the following is NOT an official team color of the Minnesota Timberwolves?
+**a) Red ~~b) Blue ~~c) Green ~~d) Silver
+##1309
+Which of the following teams official colors are green, blue, and silver?
+**a) Minnesota Timberwolves ~~b) Dallas Mavericks ~~c) Boston Celtics ~~d) San Antonio Spurs
+##1310
+Which of the following is NOT an official team color of the New Jersey Nets?
+**a) Orange ~~b) Navy Blue ~~c) Dark Red ~~d) Metallic Silver
+##1311
+Which of the following teams official colors are navy blue, metallic silver, dark red and dark silver?
+**a) New Jersey Nets ~~b) Indiana Pacers ~~c) New York Knicks ~~d) Orlando Magic
+##1312
+Which of the following is NOT an official team color of the New York Knicks?
+**a) Red ~~b) Orange ~~c) White ~~d) Blue
+##1313
+Which of the following teams official colors are orange, white and blue?
+**a) New York Knicks ~~b) Denver Nuggets ~~c) Philadelphia 76ers ~~d) Los Angeles Clippers
+##1314
+Which of the following is NOT an official team color of the Orlando Magic?
+**a) Orlando Orange ~~b) Electric Blue ~~c) Quick Silver ~~d) Magic Black
+##1315
+Which of the following teams official colors are electric blue, quick silver, magic black?
+**a) Orlando Magic ~~b) Golden State Warriors ~~c) Phoenix Suns ~~d) Miami Heat
+##1316
+Which of the following is NOT an official team color of the Philadelphia 76ers?
+**a) Green ~~b) Red ~~c) Blue ~~d) Gold
+##1317
+Which of the following teams official colors are red, blue, silver, gold and black?
+**a) Philadelphia 76ers ~~b) Seattle SuperSonics ~~c) Milwaukee Bucks ~~d) Detroit Pistons
+##1318
+Which of the following is NOT an official team color of the Phoenix Suns?
+**a) Blue ~~b) Purple ~~c) Orange ~~d) Copper
+##1319
+Which of the following teams official colors are purple, orange and copper?
+**a) Phoenix Suns ~~b) Denver Nuggets ~~c) Toronto Raptors ~~d) Sacramento Kings
+##1320
+Which of the following is NOT an official team color of the Portland Trail Blazers?
+**a) Gold ~~b) Scarlet ~~c) Black ~~d) White
+##1321
+Which of the following teams official colors are scarlet, black and white?
+**a) Portland Trail Blazers ~~b) Miami Heat ~~c) Houston Rockets ~~d) New Jersey Nets
+##1322
+Which of the following is NOT an official team color of the Sacramento Kings?
+**a) Red ~~b) Purple ~~c) Black ~~d) Silver
+##1323
+Which of the following teams official colors are purple, black, and silver?
+**a) Sacramento Kings ~~b) Toronto Raptors ~~c) Phoenix Suns ~~d) Orlando Magic
+##1324
+Which of the following is NOT an official team color of the San Antonio Spurs?
+**a) Purple ~~b) Teal ~~c) Black ~~d) Fuschia
+##1325
+Which of the following teams official colors are metallic silver, black, teal, fuschia and orange?
+**a) San Antonio Spurs ~~b) Toronto Raptors ~~c) Vancouver Grizzlies ~~d) Minnesota Timberwolves
+##1326
+Which of the following is NOT an official team color of the Seattle SuperSonics?
+**a) Electric Blue ~~b) Hunter Green ~~c) Metallic Bronze ~~d) Deep Yellow
+##1327
+Which of the following teams official colors are hunter green, scarlet red, metallic bronze and deep yellow?
+**a) Seattle SuperSonics ~~b) Milwaukee Bucks ~~c) Charlotte Hornets ~~d) Boston Celtics
+##1328
+Which of the following is NOT an official team color of the Toronto Raptors?
+**a) Green ~~b) Purple ~~c) Black ~~d) Silver
+##1329
+Which of the following teams official colors are red, purple, black, and silver?
+**a) Toronto Raptors ~~b) Chicago Bulls ~~c) Phoenix Suns ~~d) Orlando Magic
+##1330
+Which of the following is NOT an official team color of the Utah Jazz?
+**a) Orange ~~b) Purple ~~c) Green ~~d) Copper
+##1331
+Which of the following teams official colors are purple, blue, green, black, white and copper?
+**a) Utah Jazz ~~b) Sacramento Kings ~~c) Toronto Raptors ~~d) Milwaukee Bucks
+##1332
+Which of the following is NOT an official team color of the Vancouver Grizzlies?
+**a) Orange ~~b) Turquoise ~~c) Bronze ~~d) Red
+##1333
+Which of the following teams official colors are turquoise, red, bronze and black?
+**a) Vancouver Grizzlies ~~b) Sacramento Kings ~~c) Charlotte Hornets ~~d) Denver Nuggets
+##1334
+Which of the following is NOT an official team color of the Washington Wizards?
+**a) Red ~~b) Blue ~~c) Bronze ~~d) Black
+##1335
+Which of the following teams official colors are blue, black and bronze?
+**a) Washington Wizards ~~b) Sacramento Kings ~~c) Charlotte Hornets ~~d) Denver Nuggets
+Which of the following teams has Olden Polynice not played for?
+**a) Chicago ~~b) Seattle ~~c) Los Angeles Clippers ~~d) Detroit
+##1336
+What NBA guard is one of only six players in NBA history to average 21.0 or more points in each of his first nine professional seasons?
+**a) Mitch Richmond ~~b) Gary Payton ~~c) John Stockton ~~d) Tim Hardaway
+##1337
+During the 1996-97 season, who converted an NBA single-season record six four-point plays and ranks second in league history in that category (9)?
+**a) Mitch Richmond ~~b) Tracy Murray ~~c) Hersey Hawkins ~~d) Glen Rice
+##1338
+In 1994, who became the first Kings player since 1975 and the eighth in franchise history to start an NBA All-Star Game?
+**a) Mitch Richmond ~~b) Tim Hardaway ~~c) Chris Mullin ~~d) Bobby Hurley
+##1339
+Who is the first French citizen to play in the NBA?
+**a) Tariq Abdul-Wahad ~~b) Olden Polynice ~~c) Terry Dehere ~~d) Christian Laettner
+##1340
+Who holds the Sacramento Kings franchise record for most three-point field goals made in a game (8)?
+**a) Mitch Richmond ~~b) Olden Polynice ~~c) Terry Dehere ~~d) Bobby Hurley
+##1341
+Who holds the Sacramento Kings franchise record for most three-point field goals made in a career?
+**a) Mitch Richmond ~~b) Mahmoud Abdul-Rauf ~~c) Terry Dehere ~~d) Bobby Hurley
+##1342
+What team's 1996 NBA Playoff appearance marked the first time in 10 years (since 1985-86) and over 800 regular season games that they had played in a post season contest?
+**a) Sacramento ~~b) Los Angeles Clippers ~~c) Denver Nuggets ~~d) Dallas Mavericks
+##1343
+What player was born and raised in Jersey City, NJ and was a high school All-American at St. Anthony's High School where his father is head basketball coach?
+**a) Bobby Hurley ~~b) Kenny Anderson ~~c) Jayson Williams ~~d) Kendall Gill
+##1344
+What country is Dallas Maverick Chris Anstey from?
+**a) Australia ~~b) France ~~c) United Kingdom ~~d) United States
+##1345
+Who selected Shawn Bradley with the second overall pick in the 1993 NBA Draft?
+**a) Philadelphia ~~b) New Jersey ~~c) Utah ~~d) Dallas
+##1346
+Who was the first Dallas Maverick to finish a season ranked first in a league-leader category?
+**a) Shawn Bradley ~~b) Jason Kidd ~~c) Derek Harper ~~d) Jim Jackson
+##1347
+Which player was born in Lundstuhl, Germany?
+**a) Shawn Bradley ~~b) Eric Montross ~~c) Hakeem Olajuwon ~~d) Detlef Schrempf
+##1348
+Due to his trade from Phoenix to Dallas, which of the following Mavericks played in 83 games in the 1996-97 season?
+**a) Michael Finley ~~b) Shawn Bradley ~~c) Derek Harper ~~d) Jamal Mashburn
+##1349
+Due to his trade from Portland to Detroit, what Piston played in 83 games in the 1996-97 season?
+**a) Aaron McKie ~~b) Lindsey Hunter ~~c) Otis Thorpe ~~d) Brian Williams
+##1350
+Due to his trade from Phoenix to Dallas, which of the following Mavericks played in 83 games in the 1996-97 season?
+**a) A.C. Green ~~b) Shawn Bradley ~~c) Derek Harper ~~d) Jamal Mashburn
+##1351
+Entering 1997-98 season, what Dallas Maverick had not missed a game in his two-year career playing with Phoenix and Dallas?
+**a) Michael Finley ~~b) A.C. Green ~~c) Jason Kidd ~~d) Jamal Mashburn
+##1352
+In 1995-96, who averaged more minutes than any rookie in Phoenix Suns history?
+**a) Michael Finley ~~b) Jason Kidd ~~c) Antonio McDyess ~~d) Steve Nash
+##1353
+What is A.C. Green's given name?
+**a) A.C. ~~b) Anthony Charles ~~c) Antonio Christian ~~d) Ahmad Cedric
+##1354
+What NBA player was 5'11" in ninth grade and 6'8" as a high school senior in Portland, Oregon?
+**a) A.C. Green ~~b) Damon Stoudamire ~~c) Terrell Brandon ~~d) Clifford Robinson
+##1355
+During the 1997-98 season, who set the all-time NBA mark for consecutive games played?
+**a) A.C. Green ~~b) Rick Mahorn ~~c) Buck Williams ~~d) John Stockton
+##1356
+Entering the 1997-98 season, who had not missed a game in 10 consecutive seasons?
+**a) A.C. Green ~~b) Charles Barkley ~~c) Patrick Ewing ~~d) Alonzo Mourning
+##1357
+What team has A.C. Green not played for?
+**a) Portland ~~b) Los Angeles Lakers ~~c) Phoenix ~~d) Dallas
+##1358
+What current Dallas Maverick player led the Los Angeles Lakers in rebounds (7.8 rpg) during their 1987 title run?
+**a) A.C. Green ~~b) Cedric Ceballos ~~c) Derek Harper ~~d) Elden Campbell
+##1359
+Prior to joining the Mavericks during the 1996-97 season, what veteran forward had appeared in the playoffs in each of his 11 NBA seasons (127 games and 86 starts)?
+**a) A.C. Green ~~b) Cedric Ceballos ~~c) Derek Harper ~~d) Elden Campbell
+##1360
+What Dallas Maverick was a college teammate of Damon Stoudamire at Arizona?
+**a) Khalid Reeves ~~b) Michael Finley ~~c) Kurt Thomas ~~d) Samaki Walker
+##1361
+What player's first name translates to "fish" in Swahili?
+**a) Samaki Walker ~~b) Shaquille O'Neal ~~c) Hakeem Olajuwon ~~d) Terrell Brandon
+##1362
+What NBA rookie suffered fractures in each leg at different points of his collegiate career and now plays with steel rods implanted in each lower leg?
+**a) Bubba Wells ~~b) Alan Henderson ~~c) Jason Caffey ~~d) Rodney Rogers
+##1363
+Who holds the Dallas Mavericks record for most steals in a career?
+**a) Derek Harper ~~b) Jim Jackson ~~c) Jason Kidd ~~d) Mookie Blaylock
+##1364
+Who holds the Dallas Mavericks record for most three-point field goals made in a career?
+**a) Derek Harper ~~b) Jim Jackson ~~c) Jason Kidd ~~d) Mookie Blaylock
+##1365
+Who holds the Dallas Mavericks record for most assists in a career?
+**a) Derek Harper ~~b) Michael Finley ~~c) Jason Kidd ~~d) Mookie Blaylock
+##1366
+When was the last time the Dallas Mavericks appeared in the NBA Playoffs?
+**a) 1990 ~~b) 1997 ~~c) 1985 ~~d) 1988
+##1367
+Who holds the most triple-doubles in Dallas Mavericks history with 13?
+**a) Jason Kidd ~~b) Derek Harper ~~c) Jim Jackson ~~d) Michael Finley
+##1368
+Who holds the Dallas Mavericks record for highest three-point field goal percentage in a season (.478)?
+**a) Detlef Schrempf ~~b) Derek Harper ~~c) Michael Finley ~~d) Jason Kidd
+##1369
+Who holds the Dallas Mavericks record for most rebounds in a game (28)?
+**a) Popeye Jones ~~b) Shawn Bradley ~~c) Sam Perkins ~~d) Dennis Rodman
+##1370
+Who holds the Dallas Mavericks record for most assists in a game (25)?
+**a) Jason Kidd ~~b) Derek Harper ~~c) Jim Jackson ~~d) Khalid Reeves
+##1371
+Who holds the Dallas Mavericks record for most blocks in a game (10)?
+**a) Shawn Bradley ~~b) Oliver Miller ~~c) Dikembe Mutombo ~~d) Sam Perkins
+##1372
+Who holds the Dallas Mavericks record for most blocks in a season (148)?
+**a) Lorenzo Williams ~~b) Shawn Bradley ~~c) Sam Perkins ~~d) Oliver Miller
+##1373
+During the 1993-94 season, who set the Dallas Mavericks record for most minutes played in a single season (3,066)?
+**a) Jim Jackson ~~b) Jason Kidd ~~c) Jamal Mashburn ~~d) Derek Harper
+##1374
+What team took the Los Angeles Lakers to seven games in the 1988 NBA Western Conference Finals before losing?
+**a) Dallas ~~b) Seattle ~~c) Portland ~~d) Utah
+##1375
+While playing for the Chicago Bulls, who led the NBA in three-point field goal shooting .453 for the 1992-93 season?
+**a) B.J. Armstrong ~~b) Ron Harper ~~c) Steve Kerr ~~d) Reggie Miller
+##1376
+Who was selected by Toronto with the first pick in the 1995 NBA Expansion Draft?
+**a) B.J. Armstrong ~~b) Rick Mahorn ~~c) Otis Thorpe ~~d) Gerald Wilkins
+##1377
+What is B.J. Armstrong's given name?
+**a) Benjamin Roy ~~b) B.J. ~~c) Bruce James ~~d) Bobby Jamal
+##1378
+Bimbo Coles was drafted by the NBA's Sacramento Kings in 1990. What other professional sports team drafted him?
+**a) California Angels ~~b) Oakland Raiders ~~c) New York Rangers ~~d) Los Angeles Galaxy
+##1379
+Golden State Warrior center Adonal Foyle did not start playing organized basketball until he was how old?
+**a) 16 ~~b) 10 ~~c) 13 ~~d) 22
+##1380
+What NBA player broke Alonzo Mourning's record to become the NCAA's all-time blocked shots leader?
+**a) Adonal Foyle ~~b) Othella Harrington ~~c) Shawn Bradley ~~d) Oliver Miller
+##1381
+Who was the NBA's best free throw shooter in 1996-97 with a .906 mark from the line?
+**a) Mark Price ~~b) Reggie Miller ~~c) Glen Rice ~~d) John Starks
+##1382
+Who was the first Warrior to lead the league in free throw shooting since 1977?
+**a) Mark Price ~~b) B.J. Armstrong ~~c) Joe Smith ~~d) Chris Mullin
+##1383
+Entering the 1997-98 season, who is the NBA's all-time career leader in free throw percentage with a career mark of .907?
+**a) Mark Price ~~b) Mark Jackson ~~c) John Stockton ~~d) Glen Rice
+##1384
+What is Dickey Simpkins given name?
+**a) LuBara Dixon Simpkins ~~b) Richard J. Simpkins ~~c) Dickson Robert Simpkins ~~d) Dickey Simpkins
+##1385
+What team picked Joe Smith in the 1995 NBA Draft?
+**a) Golden State ~~b) Philadelphia ~~c) Washington ~~d) Orlando
+##1386
+What overall number pick was Joe Smith in the 1995 NBA Draft?
+**a) 1 ~~b) 3 ~~c) 10 ~~d) 12
+##1387
+Before being traded to Philadelphia during the 1997-98 season, what team did Joe Smith play for?
+**a) Golden State ~~b) Washington ~~c) Minnesota ~~d) Portland
+##1388
+Who was the only rookie in 1995-96 to start every game for his team?
+**a) Joe Smith ~~b) Michael Finley ~~c) Jerry Stackhouse ~~d) Stephon Marbury
+##1389
+In 1995, who became the youngest player since 1979 to be drafted with the first overall selection?
+**a) Joe Smith ~~b) Kevin Garnett ~~c) Kobe Bryant ~~d) Allen Iverson
+##1390
+Which of the following teams has Felton Spencer not played for?
+**a) Los Angeles Clippers ~~b) Minnesota ~~c) Utah ~~d) Golden State
+##1391
+What team led the NBA in free throw shooting in the 1996-97 season with a .778 percentage from the line?
+**a) Golden State ~~b) Chicago ~~c) Seattle ~~d) San Antonio
+##1392
+Who holds the Warriors record for most field goals made in a game with none missed?
+**a) Chris Mullin ~~b) Mark Price ~~c) Joe Smith ~~d) Tim Hardaway
+##1393
+Who holds the NBA all-time record for most field goals attempted and none made in a single game (0-17 from the field)?
+**a) Tim Hardaway ~~b) Scottie Pippen ~~c) Gary Payton ~~d) Rex Chapman
+##1394
+From 1962-66 what team had the logo and uniforms that said "The City"?
+**a) Golden State ~~b) New York ~~c) Philadelphia ~~d) Los Angeles Lakers
+##1395
+In June, 1997, what team introduced a new logo identified by a "ThunderBolt"?
+**a) Golden State ~~b) Miami ~~c) Phoenix ~~d) Seattle
+##1396
+When was the last time the Golden State Warriors were in the NBA Playoffs?
+**a) 1994 ~~b) 1997 ~~c) 1988 ~~d) 1990
+##1397
+What team did Mitch Richmond play for when he won the NBA Rookie of the Year award in 1989?
+**a) Golden State ~~b) Sacramento ~~c) Milwaukee ~~d) Portland
+##1398
+In the 1991 NBA Playoffs, what team upset the Midwest Division Champion San Antonio Spurs in round 1 for its 1st postseason victory in L.A. since 1969 before being eliminated by the Lakers in the conference semis?
+**a) Golden State ~~b) Portland ~~c) Utah ~~d) Seattle
+##1399
+What team did the "Run TMC" trio play for in the early 1990s?
+**a) Golden State ~~b) Sacramento ~~c) Miami ~~d) Chicago
+##1400
+What was the catchy nickname for Warriors teammates Chris Mullin, Tim Hardaway, and Mitch Richmond in the early 1990's?
+**a) Run TMC ~~b) Three Musketeers ~~c) The Three Warriors ~~d) The Sharpshooters
+

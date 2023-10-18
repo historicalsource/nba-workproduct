@@ -1,0 +1,308 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+##101
+Who is the New York Knicks all-time playoff leader in three-point field goals made (150)?
+**a) John Starks ~~b) Charlie Ward ~~c) Derek Harper ~~d) Allan Houston
+##102
+Who is the New York Knicks all-time leader in three-point field goals made with 852 treys made entering the 1997-98 season?
+**a) John Starks ~~b) Glen Rice ~~c) Larry Johnson ~~d) Chris Childs
+##103
+During his New York Knicks career, what player has recorded nine four-point plays?
+**a) John Starks ~~b) Patrick Ewing ~~c) Buck Williams ~~d) Charles Oakley
+##104
+On April 11, 1995 this NBA sharpshooter became the first player in NBA history to nail more than 200 three-point attempts in a single season?
+**a) John Starks ~~b) Reggie Miller ~~c) Dale Ellis ~~d) Rex Chapman
+##105
+What NBA veteran has shot .500 or better from the field in each of his 16 seasons?
+**a) Buck Williams ~~b) Patrick Ewing ~~c) Rick Mahorn ~~d) Armon Gilliam
+##106
+Which New York Knick player is one of only eight players in NBA history to amass both 16,000 career points and 12,000 career rebounds?
+**a) Buck Williams ~~b) Patrick Ewing ~~c) Herb Williams ~~d) Charles Oakley
+##107
+Among active 1997-98 players, who is the leader in games played, minutes and rebounds?
+**a) Buck Williams ~~b) Patrick Ewing ~~c) Michael Cage ~~d) Rick Mahorn
+!!108
+Who led the New Jersey Nets in rebounds in all five games of their stunning first round triumph in the 1984 NBA playoffs over the defending NBA champion Philadelphia 76ers, which still stands as the Nets only NBA Playoff series win?
+**a) Buck Williams ~~b) Michael Cage ~~c) Terry Cummings ~~d) Jayson Williams
+##109
+Playing for the Los Angeles Clippers, who finished first among rookies in three-point field goal percentage (.416) and second in steals (1.2 spg) in the 1995-96 season?
+**a) Brent Barry ~~b) Lamond Murray ~~c) Maurice Taylor ~~d) Bob Sura
+##110
+Who finished the 1995-96 season ranked third all-time among rookies in three-pointers made (123), trailing only Dennis Scott (125) and Damon Stoudamire (133)?
+**a) Brent Barry ~~b) Wesley Person ~~c) Allan Houston ~~d) Brent Price
+##111
+What is Pooh Richardson's given name?
+**a) Jerome ~~b) Peter ~~c) Christopher ~~d) John
+##112
+In 1995-96, who became the first Clipper to average double figure rebounds since 1987-88?
+**a) Loy Vaught ~~b) Stanley Roberts ~~c) Jayson Williams ~~d) Rodney Rogers
+##113
+In 1995-96, who became the first Clipper to average a double-double (points-rebounds) since 1987-88?
+**a) Loy Vaught ~~b) Stanley Roberts ~~c) Jayson Williams ~~d) Rodney Rogers
+##114
+Over the last two seasons (1996-97 and 1995-96), who has recorded the most points-rebounds double-doubles (97)?
+**a) Shawn Kemp ~~b) Charles Barkley ~~c) Karl Malone ~~d) Jayson Williams
+##115
+Who is the Los Angeles Clippers franchise career leader in rebounds?
+**a) Loy Vaught ~~b) Danny Manning ~~c) Stanley Roberts ~~d) Lamond Murray
+##116
+Who is the Los Angeles Clippers franchise career leader in three-point field goal percentage (.382)?
+**a) Brent Barry ~~b) Ron Harper ~~c) Mark Jackson ~~d) Pooh Richardson
+##117
+Who holds the Los Angeles Clippers franchise record for minutes played in a game (58)?
+**a) Loy Vaught ~~b) Danny Manning ~~c) Mark Jackson ~~d) Lamond Murray
+##118
+Who holds the Los Angeles Clippers franchise record for three-point field goals made in a season (139)?
+**a) Terry Dehere ~~b) Mark Jackson ~~c) Lamond Murray ~~d) Rodney Rogers
+##119
+Who holds the Los Angeles Clippers franchise record for three-point field percentage in a season (.440)?
+**a) Terry Dehere ~~b) Brent Barry ~~c) Mark Jackson ~~d) Ron Harper
+##120
+Who holds the Clippers franchise record for points scored in a single playoff game (33)?
+**a) Danny Manning ~~b) Ron Harper ~~c) Pooh Richardson ~~d) Loy Vaught
+##121
+Which two NBA expansion teams entered the NBA in 1995?
+**a) Toronto and Vancouver ~~b) Toronto and Minnesota ~~c) Vancouver and Miami ~~d) Minnesota and Montreal
+##122
+When was the Toronto Raptors inaugural season?
+**a) 1995-96 ~~b) 1996-97 ~~c) 1993-94 ~~d) 1997-98
+##123
+When was the Vancouver Grizzlies inaugural season?
+**a) 1995-96 ~~b) 1996-97 ~~c) 1993-94 ~~d) 1997-98
+##124
+When was the Orlando Magic inaugural season?
+**a) 1989-90 ~~b) 1990-91 ~~c) 1994-95 ~~d) 1985-86
+##125
+When was the Minnesota Timberwolves inaugural season?
+**a) 1989-90 ~~b) 1990-91 ~~c) 1994-95 ~~d) 1985-86
+##126
+When was the Miami Heat's inaugural season?
+**a) 1988-89 ~~b) 1990-91 ~~c) 1994-95 ~~d) 1985-86
+##127
+What two teams entered the NBA in 1989?
+**a) Minnesota Timberwolves and Orlando Magic ~~b) Minnesota Timberwolves and Miami Heat ~~c) Miami Heat and Orlando Magic ~~d) Orlando Magic and Toronto Raptors
+##128
+When was the Charlotte Hornets' inaugural season?
+**a) 1988-89 ~~b) 1990-91 ~~c) 1994-95 ~~d) 1985-86
+##129
+What two teams entered the NBA in 1988?
+**a) Miami Heat and Charlotte Hornets ~~b) Miami Heat and Orlando Magic ~~c) Orlando Magic and Minnesota Timberwolves ~~d) Minnesota Timberwolves and Vancouver Grizzlies
+##130
+Who is the Vancouver Grizzlies all-time leader for points scored in a single game (40)?
+**a) Anthony Peeler ~~b) Greg Anthony ~~c) Bryant Reeves ~~d) Otis Thorpe
+##131
+Who holds the Vancouver Grizzlies record for most rebounds in a single game (18)?
+**a) Bryant Reeves ~~b) Otis Thorpe ~~c) Jayson Williams ~~d) Hakeem Olajuwon
+##132
+Who holds the Vancouver Grizzlies record for most assists in a single game (15)?
+**a) Greg Anthony ~~b) Antonio Daniels ~~c) George Lynch ~~d) Blue Edwards
+##133
+What Boston Celtic grew up and played college basketball in the Boston area?
+**a) Dana Barros ~~b) Rick Fox ~~c) Andrew DeClerq ~~d) Antoine Walker
+##134
+In 1989 NBA Draft, Seattle held the 16th and 17th picks. They chose Shawn Kemp with the 17th selection. Who did they select with the 16th choice?
+**a) Dana Barros ~~b) Gary Payton ~~c) Jim McIlvaine ~~d) Sam Perkins
+##135
+In 1991-92, which Seattle SuperSonics player led the NBA in three-point field goal percentage (.446)?
+**a) Dana Barros ~~b) Eric Snow ~~c) Steve Kerr ~~d) Dale Ellis
+##136
+In 1995-96, who set the NBA record for consecutive games making a three-point field goal at 89 games?
+**a) Dana Barros ~~b) Mark Price ~~c) Hersey Hawkins ~~d) Sam Perkins
+##137
+As a rookie, what Celtic won the Slam Dunk Competition at the 1991 NBA All-Star Weekend event?
+**a) Dee Brown ~~b) Cedric Ceballos ~~c) Brent Barry ~~d) Eddie Jones
+##138
+Who did Sacramento select with the first overall pick in the 1989 NBA Draft?
+**a) Pervis Ellison ~~b) Danny Manning ~~c) Danny Ferry ~~d) Mitch Richmond
+##139
+Who was the only Celtic to appear in all 82 regular season games in the 1996-97 season?
+**a) Antoine Walker ~~b) Chauncey Billups ~~c) Kenny Anderson ~~d) Rick Fox
+##140
+In 1996-97, what Celtic player had a sensational rookie campaign leading the team in points, rebounds and blocks?
+**a) Antoine Walker ~~b) Kenny Anderson ~~c) Chauncey Billups ~~d) Andrew Declerq
+##141
+In 1996-97 season, what Celtic rookie became the second highest rookie scorer in team history?
+**a) Antoine Walker ~~b) Andrew Declerq ~~c) Ron Mercer ~~d) Chauncey Billups
+##142
+As a rookie, this Celtic recorded two triple-doubles, the second highest total in team history (for all players, not just rookies)?
+**a) Antoine Walker ~~b) Ron Mercer ~~c) Chauncey Billups ~~d) Grant Hill
+##143
+On February 24, 1998, who became only the fourth player in NBA history to play their first 1,000 games with the same team in the same city?
+**a) Hakeem Olajuwon ~~b) Sam Perkins ~~c) Charles Barkley ~~d) Grant Hill
+##144
+What active player has played the most games with the same team?
+**a) John Stockton ~~b) Charles Barkley ~~c) Grant Hill ~~d) Rik Smits
+##145
+Who is the Detroit Pistons second all-time leading scorer?
+**a) Joe Dumars ~~b) Rick Mahorn ~~c) Grant Hill ~~d) Dennis Rodman
+##146
+Which Detroit Piston was selected with the last pick in the 1995 NBA Draft (58th overall)?
+**a) Don Reid ~~b) Jerome Williams ~~c) Scot Pollard ~~d) Theo Ratliff
+##147
+Which of the following NBA players are brothers?
+**a) Horace Grant and Harvey Grant ~~b) Brian Williams and Jerome Williams ~~c) Chris Mills and Terry Mills ~~d) Clifford Robinson and David Robinson
+##148
+Which of the following NBA players are brothers?
+**a) Mark Price and Brent Price ~~b) Horace Grant and Brian Grant ~~c) Ron Harper and Derek Harper ~~d) Jim Jackson and Mark Jackson
+##149
+What player was traded from the Miami Heat to the Los Angeles Clippers just prior to the 1997-98 trading deadline?
+**a) Ike Austin ~~b) Brent Barry ~~c) Rodney Rogers ~~d) Rony Seikaly
+##150
+What player was traded from the Los Angeles Clippers to the Miami Heat just prior to the 1998 trading deadline?
+**a) Brent Barry ~~b) Ike Austin ~~c) Rodney Rogers ~~d) Rony Seikaly
+##151
+Who was named the New Jersey Nets Defensive Player of the Year in 1994-95?
+**a) P.J. Brown ~~b) Jayson Williams ~~c) Chris Gatling ~~d) Chris Childs
+##152
+What is P.J. Brown's full name?
+**a) Collier Brown Jr. ~~b) Peter J. Brown ~~c) P. James Brown ~~d) P.J. Brown
+##153
+What Miami Heat player won the 1997 NBA Citizenship Award?
+**a) P.J. Brown ~~b) Tim Hardaway ~~c) Dan Majerle ~~d) Alonzo Mourning
+##154
+What team selected Tim Hardaway in the 1989 NBA Draft?
+**a) Golden State ~~b) Miami ~~c) San Antonio ~~d) Houston
+##155
+Who was the Miami Heat's leading scorer in 1996-97 with 20.3 points per game?
+**a) Tim Hardaway ~~b) Alonzo Mourning ~~c) Isaac Austin ~~d) Dan Majerle
+##156
+In 1992-93, what NBA guard became the fifth player in NBA history to average 20 points and 10 assists in consecutive seasons?
+**a) Tim Hardaway ~~b) Anfernee Hardaway ~~c) Gary Payton ~~d) John Stockton
+##157
+Which team has Dan Majerle not played for?
+**a) Los Angeles Lakers ~~b) Phoenix Suns ~~c) Cleveland Cavaliers ~~d) Miami Heat
+##158
+What team selected Jamal Mashburn as the fourth overall pick in the 1993 NBA Draft?
+**a) Dallas Mavericks ~~b) Miami Heat ~~c) Boston Celtics ~~d) Charlotte Hornets
+##159
+Who became only the second player in Dallas Maverick history to finish in the top five in the NBA in scoring when he averaged 24.1 points in 1994-95?
+**a) Jamal Mashburn ~~b) Jason Kidd ~~c) Derek Harper ~~d) Jim Jackson
+##160
+What NBA player's father is a former heavyweight fighter who fought Ken Norton and Larry Holmes and sparred against Muhammad Ali?
+**a) Jamal Mashburn ~~b) Anthony Mason ~~c) Dennis Rodman ~~d) Charles Barkley
+##161
+What NBA player's father was a former Golden Gloves boxer and a bodyguard for Malcolm X?
+**a) Malik Sealy ~~b) Mahmoud Abdul-Rauf ~~c) Charles Oakley ~~d) Joe Smith
+##162
+Who was named the NBA's 1996-97 Most Improved Player?
+**a) Isaac Austin ~~b) Lindsey Hunter ~~c) Matt Geiger ~~d) Alan Henderson
+##163
+What other team has Miami center Alonzo Mourning played for?
+**a) Charlotte Hornets ~~b) Washington Wizards ~~c) Detroit Pistons ~~d) Orlando Magic
+##164
+In the 1995-96 season, what Miami Heat player established a franchise single-season record for blocked shots (189)?
+**a) Alonzo Mourning ~~b) Rony Seikaly ~~c) Isaac Austin ~~d) P.J. Brown
+##165
+Shaquille O'Neal and this player were the first rookies to average 20+ points and 10+ rebounds in a season since David Robinson in 1989-90.
+**a) Alonzo Mourning ~~b) Dikembe Mutombo ~~c) Patrick Ewing ~~d) Rik Smits
+##166
+What rookie became Charlotte's all-time shot blocker in just the 49th game of the 1992-93 season?
+**a) Alonzo Mourning ~~b) Larry Johnson ~~c) Matt Geiger ~~d) Ervin Johnson
+##167
+Which of the following teams has Terry Mills not played for?
+**a) Washington ~~b) New Jersey ~~c) Detroit ~~d) Miami
+##168
+Who was the second rookie in NBA history (first rookie since 1973-74) to be the leading playmaker for a team that topped the league in scoring?
+**a) Tim Hardaway ~~b) Allen Iverson ~~c) Anfernee Hardaway ~~d) Damon Stoudamire
+##169
+In 1995, who became the first reserve player to start in an All-Star Game since fan voting began in 1975?
+**a) Dan Majerle ~~b) Mitch Richmond ~~c) John Starks ~~d) Detlef Schrempf
+##170
+Who became the first NBA All-Star in Miami Heat history when he was named to the Eastern Conference squad in 1996?
+**a) Alonzo Mourning ~~b) Glen Rice ~~c) Dan Majerle ~~d) Larry Johnson
+##171
+Who holds the Miami Heat record for games played in a career (478)?
+**a) Glen Rice ~~b) Alonzo Mourning ~~c) Tim Hardaway ~~d) Rony Seikaly
+##172
+Who holds the Miami Heat record for minutes played in a single game (59)?
+**a) Glen Rice ~~b) Grant Long ~~c) Bimbo Coles ~~d) Tim Hardaway
+##173
+Who holds the Miami Heat record for career points (9,248)?
+**a) Glen Rice ~~b) Grant Long ~~c) Steve Smith ~~d) Alonzo Mourning
+##174
+Who holds the Miami Heat record for most points scored in a single game (56)?
+**a) Glen Rice ~~b) Tim Hardaway ~~c) Alonzo Mourning ~~d) Sherman Douglas
+##175
+Who holds the Miami Heat record for career field goal percentage (49.9%)?
+**a) Sherman Douglas ~~b) Grant Long ~~c) Glen Rice ~~d) Tim Hardaway
+##176
+Who holds the Miami Heat record for best field goal percentage in a season (57.4%)?
+**a) Matt Geiger ~~b) Alonzo Mourning ~~c) Steve Smith ~~d) Rony Seikaly
+##177
+Who holds the Miami Heat record for best free throw percentage in a season (88.0%)?
+**a) Glen Rice ~~b) John Crotty ~~c) Kevin Edwards ~~d) Rex Chapman
+##178
+Who holds the Miami Heat record for most rebounds in a career (4,544)?
+**a) Rony Seikaly ~~b) Alonzo Mourning ~~c) Grant Long ~~d) Matt Geiger
+##179
+Who holds the Miami Heat record for most rebounds in a game (34)?
+**a) Rony Seikaly ~~b) Alonzo Mourning ~~c) Kevin Willis ~~d) Matt Geiger
+##180
+Who holds the Miami Heat record for most blocked shots in a career (610)?
+**a) Rony Seikaly ~~b) Alonzo Mourning ~~c) Grant Long ~~d) Glen Rice
+##181
+Who holds the Miami Heat record for most steals in a career (666)?
+**a) Grant Long ~~b) Glen Rice ~~c) Tim Hardaway ~~d) Steve Smith
+##182
+Who holds the Miami Heat record for most steals in game (7)?
+**a) Bimbo Coles ~~b) Tim Hardaway ~~c) Alonzo Mourning ~~d) Glen Rice
+##183
+Who holds the Miami Heat record for most assists in a career (1,946)?
+**a) Bimbo Coles ~~b) Tim Hardaway ~~c) Sherman Douglas ~~d) Steve Smith
+##184
+Who holds the Miami Heat record for most assists in a game (19)?
+**a) Tim Hardaway ~~b) Sherman Douglas ~~c) Bimbo Coles ~~d) Brian Shaw
+##185
+What sharp-shooting Charlotte Hornet set a team record by registering his 135 consecutive game in double figures during the 1997-98 season?
+**a) Glen Rice ~~b) Dell Curry ~~c) Kendall Gill ~~d) Vlade Divac
+##186
+On February 27, 1998, for the first time in the NBA's 51-year history, one team scored more than twice as many points as the other did. What team was the victim of the Indiana Pacers historic blowout?
+**a) Portland Trail Blazers ~~b) Denver Nuggets ~~c) Los Angeles Clippers ~~d) Dallas Mavericks
+##187
+On February 27, 1998, the Pacers scored more than twice as many points as Portland Trail Blazers for the second most lopsided victory in NBA history. What was the margin of victory?
+**a) 65 points ~~b) 45 points ~~c) 80 points ~~d) 55 points
+##188
+On February 27, 1998, how many points did the Pacers hold Portland to, which was the fewest points by an opponent in Indiana's 22-year history?
+**a) 59 ~~b) 65 ~~c) 48 ~~d) 72
+##189
+What team was on the losing end of a 68-point loss that stands as the largest margin of defeat in NBA history?
+**a) Miami ~~b) Los Angeles Clippers ~~c) Denver Nuggets ~~d) Dallas
+##190
+In 1991, Cleveland routed Miami to record the worst blowout in NBA history. What was the margin of defeat/victory?
+**a) 68 points ~~b) 80 points ~~c) 48 points ~~d) 59 points
+##191
+Entering the 1997-98 season, what player would own the highest career free throw percentage in NBA history but was 187 free throws shy of reaching the required 1,200 made free throws to qualify?
+**a) Mahmoud Abdul-Rauf ~~b) Terry Dehere ~~c) Matt Maloney ~~d) Lindsey Hunter
+##192
+What third overall selection in the 1990 NBA Draft won the 1993 Most Improved Award?
+**a) Mahmoud Abdul-Rauf ~~b) Don MacLean ~~c) Chris Webber ~~d) Tom Gugliotta
+##193
+What player led the NBA in free throw accuracy in 1993-94 (.956), posting the second-highest percentage in league history?
+**a) Mahmoud Abdul-Rauf ~~b) Steve Kerr ~~c) Chris Mullin ~~d) Mark Price
+##194
+Who registered consecutive made free throw streaks of 81, 63 and 57 in 1993-94, becoming one of only two players in NBA history with three streaks of 50 or more made free throws in the same season?
+**a) Mahmoud Abdul-Rauf ~~b) Mark Price ~~c) Reggie Miller ~~d) John Stockton
+##195
+What is Terry Dehere's given name?
+**a) Lennox ~~b) Terrell ~~c) Thomas ~~d) Anthony
+##196
+Which of the following players was not selected in the second round of the NBA Draft?
+**a) Lamond Murray ~~b) Nick Van Exel ~~c) Vinny Del Negro ~~d) Tyus Edney
+!!197
+Entering the 1997-98 season, who is the Sacramento Kings leader in double-doubles, having averaged 11.6 ppg and 9.5 rpg in 275 regular season contests since being acquired by Kings midway through 1993-94 campaign?
+**a) Olden Polynice ~~b) Mitch Richmond ~~c) Billy Owens ~~d) Terry Dehere
+##198
+What team selected Olden Polynice with the eighth overall pick in the 1987 NBA Draft?
+**a) Chicago ~~b) Los Angeles Clippers ~~c) Sacramento ~~d) Detroit
+##199
+Where was Sacramento Kings center Olden Polynice born?
+**a) Haiti ~~b) New York ~~c) Jamaica ~~d) California
+!!200
+The Washington Wizards changed their name in 1997 and when?
+**a) Moved from Landover, MD to a new arena in Washington D.C. ~~b) Had the number one pick in the 1997 NBA Draft ~~c) Had all the players change their uniform numbers ~~d) Moved from the Eastern Conference to the Western Conference
+

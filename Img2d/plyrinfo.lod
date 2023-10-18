@@ -1,0 +1,48 @@
+HFILE> \video\nba\include\plyrinfo.h
+
+#
+# All this stuff needs to be loaded in during gameplay
+#
+
+#
+# The following is a definition for arrows.wif and its images.
+#
+
+#
+# Images.
+#
+INPUT> arrows2.wif cplyr98.wif
+OUTPUTXY> 128 128
+MIDST> ON
+-----> Larrow_blue,Larrow_green,Larrow_red,Larrow_yellow,Larrow_silver
+-----> Lball1s,Lball2s,Lball3s,Lball4s,Lballs_cpu
+-----> Lball1g,Lball2g,Lball3g,Lball4g
+-----> Lball2sR
+-----> FT_DISC,FT_DISCG
+MIDST> OFF
+EXECUTE> arrows
+MAKEBAT> plyrinfo.bat arrows*.tga texus -mn -de -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> arrows2.wif
+-----> TB_TOCONTR,TB_INSERT,TB_PRESS,TB_PLEASE,TB_FREE,TB_CREDITS,TB_JOIN
+EXECUTE> msgs
+MAKEBAT> plyrinfo.bat msgs*.tga texus -mn -de -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+OUTPUTXY> 256 256
+INPUT> infboxes.wif 
+-----> BOXBLUE,BOXGREEN,BOXRED,BOXYELLOW,PLAYR1WRD,PLAYR2WRD,PLAYR3WRD,PLAYR4WRD,MSSG1,MSSG2,MSSG3,MSSG4
+-----> WORDBLU,WORDGRE,WORDRED,WORDYEL
+EXECUTE> idiot
+MAKEBAT> plyrinfo.bat idiot*.tga texus -mn -de -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> firebar.wif
+-----> firbar01,firbar02,firbar03,firbar04,firbar05,firbar06,firbar07,firbar08
+-----> firbar09,firbar10,firbar11,firbar12,firbar13,firbar14,firbar15
+EXECUTE> firebr
+MAKEBAT> plyrinfo.bat firebr*.tga texus -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> firebar.wif
+-----> bfirbar01,bfirbar02,bfirbar03,bfirbar04,bfirbar05,bfirbar06,bfirbar07,bfirbar08
+-----> bfirbar09,bfirbar10,bfirbar11,bfirbar12,bfirbar13,bfirbar14,bfirbar15
+EXECUTE> bfirebr
+MAKEBAT> plyrinfo.bat bfirebr*.tga texus -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |

@@ -1,0 +1,74 @@
+NBAonNBC - Sounds Cursors for createP - 2nd pass (12/07/98 20:25:03) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: CREATEP2.BNK
+
+Size of .BNK file including header: 70076 bytes ($111BC bytes)
+
+Size of playlist table: 304 bytes ($130 bytes)
+
+Size of playlist and sound data only: 69638 bytes ($11006 bytes)
+
+Checksum: $D8C3
+
+Total number of playlists: 27 ($1B)
+
+Total number of sound files: 27 ($1B)
+
+Average bit rate for bank: 33.1 kbits/sec
+
+Total linear amount of sound: 0:16.689 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  13   $000d   1       10.9    12.5  Switch On (check mark) 
+  14   $000e   1       33.5    38.4  Switch Off (check mark)
+
+  19   $0013   1       20.9    24.0  Pulse Wink
+
+  28   $001c   1       19.7    22.6  Cannot Select
+
+  32   $0020   1        9.2    10.6  Simple Bonk Cursor
+
+  41   $0029   1      193.8   222.2  Big Ben Gong
+  42   $002a   1      217.7   249.6  Big Ben NBC
+  43   $002b   1       27.6    31.7  Clock Boink 1
+  44   $002c   1       25.5    29.3  Clock Boink 2
+
+  48   $0030   1       41.0    47.0  Wood Clock Boink 2
+
+  59   $003b   1       18.0    20.6  Increment/Decrement 1
+  60   $003c   1       18.8    21.6  Increment/Decrement 2
+  61   $003d   1       19.7    22.6  Increment/Decrement 3
+  62   $003e   1       18.0    20.6  Increment/Decrement 4
+  63   $003f   1       19.3    22.1  Increment/Decrement 5
+  64   $0040   1       18.4    21.1  Increment/Decrement 6
+  65   $0041   1       17.6    20.2  Increment/Decrement 7
+  66   $0042   1       18.8    21.6  Increment/Decrement 8
+  67   $0043   1       18.8    21.6  Increment/Decrement 9
+  68   $0044   1       18.4    21.1  Increment/Decrement 10
+  69   $0045   1       18.4    21.1  Increment/Decrement 11
+  70   $0046   1       18.0    20.6  Increment/Decrement 12
+  71   $0047   1       18.8    21.6  Increment/Decrement 13
+ 
+NBAonNBC - Sounds Cursors for createP - 2nd pass (12/07/98 20:25:03) page 2
+
+
+Playlist Table (continued)
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  72   $0048   1       17.6    20.2  Increment/Decrement 14
+  73   $0049   1       17.6    20.2  Increment/Decrement 15
+  74   $004a   1       18.0    20.6  Increment/Decrement 16
+  75   $004b   1       17.6    20.2  Increment/Decrement 17
+
+Total 27 Playlists

@@ -1,0 +1,311 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i Where did Bills coach Wade Phillips get his start as an NFL head coach?
+m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m Where did Bills coach Wade Phillips get his start as an NFL head coach?
+
+##1
+Which Denver Nugget won a NCAA Championship while at UCLA?
+**a) George Zidek ~~b) Charles O'Bannon ~~c) LaPhonso Ellis ~~d) Bobby Jackson
+##2
+Who is the Denver Nuggets all-time leader in three-point field goal percentage?
+**a) Dale Ellis ~~b) Bobby Jackson ~~c) Dikembe Mutombo ~~d) Rodney Rogers
+##3
+Who is the Denver Nuggets all-time leader in free throw percentage?
+**a) Mahmoud Abdul-Rauf ~~b) Dale Ellis ~~c) George Zidek ~~d) Dikembe Mutombo
+##4
+Who is the Denver Nuggets all-time leader in blocked shots?
+**a) Dikembe Mutombo ~~b) George Zidek ~~c) Tom Hammonds ~~d) Danny Fortson
+##5
+Which of the following teams formerly played in the ABA?
+**a) Denver Nuggets ~~b) Charlotte Hornets ~~c) New York Knicks ~~d) Chicago Bulls
+##6
+Who holds the Charlotte Hornets franchise record for consecutive games in double figures?
+**a) Glen Rice ~~b) Dell Curry ~~c) Anthony Mason ~~d) Alonzo Mourning
+##7
+What player has played on a team that in eleven seasons of college and professional competition in the United States has had a winning record and made the playoffs?
+**a) Mario Elie ~~b) Patrick Ewing ~~c) Charles Barkley ~~d) Shawn Kemp
+##8
+Who nailed the game winning three-pointer with 7.1 seconds left in Game Seven of the 1995 NBA Western Conference Finals between the Houston Rockets and the Phoenix Suns?
+**a) Mario Elie ~~b) Charles Barkley ~~c) Hakeem Olajuwon ~~d) Kevin Johnson
+##9
+As a high school sophomore at Power Memorial High School (New York), who teamed with Chris Mullin to lead the junior varsity squad to a 25-0 record?
+**a) Mario Elie ~~b) Kenny Anderson ~~c) John Starks ~~d) Reggie Miller
+##10
+What 16-year NBA veteran broke into the NBA with the Kansas City Kings in 1981 and in 1997-98 played in his seventh NBA city?
+**a) Eddie Johnson ~~b) Charles Barkley ~~c) Patrick Ewing ~~d) Hakeem Olajuwon
+##11
+What veteran NBA sharpshooter won the 1989 Sixth Man of the Year Award?
+**a) Eddie Johnson ~~b) Detlef Schrempf ~~c) Chuck Person ~~d) Rex Chapman
+##12
+Who is the only NBA player to score more than 18,000 points and never be selected to a NBA All-Star Game?
+**a) Eddie Johnson ~~b) Charles Barkley ~~c) Ricky Pierce ~~d) Chris Mullin
+##13
+Who holds the Kings franchise record for points in a single playoff game with 33 against the Houston Rockets?
+**a) Eddie Johnson ~~b) Mitch Richmond ~~c) Mahmoud Abdul-Rauf ~~d) Bobby Hurley
+##14
+Who has participated in the NBA Western Conference Finals three times with three different teams and lost each time (1990 with Phoenix, 1993 with Seattle and 1997 with Houston)?
+**a) Eddie Johnson ~~b) Charles Barkley ~~c) Mario Elie ~~d) Danny Manning
+##15
+Who was the only Houston Rocket player to appear in all 82 regular season games during the 1996-97 season?
+**a) Matt Maloney ~~b) Hakeem Olajuwon ~~c) Brent Price ~~d) Charles Barkley
+##16
+Who holds the Rockets rookie records for three-pointers made (154) and attempted (381) in a season?
+**a) Matt Maloney ~~b) Brent Price ~~c) Joe Smith ~~d) Vernon Maxwell
+##17
+Who is the Houston Rockets all-time leading scorer?
+**a) Hakeem Olajuwon ~~b) Charles Barkley ~~c) Mario Elie ~~d) Kevin Willis
+##18
+Who is the most prolific shot blocker in NBA history?
+**a) Hakeem Olajuwon ~~b) Dikembe Mutombo ~~c) Patrick Ewing ~~d) Shaquille O'Neal
+##19
+Who is the only player in NBA history to win the NBA MVP, Defensive Player of the Year and NBA Finals MVP in the same season?
+**a) Hakeem Olajuwon ~~b) Scottie Pippen ~~c) Shaquille O'Neal ~~d) Karl Malone
+##20
+Who is the Houston Rockets all-time career leader in rebounding?
+**a) Hakeem Olajuwon ~~b) Charles Barkley ~~c) Kevin Willis ~~d) Otis Thorpe
+##21
+Who is the Houston Rockets all-time career leader in free throws made?
+**a) Hakeem Olajuwon ~~b) Mario Elie ~~c) Kevin Willis ~~d) Matt Maloney
+##22
+Who is the Houston Rockets all-time career leader in steals?
+**a) Hakeem Olajuwon ~~b) Robert Horry ~~c) Brent Price ~~d) Mario Elie
+##23
+Who is the first player in NBA history to have 200 blocks and 200 steals in the same season?
+**a) Hakeem Olajuwon ~~b) Shaquille O'Neal ~~c) Gary Payton ~~d) Scottie Pippen
+##24
+Who is the Houston Rockets all-time leader in games played?
+**a) Hakeem Olajuwon ~~b) Brent Price ~~c) Mario Elie ~~d) Charles Barkley
+##25
+Entering the 1997-98 season, who had scored in double figures in 965 of 978 games played in his career?
+**a) Hakeem Olajuwon ~~b) Scottie Pippen ~~c) Shaquille O'Neal ~~d) Grant Hill
+##26
+What player had an unprecedented streak of eleven consecutive seasons totaling at least 200 blocks and 100 steals?
+**a) Hakeem Olajuwon ~~b) Scottie Pippen ~~c) Patrick Ewing ~~d) Rik Smits
+##27
+Who was the first overall selection in the 1984 NBA Draft?
+**a) Hakeem Olajuwon ~~b) Charles Barkley ~~c) John Stockton ~~d) Kevin Willis
+##28
+Entering the 1998 NBA Playoffs, who is the ninth all-time leading scorer in playoff history, second among active players?
+**a) Hakeem Olajuwon ~~b) Scottie Pippen ~~c) Karl Malone ~~d) Charles Barkley
+##29
+Who ranks second in NBA playoff history in blocks (449)?
+**a) Hakeem Olajuwon ~~b) Patrick Ewing ~~c) Dikembe Mutombo ~~d) Shaquille O'Neal
+##30
+Who is ranked second in NBA Finals history in blocked shots (54)?
+**a) Hakeem Olajuwon ~~b) Patrick Ewing ~~c) Dikembe Mutombo ~~d) Shaquille O'Neal
+##31
+What player's 35.3 scoring average in the 1995 NBA Western Conference Finals between Houston and San Antonio was the fifth best average in NBA Conference Finals history?
+**a) Hakeem Olajuwon ~~b) Charles Barkley ~~c) David Robinson ~~d) Sean Elliott
+##32
+Who established the NBA playoff record for most points scored in a four-game series against Dallas in 1988 (150 points, 37.5 ppg)?
+**a) Hakeem Olajuwon ~~b) Derek Harper ~~c) Otis Thorpe ~~d) Dennis Scott
+##33
+What player tied a NBA record for most blocks in a playoff game with 10 rejections against the Los Angeles Lakers on April 29, 1990?
+**a) Hakeem Olajuwon ~~b) Shaquille O'Neal ~~c) Patrick Ewing ~~d) Rik Smits
+##34
+Who is the Houston Rockets all-time playoff leader in games played?
+**a) Hakeem Olajuwon ~~b) Kevin Willis ~~c) Charles Barkley ~~d) Mark Price
+##35
+Who is the Houston Rockets all-time playoff leader in points scored?
+**a) Hakeem Olajuwon ~~b) Kevin Willis ~~c) Vernon Maxwell ~~d) Matt Bullard
+##36
+Who is the Houston Rockets all-time playoff leader in rebounds?
+**a) Hakeem Olajuwon ~~b) Kevin Willis ~~c) Charles Barkley ~~d) Mario Elie
+##37
+Who is the Houston Rockets all-time playoff leader in assists?
+**a) Hakeem Olajuwon ~~b) Mario Elie ~~c) Brent Price ~~d) Charles Barkley
+##38
+What Houston Rocket tied the NBA record for consecutive three-pointers made with 13 treys made from January 15-19, 1996?
+**a) Brent Price ~~b) Mario Elie ~~c) Matt Bullard ~~d) Matt Maloney
+##39
+Who holds the Houston Rockets franchise record for field goal percentage in a season (.592)?
+**a) Otis Thorpe ~~b) Brent Price ~~c) Hakeem Olajuwon ~~d) Matt Maloney
+##40
+Who holds the Houston Rockets record for three-point field goals made in a single game (9)?
+**a) Robert Horry ~~b) Mario Elie ~~c) Matt Maloney ~~d) Brent Price
+##41
+Who holds the Houston Rockets franchise record for minutes played in a single game (58)?
+**a) Charles Barkley ~~b) Hakeem Olajuwon ~~c) Anthony Mason ~~d) Mario Elie
+##42
+Who was the Houston Rockets 1996-97 assist leader?
+**a) Mario Elie ~~b) Brent Price ~~c) Matt Maloney ~~d) Hakeem Olajuwon
+##43
+Who holds the Houston Rockets playoff record for points in a single game (49)?
+**a) Hakeem Olajuwon ~~b) Charles Barkley ~~c) Matt Maloney ~~d) Otis Thorpe
+##44
+Who holds the Houston Rockets playoff record for steals in a game (7)?
+**a) Robert Horry ~~b) Cedric Ceballos ~~c) Charles Barkley ~~d) Mario Elie
+##45
+If he plays in 72 games during the 1997-98 season, who will become the Detroit Pistons all-time leader in games played?
+**a) Joe Dumars ~~b) Grant Hill ~~c) Rick Mahorn ~~d) Eddie Johnson
+##46
+What Detroit Pistons player has 101 games of post-season experience, 61 of which have been played for the Pistons?
+**a) Rick Mahorn ~~b) Dennis Rodman ~~c) Charles Barkley ~~d) Anthony Mason
+##47
+Who led the Pistons in blocked shots for two consecutive seasons (1995-96 and 1996-97)?
+**a) Theo Ratliff ~~b) Grant Hill ~~c) Brian Williams ~~d) Dennis Rodman
+##48
+What current NBA center is the NCAA all-time leading shot blocker?
+**a) Alonzo Mourning ~~b) Dikembe Mutombo ~~c) Rik Smits ~~d) Ervin Johnson
+##49
+What current NBA player is the NCAA's second all-time leading shot blocker (425 blocks)?
+**a) Theo Ratliff ~~b) Jerome Williams ~~c) Rik Smits ~~d) Hakeem Olajuwon
+##50
+Who, when he left St. John's University in 1992, was its all-time steals leader and second all-time scorer behind Chris Mullin?
+**a) Malik Sealy ~~b) Mark Jackson ~~c) Kenny Anderson ~~d) Terry Dehere
+##51
+Who was acquired by the Pistons as a free agent in August 1997 to provide a frontline punch and low-post presence?
+**a) Brian Williams ~~b) Grant Hill ~~c) Otis Thorpe ~~d) Don Reid
+##52
+Who was the only rookie on the 1996-97 Detroit Piston team?
+**a) Jerome Williams ~~b) Rick Mahorn ~~c) Jerry Stackhouse ~~d) Eric Montross
+##53
+Who is the Detroit Pistons all-time leader in three-pointers made in a career?
+**a) Joe Dumars ~~b) Lindsey Hunter ~~c) Grant Hill ~~d) Mark Price
+##54
+What current Piston ranks second in team history with 1,701 post-season points scored?
+**a) Joe Dumars ~~b) Grant Hill ~~c) Dennis Rodman ~~d) Scottie Pippen
+##55
+Who is the only athlete to be honored by Newsweek Magazine with an American Achievement Award for Citizenship (in 1994-95)?
+**a) Joe Dumars ~~b) Alonzo Mourning ~~c) Kevin Johnson ~~d) Kobe Bryant
+##56
+Who was honored with the NBA's inaugural Sportsmanship Award in 1996-97?
+**a) Joe Dumars ~~b) P.J. Brown ~~c) Kevin Johnson ~~d) Shaquille O'Neal
+##57
+Who hold the Pistons single season record for three-point field goal percentage (.432)?
+**a) Joe Dumars ~~b) Allan Houston ~~c) Lindsey Hunter ~~d) Mark Price
+##58
+Who was the first Detroit Piston player since 1981-82 to score 1,000 or more points in a rookie season?
+**a) Grant Hill ~~b) Lindsey Hunter ~~c) Jerome Williams ~~d) Jerry Stackhouse
+##59
+Who was honored as NBA co-Rookie of the Year in 1994-95 along with Jason Kidd?
+**a) Grant Hill ~~b) Allen Iverson ~~c) Kobe Bryant ~~d) Tim Duncan
+##60
+What NBA player was the first player in ACC history to record 1,900 points, 700 rebounds, 4000 assists, 200 steals and 100 blocked shots?
+**a) Grant Hill ~~b) Sam Perkins ~~c) Stephon Marbury ~~d) Bob Sura
+##61
+Who holds the Detroit Pistons record for field goal percentage in a season (.595)?
+**a) Dennis Rodman ~~b) Rick Mahorn ~~c) Grant Hill ~~d) Allan Houston
+##62
+Who holds the Detroit Pistons record for free throw percentage in a season (.900)?
+**a) Joe Dumars ~~b) Grant Hill ~~c) Allan Houston ~~d) Steve Kerr
+##63
+Who holds the Detroit Pistons record for most rebounds in a season (1,530)?
+**a) Dennis Rodman ~~b) Otis Thorpe ~~c) Jerome Williams ~~d) Grant Hill
+##64
+Who holds the Detroit Pistons record for most rebounds in a single game (34)?
+**a) Dennis Rodman ~~b) Charles Barkley ~~c) Grant Hill ~~d) Rick Mahorn
+##65
+Who holds the Detroit Pistons record for most three-point field goals made in a single game (10)?
+**a) Joe Dumars ~~b) Lindsey Hunter ~~c) Grant Hill ~~d) Jeff Hornacek
+##66
+What Detroit Pistons player set the record for most three-point field goals in a half (7), which is also a NBA record?
+**a) Allan Houston ~~b) Joe Dumars ~~c) Grant Hill ~~d) Jeff Hornacek
+##67
+What Detroit Pistons player set a team and league record for consecutive three-point field goals made without a miss (13)?
+**a) Terry Mills ~~b) Joe Dumars ~~c) Mark Price ~~d) Allan Houston
+##68
+Who did the Detroit Pistons defeat in the 1989 NBA Finals?
+**a) Los Angeles Lakers ~~b) Portland Trail Blazers ~~c) Chicago Bulls ~~d) Houston Rockets
+##69
+Who did the Detroit Pistons defeat in the 1990 NBA Finals?
+**a) Portland Trail Blazers ~~b) Houston Rockets ~~c) Chicago Bulls ~~d) Los Angeles Lakers
+##70
+Who defeated the Pistons in the 1991 NBA Playoffs preventing them from winning a third consecutive NBA title?
+**a) Chicago Bulls ~~b) New York Knicks ~~c) Miami Heat ~~d) Los Angeles Lakers
+##71
+What New York Knick played in the CBA for five years before breaking into the NBA in 1994 with the New Jersey Nets?
+**a) Chris Childs ~~b) John Starks ~~c) Charlie Ward ~~d) Charles Oakley
+##72
+What 11-year NBA veteran who had previous stints with Cleveland, New Jersey and Portland signed with the New York Knicks prior to the 1997-98 season?
+**a) Chris Dudley ~~b) Chris Mills ~~c) Allan Houston ~~d) Herb Williams
+##73
+What New York was Cleveland's fourth round pick (75th overall) in the 1987 NBA Draft?
+**a) Chris Dudley ~~b) Larry Johnson ~~c) Buck Williams ~~d) Chris Mills
+##74
+What NBA center became just the sixth Yale graduate to be drafted in the NBA?
+**a) Chris Dudley ~~b) Dikembe Mutombo ~~c) Rik Smits ~~d) David Robinson
+##75
+Who is the New York Knicks all-time career leader in points?
+**a) Patrick Ewing ~~b) Buck Williams ~~c) John Starks ~~d) Larry Johnson
+##76
+Who is the New York Knicks all-time career leader in games played?
+**a) Patrick Ewing ~~b) John Starks ~~c) Charles Oakley ~~d) Allan Houston
+##77
+Who is the New York Knicks all-time career leader in steals?
+**a) Patrick Ewing ~~b) Charles Oakley ~~c) John Starks ~~d) Gary Payton
+##78
+Who is the New York Knicks all-time career leader in blocks?
+**a) Patrick Ewing ~~b) Buck Williams ~~c) Herb Williams ~~d) Chris Dudley
+##79
+Who is the New York Knicks all-time career leader in 40+ scoring games?
+**a) Patrick Ewing ~~b) John Starks ~~c) Charles Oakley ~~d) Horace Grant
+##80
+Who is the New York Knicks all-time playoff leader in games played?
+**a) Patrick Ewing ~~b) John Starks ~~c) Charles Oakley ~~d) Herb Williams
+##81
+Who is the New York Knicks all-time playoff leader in rebounds?
+**a) Patrick Ewing ~~b) Buck Williams ~~c) Hakeem Olajuwon ~~d) Chris Dudley
+##82
+Who is the New York Knicks all-time playoff leader in points?
+**a) Patrick Ewing ~~b) John Starks ~~c) Buck Williams ~~d) Charles Oakley
+##83
+Who is the New York Knicks all-time playoff leader in points?
+**a) Patrick Ewing ~~b) John Starks ~~c) Buck Williams ~~d) Charles Oakley
+##84
+Prior to the 1997-98 NBA season, what durable New York Knick missed only 20 games due to injury or illness in the last ten seasons?
+**a) Patrick Ewing ~~b) Charles Oakley ~~c) John Starks ~~d) Buck Williams
+##85
+What New York player won Rookie of the Year honors in 1985, becoming the first Knick since 1964-65 to win the award?
+**a) Patrick Ewing ~~b) John Starks ~~c) Charles Oakley ~~d) Karl Malone
+##86
+Who became the New York Knicks all-time leading scorer on December 16, 1993?
+**a) Patrick Ewing ~~b) Buck Williams ~~c) Reggie Miller ~~d) Chris Mullin
+##87
+Who keyed the New York Knicks drive to the 1994 NBA Finals by establishing single season playoff marks in nearly all major statistical categories?
+**a) Patrick Ewing ~~b) Charles Oakley ~~c) Jayson Williams ~~d) Grant Hill
+##88
+What New York Knick blossomed into one of the league's premier shooters in his third season while playing for the Detroit Pistons?
+**a) Allan Houston ~~b) John Starks ~~c) Lindsey Hunter ~~d) Grant Hill
+##89
+What current NBA player is the University of Tennessee's all-time leading career scorer (2,801 points)?
+**a) Allan Houston ~~b) Dale Ellis ~~c) Glen Rice ~~d) Mark Price
+##90
+What New York Knick player shot a blistering .656 from the field and averaged 17.7 points to serve as a key figure in New York's first round sweep of the Charlotte Hornets in the 1997 NBA Playoffs?
+**a) Larry Johnson ~~b) John Starks ~~c) Allan Houston ~~d) Glen Rice
+##91
+Who was the first overall pick in the 1991 NBA Draft?
+**a) Larry Johnson ~~b) Alonzo Mourning ~~c) Dikembe Mutombo ~~d) Gary Payton
+##92
+Who was a key player in the Hornets first appearance ever in the NBA Playoffs (1993) averaging 19.8 points and 6.9 rebounds in 9 post-season games?
+**a) Larry Johnson ~~b) Glen Rice ~~c) Dell Curry ~~d) Muggsy Bogues
+##93
+What player created the "Grandmama" character in an ad campaign?
+**a) Larry Johnson ~~b) Kevin Johnson ~~c) Anfernee Hardaway ~~d) Shaquille O'Neal
+##94
+Who led the Cleveland Cavaliers in minutes played (3,167) in 1996-97 for the third consecutive season, while notching the second highest total in Cavs history?
+**a) Chris Mills ~~b) Bob Sura ~~c) Terrell Brandon ~~d) Mark Price
+##95
+What New York Knick player has appeared in the post-season in every year of his 12-year career?
+**a) Charles Oakley ~~b) Patrick Ewing ~~c) Mark Jackson ~~d) John Starks
+##96
+What durable forward has recorded two consecutive games played streaks of 250+ games during his career?
+**a) Charles Oakley ~~b) Charles Barkley ~~c) Anfernee Hardaway ~~d) Grant Hill
+##97
+What blue collar forward was a first round pick (ninth overall) of his hometown Cavaliers in the 1985 NBA Draft, but was immediately traded to Chicago?
+**a) Charles Oakley ~~b) Scottie Pippen ~~c) Ron Harper ~~d) Dennis Rodman
+##98
+In both the 1986-87 and 1987-88 season this hardworking forward led the NBA in total rebounds, but finished second in the average-per-game title?
+**a) Charles Oakley ~~b) Dennis Rodman ~~c) Charles Barkley ~~d) Jayson Williams
+##99
+Who with a dramatic and electrifying response to his new off the bench role won the 1996-97 Sixth Man of the Year Award in a landslide vote?
+**a) John Starks ~~b) Toni Kukoc ~~c) Detlef Schrempf ~~d) Terry Mills
+##100
+In 1996-97, who set the New York Knicks club record by connecting from beyond the arc in 33 straight games (December 4 to February 18) going 67-188 (.356) from three-point range in that span?
+**a) John Starks ~~b) Allan Houston ~~c) Chris Childs ~~d) Jeff Hornacek
+

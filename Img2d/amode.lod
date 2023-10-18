@@ -1,0 +1,88 @@
+#
+# 2D images for attract mode
+#
+
+HFILE> \video\nba\include\amode.h
+MIDST> on
+
+
+#
+# ARGB1555 GRAPHICS
+#
+
+OUTPUTXY> 256 256
+INPUT> upfront6.wif
+-----> gameover
+EXECUTE> gmovr
+MAKEBAT> amode.bat gmovr*.tga texus -de -mn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> upfront6.wif
+-----> dcsscrn
+EXECUTE> dcslog
+MAKEBAT> amode.bat dcslog*.tga texus -de -mn -t argb1555 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+##INPUT> bkgrnd.wif
+##-----> logo3dfx
+##EXECUTE> l3dfx
+##MAKEBAT> amode.bat l3dfx*.tga texus -de -mn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> upfront6.wif
+-----> splash1
+EXECUTE> splash
+MAKEBAT> amode.bat splash*.tga texus -de -mn -t argb1555 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> upfront6.wif
+-----> splash3
+EXECUTE> teamid
+MAKEBAT> amode.bat teamid*.tga texus -de -mn -t argb1555 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> upfront1.wif
+-----> nbcbk1
+EXECUTE> nbcbk1
+MAKEBAT> amode.bat nbcbk1*.tga texus -de -mn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> upfront1.wif
+-----> nbcbk2
+EXECUTE> nbcbk2
+MAKEBAT> amode.bat nbcbk2*.tga texus -de -mn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> nbacgrfx.wif
+-----> logopage,l3dfx
+EXECUTE> lpage
+MAKEBAT> amode.bat lpage*.tga texus -de -mn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> upfront1.wif
+-----> legalbk
+EXECUTE> leglpg
+MAKEBAT> amode.bat leglpg*.tga texus -de -mn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+OUTPUTXY> 256 128
+INPUT> transit.wif
+-----> tr_nba, tr_nbc, tr_plain, tr_nbacb
+EXECUTE> trans
+MAKEBAT> amode.bat trans*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+OUTPUTXY> 256 64
+INPUT> upfront6.wif
+-----> cotpsgrf
+EXECUTE> hiscr
+MAKEBAT> amode.bat hiscr*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+OUTPUTXY> 128 128
+INPUT> upfront1.wif
+-----> legalbk2
+EXECUTE> leglp2
+MAKEBAT> amode.bat leglp2*.tga texus -de -mn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+OUTPUTXY> 256 256
+INPUT> nbaflash.wif
+-----> colfla01, colfla02, colfla03, colfla04, colfla05, colfla06, colfla07
+-----> colfla08, colfla09, colfla10, colfla11, colfla12, colfla13, colfla14
+EXECUTE> hiscr2
+MAKEBAT> amode.bat hiscr2*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+OUTPUTXY> 128 32
+INPUT> nbacgrfx.wif
+-----> ver20
+EXECUTE> ver
+MAKEBAT> amode.bat ver*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |

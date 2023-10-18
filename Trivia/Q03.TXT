@@ -1,0 +1,313 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+##301
+The Pistons moved to Detroit from which city?
+**a) Fort Wayne ~~b) Sheybogan ~~c) Cincinnati ~~d) Rochester
+##302
+When the Dallas Mavericks joined the NBA in 1980, which two teams moved from the Western Conference to the Eastern Conference?
+**a) Milwaukee and Chicago ~~b) Cleveland and Indiana ~~c) Chicago and Cleveland ~~d) Milwaukee and Indiana
+##303
+Milwaukee won the 1971 NBA Championship. What division was it a member of at the time?
+**a) Midwest ~~b) Central ~~c) East ~~d) West
+##304
+The Atlanta Hawks have been in four places including Atlanta. Name the place or city that the Hawks have never called home.
+**a) Cincinnati ~~b) Tri-Cities (Iowa) ~~c) St. Louis ~~d) Milwaukee
+##305
+Which of the following teams was not based in Indianapolis?
+**a) Pistons ~~b) Pacers ~~c) Jets ~~d) Olympians
+##306
+There are three franchise in the NBA that were members of the league in the first season, 1946-47. Two are the Boston Celtics and New York Knickerbockers. What is the other one?
+**a) Golden State Warriors ~~b) Chicago Bulls ~~c) Detroit Pistons ~~d) Philadelphia 76ers
+##307
+What is the first NBA team that was based in Detroit?
+**a) Detroit Falcons ~~b) Detroit Pistons ~~c) Detroit Mustangs ~~d) Detroit Bears
+##308
+In what city did a team named the Hawks first play?
+**a) Waterloo ~~b) St. Louis ~~c) Atlanta ~~d) Milwaukee
+##309
+What was the original name of the New Jersey Nets
+**a) New Jersey Americans ~~b) New York Nets ~~c) Newark Bears ~~d) New York Titans
+##310
+Which of the following cities has never had an NBA franchise?
+**a) Fort Worth ~~b) Sheyboygan ~~c) Providence ~~d) Anderson
+##311
+The Los Angeles Lakers had to win three seven-game series en route to winning the 1988 NBA Championship. Which team did they not play.
+**a) Phoenix Suns ~~b) Detroit Pistons ~~c) Dallas Mavericks ~~d) Utah Jazz
+##312
+The Boston Celtics and Los Angeles Lakers franchises have won the most NBA titles -- 16 and 11, respectively. Who has won the third most titles?
+**a) Chicago Bulls ~~b) Golden State/Philadelphia Warriors ~~c) New York Knicks ~~d) Houston Rockets
+##313
+Which team has the best winning percentage in NBA Finals games played?
+**a) Chicago Bulls ~~b) Boston Celtics ~~c) Los Angeles Lakers ~~d) Philadelphia 76ers
+##314
+In a 13-year period from 1957 to 1969, the Boston Celtics won 11 titles. Who were the two teams that won the other titles during that stretch?
+**a) St. Louis Hawks and Philadelphia 76ers ~~b) New York Knicks and Los Angeles Lakers ~~c) Minneapolis Lakers and St. Louis Hawks ~~d) San Francisco Warriors and Philadelphia 76ers
+##315
+In their third season, they won the championship -- the fastest of any expansion team in history.
+**a) Milwaukee Bucks ~~b) Portland Trail Blazers ~~c) Minneapolis Lakers ~~d) Seattle SuperSonics
+##316
+The Houston Rockets won two championships during the '90s. Who were the teams they beat for the title?
+**a) New York and Orlando ~~b) New York and Indiana ~~c) New York and Atlanta ~~d) Orlando and Miami
+##317
+The Portland Trail Blazers won their only NBA title in 1977. Who did they defeat in the NBA Finals?
+**a) Philadelphia 76ers ~~b) Boston Celtics ~~c) New York Knickerbockers ~~d) Washington Bullets
+##318
+The Milwaukee Bucks have won one NBA Championship. Who did they defeat in the NBA Finals?
+**a) Baltimore Bullets ~~b) Chicago Bulls ~~c) San Francisco Warriors ~~d) Philadelphia 76ers
+##319
+Who are the two teams that entered the NBA in 1988?
+**a) Charlotte Hornets and Miami Heat ~~b) Charlotte Hornets and Minnesota Timberwolves ~~c) Orlando Magic and Minnesota Timberwolves ~~d) Charlotte Hornets and Orlando Magic
+##320
+Who are the two team that entered the NBA in 1989?
+**a) Minnesota Timberwolves and Orlando Magic ~~b) Charlotte Hornets and Orlando Magic ~~c) Miami Heat and Minnesota Timberwolves ~~d) Charlotte Hornets and Miami Heat
+##321
+Who is the NBA expansion team that began playing in the 1966-67 season?
+**a) Chicago Bulls ~~b) Seattle SuperSonics ~~c) Cleveland Cavaliers ~~d) Portland Trail Blazers
+##322
+The NBA added seven teams between 1967 and 1970. Which of these teams was not an expansion team during that time?
+**a) Chicago Bulls ~~b) San Diego Rockets ~~c) Milwaukee Bucks ~~d) Portland Trail Blazers
+!!323
+Two teams were added to the NBA in 1967. Who are they?
+**a) Seattle SuperSonics and San Diego Rockets ~~b) Milwaukee Bucks and Phoenix Suns ~~c) Seattle SuperSonics and Buffalo Braves ~~d) Portland Trail Blazers and San Diego Rockets
+##324
+How many expansion teams were added to the NBA in 1969?
+**a) 0 ~~b) 1 ~~c) 2 ~~d) 3
+##325
+How many expansion teams were added to the NBA in 1970?
+**a) 3 ~~b) 2 ~~c) 1 ~~d) 4
+##326
+What year did the Cleveland Cavaliers join the NBA?
+**a) 1970 ~~b) 1971 ~~c) 1969 ~~d) 1968
+##327
+What year did the Portland Trail Blazers join the NBA?
+**a) 1970 ~~b) 1971 ~~c) 1969 ~~d) 1968
+##328
+What year did the Sacramento Kings move from Kansas City?
+**a) 1985 ~~b) 1986 ~~c) 1987 ~~d) 1984
+##329
+What year did the Utah Jazz move from New Orleans?
+**a) 1979 ~~b) 1978 ~~c) 1977 ~~d) 1980
+##330
+Which team averaged the most points during one season in NBA history?
+**a) Denver Nuggets ~~b) San Antonio Spurs ~~c) Boston Celtics ~~d) Phoenix Suns
+&&The 1981-82 Denver Nuggets averaged 126.5 points per game.
+##331
+The highest scoring game in NBA history was 186-184 in triple overtime. Who were the two teams that played, and who won?
+**a) Denver beat Detroit ~~b) San Antonio beat Dallas ~~c) Denver beat Indiana ~~d) Los Angeles Lakers beat Boston
+##332
+Who has won more playoff games than any team in NBA history?
+**a) Los Angeles Lakers ~~b) Boston Celtics ~~c) Philadelphia 76ers ~~d) New York Knicks
+##333
+Who has won the most playoff series of any team in NBA history?
+**a) Los Angeles Lakers ~~b) Boston Celtics ~~c) Philadelphia 76ers ~~d) Chicago Bulls
+##334
+Of the following four teams, who was the first to enter the NBA?
+**a) Seattle SuperSonics ~~b) Portland Trail Blazers ~~c) Milwaukee Bucks ~~d) Phoenix Suns
+&&Seattle entered the NBA for the 1967-68 season.
+##335
+Of the following franchises, which has not won an NBA title?
+**a) Phoenix Suns ~~b) Washington Wizards ~~c) Portland Trail Blazers ~~d) Seattle SuperSonics
+&&The Phoenix Suns played in the 1993 NBA Finals but lost to the Chicago Bulls in six games.
+##336
+Of the following franchises, who has won the most NBA championships?
+**a) Golden State Warriors ~~b) New York Knicks ~~c) Houston Rockets ~~d) Detroit Pistons
+&&The Golden State Warriors franchise has won three NBA Championships (1947 and 1956 while playing in Philadelphia and then in 1975 as Golden State.
+##337
+Chauncey Billups was traded by what team to the Toronto Raptors during the 1997-98 season?
+**a) Boston Celtics ~~b) Denver Nuggets ~~c) New Jersey Nets ~~d) Miami Heat
+&&Boston selected Billups as the third pick in the 1997 NBA Draft.
+##338
+What is Boston Celtic Pervis Ellison's nickname?
+**a) "Never Nervous" ~~b) "Eli" ~~c) "Tall Man" ~~d) "Per"
+##339
+Travis Knight was signed by the Celtics as a free agent prior to the 1997-98 season. What team did he play for in the season before joining the Celtics?
+**a) Los Angeles Lakers ~~b) Portland Trail Blazers ~~c) Chicago Bulls ~~d) Minnesota Timberwolves
+##340
+What former Chicago Bull helped defeat Chicago in the 1995 Eastern Conference Finals?
+**a) Orlando's Horace Grant ~~b) New York's Charles Oakley ~~c) Charlotte's B.J. Armstrong ~~d) Philadelphia's Scott Williams
+##341
+Who set a record by missing all 17 shots taken in a game in 1991?
+**a) Tim Hardaway ~~b) Patrick Ewing ~~c) Shawn Kemp ~~d) Gary Payton
+##342
+What team had a record of 1-40 on the road during the 1990-91 season?
+**a) Sacramento Kings ~~b) Houston Rockets ~~c) Denver Nuggets ~~d) Orlando Magic
+##343
+What LA Lakers guard was the 13th selection in the 1996 NBA Draft?
+**a) Kobe Bryant ~~b) Nick Van Exel ~~c) Derek Fisher ~~d) Shaquille O'Neal
+##344
+What Detroit player had just one dunk in the 1996-97 season?
+**a) Joe Dumars ~~b) Lindsey Hunter ~~c) Terry Mills ~~d) Don Reid
+##345
+What Chicago Bull did not play high school basketball?
+**a) Dennis Rodman ~~b) Scottie Pippen ~~c) Steve Kerr ~~d) Randy Brown
+##346
+What Phoenix Suns player wore a headband during games?
+**a) Clifford Robinson ~~b) Jason Kidd ~~c) Kevin Johnson ~~d) John Williams
+##347
+What Chicago Bull has the nickname "Croatian Sensation"?
+**a) Toni Kukoc ~~b) Luc Longley ~~c) Bill Wennington ~~d) Steve Kerr
+##348
+Of the four expansion teams that entered the NBA in 1988 and 1989, which one was the first to advance to the playoffs?
+**a) Charlotte Hornets ~~b) Minnesota Timberwolves ~~c) Orlando Magic ~~d) Miami Heat
+##349
+What rookie led the 1993-94 Milwaukee Bucks in rebounding and blocks?
+**a) Vin Baker ~~b) Glenn Robinson ~~c) Ray Allen ~~d) Jon Barry
+##350
+Where did San Antonio's Vinny Del Negro play basketball in 1991 and 1992?
+**a) Italy ~~b) College ~~c) Did not, he was retired ~~d) Utah Jazz
+##351
+Who made five three-pointers in an NBA Playoff game vs. New York in 1994?
+**a) Reggie Miller ~~b) Steve Kerr ~~c) Anfernee Hardaway ~~d) Alonzo Mourning
+##352
+What player did San Antonio draft two years before he could play in the NBA?
+**a) David Robinson ~~b) Tim Duncan ~~c) Avery Johnson ~~d) Sean Elliott
+##353
+What player did Detroit select with the third pick in the 1994 NBA Draft?
+**a) Grant Hill ~~b) Joe Dumars ~~c) Allan Houston ~~d) Lindsey Hunter
+##354
+John Starks was drafted by what team?
+**a) He was not drafted ~~b) New York ~~c) Golden State ~~d) Seattle
+##355
+What player was the first player selected in the 1991 NBA Draft?
+**a) Larry Johnson ~~b) Alonzo Mourning ~~c) Dikembe Mutombo ~~d) Chris Webber
+##356
+What player for the Orlando Magic was an NBA All-Star in 1995, 1996, 1997 and 1998?
+**a) Anfernee Hardaway ~~b) Dennis Scott ~~c) Nick Anderson ~~d) Horace Grant
+##357
+Who was the MVP on the 1994 NBA All-Star Game in Minnesota after scoring 29 points?
+**a) Scottie Pippen ~~b) Hakeem Olajuwon ~~c) Karl Malone ~~d) Mitch Richmond
+##358
+Who was the Vancouver Grizzlies first draft pick in franchise history?
+**a) Bryant Reeves ~~b) Damon Stoudamire ~~c) Shareef Abdur-Rahim ~~d) Greg Anthony
+##359
+What team did the New York Knicks defeat to capture their first NBA title in 1970?
+**a) Los Angeles Lakers ~~b) Boston Celtics ~~c) Houston Rockets ~~d) Seattle SuperSonics
+##360
+What team appeared in its first NBA Playoffs in 1996-97?
+**a) Minnesota Timberwolves ~~b) Los Angeles Clippers ~~c) Orlando Magic ~~d) Toronto Raptors
+##361
+Who did the San Antonio Spurs select with the number one pick in 1997?
+**a) Tim Duncan ~~b) Keith Van Horn ~~c) Antoine Walker ~~d) Derek Anderson
+##362
+What team won an NBA record 72 games in 1995-96?
+**a) Chicago Bulls ~~b) Los Angeles Lakers ~~c) New York Knicks ~~d) Portland Trail Blazers
+##363
+Through 1996-97 what player held the record for most consecutive 2,000 point seasons?
+**a) Karl Malone ~~b) Clyde Drexler ~~c) Charles Barkley ~~d) Patrick Ewing
+##364
+What team set records in 1996 and 1997 for fewest points allowed?
+**a) Cleveland Cavaliers ~~b) New York Knicks ~~c) Chicago Bulls ~~d) Detroit Pistons
+##365
+What Philadelphia 76er was named 1991 NBA Rookie of the Year?
+**a) Derrick Coleman ~~b) Scott Williams ~~c) Theo Ratliff ~~d) Kebu Stewart
+##366
+What team won their only two championships within four years in the 1970s and haven't won one since?
+**a) New York ~~b) Seattle ~~c) Golden State ~~d) Los Angeles Lakers
+##367
+What two teams played in the first NBA game in history?
+**a) Toronto and New York ~~b) Boston and Los Angeles ~~c) Chicago and Seattle ~~d) Houston and Indiana
+##368
+Beginning in 1985, the NBA instituted a draft lottery to determine the top picks in the draft. Which team won the first lottery?
+**a) New York Knicks ~~b) San Antonio Spurs ~~c) Orlando Magic ~~d) Cleveland Cavaliers
+##369
+NBA teams play a tough 82-game regular season schedule. They didn't always play that many. What season did the NBA first played 82 games in the regular season?
+**a) 1967-68 ~~b) 1976-77 ~~c) 1992-93 ~~d) 1988-89
+##370
+Which of these teams have never won three NBA consecutive titles?
+**a) Philadelphia 76ers ~~b) Chicago Bulls, 1991-93 ~~c) Boston Celtics, 1959-1966 ~~d) Minneapolis (now Los Angeles) Lakers, 1952-54
+##371
+Do you know which team scored the most points (8,625 for 105.2 average) in the 1995-96 season?
+**a) Chicago Bulls ~~b) Sacramento Kings ~~c) New Jersey Nets ~~d) Detroit Pistons
+!!372
+Which team allowed the fewest points during the 1995-96 season? They only allowed 88.5 points per game, the fewest points allowed per game since the NBA began using the 24-second shot clock during the 1954-55 season.
+**a) Cleveland Cavaliers ~~b) Indiana Pacers ~~c) Phoenix Suns ~~d) Miami Heat
+##373
+Which team has lost the most NBA Finals series?
+**a) Los Angeles ~~b) New York ~~c) Philadelphia ~~d) Portland
+##374
+Entering the 1997-98 season, which team has the longest active streak of playoff appearances?
+**a) Portland ~~b) Boston ~~c) Chicago ~~d) Washington
+##375
+How many times have the Boston and Los Angeles teams met in the NBA Finals?
+**a) 10 times ~~b) 12 times ~~c) 5 times ~~d) 20 times
+##376
+What is the minimum number of players a team must have in uniform and on the bench to start a game?
+**a) 8 ~~b) 9 ~~c) 5 ~~d) 12
+##377
+The diameter of an NBA basket is 18 inches. What is the diameter of an NBA basketball?
+**a) 9 inches ~~b) 10 inches ~~c) 18 inches ~~d) 12 inches
+##378
+What team holds the longest consecutive-game winning streak (33) in NBA history?
+**a) 1971-72 Los Angeles Lakers ~~b) 1985-86 Boston Celtics ~~c) 1972-73 Milwaukee Bucks ~~d) 1995-96 Chicago Bulls
+##379
+Which of these teams did not enter the NBA in the 1980s?
+**a) Golden State Warriors ~~b) Dallas Mavericks ~~c) Charlotte Hornets ~~d) Miami Heat
+##380
+In 1977, this team won its only NBA Championship in its first appearance in the playoffs. What team was it?
+**a) Portland Trail Blazers ~~b) New Orleans Jazz ~~c) Phoenix Suns ~~d) New Jersey Nets
+##381
+Which team won its only NBA title in 1978?
+**a) Washington Bullets ~~b) Portland Trail Blazers ~~c) Sacramento Kings ~~d) San Antonio Spurs
+##382
+The New York Knicks played a record number of playoffs games in 1993-94 only to lose the NBA Championship to the Houston Rockets in the 1994 Finals. How many playoff games did New York play?
+**a) 25 ~~b) 20 ~~c) 30 ~~d) 27
+##383
+In their 48-year history, how many seasons have the Los Angeles Lakers not advanced to the playoffs?
+**a) four ~~b) five ~~c) ten ~~d) three
+##384
+The 1967 NBA Finals crowned a new champion for the first time in nine years. The previous eight titles were won by the Boston Celtics. Which team finally dethroned Boston?
+**a) Philadelphia 76ers ~~b) Los Angeles Lakers ~~c) Indiana Pacers ~~d) New York
+##385
+Of the 17 expansion teams added to the NBA since 1966, which team had the best record during its first season in the league?
+**a) Chicago ~~b) Minnesota ~~c) Dallas ~~d) Miami
+##386
+On November 2, 1990, the Phoenix Suns defeated the Utah Jazz in the first regular season game played outside North America by any major American professional sports league. Where did the Suns and the Jazz play?
+**a) Tokyo, Japan ~~b) Munich, Germany ~~c) Paris, France ~~d) Mexico City, Mexico
+##387
+Of the 29 teams in the league, how many have won NBA titles?
+**a) 14 ~~b) 29 ~~c) 25 ~~d) 18
+##388
+How many sweeps have there been in NBA Finals history?
+**a) 6 ~~b) 5 ~~c) 10 ~~d) 3
+##389
+Which team does not have an animal nickname
+**a) Denver ~~b) Atlanta ~~c) Chicago ~~d) Milwaukee
+##390
+What is the only team in NBA history to play a game without making any free throws?
+**a) Toronto ~~b) Washington ~~c) Portland ~~d) New York
+##391
+What is the NBA record for the largest crowd to watch a basketball game?
+**a) 61,983 ~~b) 101,952 ~~c) 75,756 ~~d) 42,319
+##392
+How many teams are in the NBA Draft Lottery?
+**a) 13 ~~b) 29 ~~c) 10 ~~d) 11
+##393
+During the 1997-98 season, how many Canadian citizens played in the NBA?
+**a) 3 ~~b) 2 ~~c) 1 ~~d) 0
+##394
+On Sunday, March 7, 1954, the Minneapolis Lakers beat the Milwaukee Hawks, 65-63, in a game where the baskets were higher than the normal 10 feet? How tall were the baskets that night.
+**a) 12 feet ~~b) 10 1/2 feet ~~c) 11 feet ~~d) 15 feet
+##395
+How many pounds of pressure is an official NBA basketball required to have?
+**a) Between 7.5 and 8.5 pounds of pressure. ~~b) 9 pounds ~~c) 10 pounds ~~d) 5 pounds
+##396
+The Cleveland Cavaliers once defeated a team by 68 points, the largest margin of victory ever. Who did the Cavaliers rout on December 17, 1991?
+**a) Miami Heat ~~b) Minnesota Timberwolves ~~c) Los Angeles Clippers ~~d) Utah Jazz
+##397
+What is the average length of an NBA career?
+**a) 4.16 seasons ~~b) 7.5 seasons ~~c) 10 seasons ~~d) 3 seasons
+##398
+Name the only team that defeated the Chicago Bulls more than once during the 1995-96 season? (The Bulls only dropped 10 games for the entire season.)
+**a) Indiana Pacers ~~b) New York Knicks ~~c) Utah Jazz ~~d) Miami Heat
+##399
+How old was Portland's Arvydas Sabonis in his rookie season?
+**a) 31 ~~b) 22 ~~c) 23 ~~d) 19
+##400
+What attendance milestone did the Detroit Pistons set during the 1987-88 season?
+**a) 1 million fans ~~b) 2 million fans ~~c) 500,000 fans ~~d) 5 million fans
+

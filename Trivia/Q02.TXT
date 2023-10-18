@@ -1,0 +1,309 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+##201
+Which two NBA teams play their home games in Canada?
+**a) Grizzlies and Raptors ~~b) Grizzlies and Canucks ~~c) Raptors and Freeze ~~d) Bears and Timberwolves
+##202
+How many teams are in the NBA?
+**a) 29 ~~b) 28 ~~c) 14 ~~d) 25
+##203
+How many NBA teams are in the Western Conference?
+**a) 14 ~~b) 15 ~~c) 12 ~~d) 16
+##204
+How many NBA teams are in the Eastern Conference?
+**a) 15 ~~b) 14 ~~c) 13 ~~d) 29
+##205
+The Utah Jazz used to call home what city before Salt Lake?
+**a) New Orleans ~~b) Dallas ~~c) Los Angeles ~~d) Kansas City
+##206
+What are the two newest teams to the NBA?
+**a) Vancouver and Toronto ~~b) Toronto and Miami ~~c) Vancouver and Boston ~~d) Minnesota and Seattle
+##207
+How many teams play home games in California?
+**a) 4 ~~b) 2 ~~c) 1 ~~d) 8
+##208
+How many games does each NBA team play in a season?
+**a) 82 ~~b) 84 ~~c) 78 ~~d) 80
+##209
+How many home games does each NBA team play in a season?
+**a) 41 ~~b) 42 ~~c) 40 ~~d) 38
+##210
+The Portland Trail Blazers have won how many NBA championships?
+**a) One ~~b) Two ~~c) Four ~~d) Five
+##211
+What team won the first NBA championship in 1947?
+**a) Philadelphia Warriors ~~b) Boston Celtics ~~c) Chicago Bulls ~~d) Dallas Mavericks
+##212
+The Sacramento Kings have played in the NBA Finals how many times?
+**a) Never ~~b) Once ~~c) Three times ~~d) Five times
+##213
+How many times have the Detroit Pistons made it to the NBA Finals?
+**a) Three ~~b) Two ~~c) Once ~~d) Never
+##214
+What team did the Chicago Bulls defeat in 1993 to win the NBA Finals?
+**a) Phoenix Suns ~~b) Detroit Pistons ~~c) New York Knicks ~~d) Los Angeles Lakers
+##215
+What team did the Chicago Bulls defeat to win their first NBA Championship in 1991?
+**a) Los Angeles Lakers ~~b) Portland Trail Blazers ~~c) Houston Rockets ~~d) Seattle SuperSonics
+##216
+What team did the Chicago Bulls defeat to win their second consecutive title in 1992?
+**a) Portland Trail Blazers ~~b) Los Angeles Lakers ~~c) New York Knicks ~~d) San Antonio Spurs
+##217
+What two teams did the Houston Rockets defeat when they won back-to-back championships?
+**a) New York and Orlando ~~b) Orlando and Chicago ~~c) L.A. Lakers and Boston Celtics ~~d) New York and Seattle
+##218
+Who was Orlando's starting center when they reached the NBA Finals in 1995 vs. Houston?
+**a) Shaquille O'Neal ~~b) Rony Seiklay ~~c) Dan Schayes ~~d) Alonzo Mourning
+##219
+How many championships have the Seattle SuperSonics won?
+**a) One ~~b) Two ~~c) Five ~~d) None
+##220
+How many championships did the Los Angeles Lakers win in the 1980s?
+**a) Five ~~b) Three ~~c) Seven ~~d) Four
+##221
+The 1998 NBA All-Star game was played in what NBA city?
+**a) New York ~~b) Los Angeles ~~c) Cleveland ~~d) Houston
+##222
+What city hosted the first two NBA All-Star Games?
+**a) Boston ~~b) New York ~~c) San Francisco ~~d) Detroit
+##223
+Name the last two NBA teammates that were co-winners of the NBA All-Star Game MVP award?
+**a) Karl Malone & John Stockton ~~b) Shaquille O'Neal & Anfernee Hardaway ~~c) Grant Hill & Joe Dumars ~~d) Hakeem Olajuwon & Clyde Drexler
+&&Malone and Stockton won the award together at the 1993 NBA All-Star Game in Salt Lake City, UT.
+##224
+What player won the 1997 NBA All-Star Game MVP award by scoring a record 20 points in one quarter?
+**a) Glen Rice ~~b) Patrick Ewing ~~c) Kevin Garnett ~~d) Mitch Richmond
+##225
+The NBA Finals are a Best-of-What series?
+**a) Seven ~~b) Five ~~c) Three ~~d) Four
+##226
+Which Celtics team set the franchise record for wins in a season?
+**a) 1972-73 ~~b) 1985-86 ~~c) 1961-62 ~~d) 1955-56
+##227
+In what year did the Boston Celtics begin playing in the NBA?
+**a) 1946 ~~b) 1947 ~~c) 1952 ~~d) 1954
+##228
+When was the last time the All-Star Game was played in Boston?
+**a) 1964 ~~b) 1963 ~~c) 1968 ~~d) 1973
+##229
+How many retired numbers do the Boston Celtics have?
+**a) 21 ~~b) 12 ~~c) 15 ~~d) 8
+##230
+Before the 1997-98 season, can you name the last year in which the Celtics had two top-10 draft picks?
+**a) 1978 ~~b) 1971 ~~c) 1986 ~~d) 1993
+##231
+How many Celtics have led the NBA in scoring?
+**a) None ~~b) 2 ~~c) 6 ~~d) 1
+##232
+What is the most common last name among 1997-98 season NBA players?
+**a) Williams ~~b) Jones ~~c) Johnson ~~d) Robinson
+##233
+Which Williams is proud to claim that he's a certified brick mason?
+**a) Jayson Williams ~~b) Brian Williams ~~c) Eric Williams ~~d) Lorenzo Williams
+##234
+Among the Robinson's in the league, who won the league's Sixth Man Award in 1992-93?
+**a) Clifford Robinson ~~b) David Robinson ~~c) Glenn Robinson ~~d) James Robinson
+##235
+What member of the NBA's Anderson clan was the only player in University of Georgia history to accumulate 1,500 points, 500 rebounds and 300 assists?
+**a) Shandon Anderson ~~b) Willie Anderson ~~c) Kenny Anderson ~~d) Nick Anderson
+##236
+One member of the NBA Jones clan answers to the nickname 'Popeye.' What is his first name, and by which NBA team was he first drafted?
+**a) Ronald, Houston Rockets ~~b) Lawrence, Houston Rockets ~~c) Ronald, Toronto Raptors ~~d) Lawrence, Boston Celtics
+##237
+Which player scored the 7,000,000th point in NBA history on December 1, 1996?
+**a) Hersey Hawkins ~~b) Penny Hardaway ~~c) Ron Harper ~~d) Grant Hill
+##238
+What NBA player attempted a season-high 40 shots in a game in 1996-97?
+**a) Hakeem Olajuwon ~~b) Grant Hill ~~c) Penny Hardaway ~~d) Shaquille O'Neal
+##239
+What player had the most double-doubles (double figures in scoring and rebounding) during the 1996-97 NBA season?
+**a) Patrick Ewing ~~b) Jayson Williams ~~c) Dikembe Mutombo ~~d) David Robinson
+##240
+What player led all NBA players with 177 slam dunks during the 1996-97 NBA season?
+**a) Chris Webber ~~b) Shawn Kemp ~~c) Shaquille O'Neal ~~d) Kobe Bryant
+##241
+What player played the most minutes during the 1996-97 NBA season?
+**a) Glen Rice ~~b) Damon Stoudamire ~~c) Jason Kidd ~~d) Kevin Garnett
+##242
+Who led all players in free throws attempted in 1996-97?
+**a) Karl Malone ~~b) David Robinson ~~c) Shaquille O'Neal ~~d) Patrick Ewing
+##243
+Which two players ended the 1996-97 season having played 13 seasons with the same team, the most among current players?
+**a) J. Stockton & H. Olajuwon ~~b) K. Malone & P. Ewing ~~c) J. Stockton & K. Malone ~~d) H. Olajuwon & K. Malone
+##244
+Who made and attempted the most free throws as the result of technical fouls during the 1996-97 season?
+**a) Jeff Hornacek ~~b) Reggie Miller ~~c) Steve Kerr ~~d) Jason Kidd
+##245
+What player finished the 1996-97 season with the most career games played among players who have never fouled out of a game?
+**a) Steve Kerr ~~b) Ron Harper ~~c) Sam Cassell ~~d) Cedric Ceballos
+##246
+In which state did the highest number of 1996-97 NBA players attend high schools?
+**a) California ~~b) New York ~~c) Illinois ~~d) Michigan
+##247
+Which team had the fewest shots blocked during the 1996-97 season?
+**a) Detroit Pistons ~~b) Boston Celtics ~~c) Chicago Bulls ~~d) Golden State Warriors
+##248
+Who was the youngest player in the 1998 Rookie Game?
+**a) Tracy McGrady ~~b) Tim Thomas ~~c) Kobe Bryant ~~d) Zydrunas Ilgauskas
+##249
+Who was the oldest participant in the Rookie Game?
+**a) Bobby Jackson ~~b) Cedric Henderson ~~c) Tim Thomas ~~d) Kelvin Cato
+##250
+When was the Rookie Game integrated into the NBA All-Star Saturday Festivities?
+**a) 1994 ~~b) 1995 ~~c) 1984 ~~d) 1986
+##251
+Following the 1998 Rookie Game, who held the rookie game scoring record?
+**a) Kobe Bryant ~~b) Damon Stoudamire ~~c) Eddie Jones ~~d) Penny Hardaway
+##252
+Who was the last player to repeat as the three-point shooting champion on All-Star Saturday?
+**a) Mark Price ~~b) Dale Ellis ~~c) Glen Rice ~~d) Steve Kerr
+##253
+How many balls does each participant shoot in the All-Star Saturday three point shooting contest?
+**a) 25 balls ~~b) 25 balls ~~c) 20 balls ~~d) 15 balls
+##254
+Who achieved the highest three-round score in the history of the All-Star Saturday three-point shooting contest?
+**a) Tim Legler ~~b) Dennis Scott ~~c) Steve Kerr ~~d) Mark Price
+##255
+Who holds the single-game mark for most three-pointers in All-Star Games?
+**a) Mark Price ~~b) Dennis Scott ~~c) Steve Kerr ~~d) Mitch Richmond
+##256
+Which rookie was traded before the trading deadline in 1988, and has proceeded to earn three All-Star berths with the team he has played with for the past 10 seasons?
+**a) Kevin Johnson ~~b) Penny Hardaway ~~c) Dan Majerle ~~d) Shawn Kemp
+##257
+Which two NBA teams opened the 1993-94 season with double-digit winning streaks?
+**a) Houston and Seattle ~~b) Utah and Chicago ~~c) San Antonio and Utah ~~d) New York and Phoenix
+##258
+What team opened the 1996-97 season with a franchise-best 12-game winning streak?
+**a) Chicago ~~b) New York ~~c) Utah ~~d) Houston
+##259
+What NBA team opened the 1997-98 season with the most consecutive winning seasons (10)?
+**a) Utah ~~b) Portland ~~c) Chicago ~~d) Los Angeles Lakers
+##260
+Who is the last player to win the Sixth Man Award in consecutive seasons?
+**a) Detlef Schrempf ~~b) Ricky Pierce ~~c) Dell Curry ~~d) John Starks
+##261
+Who grabbed the most rebounds in a single game in 1996-97?
+**a) Charles Barkley ~~b) Dennis Rodman ~~d) Ervin Johnson ~~d) Shawn Kemp
+##262
+What NBA team won more games on the road than at home in 1996-97?
+**a) Miami Heat ~~b) Philadelphia 76ers ~~c) Atlanta Hawks ~~d) Houston Rockets
+##263
+What team had three players start all 82 games in the 1996-97 season?
+**a) Utah ~~b) Seattle ~~c) Chicago ~~d) Atlanta
+##264
+Who entered the 1997-98 campaign as the most accurate free throw shooter in NBA history?
+**a) Mark Price ~~b) Reggie Miller ~~c) Dale Ellis ~~d) Hersey Hawkins
+##265
+What team has the longest current streak of consecutive seasons with 50 or more wins?
+**a) Seattle ~~b) Chicago ~~c) Utah ~~d) New York
+##266
+Who has the most career points among active players who haven't appeared in an All-Star Game?
+**a) Eddie Johnson ~~b) Derek Harper ~~c) Sam Perkins ~~d) Chuck Person
+##267
+Who was the only rookie to start all 82 games in 1996-97?
+**a) Matt Maloney ~~b) Ray Allen ~~c) Lorenzen Wright ~~d) Kerry Kittles
+##268
+What current player was the 1981-82 Rookie of the Year?
+**a) Buck Williams ~~b) Danny Schayes ~~c) Alton Lister ~~d) Joe Kleine
+##269
+Who is the last shooting guard to win Rookie of the Year honors?
+**a) Mitch Richmond ~~b) Reggie Miller ~~c) Penny Hardaway ~~d) Chuck Person
+##270
+What team did not select a player in the first round of the NBA Draft in 1994, 1995 or 1996 ?
+**a) Houston Rockets ~~b) San Antonio Spurs ~~c) Seattle SuperSonics ~~d) Miami Heat
+##271
+Since the inception of the NBA Draft Lottery in 1985, who is the only Rookie of the Year who was not a lottery pick?
+**a) Mark Jackson ~~b) Karl Malone ~~c) Chuck Person ~~d) Glen Rice
+##272
+What Caribbean locale does 1997 NBA Draft top overall pick Tim Duncan call home?
+**a) U.S. Virgin Islands ~~b) Jamaica ~~c) Aruba ~~d) Bahamas
+##273
+What active player holds the NBA Finals record for most steals in a single game?
+**a) Robert Horry ~~b) Clyde Drexler ~~c) Scottie Pippen ~~d) Sam Cassell
+##274
+Who holds the NBA record for most three-pointers in single game?
+**a) Dennis Scott ~~b) Brian Shaw ~~c) Joe Dumars ~~d) George McCloud
+##275
+Who set an NBA record by playing 69 minutes in a single game?
+**a) Dale Ellis ~~b) Xavier McDaniel ~~c) Terry Cummings ~~d) Mitch Richmond
+##276
+In the 1997 NBA Playoffs, what player established a new postseason record with nine three-pointers in a single game?
+**a) Rex Chapman ~~b) Gary Payton ~~c) Matt Maloney ~~d) Mookie Blaylock
+##277
+What team holds the playoff record with 20 three-point field goals in a single game?
+**a) Seattle SuperSonics ~~b) Houston Rockets ~~c) Chicago Bulls ~~d) Detroit Pistons
+##278
+Who set the rookie record for most three pointers in a season in 1996-97?
+**a) Kerry Kittles ~~b) Allen Iverson ~~c) Matt Maloney ~~d) Ray Allen
+##279
+What team became the only team in NBA history to score 100 points before halftime when it scored 107 points in a game against Denver on November 10, 1990?
+**a) Phoenix Suns ~~b) San Antonio Spurs ~~c) Houston Rockets ~~d) Detroit Pistons
+##280
+How many games did the Atlanta Hawks win in January 1997 when they set a franchise record for most wins in a single month?
+**a) 14 ~~b) 13 ~~c) 12 ~~d) 11
+##281
+Who holds the Atlanta team record for most rebounds in a single game?
+**a) Kevin Willis ~~b) Dikembe Mutombo ~~c) Christian Laettner ~~d) Tyrone Corbin
+##282
+Who holds the Hawks' record for most three-pointers in single game?
+**a) Steve Smith ~~b) Mookie Blaylock ~~c) Christian Laettner ~~d) Spud Webb
+##283
+Who led the Atlanta Hawks in scoring the most times during 1996-97?
+**a) Steve Smith ~~b) Christian Laettner ~~c) Mookie Blaylock ~~d) Henry James
+##284
+In what year did they the Los Angeles Lakers set the record for most consecutive wins?
+**a) 1971-72 ~~b) 1972-73 ~~c) 1981-82 ~~d) 1984-85
+##285
+Who did the Los Angeles Lakers select with the only lottery pick in franchise history?
+**a) Eddie Jones ~~b) Nick Van Exel ~~c) George Lynch ~~d) Anthony Peeler
+##286
+Before which season did the Minneapolis Lakers move west to Los Angeles?
+**a) 1960-61 ~~b) 1961-62 ~~c) 1962-63 ~~d) 1963-64
+##287
+What university produced the most future LA Lakers?
+**a) UCLA ~~b) North Carolina ~~c) Cincinnati ~~d) USC
+##288
+Who holds the Lakers record for most three-point field goals in a single game?
+**a) Nick Van Exel ~~b) Cedric Ceballos ~~c) Eddie Jones ~~d) Kobe Bryant
+##289
+The New Orleans Jazz was the 22nd team admitted to the NBA in 1974. Which city was awarded the next expansion team?
+**a) Dallas ~~b) Charlotte ~~c) Sacramento ~~d) Orlando
+##290
+Only one team was admitted to the NBA between 1974 and 1988. Who was the team?
+**a) Dallas Mavericks ~~b) Minnesota Timberwolves ~~c) Miami Heat ~~d) Orlando Magic
+##291
+Four teams from the American Basketball Association joined the NBA in 1976. Which of these teams was not in the old ABA?
+**a) Houston Rockets ~~b) Denver Nuggets ~~c) Indiana Pacers ~~d) New Jersey Nets
+##292
+The Washington Wizards have also been known as the Washington Bullets, Capital Bullets and Baltimore Bullets, but the franchise began in Chicago. What was its original nickname?
+**a) Chicago Packers ~~b) Chicago Zephyrs ~~c) Chicago Bulls ~~d) Chicago Americans
+##293
+The San Antonio Spurs joined the NBA with four other ABA teams in 1976. What city did they move from, and what was their original nickname?
+**a) Dallas Chaparrals ~~b) Houston Mavericks ~~c) Anaheim Amigos ~~d) New Orleans Buccaneers
+##294
+What was the name of the Toronto franchise that was an original member of the NBA in 1946-47 but folded after one year?
+**a) Huskies ~~b) Argonauts ~~c) Eagles ~~d) Golden Bears
+##295
+What was the original name of the Sacramento Kings and what city did they play in?
+**a) Rochester Royals ~~b) Cincinnati Royals ~~c) Kansas City/Omaha Kings ~~d) Syracuse Nationals
+##296
+The Philadelphia 76ers began playing in Philadelphia in 1963. Where did they play and what was their name before that?
+**a) Syracuse Nationals ~~b) Rochester Royals ~~c) Sheyboygan Redskins ~~d) Indianapolis Jets
+##297
+Which of the following four teams was not a member of the NBA in its first year?
+**a) Indianapolis Olympians ~~b) Pittsburgh Ironmen ~~c) Chicago Stags ~~d) Detroit Falcons
+##298
+What was the original city and name of the Los Angeles Clippers?
+**a) Buffalo Braves ~~b) San Diego Clippers ~~c) Anaheim Amigos ~~d) Oakland Oaks
+##299
+In what city did the Houston Rockets first play?
+**a) San Diego ~~b) Dallas ~~c) New Orleans ~~d) San Antonio
+##300
+The Denver Nuggets were one of four ABA teams to join the NBA in 1976. What was their original nickname?
+**a) Rockets ~~b) Rockies ~~c) Bears ~~d) Buffaloes
+

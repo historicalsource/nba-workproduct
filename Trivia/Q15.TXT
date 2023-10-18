@@ -1,0 +1,308 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+##1501
+In 1990, the Phoenix Suns and Utah Jazz participated in first regular-season game played outside of North America by any major professional sports league. Where did they play?
+**a) Tokyo ~~b) London ~~c) Paris ~~d) Berlin
+##1502
+In what year did the game of basketball observe its centennial?
+**a) 1991 ~~b) 1880 ~~c) 1997 ~~d) 1950
+##1503
+In what season did the NBA celebrates its 50th anniversary?
+**a) 1996-97 ~~b) 1990-91 ~~c) 1987-88 ~~d) 1997-98
+##1504
+Where were the Olympics held the first time NBA players were allowed to complete?
+**a) Barcelona, Spain ~~b) Atlanta, Georgia ~~c) Seoul, Korea ~~d) Lillehammer, Norway
+##1505
+On June 20, 1993, who became the first team in 27 years to win three consecutive NBA Championships?
+**a) Chicago Bulls ~~b) Los Angeles Lakers ~~c) Detroit Pistons ~~d) Houston Rockets
+##1506
+What player is also known as "Sir Charles"?
+**a) Charles Barkley ~~b) Charles Oakley ~~c) Charles Smith ~~d) Charles Jones
+##1507
+What is the official length of an NBA court?
+**a) 94 feet ~~b) 80 feet ~~c) 100 yards ~~d) 112 feet
+##1508
+How many Division titles have the Atlanta Hawks won in franchise history?
+**a) 10 ~~b) 2 ~~c) 8 ~~d) 14
+##1509
+Entering the 1998 NBA Playoffs, how many NBA Playoff games have the Boston Celtics played in franchise history?
+**a) 461 ~~b) 216 ~~c) 804 ~~d) 623
+##1510
+How many Conference and Division Titles have the Charlotte Hornets won?
+**a) 0 ~~b) 6 ~~c) 10 ~~d) 2
+##1511
+Entering the 1998 NBA Playoffs, how many NBA Playoff games have the Chicago Bulls played in franchise history?
+**a) 232 ~~b) 104 ~~c) 435 ~~d) 84
+##1512
+How many NBA Championships have the Cleveland Cavaliers won in franchise history?
+**a) 0 ~~b) 4 ~~c) 2 ~~d) 6
+##1513
+How many NBA Championships have the Golden State Warriors won in franchise history?
+**a) 3 ~~b) 0 ~~c) 2 ~~d) 6
+##1514
+What player was born in Johannesburg, South Africa?
+**a) Steve Nash ~~b) Hakeem Olajuwon ~~c) Dikembe Mutombo ~~d) Detlef Schrempf
+##1515
+How many different teams has Tracy Murray played for through the first six-years of his NBA career?
+**a) 4 ~~b) 2 ~~c) 6 ~~d) 1
+##1516
+Which of the following teams has Tracy Murray not played for?
+**a) Los Angeles Lakers ~~b) Washington ~~c) Portland ~~d) Houston
+##1517
+Where was Dikembe Mutombo born?
+**a) Congo (Zaire) ~~b) Nigeria ~~c) Jamaica ~~d) Haiti
+##1518
+What team selected Ray Allen in the 1996 NBA Draft?
+**a) Minnesota ~~b) Milwaukee ~~c) Connecticut ~~d) Boston
+##1519
+Which one of the following players was the only one drafted by an NBA team?
+**a) Nick Van Exel ~~b) Matt Bullard ~~c) Charles Outlaw ~~d) Chris Childs
+##1520
+Which of the following teams has Kenny Anderson not played for?
+**a) Toronto ~~b) New Jersey ~~c) Portland ~~d) Charlotte
+##1521
+Which of the following players was drafted by an NBA team?
+**a) Tyus Edney ~~b) Darrell Armstrong ~~c) Keith Askins ~~d) Marty Conlon
+##1522
+In which of the following professional leagues has Isaac Austin not played professional basketball?
+**a) Italy ~~b) France ~~c) Turkey ~~d) CBA
+##1523
+Which of the following NBA teams has Isaac Austin not played for?
+**a) Los Angeles Lakers ~~b) Utah ~~c) Philadelphia ~~d) Miami
+##1524
+What team selected Brent Barry in the 1995 NBA Draft?
+**a) Denver Nuggets ~~b) Los Angeles Clippers ~~c) Miami Heat ~~d) Golden State
+##1525
+What do the following players have in common--Brent Barry, Horace Grant, Brent Price?
+**a) All have brothers playing in the NBA ~~b) All were second round draft picks ~~c) All have played for the Los Angeles Clippers ~~d) All have led the league in field goal percentage
+##1526
+In March, 1998, the Philadelphia 76ers signed Benoit Benjamin as a free agent. How many NBA teams has he played with in his career including Philadelphia?
+**a) 8 ~~b) 2 ~~c) 5 ~~d) 10
+##1527
+What do the following players have in common--David Benoit, Chris Childs, Lorenzo Williams?
+**a) None were drafted by an NBA team ~~b) All attended to college in Texas ~~c) All have played overseas ~~d) None of them have ever played in NBA Playoffs
+##1528
+Which of the following players went to high school in Springfield, Massachusetts, home of the Basketball Hall of Fame?
+**a) Travis Best ~~b) Chris Webber ~~c) Dana Barros ~~d) Kenny Anderson
+##1529
+What is Mookie Blaylock's given name?
+**a) Daron ~~b) Mookie ~~c) Michael ~~d) Erik
+##1530
+Which of the following teams has Shawn Bradley not played for?
+**a) Utah ~~b) Philadelphia ~~c) New Jersey ~~d) Dallas
+##1531
+What do the following players have in common- Kobe Bryant, Tracy McGrady, Jermaine O'Neal?
+**a) None attended college ~~b) All were top five draft picks ~~c) All grew up in the New York City area ~~d) None made an NBA All-Rookie Team
+##1532
+Which of the following teams has Antoine Carr not played for?
+**a) Detroit Pistons ~~b) Atlanta Hawks ~~c) Utah Jazz ~~d) San Antonio Spurs
+##1533
+In 1996-97 which team became the first NBA team to have double-digit winning and losing streaks in the same season?
+**a) Phoenix Suns ~~b) New York Knicks ~~c) Orlando Magic ~~d) Miami Heat
+##1534
+Who is the only player to have played for the NBA's three Texas teams--Rockets, Spurs, and Mavericks?
+**a) David Wood ~~b) Derek Harper ~~c) Avery Johnson ~~d) Sean Elliott
+##1535
+Which of the following players was not drafted by a professional baseball organization?
+**a) Grant Hill ~~b) Charlie Ward ~~c) Scott Burrell ~~d) Bimbo Coles
+##1536
+How many different teams has Tyrone Corbin played on?
+**a) 8 ~~b) 4 ~~c) 12 ~~d) 2
+##1537
+Which of the following leagues has Michael Curry not played in?
+**a) Greek ~~b) Italian ~~c) Spanish ~~d) CBA
+##1538
+Where did Vlade Divac play before being traded to the Hornets in July, 1996?
+**a) Los Angeles Lakers ~~b) Cleveland Cavaliers ~~c) Portland Trail Blazers ~~d) Nowhere, has always been a Hornet
+##1539
+In 1996-97, what team became the first NBA team to hold its opponents under 90 points per game for three consecutive seasons?
+**a) Cleveland ~~b) Chicago ~~c) Utah ~~d) Phoenix
+##1540
+In 1996-97, who were the only NBA teammates to each average 21 or more points a game?
+**a) Vin Baker and Glenn Robinson ~~b) Michael Jordan and Scottie Pippen ~~c) Shawn Kemp and Gary Payton ~~d) Grant Hill and Lindsey Hunter
+##1541
+Entering the 1997-98, season what team had made at least one three-point goal in its last 313 regular season games to set an NBA record?
+**a) Orlando ~~b) Seattle ~~c) Indiana ~~d) Los Angeles Lakers
+##1542
+On November 30, 1996, what team scored an NBA record 25 points in overtime in a 106-95 win over the Clippers?
+**a) New Jersey Nets ~~b) Chicago Bulls ~~c) Utah Jazz ~~d) New York Knicks
+##1543
+What team holds the NBA record for biggest one-season turnaround (+35 games in 1989-90) and biggest one-season decline (-39 games in 1996-97)?
+**a) San Antonio Spurs ~~b) Indiana Pacers ~~c) Chicago Bulls ~~d) Detroit Pistons
+##1544
+In 1996-97, what team used an NBA-record 27 different players?
+**a) Dallas Mavericks ~~b) Los Angeles Clippers ~~c) Milwaukee Bucks ~~d) Philadelphia 76ers
+##1545
+Who was the only player to average at least 25 points and 10 rebounds in the 1996-97 season?
+**a) Shaquille O'Neal ~~b) Scottie Pippen ~~c) Karl Malone ~~d) Charles Barkley
+##1546
+What team had only five players play for them in both 1995-96 and 1996-97, the biggest one-season roster turnover in franchise history?
+**a) Los Angeles Lakers ~~b) Los Angeles Clippers ~~c) Boston Celtics ~~d) Philadelphia 76ers
+##1547
+Only three NBA teams have ever had five players who have scored 20,000 career points suit up for them. Which of the following is not one of them?
+**a) Bulls ~~b) Lakers ~~c) Bucks ~~d) Rockets
+##1548
+Entering the 1997-98 season, who had played in 589 NBA games and had never fouled out?
+**a) Steve Kerr ~~b) Gary Payton ~~c) John Stockton ~~d) John Starks
+##1549
+What team was the only team in the league during 1996-97 whose opponents shot better than 50 percent from the field?
+**a) Boston ~~b) Denver ~~c) Philadelphia ~~d) Phoenix
+##1550
+What team did Tim Hardaway play for before being traded to the Miami Heat midway through the 1995-96 season?
+**a) Golden State ~~b) Sacramento ~~c) Orlando ~~d) Chicago
+##1551
+Who is nicknamed "The Mayor"?
+**a) Fred Hoiberg ~~b) Charles Barkley ~~c) Karl Malone ~~d) Scottie Pippen
+##1552
+In 1996-97, Mark Jackson became the first player in 19 years to lead the NBA in assists while playing for two different teams. What two teams did he play for?
+**a) Denver and Indiana ~~b) Los Angeles Clippers and New York ~~c) Indiana and New York ~~d) Denver and Los Angeles Clippers
+##1553
+What team was Mark Jackson playing for when he was selected to play in the NBA All-Star Game?
+**a) New York ~~b) Indiana ~~c) Los Angeles Clippers ~~d) Denver
+##1554
+What team selected Avery Johnson in the NBA Draft?
+**a) He was not drafted ~~b) San Antonio ~~c) Golden State ~~d) Seattle
+##1555
+With what overall pick was Steve Kerr selected in the 1988 NBA Draft?
+**a) 50th ~~b) 15th ~~c) 20th ~~d) 7th
+##1556
+Entering 1997-98, how many NBA championships has Steve Kerr won with the Chicago Bulls?
+**a) 2 ~~b) 5 ~~c) 3 ~~d) 0
+##1557
+How many All-NBA Teams has Jason Kidd been selected to?
+**a) 0 ~~b) 2 ~~c) 3 ~~d) 5
+##1558
+What do the following players have in common--Kerry Kittles, Jim Jackson, Ron Harper?
+**a) All were born in Ohio ~~b) All have played for New Jersey ~~c) None were drafted ~~d) All are left handed
+##1559
+Toni Kukoc's first season playing in the NBA was 1993-94. What year did the Chicago Bulls draft him?
+**a) 1990 ~~b) 1993 ~~c) 1988 ~~d) 1992
+##1560
+Where did Luc Longley play before joining the Chicago Bulls midway through the 1993-94 season?
+**a) Minnesota ~~b) Phoenix ~~c) Los Angeles Clippers ~~d) Washington
+##1561
+Which of the following players did not go to either high school or college in Hartford, CT?
+**a) Ray Allen ~~b) Rick Mahorn ~~c) Vin Baker ~~d) Marcus Camby
+##1562
+Which of the following teams has Danny Manning not played for?
+**a) Milwaukee ~~b) Los Angeles Clippers ~~c) Atlanta ~~d) Phoenix
+##1563
+Entering the 1998 NBA Playoffs, Danny Manning has participated in the NBA Playoffs with how many teams?
+**a) 3 ~~b) 0 ~~c) 1 ~~d) 4
+##1564
+What team did Alonzo Mourning play for before being traded to the Miami Heat just prior to the 1995-96 season?
+**a) Charlotte ~~b) Washington ~~c) Atlanta ~~d) New York
+##1565
+What do Loy Vaught and Shaquille O'Neal have in common?
+**a) Both have a Superman "S" logo tattooed on their arm ~~b) Both grew up in Michigan ~~c) Both have averaged double figure rebounds every year of their career ~~d) Both were selected with a top five pick in the NBA Draft
+##1566
+How many times has Mark Price led the league in free throw shooting percentage?
+**a) 3 ~~b) 0 ~~c) 5 ~~d) 2
+##1567
+What is J.R. Reid's given name?
+**a) Herman ~~b) John Richard ~~c) Jerome R. ~~d) Jason Robert
+##1568
+What is Rick Fox's given name?
+**a) Ulrich ~~b) Richard ~~c) Ricardo ~~d) Cedrick
+##1569
+What country was Rick Fox born in?
+**a) Canada ~~b) United States ~~c) Jamaica ~~d) France
+##1570
+Where did Kevin Garnett go to college?
+**a) He did not attend college ~~b) Farragut Academy ~~c) University of Minnesota ~~d) Michigan
+##1571
+Who led the NBA with 11 disqualification's in the 1995-96 season?
+**a) Matt Geiger ~~b) Dikembe Mutombo ~~c) Charles Oakley ~~d) Anthony Mason
+##1572
+What team selected Kevin Johnson in the 1987 NBA Draft?
+**a) Cleveland ~~b) Phoenix ~~c) Sacramento ~~d) Golden State
+##1573
+What team was Larry Johnson playing for when he made his two NBA All-Star appearances?
+**a) Charlotte ~~b) New York ~~c) Miami ~~d) Los Angeles Lakers
+##1574
+What do the following players have in common-- Clifford Robinson, Ray Allen and Travis Knight?
+**a) All attended the University of Connecticut ~~b) All wear headbands when they play ~~c) All were selected in the 1989 NBA Draft ~~d) All were first round picks
+##1575
+David Robinson was selected by the San Antonio Spurs in the 1987 NBA Draft. What was the first season he played in the NBA?
+**a) 1989-90 ~~b) 1987-88 ~~c) 1988-89 ~~d) 1990-91
+##1576
+Which of the following players did not have a father who played in the NBA?
+**a) Shaquille O'Neal ~~b) Jalen Rose ~~c) Dan Schayes ~~d) Kobe Bryant
+##1577
+Arvydas Sabonis was selected by the Portland Trail Blazers in the 1986 NBA Draft. What was the first season he played in the NBA?
+**a) 1995-96 ~~b) 1986-87 ~~c) 1988-89 ~~d) 1993-94
+##1578
+What is Buck Williams' given name?
+**a) Charles ~~b) Robert ~~c) Buchanan ~~d) Calbert
+##1579
+Which of the following NBA players did not attend Maryland?
+**a) Rod Strickland ~~b) Walt Williams ~~c) Buck Williams ~~d) Joe Smith
+##1580
+In how many seasons has Kevin Willis averaged a double-double (points-rebounds)?
+**a) 5 ~~b) 0 ~~c) 8 ~~d) 10
+##1581
+In how many seasons has John Stockton averaged a double-double (points-assists)?
+**a) 10 ~~b) 2 ~~c) 12 ~~d) 7
+##1582
+What do Nick Van Exel and Shawn Kemp have in common?
+**a) Both attended Trinity Valley Community College ~~b) Both grew up in Wisconsin ~~c) Both have played for the Seattle Sonics ~~d) Neither has participated in an NBA All-Star Game
+##1583
+Which of the following NBA players is from Czechoslovakia?
+**a) George Zidek ~~b) Toni Kukoc ~~c) Luc Longley ~~d) Eric Piatkowski
+##1584
+Which of the following players was born in Island of Canovan, Grenadines?
+**a) Adonal Foyle ~~b) Detlef Schrempf ~~c) Olden Polynice ~~d) Tim Duncan
+##1585
+What do the following players have in common--Ron Mercer, Jerry Stackhouse and Rod Strickland?
+**a) All attended high school at Oak Hill Academy ~~b) All grew up in Nashville ~~c) All are left-handed ~~d) None were a top ten draft pick
+##1586
+Toni Kukoc was drafted by the Chicago Bulls in the 1990 NBA Draft. What was the first season he played in the NBA?
+**a) 1993-94 ~~b) 1990-91 ~~c) 1992-93 ~~d) 1995-96
+##1587
+In 1996-97, what team scored the most points in the paint?
+**a) Washington ~~b) Los Angeles Lakers ~~c) Utah ~~d) Portland
+##1588
+In 1996-97, what team scored the most fast break points?
+**a) Toronto ~~b) Seattle ~~c) Phoenix ~~d) Detroit
+##1589
+In 1996-97, what team was most effective in preventing fast break points?
+**a) Utah ~~b) Cleveland ~~c) Miami ~~d) Detroit
+##1590
+How many pairs of brothers played in the NBA in the 1996-97 season?
+**a) 6 ~~b) 2 ~~c) 10 ~~d) 4
+##1591
+What team is the only team to ever have four number one (first pick overall) draft choices on their roster at the same time?
+**a) Los Angeles Lakers ~~b) Chicago Bulls ~~c) Boston Celtics ~~d) Philadelphia 76ers
+##1592
+Only two teams in NBA history have had 13 first round picks on their roster in one season. What teams were they?
+**a) 1994-95 Denver Nuggets and 1986-87 Milwaukee Bucks ~~b) 1992-93 Houston Rockets and 1970-71 Boston Celtics ~~c) 1994-95 Chicago Bulls and 1967-68 Philadelphia 76ers ~~d) 1994-95 Denver Nuggets and 1995-96 Los Angeles Lakers
+##1593
+What do the following players have in common--Dale Davis, Eric Montross and Shaquille O'Neal?
+**a) All shot a higher percentage from the field than from the line in 1996-97 season ~~b) All are left-handed ~~c) None of them played fours years of collegiate basketball ~~d) All of them pull their socks up as high as they can go when they play
+##1594
+Which of the following players did not post 20 or more points and rebounds in the same game twice during the 1995-96 season?
+**a) Hakeem Olajuwon ~~b) Karl Malone ~~c) David Robinson ~~d) Joe Smith
+##1595
+Which of the following teams is the only one to finish a season with a record better than .500?
+**a) Los Angeles Clippers ~~b) Minnesota ~~c) Vancouver ~~d) Toronto
+##1596
+Who scored the six millionth NBA point on Monday, March 23, 1992?
+**a) Stacey Augmon ~~b) Ricky Pierce ~~c) Alonzo Mourning ~~d) Grant Hill
+##1597
+Who scored the seven millionth NBA point on Monday, December 1, 1996?
+**a) Hersey Hawkins ~~b) Shaquille O'Neal ~~c) Danny Manning ~~d) Scottie Pippen
+##1598
+What player had the most shots blocked in the 1996-97 season?
+**a) Shareef Abdur-Rahim ~~b) Antoine Walker ~~c) Tom Gugliotta ~~d) Allen Iverson
+##1599
+What player had the most shots blocked in the 1995-96 season?
+**a) Cedric Ceballos ~~b) Vin Baker ~~c) Jerry Stackhouse ~~d) Mitch Richmond
+##1600
+Entering the 1997-98 season, what team has the best winning percentage over the past 21 years (1976-1997)?
+**a) Los Angeles Lakers ~~b) Portland Trail Blazers ~~c) Chicago Bulls ~~d) Boston Celtics
+

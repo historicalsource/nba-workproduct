@@ -1,0 +1,314 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+@@1801
+Hakeem Olajuwon has made more All-Star Teams than any current player.
+**True ~~False
+@@1802
+Karl Malone is in the top 10 in all-time NBA scoring.
+**True ~~False
+@@1803
+Clyde Drexler is in the top 10 in all-time NBA scoring.
+**False ~~True
+@@1804
+Karl Malone has won one individual scoring championship.
+**False ~~True
+@@1805
+Hakeem Olajuwon was the NBA's leading scorer in 1993-94.
+**False ~~True
+@@1806
+Dale Ellis, who holds the NBA records for most three-pointers made, has led the NBA in three-point shooting percentage at least once.
+**False ~~True
+@@1807
+Patrick Ewing led the NBA in blocked shots during a season.
+**False ~~True
+@@1808
+Dennis Rodman has led the NBA in a statistical category other than rebounding.
+**True ~~False
+&&Rodman led in field goal percentage in 1989.
+@@1809
+John Stockton, the NBA leader in career steals, has never led all players in steals during a season.
+**False ~~True
+@@1810
+John Stockton began the 1997-98 NBA season with more career points than David Robinson.
+**True ~~False
+@@1811
+Scottie Pippen has scored more career points than Reggie Miller.
+**False ~~True
+@@1812
+Kevin Johnson has scored more career points than Detlef Schrempf.
+**False ~~True
+@@1813
+The Utah Jazz was once known as the Utah Stars.
+**False ~~True
+@@1814
+When the team was formed in 1980, the Dallas Mavericks announced that they preferred to be called the Mavs.
+**False ~~True
+@@1815
+The Washington Wizards were once known as the Capital Bullets.
+**True ~~False
+@@1816
+There was a team in Toronto before the Raptors.
+**True ~~False
+@@1817
+The Redskins once played in the NBA.
+**True ~~False
+@@1818
+There was once a team in St. Louis named the Bombers.
+**True ~~False
+@@1819
+The official nickname of the Knicks is Knickerbockers.
+**True ~~False
+@@1820
+The Los Angeles Lakers got their nickname because of an abundance of Lakes in the Los Angeles area.
+**False ~~True
+@@1821
+When the Philadelphia Warriors moved to the West Coast, they changed their name to the San Francisco Warriors.
+**True ~~False
+@@1822
+The Detroit Pistons were a part of the NBA in its first season.
+**False ~~True
+@@1823
+Dallas was one of four ABA teams to join the NBA in 1976.
+**False ~~True
+@@1824
+The Philadelphia 76ers have won more championships than the New York Knicks.
+**True ~~False
+@@1825
+The Los Angeles Lakers have won more playoff games than the Boston Celtics.
+**True ~~False
+@@1826
+The Minneapolis Lakers won five championships before moving to Los Angeles in 1960.
+**True ~~False
+@@1827
+The Cleveland Cavaliers entered the NBA in 1970.
+**True ~~False
+@@1828
+The New Jersey Nets were once known as the New Jersey Americans.
+**True ~~False
+@@1829
+The Philadelphia 76ers once were known as the Philadelphia Warriors.
+**False ~~True
+@@1830
+The Detroit Pistons have been in the NBA since its first year in 1946-47.
+**False ~~True
+@@1831
+The Detroit Pistons hold the record for most points scored in one game in NBA history.
+**True ~~False
+@@1832
+The Miami Heat and Orlando Magic started playing in the NBA in the same season.
+**False ~~True
+@@1833
+The Raptors are the only NBA team to ever call Toronto home.
+**False ~~True
+&&The Toronto Huskies were one of the original members of the NBA in 1946-47.
+@@1834
+If a player takes off from behind the three-point line, soars through the air, and dunk the ball, is it counted as a three-pointer.
+**True ~~False
+@@1835
+If an offensive player puts up an airball that is grabbed by a defensive player, it is considered a steal.
+**False ~~True
+@@1836
+The Detroit Pistons home games are in Detroit.
+**False ~~True
+&&The Pistons play their home games in Auburn Hills.
+@@1837
+The Three teams that play in Texas are the Mavericks, Rockets and Oilers.
+**False ~~True
+&&They are the Mavericks, Rockets and Spurs.
+@@1838
+The Nets play in East Rutherford, NJ.
+**True ~~False
+@@1839
+There are 15 teams in the Eastern Conference.
+**True ~~False
+@@1840
+The Lakers have always played in Los Angeles.
+**False ~~True
+&&They played in Minneapolis, MN from 1948-49 to 1960.
+@@1841
+The Boston Celtics used to be called the Boston Shamrocks.
+**False ~~True
+@@1842
+The New York Knicks won the NBA Championship in 1970 and 1973.
+**True ~~False
+@@1843
+The Boston Celtics have won 16 NBA titles.
+**True ~~False
+@@1844
+Houston's two titles came in back-to-back seasons.
+**True ~~False
+@@1845
+The Milwaukee Bucks have never won an NBA championship.
+**False ~~True
+@@1846
+The NBA Finals have always been played in June.
+**False ~~True
+&&They have also been played in May and also in April during the 1940s.
+@@1847
+The Utah Jazz was once known as the Utah Stars.
+**False ~~True
+@@1848
+When the team was formed in 1980, the Dallas Mavericks announced that they preferred to be called the Mavericks.
+**False ~~True
+@@1849
+The Washington Wizards were once known as the Capital Bullets.
+**True ~~False
+@@1850
+The Redskins once played in the NBA.
+**True ~~False
+@@1851
+There was once a team in St. Louis named the Bombers.
+**True ~~False
+@@1852
+The official nickname of the Knicks is Knickerbockers.
+**True ~~False
+@@1853
+The Los Angeles Lakers got their nickname because of an abundance of Lakes in the Los Angeles area.
+**False ~~True
+@@1854
+When the Philadelphia Warriors moved to the West Coast, they changed their name to the San Francisco Warriors.
+**True ~~False
+@@1855
+Dallas was one of four ABA teams to join the NBA in 1976.
+**False ~~True
+@@1856
+The Philadelphia 76ers' franchise has won more championships than the New York Knicks.
+**True ~~False
+@@1857
+The Los Angeles Lakers have won more playoff games than the Boston Celtics.
+**True ~~False
+@@1858
+The Minneapolis Lakers won five championships before moving to Los Angeles in 1960.
+**True ~~False
+@@1859
+The Cleveland Cavaliers entered the NBA in 1970.
+**True ~~False
+@@1860
+The New Jersey Nets were once known as the New Jersey Americans.
+**True ~~False
+@@1861
+The Philadelphia 76ers once were known as the Philadelphia Warriors.
+**False ~~True
+@@1862
+The Detroit Pistons have been in the NBA since its first year in 1946-47.
+**False ~~True
+@@1863
+The Detroit Pistons hold the record for most points scored in one game in NBA history.
+**True ~~False
+@@1864
+The Miami Heat and Orlando Magic started playing in the NBA in the same season.
+**False ~~True
+@@1865
+Steve Kerr is Cleveland's all-time assist leader.
+**False ~~True
+@@1866
+A new basketball is used for every game.
+**False ~~True
+@@1867
+A shot that gets blocked counts as a missed field goal for the shooter.
+**True ~~False
+@@1868
+The Boston Celtics have never drafted first in the NBA Draft.
+**True ~~False
+@@1869
+The 1997-98 San Antonio Spurs began the season with three players over seven feet tall on their roster.
+**True ~~False
+@@1870
+Terry Cummings is an ordained minister.
+**True ~~False
+@@1871
+The Seattle SuperSonics have played in the NBA Finals two times.
+**False ~~True
+@@1872
+An NBA team playing in Rochester once won the NBA title.
+**True ~~False
+@@1873
+An NBA team playing in Syracuse once won an NBA title.
+**True ~~False
+@@1874
+The team once known as the Rochester Royals is now the Sacramento Kings.
+**True ~~False
+@@1875
+The team once known as the Syracuse Nationals is now the Philadelphia 76ers.
+**True ~~False
+@@1876
+The NBA once had a team that played home games in Beaumont, Texas.
+**False ~~True
+@@1877
+Before they moved to San Antonio, the Spurs were known as the Austin American-Statesmen.
+**False ~~True
+@@1878
+The Cavaliers have always played their home games in Cleveland.
+**False ~~True
+@@1879
+The New York Knicks have won more playoff games in their history than the Chicago Bulls.
+**True ~~False
+@@1880
+Detroit has won more NBA Finals games than Golden State.
+**False ~~True
+@@1881
+The team with the best road winning percentage in NBA Finals history is Milwaukee.
+**True ~~False
+@@1882
+The Atlanta Hawks franchise has never played in the NBA Finals.
+**False ~~True
+@@1883
+Danny Ferry has played his entire NBA career with the Cleveland Cavaliers.
+**True ~~False
+@@1884
+The only NBA team Danny Ferry has played for is the Cleveland Cavaliers.
+**False ~~True
+@@1885
+Dale Ellis has represented the Seattle SuperSonics at an NBA All-Star Game.
+**True ~~False
+@@1886
+Four former Florida State University guards playing in the NBA.
+**True ~~False
+@@1887
+The Cavaliers were not the first Cleveland franchise in the NBA.
+**True ~~False
+@@1888
+The Cleveland Cavaliers were once known as the Cleveland Rebels.
+**False ~~True
+@@1889
+Ron Harper and Bob Sura are the only Cavaliers to participate in the Slam Dunk Contest.
+**True ~~False
+@@1890
+Cleveland has had at least one player participate in the Rookie Game each of the last three years (1996-98).
+**True ~~False
+@@1891
+Twice the Dallas Mavericks have come back from 2-1 deficits in the playoffs to win the series.
+**True ~~False
+@@1892
+B.J. Armstrong was a starting guard in the 1994 NBA All-Star Game.
+**True ~~False
+@@1893
+Michael Finley was an NBA All-Rookie First Team selection in 1996.
+**True ~~False
+@@1894
+Charles Barkley has participated in the playoffs in eleven of his 13 NBA seasons.
+**True ~~False
+@@1895
+The Warriors have not been to the NBA Playoffs in the 1990s.
+**False ~~True
+@@1896
+Bimbo Coles was a member of the 1988 bronze-medal-winning U.S. Olympic Team.
+**True ~~False
+@@1897
+Mario Elie was a member of both the 1994 and 1995 Houston Rockets NBA championship teams.
+**True ~~False
+@@1898
+Charles Barkley has never won an NBA Championship.
+**True ~~False
+@@1899
+Patrick Ewing has never won an NBA Championship.
+**True ~~False
+@@1900
+Mark Price and Brent Price have never played together in the NBA.
+**False ~~True
+

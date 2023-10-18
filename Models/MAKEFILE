@@ -1,0 +1,973 @@
+#---------------------------------------
+#
+# Top level Makefile for NBA Models
+#
+# $Revision: 123 $
+#
+
+#---------------------------------------
+#
+# Useful macros
+#
+NULL	:=
+SPACE	:=	$(NULL) $(NULL)
+TAB		:=	$(NULL)	$(NULL)
+LPAREN	:=	(
+RPAREN	:=	)
+FILL	:=	|
+P_SCALE := 0.1446258
+
+define NEWLINE
+
+
+endef
+
+# the hd_limbs header file
+HD_LIMBS = \video\nba\include\hdlimbs.h
+HD_EXTRN = \video\nba\include\hdextrn.h
+
+# the path to HD_LIMBS dependencies
+HD_MODS = /video/nba/models/
+
+# court header file
+COURTS_E = \video\nba\include\c_extern.h
+COURTS_H = \video\nba\include\courts.h
+COURTS_MODS = /video/nba/include/
+
+#---------------------------------------
+#
+# SDL Source modules
+#
+SDL_COURTS := $(wildcard *court.sdl) $(wildcard park*.sdl)
+LWO_COURTS := sea.lwo trees.lwo beachcrt.lwo b_sky.lwo
+LWO_BGOALS := b_stand1.lwo b_stand2.lwo b_rim1.lwo b_rim2.lwo \
+		b_bkbmb1.lwo b_bkbmb2.lwo b_bkwod1.lwo b_bkwod2.lwo \
+		b_shadw1.lwo b_shadw2.lwo
+SDL_COURTS := $(wildcard *court.sdl) parkenv.sdl parkflr.sdl parkonct.sdl
+SDL_HEADS := $(wildcard hd_*.sdl)
+LWO_HEADS := $(wildcard hd_*.lwo)
+HEADS := $(patsubst %.sdl,$(LPAREN)%.sdl -mw 8 -mh 7 -f $(P_SCALE)$(RPAREN),$(SDL_HEADS))\
+		$(patsubst %.lwo,$(LPAREN)%.lwo -b -mw 8 -mh 7 -f $(P_SCALE)$(RPAREN),$(LWO_HEADS))
+INC_HEADS := $(SDL_HEADS:.sdl=.h) $(LWO_HEADS:.lwo=.h)
+
+COURTS := $(patsubst %.sdl,$(LPAREN)%.sdl -fx 18.7 -fy 17.0 -fz 17.85$(RPAREN),$(SDL_COURTS)) \
+		$(patsubst %.lwo,$(LPAREN)%.lwo -s -fx 46.2 -fz 44.5 -fy 44.5 $(RPAREN),$(LWO_COURTS)) \
+		$(patsubst %.lwo,$(LPAREN)%.lwo -s -fx 43.184 -fz 42.623 -fy 43.180 $(RPAREN),$(LWO_BGOALS))
+INC_COURTS := $(SDL_COURTS:.sdl=.h)
+
+# the .BOD models files
+BODS := reduced_big.bod horn.bod benny.bod\
+		boome.bod crunc.bod raptr.bod hbear.bod hawk.bod goril.bod\
+		sly.bod rocky.bod sasqu.bod ubear.bod alian.bod jam.bod nikko.bod\
+		femal.bod retro.bod wizrd.bod oman.bod clown.bod pumpk.bod creatr.bod\
+		horse.bod frank.bod mummy.bod bride.bod wolfm.bod ref.bod cheer.bod
+
+LIST :=\
+		(crowdhi.sdl  -fx 18.7 -fy 17.0 -fz 17.85)\
+		(backcrwd.sdl -fx 18.7 -fy 17.0 -fz 17.85)\
+		(stadium.sdl  -fx 18.7 -fy 17.0 -fz 17.85)\
+		(railing.sdl  -fx 18.7 -fy 17.0 -fz 17.85)\
+		(specular.sdl -f 17.0)\
+		(oncrt4.sdl   -fx 18.7 -fy 17.0 -fz 17.85)\
+		(onctref4.sdl -fx 18.7 -fy 17.0 -fz 17.85)\
+		(goallow.sdl  -f 17.0)\
+		(parkgoal.sdl  -f 17.0)\
+		(prkgshad.sdl  -f 17.0)\
+		(hoopfire.sdl -t -f 17.0)\
+		(goalref.sdl  -f 17.0)\
+		(bball.sdl    -f 20.9)\
+		(bballhlt.sdl -f 20.9)\
+		(bbalshde.sdl -f 20.9)\
+		(jumbo.sdl    -f 17.0)\
+		(goalshad.sdl -f 17.0)\
+\
+		(nt_swish.sdl -fx 20.85 -fy 17.0 -fz 20.85 -v)\
+		(nt_swshb.sdl -fx 20.85 -fy 17.0 -fz 20.85 -v)\
+		(nt_hard.sdl  -fx 20.85 -fy 17.0 -fz 20.85 -v)\
+		(nt_rim.sdl   -fx 20.85 -fy 17.0 -fz 20.85 -v)\
+		(nt_dunk.sdl  -fx 20.85 -fy 17.0 -fz 20.85 -v)\
+		(nt_air.sdl   -fx 20.85 -fy 17.0 -fz 20.85 -v)\
+\
+		(ballshad.sdl)\
+		$(HEADS)\
+		(hd_alian.lwo -b -mw 8 -mh 8 -f $(P_SCALE))\
+		(hd_nikko.lwo -b -mw 8 -mh 8 -f $(P_SCALE))\
+		(hd_horn.lwo  -b -mw 8 -mh 8 -f $(P_SCALE))\
+		(hd_benny.lwo -b -mw 8 -mh 8 -f $(P_SCALE))\
+		(hd_pumpk.lwo -b -mw 8 -mh 8 -f $(P_SCALE))\
+		$(COURTS)\
+		(spfx.sdl -f 4.0)\
+\
+		(hand_r1.lwo -s -f $(P_SCALE))\
+		(hand_l1.lwo -s -f $(P_SCALE))\
+		(fist_r1.lwo -s -f $(P_SCALE))\
+		(fist_l1.lwo -s -f $(P_SCALE))\
+		(ohand_r2.lwo -s -f $(P_SCALE))\
+		(ohand_l2.lwo -s -f $(P_SCALE))\
+		(fhand_r.lwo -s -f $(P_SCALE))\
+		(fhand_l.lwo -s -f $(P_SCALE))\
+\
+		(waist_uc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_uc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lluc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lruc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_uluc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_uruc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_ruc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_luc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_uluc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_uruc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lluc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lruc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_luc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_ruc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_cl.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_cl.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llcl.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrcl.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulcl.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urcl.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rcl.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lcl.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulcl.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urcl.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llcl.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrcl.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lcl.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rcl.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_rf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_rf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llrf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrrf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulrf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urrf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rrf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lrf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulrf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urrf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llrf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrrf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lrf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rrf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_wm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_wm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llwm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrwm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulwm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urwm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rwm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lwm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulwm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urwm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llwm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrwm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lwm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rwm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_tb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_tb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lltb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrtb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ultb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urtb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rtb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_ltb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ultb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urtb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lltb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrtb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_ltb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rtb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_ub.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_ub.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llub.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrub.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulub.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urub.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rub.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lub.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulub.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urub.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llub.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrub.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lub.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rub.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_rm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_rm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llrm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrrm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulrm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urrm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rrm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lrm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulrm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urrm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llrm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrrm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lrm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rrm.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_ho.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_ho.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llho.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrho.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulho.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urho.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rho.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lho.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulho.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urho.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llho.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrho.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lho.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rho.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_um.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_um.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llum.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrum.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulum.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urum.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rum.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lum.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulum.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urum.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llum.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrum.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lum.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rum.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_uf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_uf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lluf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lruf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_uluf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_uruf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_ruf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_luf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_uluf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_uruf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lluf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lruf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_luf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_ruf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_dr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_dr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lldr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrdr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_uldr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urdr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rdr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_ldr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_uldr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urdr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lldr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrdr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_ldr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rdr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_p.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_p.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llp.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrp.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulp.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urp.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rp.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lp.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulp.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urp.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llp.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrp.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lp.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rp.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_cc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_cc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llcc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrcc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulcc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urcc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rcc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lcc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulcc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urcc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llcc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrcc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lcc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rcc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_ss.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_ss.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llss.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrss.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulss.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urss.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rss.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lss.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulss.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urss.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llss.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrss.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lss.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rss.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_om.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_om.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llom.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrom.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulom.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urom.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rom.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lom.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulom.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urom.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llom.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrom.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lom.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rom.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_w.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_w.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llw.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrw.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulw.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urw.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rw.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lw.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulw.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urw.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llw.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrw.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lw.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rw.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_f.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_f.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rf.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_rt.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_rt.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llrt.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrrt.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulrt.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urrt.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rrt.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lrt.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulrt.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urrt.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llrt.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrrt.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lrt.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rrt.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_s.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_s.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lls.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrs.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_uls.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urs.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rs.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_ls.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_uls.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urs.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lls.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrs.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_ls.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rs.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_pg.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_pg.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llpg.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrpg.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulpg.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urpg.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rpg.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lpg.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulpg.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urpg.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llpg.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrpg.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lpg.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rpg.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_n.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_n.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lln.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrn.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_uln.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urn.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rn.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_ln.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_uln.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urn.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lln.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrn.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_ln.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rn.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_r.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_r.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rr.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_hb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_hb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llhb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrhb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulhb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urhb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rhb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lhb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulhb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urhb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llhb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrhb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lhb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rhb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_ah.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_ah.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llah.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrah.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulah.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urah.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rah.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lah.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulah.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urah.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llah.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrah.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lah.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rah.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_b.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_b.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_j.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_j.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llj.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrj.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulj.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urj.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rj.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lj.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulj.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urj.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llj.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrj.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lj.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rj.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_cb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_cb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llcb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrcb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulcb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urcb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rcb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lcb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulcb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urcb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llcb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrcb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lcb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rcb.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_c.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_c.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rc.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_h.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_h.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_llh.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lrh.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ulh.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_urh.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_rh.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_lh.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ulh.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_urh.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_llh.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lrh.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_lh.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_rh.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(waist_a.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(torso_a.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lla.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_lra.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ula.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(arm_ura.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_ra.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(hand_la.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ula.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_ura.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lla.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(leg_lra.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_la.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+		(foot_ra.lwo -e -mw 8 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lch.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rch.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llch.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrch.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lcb.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rcb.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llcb.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrcb.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lb.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rb.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llb.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrb.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lc.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rc.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llc.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrc.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_ltr.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rtr.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lltr.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrtr.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lhb.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rhb.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llhb.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrhb.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lah.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rah.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llah.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrah.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lpg.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rpg.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llpg.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrpg.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_ls.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rs.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lls.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrs.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_ldr.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rdr.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lldr.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrdr.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lss.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rss.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llss.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrss.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lub.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rub.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llub.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrub.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_la.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_ra.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lla.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lra.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lj.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rj.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llj.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrj.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_ln.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rn.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lln.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrn.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lf.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rf.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llf.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrf.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lom.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rom.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llom.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrom.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lcc.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rcc.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llcc.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrcc.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lp.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rp.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llp.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrp.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lho.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rho.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llho.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrho.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lw.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rw.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llw.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrw.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_luf.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_ruf.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lluf.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lruf.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lum.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rum.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llum.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrum.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_ltb.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rtb.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lltb.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrtb.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lwm.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rwm.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llwm.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrwm.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_lrm.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_rrm.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_llrm.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lrrm.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+\
+		(rft_luc.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rft_ruc.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lluc.lwo -mw 7 -mh 8 -f $(P_SCALE))\
+		(rlg_lruc.lwo -mw 7 -mh 8 -f $(P_SCALE))
+
+#
+# SDL files
+#
+SDLS :=	$(subst $(LPAREN),$(NULL),$(subst $(RPAREN),$(NULL),$(LIST)))
+LWOS := $(SDLS)
+SDLS :=	$(filter %.sdl,$(SDLS))
+LWOS :=	$(filter %.lwo,$(LWOS))
+
+#
+# Object files
+#
+OBJS=	$(SDLS:.sdl=.h) $(LWOS:.lwo=.h)
+
+#
+# Process the list to ensure consistent whitespacing & parenthesis syntax
+#
+LIST :=	$(strip $(LIST))
+LIST :=	$(subst $(LPAREN)$(SPACE),$(LPAREN),$(LIST))
+LIST :=	$(subst $(SPACE)$(RPAREN),$(RPAREN),$(LIST))
+#
+# Prepare the list for parameter filtering
+#
+LIST :=	$(subst $(RPAREN)$(SPACE),$(RPAREN)$(TAB),$(LIST))
+LIST :=	$(subst $(SPACE),$(FILL),$(LIST))
+
+#---------------------------------------
+#
+# Converter flags
+#
+CVTFLAGS =	-n $(basename $<) <$< >$@
+CLWFLAGS =	-n $(subst hd_,,$(basename $<)) >$@
+
+#
+# Converter command lines
+#
+CVT =	@\video\nba\tools\cvtmod.exe
+CLW =	@\video\nba\tools\clw.exe
+DUMPBOD_EXE = /video/nba/tools/dumpbod.exe
+
+#
+# Phony make targets that don't want any implicit dependencies
+#
+.PHONY:	all prompt chk_tools clean clobber rebuild_msg rebuild
+
+#---------------------------------------
+#
+# What we are going to build
+#
+all:	prompt chk_tools  $(OBJS) $(HD_LIMBS) $(COURTS_H) $(COURTS_E) chk_dumpbod $(BODS)
+	@echo MAKING `NBA\MODELS' DONE
+
+prompt:
+	@echo MAKING `NBA\MODELS'
+
+chk_tools:
+	@echo CHECKING CURRENT BUILD OF `TOOLS\CVTMOD'
+	@$(MAKE) --no-print-directory -C /video/nba/tools/cvtmod
+	@echo CHECKING CURRENT BUILD OF 'TOOLS\CLW'
+	@$(MAKE) --no-print-directory -C /video/nba/tools/clw
+
+chk_dumpbod:
+	@echo CHECKING CURRENT BUILD OF 'TOOLS\DUMPBOD'
+	@$(MAKE) --no-print-directory -C /video/nba/tools/dumpbod
+#---------------------------------------
+#
+# Dependencies and rules
+#
+%.h:	%.sdl
+	@echo Converting $< to $@
+	$(CVT) $(subst $(FILL),$(SPACE),\
+	$(subst $(RPAREN),$(NULL),\
+	$(subst $(LPAREN)$<,$(NULL),\
+	$(filter $(LPAREN)$<%$(RPAREN),$(LIST))))) $(CVTFLAGS)
+
+%.h:	%.lwo
+	@echo Converting $< to $@
+	$(CLW) $(basename $<) $(subst $(FILL),$(SPACE),\
+	$(subst $(RPAREN),$(NULL),\
+	$(subst $(LPAREN)$<,$(NULL),\
+	$(filter $(LPAREN)$<%$(RPAREN),$(LIST))))) $(CLWFLAGS)
+
+$(HD_LIMBS): $(INC_HEADS)
+	@if exist $(HD_LIMBS) del $(HD_LIMBS)
+	@if exist $(HD_EXTRN) del $(HD_EXTRN)
+	$(foreach incfile, $(INC_HEADS),@echo>>$(HD_LIMBS) #include "$(HD_MODS)$(incfile)"$(NEWLINE))
+	$(foreach incfile, $(INC_HEADS),@echo>>$(HD_EXTRN) extern LIMB limb_$(subst hd_,,$(basename $(incfile)));$(NEWLINE))
+#	$(foreach incfile, $(INC_HEADS),@echo>>$(HD_EXTRN) extern LIMB limb_$(basename $(incfile));$(NEWLINE))
+
+$(COURTS_E): $(INC_COURTS)
+	@if exist $(COURTS_E) del $(COURTS_E)
+#	@echo>>$(COURTS_E) extern LIMB$(NEWLINE)
+	$(foreach incfile, $(INC_COURTS),@echo>>$(COURTS_E) extern LIMB limb_$(basename $(incfile));$(NEWLINE))
+	$(foreach incfile, $(INC_COURTS),@echo>>$(COURTS_E) extern char *$(basename $(incfile))_textures;$(NEWLINE))
+
+$(COURTS_H): $(INC_COURTS)
+	@if exist $(COURTS_H) del $(COURTS_H)
+	$(foreach incfile, $(INC_COURTS),@echo>>$(COURTS_H) #include "/video/nba/models/$(incfile)"$(NEWLINE))
+
+reduced_big.bod:	waist_rm.h torso_rm.h arm_llrm.h arm_lrrm.h arm_ulrm.h arm_urrm.h hand_r1.h\
+			hand_l1.h leg_ulrm.h leg_urrm.h leg_llrm.h leg_lrrm.h foot_lrm.h foot_rrm.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) REDUCED_BIG_PLAYER
+
+horn.bod:	waist_h.h torso_h.h arm_llh.h arm_lrh.h arm_ulh.h arm_urh.h hand_rh.h\
+			hand_lh.h leg_ulh.h leg_urh.h leg_llh.h leg_lrh.h foot_lh.h foot_rh.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) CHA_MASCOT
+
+benny.bod:	waist_cb.h torso_cb.h arm_llcb.h arm_lrcb.h arm_ulcb.h arm_urcb.h hand_rcb.h\
+			hand_lcb.h leg_ulcb.h leg_urcb.h leg_llcb.h leg_lrcb.h foot_lcb.h foot_rcb.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) CHI_MASCOT
+
+boome.bod:	waist_b.h torso_b.h arm_llb.h arm_lrb.h arm_ulb.h arm_urb.h hand_rb.h\
+			hand_lb.h leg_ulb.h leg_urb.h leg_llb.h leg_lrb.h foot_lb.h foot_rb.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) IND_MASCOT
+
+crunc.bod:	waist_c.h torso_c.h arm_llc.h arm_lrc.h arm_ulc.h arm_urc.h hand_rc.h\
+			hand_lc.h leg_ulc.h leg_urc.h leg_llc.h leg_lrc.h foot_lc.h foot_rc.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) MIN_MASCOT
+
+raptr.bod:	waist_r.h torso_r.h arm_llr.h arm_lrr.h arm_ulr.h arm_urr.h hand_rr.h\
+			hand_lr.h leg_ulr.h leg_urr.h leg_llr.h leg_lrr.h foot_lr.h foot_rr.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) TOR_MASCOT
+
+hbear.bod:	waist_hb.h torso_hb.h arm_llhb.h arm_lrhb.h arm_ulhb.h arm_urhb.h hand_rhb.h\
+			hand_lhb.h leg_ulhb.h leg_urhb.h leg_llhb.h leg_lrhb.h foot_lhb.h foot_rhb.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) HOU_MASCOT
+
+hawk.bod:	waist_ah.h torso_ah.h arm_llah.h arm_lrah.h arm_ulah.h arm_urah.h hand_rah.h\
+			hand_lah.h leg_ulah.h leg_urah.h leg_llah.h leg_lrah.h foot_lah.h foot_rah.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) ATL_MASCOT
+
+goril.bod:	waist_pg.h torso_pg.h arm_llpg.h arm_lrpg.h arm_ulpg.h arm_urpg.h hand_rpg.h\
+			hand_lpg.h leg_ulpg.h leg_urpg.h leg_llpg.h leg_lrpg.h foot_lpg.h foot_rpg.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) PHO_MASCOT
+
+sly.bod:	waist_s.h torso_s.h arm_lls.h arm_lrs.h arm_uls.h arm_urs.h hand_rs.h\
+			hand_ls.h leg_uls.h leg_urs.h leg_lls.h leg_lrs.h foot_ls.h foot_rs.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) NJN_MASCOT
+
+rocky.bod:	waist_dr.h torso_dr.h arm_lldr.h arm_lrdr.h arm_uldr.h arm_urdr.h hand_rdr.h\
+			hand_ldr.h leg_uldr.h leg_urdr.h leg_lldr.h leg_lrdr.h foot_ldr.h foot_rdr.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) DEN_MASCOT
+
+sasqu.bod:	waist_ss.h torso_ss.h arm_llss.h arm_lrss.h arm_ulss.h arm_urss.h hand_rss.h\
+			hand_lss.h leg_ulss.h leg_urss.h leg_llss.h leg_lrss.h foot_lss.h foot_rss.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) SEA_MASCOT
+
+ubear.bod:	waist_ub.h torso_ub.h arm_llub.h arm_lrub.h arm_ulub.h arm_urub.h hand_rub.h\
+			hand_lub.h leg_ulub.h leg_urub.h leg_llub.h leg_lrub.h foot_lub.h foot_rub.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) UTA_MASCOT
+
+alian.bod:	waist_a.h torso_a.h arm_lla.h arm_lra.h arm_ula.h arm_ura.h hand_ra.h\
+			hand_la.h leg_ula.h leg_ura.h leg_lla.h leg_lra.h foot_la.h foot_ra.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) ALIEN_CHARACTER
+
+jam.bod:	waist_j.h torso_j.h arm_llj.h arm_lrj.h arm_ulj.h arm_urj.h hand_rj.h\
+			hand_lj.h leg_ulj.h leg_urj.h leg_llj.h leg_lrj.h foot_lj.h foot_rj.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) JAM_CHARACTER
+
+nikko.bod:	waist_n.h torso_n.h arm_lln.h arm_lrn.h arm_uln.h arm_urn.h hand_rn.h\
+			hand_ln.h leg_uln.h leg_urn.h leg_lln.h leg_lrn.h foot_ln.h foot_rn.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) NIKKO_CHARACTER
+
+femal.bod:	waist_f.h torso_f.h arm_llf.h arm_lrf.h arm_ulf.h arm_urf.h hand_rf.h\
+			hand_lf.h leg_ulf.h leg_urf.h leg_llf.h leg_lrf.h foot_lf.h foot_rf.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) NANA_CHARACTER
+
+retro.bod:	waist_rt.h torso_rt.h arm_llrt.h arm_lrrt.h arm_ulrt.h arm_urrt.h hand_rrt.h\
+			hand_lrt.h leg_ulrt.h leg_urrt.h leg_llrt.h leg_lrrt.h foot_lrt.h foot_rrt.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) RETRO_CHARACTER
+
+wizrd.bod:	waist_w.h torso_w.h arm_llw.h arm_lrw.h arm_ulw.h arm_urw.h hand_rw.h\
+			hand_lw.h leg_ulw.h leg_urw.h leg_llw.h leg_lrw.h foot_lw.h foot_rw.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) WIZARD_CHARACTER
+
+oman.bod:	waist_om.h torso_om.h arm_llom.h arm_lrom.h arm_ulom.h arm_urom.h hand_rom.h\
+			hand_lom.h leg_ulom.h leg_urom.h leg_llom.h leg_lrom.h foot_lom.h foot_rom.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) OLDMAN_CHARACTER
+
+clown.bod:	waist_cc.h torso_cc.h arm_llcc.h arm_lrcc.h arm_ulcc.h arm_urcc.h hand_rcc.h\
+			hand_lcc.h leg_ulcc.h leg_urcc.h leg_llcc.h leg_lrcc.h foot_lcc.h foot_rcc.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) CLOWN_CHARACTER
+
+pumpk.bod:	waist_p.h torso_p.h arm_llp.h arm_lrp.h arm_ulp.h arm_urp.h hand_rp.h\
+			hand_lp.h leg_ulp.h leg_urp.h leg_llp.h leg_lrp.h foot_lp.h foot_rp.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) PUMPKIN_CHARACTER
+
+horse.bod:	waist_ho.h torso_ho.h arm_llho.h arm_lrho.h arm_ulho.h arm_urho.h hand_rho.h\
+			hand_lho.h leg_ulho.h leg_urho.h leg_llho.h leg_lrho.h foot_lho.h foot_rho.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) HORSE_CHARACTER
+
+frank.bod:	waist_uf.h torso_uf.h arm_lluf.h arm_lruf.h arm_uluf.h arm_uruf.h hand_ruf.h\
+			hand_luf.h leg_uluf.h leg_uruf.h leg_lluf.h leg_lruf.h foot_luf.h foot_ruf.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) FRANK_CHARACTER
+
+mummy.bod:	waist_um.h torso_um.h arm_llum.h arm_lrum.h arm_ulum.h arm_urum.h hand_rum.h\
+			hand_lum.h leg_ulum.h leg_urum.h leg_llum.h leg_lrum.h foot_lum.h foot_rum.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) MUMMY_CHARACTER
+
+bride.bod:	waist_tb.h torso_tb.h arm_lltb.h arm_lrtb.h arm_ultb.h arm_urtb.h hand_rtb.h\
+			hand_ltb.h leg_ultb.h leg_urtb.h leg_lltb.h leg_lrtb.h foot_ltb.h foot_rtb.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) BRIDE_CHARACTER
+
+wolfm.bod:	waist_wm.h torso_wm.h arm_llwm.h arm_lrwm.h arm_ulwm.h arm_urwm.h hand_rwm.h\
+			hand_lwm.h leg_ulwm.h leg_urwm.h leg_llwm.h leg_lrwm.h foot_lwm.h foot_rwm.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) WOLFMAN_CHARACTER
+
+ref.bod:	waist_rf.h torso_rf.h arm_llrf.h arm_lrrf.h arm_ulrf.h arm_urrf.h hand_rrf.h\
+			hand_lrf.h leg_ulrf.h leg_urrf.h leg_llrf.h leg_lrrf.h foot_lrf.h foot_rrf.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) REF_CHARACTER
+
+cheer.bod:	waist_cl.h torso_cl.h arm_llcl.h arm_lrcl.h arm_ulcl.h arm_urcl.h hand_rcl.h\
+			hand_lcl.h leg_ulcl.h leg_urcl.h leg_llcl.h leg_lrcl.h foot_lcl.h foot_rcl.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) CHEERLEADER_CHARACTER
+
+creatr.bod:	waist_uc.h torso_uc.h arm_lluc.h arm_lruc.h arm_uluc.h arm_uruc.h hand_ruc.h\
+			hand_luc.h leg_uluc.h leg_uruc.h leg_lluc.h leg_lruc.h foot_luc.h foot_ruc.h\
+			$(DUMPBOD_EXE)
+	$(DUMPBOD_EXE) CREATURE_CHARACTER
+
+#---------------------------------------
+#
+# How to clean
+#
+clean:	clobber
+	@echo CLEANING `NBA\MODELS'
+	@echo CLEANING `NBA\MODELS' DONE
+
+#
+# How to clobber
+#
+clobber:
+	@echo CLOBBERING `NBA\MODELS'
+	@if EXIST $(HD_LIMBS) del $(HD_LIMBS)
+	@if EXIST $(HD_EXTRN) del $(HD_EXTRN)
+	@if EXIST $(COURTS_E) del $(COURTS_E)
+	@if EXIST $(COURTS_H) del $(COURTS_H)
+	@if EXIST *.dat del *.dat
+	@if EXIST *.h del *.h
+	@if EXIST *.bod del *.bod
+	@$(foreach DELOBJ, $(OBJS), if exist $(DELOBJ) del $(DELOBJ)$(NEWLINE))
+	@echo CLOBBERING `NBA\MODELS' DONE
+
+#
+# How to rebuild
+#
+rebuild_msg:
+	@echo REBUILDING `NBA\MODELS'
+
+rebuild:	rebuild_msg clean all
+	@echo REBUILDING `NBA\MODELS' DONE

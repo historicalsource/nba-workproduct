@@ -1,0 +1,42 @@
+NBA on NBC (c) 1998 Midway - TIMK : The Ref  (03/23/99 02:03:29) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SC_REF.BNK
+
+Size of .BNK file including header: 25594 bytes ($63FA bytes)
+
+Size of playlist table: 40 bytes ($28 bytes)
+
+Size of playlist and sound data only: 25420 bytes ($634C bytes)
+
+Checksum: $B8EE
+
+Total number of playlists: 9 ($9)
+
+Total number of sound files: 9 ($9)
+
+Average bit rate for bank: 25.4 kbits/sec
+
+Total linear amount of sound: 0:07.941 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1       41.4    47.5  The Ref 
+  2    $0002   1       35.2    40.3  The Ref A
+  3    $0003   1       49.4    56.6  The Ref B
+  4    $0004   1       39.3    45.1  The Ref C
+  5    $0005   1       35.6    40.8  To The Ref
+  6    $0006   1       57.3    65.8  Hands Off to The Ref
+  7    $0007   1       56.1    64.3  Dishes to The Ref
+  8    $0008   1       46.5    53.3  Finds The Ref
+  9    $0009   1       73.2    84.0  Nice Feed to The Ref
+
+Total 9 Playlists

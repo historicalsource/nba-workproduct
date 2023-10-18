@@ -1,0 +1,308 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+##1101
+What team did Shareef Abdur-Rahim play for in 1997-98?
+**a) Vancouver Grizzlies ~~b) Toronto Raptors ~~c) Golden State Warriors ~~d) Sacramento Kings
+##1102
+What team did Antonio Daniels play for in 1997-98?
+**a) Vancouver Grizzlies ~~b) Toronto Raptors ~~c) Cleveland Cavaliers ~~d) Phoenix Suns
+##1103
+What team did Chris Webber play for in 1997-98?
+**a) Washington Wizards ~~b) Orlando Magic ~~c) Golden State Warriors ~~d) Detroit Pistons
+##1104
+What team did Juwan Howard play for in 1997-98?
+**a) Washington Wizards ~~b) Detroit Pistons ~~c) Chicago Bulls ~~d) Miami Heat
+##1105
+What team did Rod Strickland play for in 1997-98?
+**a) Washington Wizards ~~b) Portland Trail Blazers ~~c) New York Knicks ~~d) Boston Celtics
+##1106
+What team was Gheorghe Muresan with in 1997-98?
+**a) Washington Wizards ~~b) Philadelphia 76ers ~~c) Dallas Mavericks ~~d) Indiana Pacers
+##1107
+What team did Calbert Cheaney play for in 1997-98?
+**a) Washington Wizards ~~b) Cleveland Cavaliers ~~c) Minnesota Timberwolves ~~d) Indiana Pacers
+##1108
+In 1996-97, the Atlanta Hawks had three players ranked among the NBA's top 40 scorers. Which of the following players was NOT one of the Hawks' on the NBA top 40 list.
+**a) Dikembe Mutombo ~~b) Steve Smith ~~c) Christian Laettner ~~d) Mookie Blaylock
+##1109
+Who led the Atlanta Hawks in scoring with a career-high 20.1 points per game during the regular season and averaged 18.9 ppg in the playoffs?
+**a) Steve Smith ~~b) Christian Laettner ~~c) Dikembe Mutombo ~~d) Mookie Blaylock
+##1110
+In 1997, who won the NBA Defensive Player of the Year Award for the second time in his career?
+**a) Dikembe Mutombo ~~b) Gary Payton ~~c) Scottie Pippen ~~d) Hakeem Olajuwon
+##1111
+What two Atlanta Hawks players were named to a 1997 All-Defensive Team?
+**a) Dikembe Mutombo and Mookie Blaylock ~~b) Mookie Blaylock and Steve Smith ~~c) Steve Smith and Christian Laettner ~~d) Alan Henderson and Hakeem Olajuwon
+##1112
+Who was the only Atlanta Hawk to play in all 82 games during the 1996-97 season?
+**a) Christian Laettner ~~b) Steve Smith ~~c) Dikembe Mutombo ~~d) Mookie Blaylock
+##1113
+Who led the NBA in steals in the 1996-97 season with 2.8 steals per game?
+**a) Mookie Blaylock ~~b) Gary Payton ~~c) Scottie Pippen ~~d) John Stockton
+##1114
+In 1996-97, the Hawks qualified for the playoffs and finished with a winning record for the _____ straight season.
+**a) fifth ~~b) tenth ~~c) second ~~d) eighth
+##1115
+In 1996-97, the Hawks were only two shy of the franchise record for the most consecutive wins at home. How many home games in a row did the Hawks win 1996-97?
+**a) 20 ~~b) 30 ~~c) 14 ~~d) 25
+##1116
+In January, 1997, the Hawks recorded the most wins in franchise history for any month. How many games did they win in January 1997?
+**a) 14 ~~b) 18 ~~c) 10 ~~d) 8
+##1117
+On December 17, 1996, the Hawks set an NBA record by making how many three-point baskets in a single game?
+**a) 19 ~~b) 26 ~~c) 12 ~~d) 8
+##1118
+What Atlanta player made his first All-Star appearance at the 1997 NBA All-Star Game?
+**a) Christian Laettner ~~b) Dikembe Mutombo ~~c) Alan Henderson ~~d) Stacey Augmon
+##1119
+Which Atlanta Hawk player led the team in minutes, assists and steals during the 1996-97 campaign?
+**a) Mookie Blaylock ~~b) Dikembe Mutombo ~~c) Christian Laettner ~~d) Steve Smith
+##1120
+Entering the 1997-98 season, what Atlanta Hawk player has had 200 or more steals in five consecutive seasons?
+**a) Mookie Blaylock ~~b) Dikembe Mutombo ~~c) Christian Laettner ~~d) Steve Smith
+##1121
+During the 1996-97 season, what NBA backcourt duo ranked as the NBA's highest scoring guard tandem among winning teams?
+**a) Steve Smith and Mookie Blaylock ~~b) Nick Van Exel and Eddie Jones ~~c) Matt Maloney and Charles Barkley ~~d) Tim Hardaway and Voshon Lenard
+##1122
+Who is the Atlanta Hawks all-time leader in three-pointers made and attempted?
+**a) Mookie Blaylock ~~b) Dikembe Mutombo ~~c) Christian Laettner ~~d) Steve Smith
+##1123
+What NBA guard is the cousin of Keyshawn Johnson, the number one overall pick in the 1996 NFL Draft by the New York Jets?
+**a) Ed Gray ~~b) Avery Johnson ~~c) Stacey Augmon ~~d) Tracy Murray
+##1124
+What NBA guard was a college teammate of Vancouver's Shareef Abdur-Rahim?
+**a) Ed Gray ~~b) Bryant Reeves ~~c) Allen Iverson ~~d) Stephon Marbury
+##1125
+What NBA player has been accepted to, and plans to attend, medical school when his NBA playing career is over?
+**a) Alan Henderson ~~b) Charles Barkley ~~c) Grant Hill ~~d) Shaquille O'Neal
+##1126
+What do the following players have in common---Alan Henderson, Greg Graham and Calbert Cheaney?
+**a) All were college teammates ~~b) All play for the Washington Wizards ~~c) All were on the All-Rookie Team ~~d) None attended college
+##1127
+What NBA forward was the first player to start in four consecutive NCAA Final Fours?
+**a) Christian Laettner ~~b) Larry Johnson ~~c) Patrick Ewing ~~d) Tim Duncan
+##1128
+What team did Christian Laettner play for, before being traded to the Atlanta Hawks during the 1995-96 season?
+**a) Minnesota Timberwolves ~~b) Charlotte Hornets ~~c) Utah Jazz ~~d) Washington Wizards
+##1129
+What overall pick was Christian Laettner in the 1992 NBA Draft?
+**a) Third ~~b) First ~~c) Seventh ~~d) Twelfth
+##1130
+What NBA player provided uniforms and expenses for the Zaire women's basketball team during the 1996 Olympic Games in Atlanta?
+**a) Dikembe Mutombo ~~b) Hakeem Olajuwon ~~c) Patrick Ewing ~~d) Reggie Miller
+##1131
+What NBA player finished the 1996-97 season ranked second among league leaders in both rebounds and blocked shots?
+**a) Dikembe Mutombo ~~b) Hakeem Olajuwon ~~c) Shaquille O'Neal ~~d) Dennis Rodman
+##1132
+Who in 1996 became the first player in NBA history to lead the league in blocked shots three consecutive years?
+**a) Dikembe Mutombo ~~b) Hakeem Olajuwon ~~c) Shaquille O'Neal ~~d) Dennis Rodman
+##1133
+Who was the only rookie to appear in the 1992 NBA All-Star Game?
+**a) Dikembe Mutombo ~~b) Gary Payton ~~c) Shaquille O'Neal ~~d) Grant Hill
+##1134
+Where did Steve Smith play prior to being traded to the Hawks on November 7, 1994?
+**a) Miami ~~b) Detroit ~~c) San Antonio ~~d) Seattle
+##1135
+In March 1997, what NBA guard tied an NBA record for three-pointers made in a quarter (7), and a half (7)?
+**a) Steve Smith ~~b) John Starks ~~c) Jeff Hornacek ~~d) Allen Houston
+##1136
+Who led the Atlanta Hawks in scoring during the 1997 NBA Playoffs with 18.9 points per game?
+**a) Steve Smith ~~b) Dikembe Mutombo ~~c) Mookie Blaylock ~~d) Christian Laettner
+##1137
+Who has led the Hawks in most three-point field goals made in a season for four consecutive seasons (1993-94 - 1996-97)?
+**a) Mookie Blaylock ~~b) Dikembe Mutombo ~~c) Steve Smith ~~d) Christian Laettner
+##1138
+Who has led the Hawks in assists in a season for five consecutive seasons (1992-93 - 1996-97)?
+**a) Mookie Blaylock ~~b) Dikembe Mutombo ~~c) Steve Smith ~~d) Christian Laettner
+##1139
+Who has led the Hawks in steals in a season for five consecutive seasons (1992-93 - 1996-97)?
+**a) Mookie Blaylock ~~b) Dikembe Mutombo ~~c) Steve Smith ~~d) Christian Laettner
+##1140
+What two players represented the Atlanta Hawks at the 1997 NBA All-Star Game?
+**a) Christian Laettner and Dikembe Mutombo ~~b) Dikembe Mutombo and Mookie Blaylock ~~c) Mookie Blaylock and Steve Smith ~~d) Christian Laettner and Steve Smith
+##1141
+How many games did the Boston Celtics win in the 1996-97 season, their fewest ever and second fewest in the NBA during the 1996-97 campaign?
+**a) 15 ~~b) 8 ~~c) 22 ~~d) 18
+##1142
+In 1996-97 the Charlotte Hornets had their most successful season ever. How many games did the Hornets win during the 1996-97 campaign?
+**a) 54 ~~b) 42 ~~c) 48 ~~d) 59
+##1143
+In 1996-97, what team set a league record for three-point percentage (.428)?
+**a) Charlotte ~~b) Indiana ~~c) Seattle ~~d) Miami
+##1144
+Entering the 1997-98 campaign, what team has led the league in attendance for seven straight seasons and eight times in nine seasons?
+**a) Charlotte ~~b) Chicago ~~c) Seattle ~~d) Los Angeles Lakers
+##1145
+What team used an NBA-record 27 players in the 1996-97 season, topping the old record of 25 set in the 1948-49 season?
+**a) Dallas Mavericks ~~b) Los Angeles Clippers ~~c) San Antonio Spurs ~~d) Denver Nuggets
+##1146
+What Denver Nugget player finished in the top five in the NBA in both rebounding and blocked shots for the 1996-97 season?
+**a) Ervin Johnson ~~b) Bryant Stith ~~c) LaPhonso Ellis ~~d) Dikembe Mutombo
+##1147
+What NBA player logged a team-record six complete games during the 1996-97 season after never having played a complete game in his 13 previous NBA seasons?
+**a) Dale Ellis ~~b) Charles Barkley ~~c) Shaquille O'Neal ~~d) Grant Hill
+##1148
+In 1996-97, who led the NBA in triple-doubles for the second straight season, with a career-high 13?
+**a) Grant Hill ~~b) Scottie Pippen ~~c) John Stockton ~~d) Jason Kidd
+##1149
+In what city did the Golden State Warriors play during the 1996-97 season?
+**a) San Jose ~~b) Oakland ~~c) San Francisco ~~d) Los Angeles
+##1150
+What team led the NBA in free throw shooting with a percentage of .778 during the 1996-97 season?
+**a) Golden State ~~b) Indiana ~~c) Chicago ~~d) Seattle
+##1151
+At the conclusion of the 1996-97 season, what team had the highest-scoring fivesome in NBA history?
+**a) Houston ~~b) Chicago ~~c) Los Angeles Lakers ~~d) Seattle
+##1152
+Entering the 1997-98 campaign, who has led the Indiana Pacers in scoring for eight consecutive seasons?
+**a) Reggie Miller ~~b) Rik Smits ~~c) Glen Rice ~~d) Mark Jackson
+##1153
+Reggie Miller's 21.6 points per game in the 1996-97 season was his highest scoring average since what season?
+**a) 1990-91 ~~b) 1985-86 ~~c) 1994-95 ~~d) 1989-90
+##1154
+In 1996-97 the Indiana Pacers failed to make the NBA Playoffs, after having done so for how many straight seasons?
+**a) 7 ~~b) 3 ~~c) 12 ~~d) 9
+##1155
+In 1996-97, the Indiana Pacers had a streak of how many consecutive winning seasons end?
+**a) 3 ~~b) 0 ~~c) 5 ~~d) 8
+##1156
+Undrafted out of college, what NBA player established himself as the Los Angeles Clippers starting point guard during the 1996-97 season?
+**a) Darrick Martin ~~b) Pooh Richardson ~~c) James Robinson ~~d) Derrick Fisher
+##1157
+The Los Angeles Lakers established an NBA record by holding Dallas to only _____ points in a quarter (the third quarter on April 6, 1997).
+**a) 2 ~~b) 4 ~~c) 6 ~~d) 9
+##1158
+In 1997, who became the first Miami Heat player to be named to the All-NBA First Team?
+**a) Tim Hardaway ~~b) Alonzo Mourning ~~c) P.J. Brown ~~d) Glen Rice
+##1159
+Who was the NBA's oldest rookie at age 30 during the 1996-97 season?
+**a) Dean Garrett ~~b) Arvydas Sabonis ~~c) Kobe Bryant ~~d) Gheorghe Muresan
+##1160
+In 1996-97, what team led the league in both offensive rebounds and total rebounds?
+**a) New Jersey ~~b) Chicago ~~c) Atlanta ~~d) Indiana
+##1161
+In the 1996-97 season, what team became the first team in NBA history to win three overtime games on one road trip?
+**a) New York Knicks ~~b) Chicago Bulls ~~c) Utah Jazz ~~d) Phoenix Suns
+##1162
+Who was the first New York Knick to ever play in the NBA Rookie Game during All-Star Weekend?
+**a) John Wallace ~~b) Charlie Ward ~~c) John Starks ~~d) Allan Houston
+##1163
+During the 1996-97 season, what team set a franchise record for fewest points allowed by limiting Dallas to 66 points in a 78-66 win?
+**a) Orlando ~~b) Cleveland ~~c) Milwaukee ~~d) Toronto
+##1164
+A crowd of 21,061 attended a March 12 home game against Chicago. It was the largest ever to see a basketball game in what state?
+**a) Pennsylvania ~~b) New York ~~c) California ~~d) Michigan
+##1165
+In 1996-97, what team became the first team in NBA history to make the playoffs after starting the season 0-13?
+**a) Phoenix Suns ~~b) Washington Wizards ~~c) Minnesota Timberwolves ~~d) Portland Trail Blazers
+##1166
+For the first time in nine seasons, what team did not send a representative to the NBA All-Star game in 1997?
+**a) Phoenix ~~b) New York ~~c) San Antonio ~~d) Seattle
+##1167
+What team lost a franchise record 347 player-games to injury, a major reason for their 20-62 record in the 1996-97 season?
+**a) San Antonio ~~b) Golden State ~~c) Toronto ~~d) Los Angeles Clippers
+##1168
+In the last five seasons, what team has won more games (296) than any other team except Chicago (300)?
+**a) Seattle ~~b) Houston ~~c) New York ~~d) Los Angeles Lakers
+##1169
+In a November 27, 1996, home game against Denver, what team trailed by 36 points in the first half (34 at halftime) before rallying for a 107-103 victory to record the greatest comeback in NBA history?
+**a) Utah ~~b) Seattle ~~c) Chicago ~~d) Indiana
+##1170
+Washington's 44-38 record in 1996-97 was its best since what year, when the team went 54-28 en route to the NBA Finals?
+**a) 1978-79 ~~b) 1983-84 ~~c) 1990-91 ~~d) 1963-64
+##1171
+Who led the NBA in scoring average for the 1993-94 season (29.8 ppg)?
+**a) David Robinson ~~b) Karl Malone ~~c) Charles Barkley ~~d) Shaquille O'Neal
+##1172
+Who led the NBA in scoring average for the 1994-95 season (29.3 ppg)?
+**a) Shaquille O'Neal ~~b) Karl Malone ~~c) Charles Barkley ~~d) David Robinson
+##1173
+Who led the NBA in field goal percentage for the 1988-89 season (.595)?
+**a) Dennis Rodman ~~b) Hakeem Olajuwon ~~c) Shaquille O'Neal ~~d) David Robinson
+##1174
+Who led the NBA in field goal percentage for the 1989-90 season (.625)?
+**a) Mark West ~~b) Shaquille O'Neal ~~c) Mark Price ~~d) David Robinson
+##1175
+Who led the NBA in field goal percentage for the 1990-91 season (.602)?
+**a) Buck Williams ~~b) Herb Williams ~~c) Patrick Ewing ~~d) Rik Smits
+##1176
+Who led the NBA in field goal percentage for the 1991-92 season (.604)?
+**a) Buck Williams ~~b) Hakeem Olajuwon ~~c) Patrick Ewing ~~d) Clifford Robinson
+##1177
+Who led the NBA in field goal percentage for the 1992-93 season (.576)?
+**a) Cedric Ceballos ~~b) Hakeem Olajuwon ~~c) Rik Smits ~~d) Clifford Robinson
+##1178
+Who led the NBA in field goal percentage for the 1993-94 season (.599)?
+**a) Shaquille O'Neal ~~b) Patrick Ewing ~~c) Dennis Rodman ~~d) Chris Webber
+##1179
+Who led the NBA in field goal percentage for the 1994-95 season (.633)?
+**a) Chris Gatling ~~b) Shaquille O'Neal ~~c) Patrick Ewing ~~d) Shawn Kemp
+##1180
+Who led the NBA in field goal percentage for the 1995-96 season (.584)?
+**a) Gheorghe Muresan ~~b) Shaquille O'Neal ~~c) Shawn Kemp ~~d) Chris Webber
+##1181
+Who led the NBA in field goal percentage for the 1996-97 season (.604)?
+**a) Gheorghe Muresan ~~b) Shaquille O'Neal ~~c) Shawn Kemp ~~d) Hakeem Olajuwon
+##1182
+Who led the NBA in free throw percentage for the 1990-91 season (.918)?
+**a) Reggie Miller ~~b) Mark Price ~~c) Glen Rice ~~d) Steve Kerr
+##1183
+Who led the NBA in free throw percentage for the 1991-92 season (.947)?
+**a) Mark Price ~~b) Chris Mullin ~~c) Detlef Schrempf ~~d) Jeff Hornacek
+##1184
+Who led the NBA in free throw percentage for the 1992-93 season (.948)?
+**a) Mark Price ~~b) Chris Mullin ~~c) Reggie Miller ~~d) Jeff Hornacek
+##1185
+Who led the NBA in free throw percentage in the 1993-94 season (.956)?
+**a) Mahmoud Abdul-Rauf ~~b) Dale Ellis ~~c) Mitch Richmond ~~d) Reggie Miller
+##1186
+Who led the NBA in free throw percentage in the 1995-96 season (.930)?
+**a) Mahmoud Abdul-Rauf ~~b) Mark Price ~~c) Mitch Richmond ~~d) Reggie Miller
+##1187
+Who led the NBA in free throw percentage in the 1996-97 season (.906)?
+**a) Mark Price ~~b) Glen Rice ~~c) Mitch Richmond ~~d) Reggie Miller
+##1188
+Who led the NBA in three-point field goal percentage in the 1989-90 season (.507)?
+**a) Steve Kerr ~~b) Chris Mullin ~~c) Mark Price ~~d) Jeff Hornacek
+##1189
+Who led the NBA in three-point field goal percentage in the 1991-92 season (.446)?
+**a) Dana Barros ~~b) Chris Mullin ~~c) Mark Price ~~d) Glen Rice
+##1190
+Who led the NBA in three-point field goal percentage in the 1992-93 season (.453)?
+**a) B.J. Armstrong ~~b) Dale Ellis ~~c) Mark Price ~~d) Glen Rice
+##1191
+Who led the NBA in three-point field goal percentage in the 1993-94 season (.459)?
+**a) Tracy Murray ~~b) Steve Kerr ~~c) Mitch Richmond ~~d) Glen Rice
+##1192
+Who led the NBA in three-point field goal percentage in the 1994-95 season (.524)?
+**a) Steve Kerr ~~b) Mitch Richmond ~~c) Joe Dumars ~~d) Dell Curry
+##1193
+Who led the NBA in three-point field goal percentage in the 1995-96 season (.522)?
+**a) Tim Legler ~~b) Allan Houston ~~c) Reggie Miller ~~d) Terry Mills
+##1194
+Who led the NBA in three-point field goal percentage in the 1996-97 season (.470)?
+**a) Glen Rice ~~b) Reggie Miller ~~c) Rex Chapman ~~d) Dan Majerle
+##1195
+Who led the NBA in total minutes played in the 1984-85 season (3,182)?
+**a) Buck Williams ~~b) Derek Harper ~~c) Glenn Robinson ~~d) Patrick Ewing
+##1196
+Who led the NBA in total minutes played in the 1990-91 season (3,315)?
+**a) Chris Mullin ~~b) Charles Barkley ~~c) Charles Oakley ~~d) Ron Harper
+##1197
+Who led the NBA in total minutes played in the 1991-92 season (3,346)?
+**a) Chris Mullin ~~b) Charles Barkley ~~c) Anthony Mason ~~d) Mookie Blaylock
+##1198
+Who led the NBA in total minutes played in the 1992-93 season (3,323)?
+**a) Larry Johnson ~~b) Anthony Mason ~~c) Glen Rice ~~d) Patrick Ewing
+##1199
+Who led the NBA in total minutes played in the 1993-94 season (3,533)?
+**a) Latrell Sprewell ~~b) Tim Hardaway ~~c) Anfernee Hardaway ~~d) Reggie Miller
+##1200
+Who led the NBA in total minutes played in the 1994-95 season (3,361)?
+**a) Vin Baker ~~b) Anfernee Hardaway ~~c) Eddie Jones ~~d) Jason Kidd
+

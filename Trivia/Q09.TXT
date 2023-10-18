@@ -1,0 +1,310 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+##901
+Which of the following NBA players is not a native of the state of New York?
+**a) Derrick Coleman ~~b) Christian Laettner ~~c) Sam Perkins ~~d) Stephon Marbury
+##902
+Which NBA player accompanied by his church choir sang the national anthem prior to a game during the 1997-98 season?
+**a) Vin Baker ~~b) Shawn Bradley ~~c) Mark Jackson ~~d) Avery Johnson
+##903
+Who was the only unanimous selection to the 1997 NBA All-Rookie First Team?
+**a) Shareef Abdur-Rahim ~~b) Allen Iverson ~~c) Stephon Marbury ~~d) Kevin Garnett
+##904
+Who entered the 1996 NBA Draft after only his freshman year at California?
+**a) Shareef Abdur-Rahim ~~b) Brevin Knight ~~c) Lamond Murray ~~d) Kevin Garnett
+##905
+Which of the following NBA players did not attend the University of North Carolina?
+**a) Tom Gugliotta ~~b) Pete Chilcutt ~~c) Jerry Stackhouse ~~d) Sam Perkins
+##906
+Which of the following Vancouver Grizzlies was not a member of a NCAA Championship team?
+**a) Pete Chilcutt ~~b) Shareef Abdur-Rahim ~~c) Bobby Hurley ~~d) Blue Edwards
+##907
+What NBA player's father was a former Harlem Globetrotter?
+**a) Antonio Daniels ~~b) Kobe Bryant ~~c) Scottie Pippen ~~d) Shaquille O'Neal
+##908
+What is Blue Edwards given name?
+**a) Theodore ~~b) Blake ~~c) William ~~d) Anthony
+##909
+What two teams are the most recent NBA expansion teams?
+**a) Vancouver Grizzlies and Toronto Raptors ~~b) Miami Heat and Toronto Raptors ~~c) Vancouver Grizzlies and Charlotte Hornets ~~d) Vancouver Grizzlies and Washington Wizards
+##910
+What was the first season that the Vancouver Grizzlies began play in the NBA?
+**a) 1995-96 ~~b) 1997-98 ~~c) 1994-95 ~~d) 1990-91
+##911
+What was the first season that the Toronto Raptors played in the NBA?
+**a) 1995-96 ~~b) 1997-98 ~~c) 1994-95 ~~d) 1990-91
+##912
+Where did Shareef Abdur-Rahim attend college?
+**a) University of California-Berkeley ~~b) Stanford ~~c) University of Southern California ~~d) UCLA
+##913
+Which Vancouver Grizzlies' player was selected out of Bowling Green with the fourth overall pick in the 1997 NBA Draft?
+**a) Antonio Daniels ~~b) Shareef Abdur-Rahim ~~c) Bryant Reeves ~~d) Anthony Peeler
+##914
+Which Seattle player is the leading rebounder in University of North Carolina history?
+**a) Sam Perkins ~~b) Grant Hill ~~c) J.R. Reid ~~d) Eric Montross
+##915
+Which Vancouver Grizzlies' player is the second leading rebounder in University of North Carolina history?
+**a) George Lynch ~~b) Sam Perkins ~~c) Eric Montross ~~d) Bryant Reeves
+##916
+Which Vancouver Grizzlies' player is the all-time assist leader at the University of Arkansas?
+**a) Lee Mayberry ~~b) Todd Day ~~c) Sherman Douglas ~~d) Gary Payton
+##917
+Who holds the Vancouver Grizzlies single game scoring record with 40 points?
+**a) Anthony Peeler ~~b) Blue Edwards ~~c) Bryant Reeves ~~d) Otis Thorpe
+##918
+Who was the Denver Nuggets first round draft choice (fifth overall) in the 1997 NBA Draft?
+**a) Tony Battie ~~b) Danny Fortson ~~c) Chauncey Billups ~~d) LaPhonso Ellis
+##919
+Which Denver Nugget player attended the same high school as Dennis Rodman (Dallas Oak Cliff)?
+**a) Tony Battie ~~b) Rodney Rogers ~~c) LaPhonso Ellis ~~d) Danny Fortson
+##920
+What Denver Nugget attended Notre Dame?
+**a) LaPhonso Ellis ~~b) Danny Fortson ~~c) Bobby Jackson ~~d) Dean Garrett
+##921
+Which Denver Nugget is the University of Richmond's all-time leading scorer?
+**a) Johnny Newman ~~b) LaPhonso Ellis ~~c) Danny Fortson ~~d) Tom Hammonds
+##922
+Where did Bryant "Big Country" Reeves attend college?
+**a) Oklahoma State ~~b) Oklahoma ~~c) Texas ~~d) Nebraska
+##923
+Which of the following NBA players did not attend Providence College?
+**a) Howard Eisley ~~b) Otis Thorpe ~~c) God Shammgod ~~d) Austin Croshere
+##924
+Who led the Vancouver Grizzlies in scoring in the 1996-97 season?
+**a) Shareef Abdur-Rahim ~~b) Bryant Reeves ~~c) Anthony Peeler ~~d) George Lynch
+##925
+Who led the Vancouver Grizzlies in scoring in their inaugural 1995-96 season?
+**a) Greg Anthony ~~b) Blue Edwards ~~c) Bryant Reeves ~~d) Otis Thorpe
+What NBA team calls Chicago home?
+**a) Bulls ~~b) Cubs ~~c) Sharks ~~d) Knicks
+##926
+What city do the Bulls play in?
+**a) Chicago ~~b) Detroit ~~c) Los Angeles ~~d) Miami
+##927
+What NBA team calls Atlanta home?
+**a) Hawks ~~b) Lightning ~~c) Falcons ~~d) Mavericks
+##928
+What city do the Hawks play their home games in?
+**a) Atlanta ~~b) Miami ~~c) Portland ~~d) Chicago
+##929
+What NBA team calls Boston home?
+**a) Celtics ~~b) Shamrocks ~~c) Beans ~~d) Pacers
+##930
+What city do the Celtics play their home games in?
+**a) Boston ~~b) Philadelphia ~~c) Vancouver ~~d) Charlotte
+##931
+What NBA team calls Charlotte home?
+**a) Hornets ~~b) Jaguars ~~c) Wasps ~~d) Hawks
+##932
+What city do the Hornets play their home games in?
+**a) Charlotte ~~b) Atlanta ~~c) Seattle ~~d) Milwaukee
+##933
+What NBA team calls Cleveland home?
+**a) Cavaliers ~~b) Cowboys ~~c) Indians ~~d) Pacers
+##934
+What city do the Cavaliers play in?
+**a) Cleveland ~~b) Philadelphia ~~c) Denver ~~d) Charlotte
+##935
+What NBA team calls Dallas home?
+**a) Mavericks ~~b) Stars ~~c) Diamonds ~~d) Spurs
+##936
+What city do the Mavericks play their home games in?
+**a) Dallas ~~b) Milwaukee ~~c) Miami ~~d) Houston
+##937
+What NBA team calls Denver home?
+**a) Nuggets ~~b) Rockies ~~c) SuperSonics ~~d) Cowboys
+##938
+What city do the Nuggets play their home games in?
+**a) Denver ~~b) New York ~~c) San Francisco ~~d) Salt Lake City
+##939
+What NBA team calls the Detroit area home?
+**a) Pistons ~~b) Drivers ~~c) Pacers ~~d) Tigers
+##940
+In what metropolitan area do the Pistons play their home games in?
+**a) Detroit ~~b) Indianapolis ~~c) Philadelphia ~~d) Phoenix
+##941
+What NBA team calls the San Francisco Bay area home?
+**a) Warriors ~~b) SuperSonics ~~c) Clippers ~~d) Grizzlies
+##942
+In what metropolitan area do the Golden State Warriors play?
+**a) San Francisco ~~b) Miami ~~c) Los Angeles ~~d) Salt Lake City
+##943
+What city do the Rockets play their home games in?
+**a) Houston ~~b) Orlando ~~c) Denver ~~d) New York
+##944
+What NBA team calls Houston home?
+**a) Rockets ~~b) Mavericks ~~c) Cowboys ~~d) Rodeos
+##945
+What city do the Pacers play their home games in?
+**a) Indianapolis ~~b) Detroit ~~c) Pittsburgh ~~d) Milwaukee
+##946
+What NBA team calls Indianapolis home?
+**a) Pacers ~~b) Indians ~~c) Pistons ~~d) Cavaliers
+##947
+What city do the Clippers play their home games in?
+**a) Los Angeles ~~b) San Diego ~~c) Miami ~~d) Cleveland
+##948
+Which of the following NBA teams calls Los Angeles home?
+**a) Clippers ~~b) Jazz ~~c) Stars ~~d) Kings
+##949
+What city do the Lakers play their home games in?
+**a) Los Angeles ~~b) Minneapolis ~~c) Milwaukee ~~d) Seattle
+##950
+Which of the following NBA teams calls Los Angeles home?
+**a) Lakers ~~b) Stars ~~c) Kings ~~d) Warriors
+##951
+What city did the Heat play their home games in?
+**a) Miami ~~b) Orlando ~~c) Houston ~~d) Phoenix
+##952
+What NBA team calls Miami home?
+**a) Heat ~~b) Dolphins ~~c) Mustangs ~~d) Suns
+##953
+What city do the Bucks play their home games in?
+**a) Milwaukee ~~b) Boston ~~c) Minneapolis ~~d) Vancouver
+##954
+What NBA team calls Milwaukee home?
+**a) Bucks ~~b) Wolves ~~c) Cheeseheads ~~d) Pistons
+##955
+What city do the Timberwolves play their home games in?
+**a) Minneapolis ~~b) Toronto ~~c) Vancouver ~~d) Seattle
+##956
+What NBA team calls New Jersey home?
+**a) Nets ~~b) Knicks ~~c) Mets ~~d) Dragons
+##957
+Where do the Nets play their home games in?
+**a) New Jersey ~~b) New York ~~c) New Orleans ~~d) Orlando
+##958
+What NBA team calls Minneapolis home?
+**a) Timberwolves ~~b) Bucks ~~c) Artics ~~d) Grizzlies
+##959
+What NBA team calls New York home?
+**a) Knicks ~~b) Nets ~~c) Skyscrapers ~~d) Yankees
+##960
+Where do the Knicks play their home games in?
+**a) New York ~~b) New Jersey ~~c) New Orleans ~~d) Los Angeles
+##961
+What NBA team calls Orlando home?
+**a) Magic ~~b) Raptors ~~c) Heat ~~d) Lakers
+##962
+What city do the Magic play their home games in?
+**a) Orlando ~~b) Milwaukee ~~c) Minnesota ~~d) Miami
+##963
+What NBA team calls Philadelphia home?
+**a) 76ers ~~b) Freedom ~~c) Flyers ~~d) Liberty
+##964
+What city do the 76ers play their home games in?
+**a) Philadelphia ~~b) Washington, D.C. ~~c) New York ~~d) Richmond
+##965
+What NBA team calls Phoenix home?
+**a) Suns ~~b) Cacti ~~c) Heat ~~d) Flames
+##966
+What city do the Suns play their home games in?
+**a) Phoenix ~~b) San Francisco ~~c) Miami ~~d) Seattle
+##967
+What NBA team calls Portland home?
+**a) Trail Blazers ~~b) SuperSonics ~~c) Panthers ~~d) Storm
+##968
+what city do the Trail Blazers play their home games in?
+**a) Portland ~~b) Toronto ~~c) Seattle ~~d) Salt Lake City
+##969
+What NBA team calls Sacramento home?
+**a) Kings ~~b) Royals ~~c) Warriors ~~d) Nuggets
+##970
+What city do the Kings play their home games in?
+**a) Sacramento ~~b) Vancouver ~~c) Toronto ~~d) New York
+##971
+What NBA team calls San Antonio home?
+**a) Spurs ~~b) Mavericks ~~c) Cowboys ~~d) Express
+##972
+What city do the Spurs play their home games in?
+**a) San Antonio ~~b) San Francisco ~~c) Dallas ~~d) Houston
+##973
+What NBA team calls Seattle home?
+**a) SuperSonics ~~b) Storm ~~c) Thunder ~~d) Timberwolves
+##974
+What city do the SuperSonics call home?
+**a) Seattle ~~b) Portland ~~c) Vancouver ~~d) Toronto
+##975
+What NBA team calls Toronto home?
+**a) Raptors ~~b) Timberwolves ~~c) Grizzlies ~~d) Blizzard
+##976
+What city do the Raptors call home?
+**a) Toronto ~~b) Orlando ~~c) Vancouver ~~d) Denver
+##977
+What NBA team calls Salt Lake City home?
+**a) Jazz ~~b) Shakers ~~c) Warriors ~~d) Trail Blazers
+##978
+What city do the Jazz call home?
+**a) Salt Lake City ~~b) Los Angeles ~~c) New York ~~d) Philadelphia
+##979
+What NBA team calls Vancouver home?
+**a) Grizzlies ~~b) Vikings ~~c) Timberwolves ~~d) Artics
+##980
+What city do the Grizzlies call home?
+**a) Vancouver ~~b) Anchorage ~~c) Toronto ~~d) Minneapolis
+##981
+What NBA team calls Washington, D.C. home?
+**a) Wizards ~~b) 76ers ~~c) Nationals ~~d) Cavaliers
+##982
+What city do the Wizards call home?
+**a) Washington, D.C. ~~b) Milwaukee ~~c) Orlando ~~d) New York
+##983
+What team did Dikembe Mutombo play for in 1997-98?
+**a) Atlanta Hawks ~~b) Denver Nuggets ~~c) Chicago Bulls ~~d) New York Knicks
+##984
+What team did Steve Smith play for in 1997-98?
+**a) Atlanta Hawks ~~b) Detroit Pistons ~~c) Miami Heat ~~d) New York Knicks
+##985
+What team did Christian Laettner play for in 1997-98?
+**a) Atlanta Hawks ~~b) Minnesota Timberwolves ~~c) Los Angeles Lakers ~~d) Charlotte Hornets
+##986
+What team did Antoine Walker play for in 1997-98?
+**a) Boston Celtics ~~b) Charlotte Hornets ~~c) Portland Trail Blazers ~~d) Denver Nuggets
+##987
+What team did Kenny Anderson play for in 1997-98?
+**a) Boston Celtics ~~b) Sacramento Kings ~~c) Toronto Raptors ~~d) New Jersey Nets
+##988
+What team did Ron Mercer play for in 1997-98?
+**a) Boston Celtics ~~b) Portland Trail Blazers ~~c) Seattle SuperSonics ~~d) Orlando Magic
+##989
+What team did Vlade Divac play for in 1997-98?
+**a) Charlotte Hornets ~~b) Los Angeles Lakers ~~c) Portland Trail Blazers ~~d) Cleveland Cavaliers
+##990
+What team did Glen Rice play for in 1997-98?
+**a) Charlotte Hornets ~~b) Miami Heat ~~c) Detroit Pistons ~~d) Denver Nuggets
+##991
+What team did Anthony Mason play for in 1997-98?
+**a) Charlotte Hornets ~~b) New York Knicks ~~c) Phoenix Suns ~~d) Toronto Raptors
+##992
+What team did Scottie Pippen play for in 1997-98?
+**a) Chicago Bulls ~~b) New York Knicks ~~c) Phoenix Suns ~~d) Seattle SuperSonics
+##993
+What team did Toni Kukoc play for in 1997-98?
+**a) Chicago Bulls ~~b) New York Knicks ~~c) Cleveland Cavaliers ~~d) Seattle SuperSonics
+##994
+What team did Luc Longley play for in 1997-98?
+**a) Chicago Bulls ~~b) Philadelphia 76ers ~~c) Cleveland Cavaliers ~~d) Detroit Pistons
+##995
+What team did Ron Harper play for in 1997-98?
+**a) Chicago Bulls ~~b) Los Angeles Clippers ~~c) Cleveland Cavaliers ~~d) Detroit Pistons
+##996
+What team did Steve Kerr play for in 1997-98?
+**a) Chicago Bulls ~~b) Phoenix Suns ~~c) Cleveland Cavaliers ~~d) Golden State Warriors
+##997
+What team did Shawn Kemp play for in 1997-98?
+**a) Cleveland Cavaliers ~~b) Seattle SuperSonics ~~c) Indiana Pacers ~~d) Houston Rockets
+##998
+What team did Danny Ferry play for in 1997-98?
+**a) Cleveland Cavaliers ~~b) San Antonio Spurs ~~c) Los Angeles Clippers ~~d) Houston Rockets
+##999
+What team did Brevin Knight play for in 1997-98?
+**a) Cleveland Cavaliers ~~b) Golden State Warriors ~~c) Los Angeles Clippers ~~d) Seattle SuperSonics
+##1000
+What team did Bob Sura play for in 1997-98?
+**a) Cleveland Cavaliers ~~b) Portland Trail Blazers ~~c) Miami Heat ~~d) Orlando Magic
+

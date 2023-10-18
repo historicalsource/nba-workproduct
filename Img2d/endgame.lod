@@ -1,0 +1,7 @@
+HFILE> \video\nba\include\endgame.h
+
+MIDST> ON
+INPUT> splshani.wif
+-----> PCOKTTL,SHWTMTTL,BKGRND1,BSKTBLL,NBACPLQH,NBACPLQS
+EXECUTE> endgam
+MAKEBAT> endgame.bat endgam*.tga texus -mn -de -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |

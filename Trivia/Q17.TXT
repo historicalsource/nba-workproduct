@@ -1,0 +1,309 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+!!1701
+What do Jacque Vaughn and Stacey Augmon have in common?
+**a) Both attend high school in Pasadena, CA ~~b) Both attended University of Kansas ~~c) Both attended UNLV ~~d) Both have played for Utah
+##1702
+What NBA player attended Wichita State?
+**a) Antoine Carr ~~b) Scot Pollard ~~c) Jacque Vaughn ~~d) Mitch Richmond
+##1703
+Which of the following NBA players owns a cattle ranch in Arkansas?
+**a) Karl Malone ~~b) Scottie Pippen ~~c) Corliss Williamson ~~d) Greg Ostertag
+##1704
+Which of the following players went to high school in Seattle?
+**a) Doug Christie ~~b) Sam Perkins ~~c) Detlef Schrempf ~~d) Terrell Brandon
+##1705
+Which of the following set Seton Hall University's all-time scoring record?
+**a) Terry Dehere ~~b) Bobby Hurley ~~c) Kobe Bryant ~~d) Chris Mullin
+##1706
+Which NBA center has played for both the Los Angeles Lakers and Charlotte Hornets?
+**a) Vlade Divac ~~b) Alonzo Mourning ~~c) Shaquille O'Neal ~~d) Larry Johnson
+##1707
+Which of the following players has not represented the Utah Jazz in the Slam Dunk Contest?
+**a) Bryon Russell ~~b) Blue Edwards ~~c) David Benoit ~~d) Jamie Watson
+##1708
+Who quarterbacked his high school football team to the Virginia state championship?
+**a) Allen Iverson ~~b) Grant Hill ~~c) Jim Jackson ~~d) John Crotty
+##1709
+Which of the following players has played for Phoenix, Cleveland, Orlando and Chicago?
+**a) Steve Kerr ~~b) Jeff Hornacek ~~c) Horace Grant ~~d) Danny Manning
+##1710
+Which of the following players has played for Sacramento, Phoenix, Boston, Los Angeles Lakers and New Jersey?
+**a) Joe Kleine ~~b) Jayson Williams ~~c) Pervis Ellison ~~d) Sam Cassell
+##1711
+Who holds the Utah Jazz record for highest three-point field goal percentage in a season (.466)?
+**a) Jeff Hornacek ~~b) John Stockton ~~c) Bryon Russell ~~d) Adam Keefe
+##1712
+How many names are in Dikembe Mutombo's full name?
+**a) 7 ~~b) 2 ~~c) 3 ~~d) 10
+##1713
+Which NBA player's sister was a member of the United States gold-medal winning Olympic team in 1984?
+**a) Reggie Miller ~~b) Danny Manning ~~c) Detlef Schrempf ~~d) Larry Johnson
+##1714
+What NBA player has a sister who is a head coach and general manager in the WNBA?
+**a) Reggie Miller ~~b) Tim Hardaway ~~c) Kenny Anderson ~~d) Mark Price
+!!1715
+What do the following players have in common: Otis Thorpe, Matt Bullard, and Robert Horry?
+**a) All were members of the 1994 NBA Champion Houston Rockets ~~b) All attended the same college ~~c) All are centers ~~d) All of won the Sixth Man of the Year Award
+!!1716
+What do Hakeem Olajuwon, Sam Cassell, Pete Chilcutt have in common?
+**a) All on 1995 Houston Rockets ~~b) None attended college ~~c) All are from Texas ~~d) All of won the NBA's Most Improved Player award
+##1717
+What team was Chris Mills playing for when he was traded to the New York Knicks.
+**a) Boston Celtics ~~b) Los Angeles Lakers ~~c) Detroit Pistons ~~d) Cleveland Cavaliers
+##1718
+What type of business does Charles Oakley own?
+**a) Car Wash ~~b) Grocery store ~~c) Deli ~~d) Clothing store
+##1719
+What year was John Starks named to his first the NBA All-Star Team?
+**a) 1994 ~~b) 1997 ~~c) 1989 ~~d) 1991
+##1720
+What other varsity sport did Charlie Ward play while in college?
+**a) Football ~~b) Volleyball ~~c) Baseball ~~d) Soccer
+##1721
+Buck Williams earned what honor by the NBA in 1981-82?
+**a) NBA Rookie of the Year ~~b) NBA Finals MVP ~~c) NBA Most Improved Player ~~d) NBA MVP
+##1722
+Buck Williams played in the NBA Finals in the early 1990s with what team?
+**a) Portland Trail Blazers ~~b) Chicago Bulls ~~c) Los Angeles Lakers ~~d) Seattle SuperSonics
+##1723
+What number has Herb Williams worn throughout his entire basketball career?
+**a) 32 ~~b) 33 ~~c) 41 ~~d) 50
+!!1724
+The term Knickerbockers can be traced back to when?
+**a) The Dutch settlers who came to New York in the 1600s ~~b) To the beginning of the NY Knicks in 1946 ~~c) To when basketball players used to wear knickers ~~d) To a broadway play that opened in 1952
+##1725
+How many games did it take for the NY Knicks to win their title in 1970 against the Lakers?
+**a) Seven ~~b) Four ~~c) Five ~~d) Six
+!!1726
+What did the NY Knicks do on May 22, 1994?
+**a) They defeated the Chicago Bulls in the playoffs and ended the Bulls streak at three titles ~~b) Re-designed their uniforms ~~c) Set the NBA record for three-point field goal attempts ~~d) Lost to Chicago in the NBA Eastern Conference Finals
+##1727
+What player did the NY Knicks select as the first NBA Lottery pick in league history?
+**a) Patrick Ewing ~~b) John Starks ~~c) Charles Oakley ~~d) Charlie Ward
+##1728
+What team did the New York Knicks play exactly 50 years to the day after playing the Toronto Huskies in the first game in NBA history?
+**a) Toronto Raptors ~~b) Chicago Bulls ~~c) Miami Heat ~~d) Boston Celtics
+##1729
+Who did the New York Knicks play in the 1994 NBA Finals?
+**a) Houston Rockets ~~b) Seattle SuperSonics ~~c) Detroit Pistons ~~d) Minnesota Timberwolves
+##1730
+What did Patrick Ewing do in a Christmas Day game in 1986 against the Chicago Bulls?
+**a) Hit game-winner at the buzzer ~~b) Fouled out ~~c) Scored team's first 12 points ~~d) Failed to score a point
+##1731
+Which of these players did not go to the same college as Patrick Ewing?
+**a) Scottie Pippen ~~b) Alonzo Mourning ~~c) Dikembe Mutombo ~~d) Allen Iverson
+##1732
+Who was the only player to average 25 points and 10 rebounds in 1996-97?
+**a) Shaquille O'Neal ~~b) Reggie Miller ~~c) Scottie Pippen ~~d) David Robinson
+##1733
+Shaquille O'Neal is Orlando's all-time leader in what two categories?
+**a) Rebounds and blocks ~~b) Scoring and rebounding ~~c) Steals and scoring ~~d) Assists and blocks
+##1734
+What team has the most wins in NBA history?
+**a) Boston Celtics ~~b) New York Knicks ~~c) Los Angeles Lakers ~~d) Indiana Pacers
+##1735
+What milestone did A.C. Green reach in 1997-98?
+**a) NBA record for 907th consecutive game ~~b) Scored 25,000th point ~~c) Grabbed 18,000th rebound ~~d) Scored 75 points in 1 game
+##1736
+What player led the Miami Heat in scoring, assists and steals in 1996-97?
+**a) Tim Hardaway ~~b) P.J. Brown ~~c) Alonzo Mourning ~~d) Dan Majerle
+##1737
+Who is the NBA's all-time leader in steals and assists?
+**a) John Stockton ~~b) Mark Jackson ~~c) Tim Hardaway ~~d) Terrell Brandon
+##1738
+What Utah Jazz player made all 18 free throws in a 1997 NBA Playoff game?
+**a) Karl Malone ~~b) John Stockton ~~c) Greg Foster ~~d) Bryon Russell
+##1739
+What team has won 69 or more games in two different seasons?
+**a) Chicago Bulls ~~b) Boston Celtics ~~c) Washington Wizards ~~d) Los Angeles Lakers
+##1740
+What player at the center position has recorded eight consecutive season with 200 blocks and 100 steals?
+**a) Hakeem Olajuwon ~~b) David Robinson ~~c) Dikembe Mutombo ~~d) Rik Smits
+##1741
+What was the score of the lowest scoring game in NBA history?
+**a) 19-18 ~~b) 2-0 ~~c) 43-38 ~~d) 55-22
+&&Fort Wayne defeated Minneapolis.
+##1742
+What year did the San Diego Clippers move to Los Angeles?
+**a) 1984 ~~b) 1994 ~~c) 1988 ~~d) 1976
+##1743
+What expansion team defeated the Boston Celtics in the first round of the 1993 NBA Playoffs?
+**a) Charlotte Hornets ~~b) Orlando Magic ~~c) Miami Heat ~~d) Minnesota Timberwolves
+##1744
+Entering the 1997-98 NBA season, who was Miami's all-time scoring leader?
+**a) Glen Rice ~~b) Alonzo Mourning ~~c) Tim Hardaway ~~d) P.J. Brown
+##1745
+How many total games are played by all 29 teams in an NBA regular season
+**a) 1189 ~~b) 828 ~~c) 1452 ~~d) 875
+##1746
+What were the first baskets made of when the game was invented?
+**a) Peach baskets ~~b) Garbage cans ~~c) Cardboard boxes ~~d) Tire rims
+##1747
+Where was the game of basketball invented?
+**a) Springfield, Massachusetts ~~b) New York, New York ~~c) French Lick, Indiana ~~d) Chapel Hill, North Carolina
+!!1748
+What two teams have lost three consecutive NBA Finals series'?
+**a) New York Knicks and Los Angeles Lakers ~~b) Detroit Pistons and Boston Celtics ~~c) Portland Trail Blazers and Houston Rockets ~~d) Los Angeles Lakers and Phoenix Suns
+##1749
+How many times have the Phoenix Suns played in the NBA Finals?
+**a) 2 ~~b) 1 ~~c) 3 ~~d) 4
+##1750
+What rule was introduced to the NBA in 1954-55 and hasn't changed?
+**a) 24-second shot clock ~~b) Three-point line ~~c) Offensive charge call ~~d) Foul line set to a 10-foot shot
+##1751
+What sport was Phoenix's Kevin Johnson also drafted in besides basketball?
+**a) Baseball ~~b) Football ~~c) Soccer ~~d) Hockey
+##1752
+Charlotte's Dell Curry was drafted in what other sport?
+**a) Baseball ~~b) Football ~~c) Hockey ~~d) Tennis
+##1753
+New York's Charles Oakley designs his own what?
+**a) Clothes ~~b) Cars ~~c) Homes ~~d) Furniture
+##1754
+What NBA champion won only 48 regular season games?
+**a) 1974-75 Golden State Warriors ~~b) 1994-95 Houston Rockets ~~c) 1987-88 Los Angeles Lakers ~~d) 1976-77 Portland Trail Blazers
+##1755
+What team went 12-1 in the NBA Playoffs to win the 1983 NBA Finals?
+**a) Philadelphia 76ers ~~b) Los Angeles Lakers ~~c) Seattle SuperSonics ~~d) Milwaukee Bucks
+##1756
+What team did the Los Angeles Lakers defeat to win the 1989 NBA Finals?
+**a) Detroit Pistons ~~b) Boston Celtics ~~c) Houston Rockets ~~d) Portland Trail Blazers
+##1757
+What NBA team won its only title in 1970-71?
+**a) Milwaukee Bucks ~~b) Minnesota Timberwolves ~~c) Seattle SuperSonics ~~d) Phoenix Suns
+##1758
+Who blocked Kevin Johnson's shot to seal the title for Chicago in the 1993 NBA Finals
+**a) Horace Grant ~~b) Scottie Pippen ~~c) Steve Kerr ~~d) Scott Williams
+##1759
+What two teams have won more than 60 NBA Finals games?
+**a) L.A. Lakers & Boston Celtics ~~b) Boston Celtics & Chicago Bulls ~~c) Chicago Bulls & Houston Rockets ~~d) New York Knicks & L.A. Lakers
+##1760
+What team was the first team to sweep the NBA Finals?
+**a) Boston Celtics ~~b) New York Knicks ~~c) New Jersey Nets ~~d) San Antonio Spurs
+##1761
+The New York Knicks faced what team in the NBA Finals in 1970, 1972 and 1973
+**a) Los Angeles Lakers ~~b) Portland Trail Blazers ~~c) Cleveland Cavaliers ~~d) Seattle SuperSonics
+##1762
+The Boston Celtics played what other team in the 1957, 1958, 1960 and 1961 NBA Finals?
+**a) St. Louis Hawks ~~b) Los Angeles Lakers ~~c) Indiana Pacers ~~d) Minnesota Timberwolves
+##1763
+The Boston Celtics and Los Angeles Lakers confronted each other how many time in the NBA Finals during the 1960s?
+**a) Six ~~b) Ten ~~c) Five ~~d) Once
+##1764
+Through 1996-97, what was the last team that did not win back-to-back NBA Finals?
+**a) 1985-86 Los Angeles Lakers ~~b) 1989-90 Detroit Pistons ~~c) 1982-83 Philadelphia 76ers ~~d) 1985-86 Boston Celtics
+##1765
+What is Dennis Scott's nickname?
+**a) 3-D ~~b) D-S ~~c) Scottster ~~d) Dennis the Menace
+##1766
+What number does Gheorghe Muresan wear?
+**a) 77 ~~b) 91 ~~c) 23 ~~d) 55
+!!#1767
+Why is Karl Malone called "The Mailman"?
+**a) Because a sportswriter once wrote, "he always delivers" ~~b) His father is a mailman ~~c) He worked as a mailman in college ~~d) Because he did a commercial for the U.S. Postal Service
+##1768
+What NBA players name translates into "always being on top"?
+**a) Hakeem Olajuwon ~~b) Shaquille O'Neal ~~c) Dikembe Mutombo ~~d) Mahmoud Abdul-Rauf
+##1769
+What is Muggsy Bogues real first name?
+**a) Tyrone ~~b) Theodore ~~c) William ~~d) Michael
+##1770
+What is Dennis Rodman's nickname?
+**a) Worm ~~b) Wild Thing ~~c) D-Man ~~d) Golden Bear
+##1771
+What Player is nicknamed "Thunder Dan"?
+**a) Dan Majerle ~~b) Dan Schayes ~~c) Danny Manning ~~d) Danny Ferry
+##1772
+What is John Williams nickname?
+**a) Hot Rod ~~b) Hot Fudge ~~c) John-John ~~d) J.W.
+##1773
+What was the last team to win consecutive titles before the 1987-88 Los Angeles Lakers repeated?
+**a) 1968-69 Boston Celtics ~~b) 1979-80 Washington Bullets ~~c) 1976-77 Portland Trail Blazers ~~d) 1982-83 Philadelphia 76ers
+##1774
+What team halted the 1972-73 Los Angeles Lakers 33-game winning streak?
+**a) Milwaukee Bucks ~~b) New York Knicks ~~c) Denver Nuggets ~~d) Vancouver Grizzlies
+##1775
+What San Diego Clippers player was named Rookie of the Year in 1983?
+**a) Terry Cummings ~~b) Mark Jackson ~~c) Buck Williams ~~d) Patrick Ewing
+##1776
+What player did the Philadelphia 76ers select with the fifth pick in the 1984 NBA Draft?
+**a) Charles Barkley ~~b) Buck Williams ~~c) Scott Williams ~~d) Terry Cummings
+##1777
+What expansion team lost its first 17 games?
+**a) Miami Heat ~~b) Minnesota Timberwolves ~~c) Charlotte Hornets ~~d) Toronto Raptors
+##1778
+What team played the Boston Celtics in the 1976 NBA Finals?
+**a) Phoenix Suns ~~b) Sacramento Kings ~~c) Detroit Pistons ~~d) Dallas Mavericks
+##1779
+What team won 11 consecutive games in the 1989 NBA Playoffs?
+**a) Los Angeles Lakers ~~b) San Antonio Spurs ~~c) Detroit Pistons ~~d) Philadelphia 76ers
+##1780
+What team set a regular season record by scoring 126.5 points per game?
+**a) Denver Nuggets ~~b) Orlando Magic ~~c) Phoenix Suns ~~d) Golden State Warriors
+##1781
+What team drafted a woman in 1977?
+**a) New Orleans Jazz ~~b) New Jersey Nets ~~c) Los Angeles Clippers ~~d) Dallas Mavericks
+##1782
+What Houston Rocket blocked 12 shots in a game 3/10/87?
+**a) Hakeem Olajuwon ~~b) Eddie Johnson ~~c) Charles Barkley ~~d) Mario Elie
+##1783
+What were the fans a part of during Portland's 1976-77 season?
+**a) Blazermania ~~b) Portland Craze ~~c) Oregonian Rush ~~d) Rip City magic
+##1784
+Whose nickname is Monster Mash?
+**a) Jamal Mashburn ~~b) Steve Nash ~~c) Tony Massenberg ~~d) Donyell Marshall
+##1785
+What 1998 NBA All-Star had a father who played in the NBA?
+**a) Kobe Bryant ~~b) Shaquille O'Neal ~~c) Eddie Jones ~~d) Nick Van Exel
+##1786
+Which of these 1998 NBA All-Stars was born in Mauldin, South Carolina
+**a) Kevin Garnett ~~b) David Robinson ~~c) Grant Hill ~~d) Gary Payton
+##1787
+Which player was named NBA Rookie of the Year for 1996-97?
+**a) Allen Iverson ~~b) Stephon Marbury ~~c) Shareef Abdur-Rahim ~~d) Marcus Camby
+##1788
+Which Chicago Bull player was born in Arkansas?
+**a) Scottie Pippen ~~b) Dickey Simpkins ~~c) Bill Wennington ~~d) Randy Brown
+##1789
+Which of these players was born outside the United States?
+**a) Patrick Ewing ~~b) Allan Houston ~~c) Damon Stoudamire ~~d) Danny Manning
+##1790
+In what country was Luc Longley born?
+**a) Australia ~~b) Canada ~~c) Mexico ~~d) Germany
+##1791
+In what country was Bill Wennington born?
+**a) Canada ~~b) Germany ~~c) Sweden ~~d) Japan
+##1792
+In what country was Hakeem Olajuwon born?
+**a) Nigeria ~~b) Sudan ~~c) Zaire (Congo) ~~d) United States
+##1793
+Which of the following players played basketball together in college?
+**a) Mark Jackson & Chris Mullin ~~b) Patrick Ewing & Hakeem Olajuwon ~~c) Allen Iverson & Dikembe Mutombo ~~d) Jerry Stackhouse & Tim Duncan
+##1794
+Which of these two players played on the same team in college?
+**a) Chris Webber & Juwan Howard ~~b) Wesley Person & Chuck Person ~~c) Larry Johnson & Muggsy Bogues ~~d) Marcus Camby & Donyell Marshall
+##1795
+Entering 1997-98, what is Shaquille O'Neal's personal best for blocks in a game?
+**a) 15 ~~b) 12 ~~c) 10 ~~d) 5
+@@1796
+Mark and Brent Price are brothers.
+**True ~~False
+@@1797
+Clyde Drexler and Hakeem Olajuwon played basketball together in college.
+**True ~~False
+@@1798
+Dennis Rodman did not play basketball in college.
+**False ~~True
+@@1799
+The 1998 NBA All-Star Game was played in Los Angeles.
+**False ~~True
+@@1800
+Keith Van Horn was the first pick in the 1997 NBA Draft.
+**False ~~True
+

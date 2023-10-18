@@ -1,0 +1,86 @@
+#
+# 2D images for the OPTION SCREEN
+#
+
+HFILE> \video\nba\include\optscrn.h
+
+
+MIDST> on
+
+INPUT> upfront1.wif
+-----> BACKGRND
+EXECUTE> optbk
+MAKEBAT> optscrn.bat optbk*.tga texus -de -mn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+
+INPUT> upfront1.wif
+-----> CHSMIDBR
+-----> DISC1,DISC2
+-----> CPWRDS,CPWRDY,NONSELCT,EIWRDS,EIWRDY,STWRDS,STWRDY
+-----> yn_blk, yn_blu, yn_blu2, yeswrd, nowrd
+EXECUTE> optscr
+MAKEBAT> optscrn.bat optscr*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+
+INPUT> nbaflash.wif
+OUTPUTXY> 256 256
+-----> cflash01,cflash02,cflash03,cflash04,cflash05,cflash06,cflash07
+-----> cflash08,cflash09,cflash10,cflash11,cflash12,cflash13,cflash14,cflash15,cflash16
+EXECUTE> plqfsh
+MAKEBAT> optscrn.bat plqfsh*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+
+INPUT> nbaflash.wif
+OUTPUTXY> 256 256
+-----> flarefl01, flarefl02, flarefl03, flarefl04, flarefl05, flarefl06, flarefl07, flarefl08
+-----> flarefl09, flarefl10, flarefl11, flarefl12, flarefl13, flarefl14, flarefl15
+EXECUTE> plqtop
+MAKEBAT> optscrn.bat plqtop*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+
+INPUT> upfront1.wif nbaflash.wif
+-----> LPLEASWT, LINSERTC, LPRESSTR, LFREEPLY, lcontinu, lgetread, JOININ
+
+MIDST> off
+-----> fplay, crdwrd
+MIDST> on
+
+-----> japlbox
+-----> crdbar
+-----> japlxxxx,japltxxx,japlttxx,japltttx,japltttt
+-----> japl_xxx,japl_txx,japl_ttx,japl_ttt,japl__xx,japl__tx
+-----> japl__tt,japl___x,japl___t,japl____
+-----> playresult
+-----> flasha01,flasha02,flasha03,flasha04,flasha05
+-----> flasha07,flasha08,flasha09,flasha10
+#-----> DrpBoxB,DrpBoxG,DrpBoxR,DrpBoxY
+-----> sawrdbx
+-----> fgamwrd,cplyrwrd,bdefwrd,boffwrd,top5wrd,top10wrd,gchmpwrd
+EXECUTE> plrcrd
+MAKEBAT> optscrn.bat plrcrd*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+
+INPUT> upfront1.wif
+-----> startbg
+EXECUTE> strtbg
+MAKEBAT> optscrn.bat strtbg*.tga texus -de -mn -t rgb565 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+
+MIDST> off
+
+INPUT> nbaflash.wif
+-----> nbcfla01,nbcfla02,nbcfla03,nbcfla04,nbcfla05
+-----> nbcfla06,nbcfla07,nbcfla08,nbcfla09,nbcfla10
+-----> nbcfla11,nbcfla12,nbcfla13,nbcfla14,nbcfla15
+EXECUTE> nbcfla.tga
+MAKEBAT> optscrn.bat nbcfla*.tga texus -de -mn -t argb1555 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+
+OUTPUTXY> 256 128
+
+MIDST> on
+
+INPUT> upfront6.wif
+-----> countd_0,countd_1,countd_2,countd_3,countd_4,countd_5,countd_6,countd_7,countd_8,countd_9
+EXECUTE> cntnbr
+MAKEBAT> optscrn.bat cntnbr*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |

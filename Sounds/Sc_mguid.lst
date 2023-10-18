@@ -1,0 +1,42 @@
+NBA on NBC (c) 1998 Midway - TIMK : Mark Guidarell (03/16/99 00:42:02) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SC_GUIDO.BNK
+
+Size of .BNK file including header: 31324 bytes ($7A5C bytes)
+
+Size of playlist table: 40 bytes ($28 bytes)
+
+Size of playlist and sound data only: 31150 bytes ($79AE bytes)
+
+Checksum: $6FE8
+
+Total number of playlists: 9 ($9)
+
+Total number of sound files: 9 ($9)
+
+Average bit rate for bank: 27.8 kbits/sec
+
+Total linear amount of sound: 0:08.909 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1       79.1    90.7  Mark Guidarelli
+  2    $0002   1       29.3    33.6  Guido A
+  3    $0003   1       61.1    70.1  Guido B
+  4    $0004   1       45.6    52.3  Guido C
+  5    $0005   1       34.3    39.4  To Guido 
+  6    $0006   1       59.9    68.6  Hands off to Guido 
+  7    $0007   1       57.8    66.2  Dishes to Guido 
+  8    $0008   1       50.2    57.6  Finds Guido 
+  9    $0009   1       68.6    78.7  Nice Feed to Guido 
+
+Total 9 Playlists

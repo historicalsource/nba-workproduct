@@ -1,0 +1,275 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+@@2001
+The Chicago Bulls have won five consecutive NBA Championships.
+**False ~~True
+@@2002
+The NBA has always had three officials work a game.
+**False ~~True
+@@2003
+In 1964, the NBA widened the foul lane from 12 to 16 feet.
+**True ~~False
+@@2004
+The 24-second shot clock has always been a part of the NBA game.
+**False ~~True
+@@2005
+In 1954 the NBA adopted two playing rules that revolutionized the game: the introduction of the 24-second clock and the awarding of a penalty shot following a team's fifth foul in any one period.
+**True ~~False
+@@2006
+In 1966, the third NBA team to call Chicago home, the Bulls, entered the league as the 10th franchise.
+**True ~~False
+@@2007
+NBA players have always been permitted to play in the Olympic Games.
+**False ~~True
+@@2008
+The Dallas Mavericks have never been to the NBA Playoffs.
+**False ~~True
+@@2009
+Rik Smits has played for the Indiana Pacers his entire career.
+**True ~~False
+@@2010
+Charles Oakley has never played for the team that drafted him, the Cleveland Cavaliers.
+**True ~~False
+@@2011
+Dikembe Mutombo's full name is Dikembe Mutombo Mpolondo Mukamba Jean Jacque Wamutombo.
+**True ~~False
+@@2012
+Shareef Abdur-Rahim was selected in the NBA Draft after playing only one year of collegiate basketball.
+**True ~~False
+@@2013
+Kenny Anderson has never appeared in an NBA All-Star Game.
+**False ~~True
+@@2014
+Entering the 1997-98 season, Kenny Anderson has averaged in double figure points every year since his rookie campaign.
+**True ~~False
+@@2015
+Nick Anderson has played his entire career with the Orlando Magic.
+**True ~~False
+@@2016
+Entering the 1997-98 season, Nick Anderson has averaged double-figure points every year of his eight-year career.
+**True ~~False
+@@2017
+Nick Anderson and Kenny Anderson are brothers.
+**False ~~True
+@@2018
+Willie Anderson and Shandon Anderson are brothers.
+**True ~~False
+@@2019
+Isaac Austin has been to the NBA Playoffs with two different teams- Utah and Miami.
+**True ~~False
+@@2020
+Vin Baker has participated in four consecutive NBA All-Star Games (1995-1998).
+**True ~~False
+@@2021
+Joe Dumars was named one of the 50 Greatest Players in NBA History.
+**False ~~True
+@@2022
+Charles Barkley has made the NBA All-Star team while playing with three different teams.
+**True ~~False
+@@2023
+Mookie Blaylock has twice been named to the NBA All-Defensive First Team.
+**True ~~False
+@@2024
+The Los Angeles Lakers and the Chicago Bulls were the only NBA teams in 1996-97 that did not lose three games in a row.
+**True ~~False
+@@2025
+Scott Brooks was a member of the Houston Rockets' 1994 NBA Championship team.
+**True ~~False
+@@2026
+P.J. Brown played one season in Greece before playing in the NBA.
+**True ~~False
+@@2027
+Randy Brown has won two NBA championships with the Chicago Bulls.
+**True ~~False
+@@2028
+Scott Burrell was drafted by the Charlotte Hornets, the Seattle Mariners and the Toronto Blue Jays.
+**True ~~False
+@@2029
+Michael Cage has never been to the NBA Playoffs in his 13-year career.
+**False ~~True
+@@2030
+Elden Campbell has played his entire career with the Los Angeles Lakers.
+**True ~~False
+@@2031
+Of the 50 Greatest Players in NBA History, five played for the 1972-73 New York Knicks.
+**True ~~False
+@@2032
+Terry Cummings has twice been selected to the NBA All-Star Game and has twice been an All-NBA selection.
+**True ~~False
+@@2033
+Dell Curry was selected by the Baltimore Orioles in the 1985 baseball draft.
+**True ~~False
+@@2034
+Dell Curry has played his entire career with the Charlotte Hornets.
+**False ~~True
+@@2035
+Both Antonio Davis and Dale Davis have played their entire careers with the Indiana Pacers.
+**True ~~False
+@@2036
+Dale Davis has never averaged double-figure rebounds in a single season.
+**False ~~True
+@@2037
+Kobe Bryant (at 18 years, 5 months, 5 days) is the youngest person ever to start an NBA game.
+**True ~~False
+@@2038
+Entering the 1997-98 season, since David Robinson joined the Spurs in 1989, San Antonio is 379-184 (.673) with him in the lineup and 24-69 (.258) without him.
+**True ~~False
+@@2039
+Rex Chapman has averaged double-figure points every year of his NBA career.
+**True ~~False
+@@2040
+There has always been a three-point line in the NBA.
+**False ~~True
+@@2041
+The NBA used to play with a red, white and blue ball.
+**False ~~True
+@@2042
+A woman has never been drafted by an NBA team.
+**False ~~True
+@@2043
+Joe Dumars was the NBA Finals MVP in 1989.
+**True ~~False
+@@2044
+Sean Elliott was selected by San Antonio in the 1989 NBA Draft and has played his entire career with the Spurs.
+**False ~~True
+@@2045
+Avery Johnson has been to the NBA playoffs with three different teams.
+**True ~~False
+@@2046
+Kevin Johnson has played his entire NBA career with the Phoenix Suns.
+**False ~~True
+@@2047
+Eddie Jones has been to the NBA playoffs in every year of his career.
+**True ~~False
+@@2048
+Toni Kukoc has never averaged in double-figure points for a season.
+**False ~~True
+@@2049
+Chuck Person has averaged double-figure points every season of his career except 1996-97 when he did not play due to injury.
+**True ~~False
+@@2050
+Glen Rice has never shot below 43.9 percent from the field in any season.
+**True ~~False
+@@2051
+Mitch Richmond has won a gold and a bronze medal in the Olympic Games.
+**True ~~False
+@@2052
+Entering the 1998 NBA Playoffs, Anfernee Hardaway has participated in the NBA Playoffs in every year of his career.
+**True ~~False
+@@2053
+Anfernee Hardaway has been selected to the NBA All-Star team in every year of his career.
+**False ~~True
+@@2054
+Arvydas Sabonis was drafted by both the Atlanta Hawks and the Portland Trail Blazers.
+**True ~~False
+@@2055
+Allan Houston's only playoff appearance was with the New York Knicks in 1996-97.
+**False ~~True
+@@2056
+Allen Iverson led the league in turnovers in the 1996-97 season.
+**True ~~False
+@@2057
+In 1996-97, Mark Jackson became the first player in 19 years to lead the NBA in assists while playing for two different teams.
+**True ~~False
+@@2058
+Rik Smits has been a league leader in blocks twice.
+**False ~~True
+@@2059
+In 1996-97, Chris Webber averaged the first double-double (points-rebounds) of his career.
+**True ~~False
+@@2060
+Jacque Vaughn was born and grew up in France.
+**False ~~True
+@@2061
+Dennis Rodman has averaged more than 20 rebounds per game in a single season.
+**False ~~True
+@@2062
+No team in NBA history has gone through a season without having at least one two-game losing streak.
+**True ~~False
+@@2063
+No player has ever won the Rookie of the Year Award and the MVP Award in the same season.
+**False ~~True
+@@2064
+Even though the Boston Celtics have won 16 NBA titles, they have never had an individual scoring champion.
+**True ~~False
+@@2065
+The 1968-69 Boston Celtics are the only team to win the NBA title and then fail to make the playoffs the following year.
+**True ~~False
+@@2066
+Karl Malone was one of the worst three-point shooters in the league in 1996-97, going 0-13 from behind the arc.
+**True ~~False
+@@2067
+No player has ever lead the league in field-goal percentage and free-throw percentage in the same season.
+**False ~~True
+@@2068
+No player has ever lead the league in scoring and assists in the same season.
+**False ~~True
+@@2069
+The Kings have always had purple, black and silver as their team colors.
+**False ~~True
+@@2070
+Gheorghe Muresan is the tallest player in the league, measuring in at 7 feet, 7 inches.
+**True ~~False
+@@2071
+Every NBA team has at least one number retired.
+**False ~~True
+@@2072
+Dennis Rodman is the only NBA player who has won a championship with two different teams.
+**False ~~True
+@@2073
+An NBA game is comprised of four 12-minute quarters.
+**True ~~False
+@@2074
+Houston and North Carolina led all colleges with three players each on the list of the 50 Greatest Players in NBA History.
+**True ~~False
+@@2075
+Entering 1997-98, over the last five seasons the Bulls have averaged 60 wins a season and the Mavericks 60 defeats.
+**True ~~False
+@@2076
+Dennis Rodman has averaged double-figure rebounds every season of his career.
+**False ~~True
+@@2077
+In 1996-97, Shaquille O'Neal had a better field-goal percentage than free-throw percentage.
+**True ~~False
+@@2078
+All rounds of the NBA Playoffs are a best-out-of-seven series.
+**False ~~True
+@@2079
+Shaquille O'Neal has never been named to the All-NBA First Team.
+**True ~~False
+@@2080
+Gary Payton has never been named to the All-NBA First Team.
+**True ~~False
+@@2081
+Vancouver and Toronto have both had players make the All-Rookie First Team.
+**True ~~False
+@@2082
+Shaquille O'Neal has won an NBA scoring title.
+**True ~~False
+@@2083
+Chris Morris and Chuck Person were college teammates.
+**True ~~False
+@@2084
+Jeff Hornacek has averaged in double figures (points) every year of his NBA career.
+**False ~~True
+@@2085
+Dan Majerle has appeared in the playoffs every season of his career.
+**True ~~False
+@@2086
+Karl Malone has appeared in the playoffs every season of his career.
+**True ~~False
+@@2087
+Karl Malone holds the Utah Jazz record for highest single-season scoring average.
+**False ~~True
+@@2088
+Miami Heat forward Terry Mills and Detroit Pistons forward Grant Long are cousins.
+**True ~~False
+@@2089
+Hakeem Olajuwon has averaged more than 20 points in every year of his 13-year career.
+**True ~~False
+

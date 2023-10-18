@@ -1,0 +1,117 @@
+NBAonNBC - Sounds Jeff-s selected Cursors (04/07/99 13:28:31) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: CURSORS1.BNK
+
+Size of .BNK file including header: 159350 bytes ($26E76 bytes)
+
+Size of playlist table: 252 bytes ($FC bytes)
+
+Size of playlist and sound data only: 158964 bytes ($26CF4 bytes)
+
+Checksum: $B196
+
+Total number of playlists: 24 ($18)
+
+Total number of sound files: 23 ($17)
+
+Average bit rate for bank: 45.9 kbits/sec
+
+Total linear amount of sound: 0:27.602 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  4    $0004   1       33.5    38.4  Pulse Sound 1
+  5    $0005   1       65.3    74.9  Tom Hit 1
+
+  9    $0009   1       43.9    50.4  Lock In
+
+  12   $000c   1       41.9    48.0  Jeff's cursor_sound_07
+
+  14   $000e   1       20.1    23.0  Jeff's cursor_sound_09
+  15   $000f   1       90.0   103.2  Jeff's cursor_sound_10
+
+  22   $0016   1       31.4    36.0  Coin IN NBA NBC
+  23   $0017   1       75.3    86.4  Jeff's cursor_sound_36
+  24   $0018   1       37.7    43.2  Jeff's cursor_sound_40
+
+  27   $001b   1       72.8    83.5  1 HIT NBC STINGER
+  28   $001c   1       82.9    95.0  Manuf-d NBC triple hit STINGER
+  29   $001d   1      126.8   145.4  Tag Line with stinger
+
+  31   $001f   2      162.0   185.8  FOR RANDOM (NBC fx) (NOW 2ch)
+
+  35   $0023   1       70.7    81.1  Hangtime's dropping placard sound
+  36   $0024   1       99.2   113.8  Hangtime's landing placard sound
+  37   $0025   1       45.2    51.8  FM Classic Coin In
+  38   $0026   1       37.3    42.7  FM boink (HT)
+  39   $0027   1       15.5    17.8  Blitz Gulp (EAT) 
+  40   $0028   1      110.5   126.7  Drums and NBC Stinger
+  41   $0029   1       82.9    95.0  2x NBC Stinger
+
+  45   $002d   1       65.3    74.9  Higher Stinger (1x)
+ 
+NBAonNBC - Sounds Jeff-s selected Cursors (04/07/99 13:28:31) page 2
+
+
+Playlist Table (continued)
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+
+  56   $0038   1       12.6    14.4  Not valid entry#2
+  57   $0039   1       83.3    95.5  Attrib Earned Tinkle1
+
+  62   $003e   2       15.5    17.8  Blitz Gulp (EAT) (2channel)
+
+Total 24 Playlists
+ 
+NBAonNBC - Sounds Jeff-s selected Cursors (04/07/99 13:28:31) page 3
+
+
+Region Table 
+
+File         Size      Length   Length    Bitrate   Compression
+Name         bytes     frames   seconds   kbit/sec  Parameters
+-----------  --------  -------  --------  --------  -----------
+3DMAGI21        10894      199  0:01.528     57.02  HENRY -v5.50 -vb95 -vi7 -vr79 
+3DTOMTL1         3958      156  0:01.198     26.43  HENRY -v5.75 -vb95 -vi7 -vr79 
+BCURSOR2         1608       89  0:00.684     18.82  HENRY -v5.50 -vb95 -vi7 -vr79 
+FMCOIN01         6190      108  0:00.829     59.70  HENRY -v5.50 -vb95 -vi7 -vr79 
+HANGEND1         8714      237  0:01.820     38.30  HENRY -v5.50 -vb111 -vi7 -vr79 
+HANGFAL1         9962      169  0:01.298     61.40  HENRY -v5.50 -vb111 -vi7 -vr79 
+JEFF0007         2412      100  0:00.768     25.13  HENRY -v5.50 -vb95 -vi7 -vr79 
+JEFF0009         1888       48  0:00.369     40.97  HENRY -v5.50 -vb95 -vi7 -vr79 
+JEFF0010         4090      215  0:01.651     19.82  HENRY -v5.50 -vb95 -vi7 -vr79 
+JEFF0035         3108       75  0:00.576     43.17  HENRY -v5.50 -vb95 -vi7 -vr79 
+JEFF0036         4524      180  0:01.382     26.18  HENRY -v5.50 -vb95 -vi7 -vr79 
+JEFF0040         3788       89  0:00.684     44.34  HENRY -v5.50 -vb95 -vi7 -vr79 
+LOCKIN01         2360      105  0:00.806     23.41  HENRY -v5.75 -vb95 -vi7 -vr79 
+NBCEFX02        14240      263  0:02.020     56.40  HENRY -v5.50 -vb95 -vi7 -vr79 
+NBCEFX03         9248      198  0:01.521     48.65  HENRY -v5.50 -vb95 -vi7 -vr79 
+NOCANDO1         1938       30  0:00.230     67.29  HENRY -v5.50 -vb95 -vi7 -vr79 
+PULSE001          958       80  0:00.614     12.47  HENRY -v5.75 -vb95 -vi7 -vr79 
+RCGULP4          1658       37  0:00.284     46.68  HENRY -v5.00 -vb95 -vi7 -vr79 
+STARTBUT         8616      174  0:01.336     51.58  HENRY -v4.50 -vb95 -vi7 -vr79 
+STRTBUT2         7016      155  0:01.190     47.15  HENRY -v5.50 -vb95 -vi7 -vr79 
+TAGLINE1        19128      302  0:02.319     65.98  HENRY -v4.50 -vb95 -vi7 -vr79 
+TAGLINE2        12608      198  0:01.521     66.33  HENRY -v4.50 -vb95 -vi7 -vr79 
+TEAMTR2S        19600      387  0:02.972     52.76  HENRY -v5.50 -vb95 -vi7 -vr79 
+ 
+NBAonNBC - Sounds Jeff-s selected Cursors (04/07/99 13:28:31) page 4
+
+
+Summary
+
+Total Average Bitrate:  45.9 kbits/sec
+Total Time:             0:27.602 minutes
+Total Number of .CMP's: 23
+Total Size of .CMP's:   154.79 kbytes

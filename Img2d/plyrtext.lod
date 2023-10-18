@@ -1,0 +1,46 @@
+#
+# The following is a definition for Pnames.wif and its images.
+#
+HFILE> \video\nba\include\plyrtext.h
+
+OUTPUTXY> 256 128
+INPUT> Pnames.wif
+
+-----> nm_bsmuk, nm_cedmo, nm_cmedn, nm_cskru, nm_dgros, nm_dthom, nm_egeer, nm_ithom, nm_jgent, nm_jhedr
+-----> nm_jhey, nm_jjohn, nm_jroot, nm_jskil, nm_jtian, nm_lwotm, nm_mgilm, nm_mguid, nm_mlync, nm_mturm
+-----> nm_rgats, nm_sdivi, nm_slipt, nm_tbrya, nm_timco, nm_tkizr, nm_wmorr, nm_agree, nm_ahard, nm_ahend
+-----> nm_ahous, nm_aiver, nm_ajami, nm_ajohn, nm_alang, nm_amaso, nm_amcdy, nm_amcki, nm_amour, nm_asabo
+-----> nm_awalk, nm_bbarr, nm_bcole, nm_bdele, nm_bhurl, nm_bjack, nm_bknig, nm_bowen, nm_bphil, nm_breev
+-----> nm_bruss, nm_bstit, nm_bsura, nm_bwell, nm_bwill, nm_cbark, nm_cbill, nm_cceba, nm_cchea, nm_cgatl
+-----> nm_claet, nm_cmull, nm_coakl, nm_coutl, nm_cpark, nm_cward, nm_cwebb, nm_cwill, nm_dbarr, nm_barms
+-----> nm_dbrow, nm_dchri, nm_dcole, nm_dcurr, nm_ddavi, nm_delli, nm_dfort, nm_dgarr, nm_dmaje, nm_dmann
+-----> nm_dmars, nm_dmart, nm_dmuto, nm_drobi, nm_drodm, nm_dscha, nm_dschr, nm_dscot, nm_dstou, nm_dwest
+-----> nm_edamp, nm_ejoh1, nm_ejoh3, nm_ejone, nm_eperr, nm_ghill, nm_gmure, nm_goste, nm_gpayt, nm_grice
+-----> nm_grobi, nm_hgran, nm_holaj, nm_iride, nm_jcaff, nm_jduma, nm_jhorn, nm_jhowa, nm_jjack, nm_jkidd
+-----> nm_jmash, nm_jnewm, nm_jrose, nm_jsmit, nm_jstac, nm_jstar, nm_jstoc, nm_jwill, nm_kande, nm_kbrya
+-----> nm_kdavi, nm_kgarn, nm_kgill, nm_kmalo, nm_kvanh, nm_kwill, nm_lelli, nm_lfund, nm_lhunt, nm_ljohn
+-----> nm_llong, nm_lmurr, nm_lspre, nm_mabdu, nm_mblay, nm_mbogu, nm_mcamb, nm_mfinl, nm_mgeig, nm_mjack
+-----> nm_mmalo, nm_mrich, nm_mseal, nm_mtayl, nm_nande, nm_nmoha, nm_nvane, nm_omill, nm_opolt, nm_pbrow
+-----> nm_pewin, nm_ppier, nm_ralle, nm_rchap, nm_rfox, nm_rharp, nm_rhorr, nm_rmerc, nm_rmill, nm_rrhod
+-----> nm_rrhoo, nm_rroge, nm_rrog2, nm_rsmit, nm_rstri, nm_rwall, nm_sabdu, nm_sbrad, nm_scass, nm_selli
+-----> nm_skemp, nm_skerr, nm_smarb, nm_snash, nm_sonea, nm_sperk, nm_spipp, nm_spoll, nm_ssmit, nm_svran
+-----> nm_tbatt, nm_tbran, nm_tdehe, nm_tdunc, nm_tgugl, nm_thard, nm_thill, nm_tknig, nm_tkuko, nm_tmass
+-----> nm_tmcgr, nm_tport, nm_tratl, nm_tthom, nm_vbake, nm_vdiva, nm_vlena, nm_wperd, nm_wpers, nm_wwill
+-----> nm_zilga, nm_badge, nm_bear, nm_benny, nm_biggy, nm_boome, nm_coyot, nm_creed, nm_crisp, nm_crunc
+-----> nm_cyan, nm_dart, nm_dice, nm_drago, nm_falco, nm_frank, nm_frost, nm_grand, nm_harry, nm_hawk
+-----> nm_horse, nm_hugoh, nm_icema, nm_jacko, nm_kerri, nm_legen, nm_liamo, nm_nikko, nm_phat
+-----> nm_pinke, nm_retro, nm_rocky, nm_sasqu, nm_shama, nm_shiva, nm_shoop, nm_slyth, nm_small, nm_stall
+-----> nm_theal, nm_thebr, nm_thego, nm_themu, nm_thera, nm_there, nm_thero, nm_thewi, nm_toolm, nm_turbo
+-----> nm_twili, nm_tzone, nm_valky, nm_wolfm, nm_zephy, nm_tmurr, nm_ecamp, nm_hrse2
+-----> nm_gcutl, nm_pgarc, nm_bleba, nm_agill
+
+EXECUTE> pnames
+MAKEBAT> plyrtext.bat pnames*.tga texus -mn -dn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+OUTPUTXY> 256 32
+INPUT> Pnames.wif
+
+-----> nm_creat, nm_vcart, nm_aelof, nm_nehrl, nm_pmart, nm_mbibb
+
+EXECUTE> pname2
+MAKEBAT> plyrtext.bat pname2*.tga texus -mn -dn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |

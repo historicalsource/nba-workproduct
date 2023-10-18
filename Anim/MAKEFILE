@@ -1,0 +1,162 @@
+#---------------------------------------
+#
+# Top level Makefile for NBA Animation
+#
+# $Revision: 170 $
+#
+# List of sequences MUST be called SEQS, because the <seq2ani> program
+# reads this makefile and looks for the list here.
+#
+SEQS =	d_run2_r.seq d_run2_l.seq d_wlk1_r.seq d_wlk1_l.seq \
+	d_juk7_r.seq d_juk7_l.seq d_juk8_r.seq d_juk8_l.seq \
+	d_sp_t_r.seq d_sp_t_l.seq d_bleg_r.seq d_bleg_l.seq d_sid1_r.seq d_sid1_l.seq \
+	d_spin1r.seq d_spin1l.seq d_spin2r.seq d_spin2l.seq d_spin3r.seq d_spin3l.seq \
+	d_spin4r.seq d_spin4l.seq d_spin5r.seq d_spin5l.seq d_spider.seq \
+	d_spn1_r.seq d_spn1_l.seq d_chg2_r.seq d_chg2_l.seq d_blg1_r.seq d_blg1_l.seq \
+	d_ovr1_r.seq d_ovr1_l.seq d_ovr3_r.seq d_ovr3_l.seq \
+	d_ovr5_r.seq d_ovr5_l.seq d_ovr6_r.seq d_ovr6_l.seq d_ovr7_r.seq d_ovr7_l.seq \
+	d_stnd_r.seq d_stnd_l.seq d_std2_r.seq d_std2_l.seq d_std5_r.seq d_std5_l.seq \
+	d_std6_r.seq d_std6_l.seq d_snp1_r.seq d_snp1_l.seq d_snp2_r.seq d_snp2_l.seq \
+	d_ts1_r.seq d_ts1_l.seq d_bkn1_r.seq d_bkn1_l.seq d_bkn2_r.seq d_bkn2_l.seq \
+	d_dbb1_r.seq d_dbb1_l.seq d_sldr_r.seq d_sldr_l.seq d_sldl_r.seq d_sldl_l.seq \
+	d_reac_r.seq d_reac_l.seq d_cycl_1.seq d_cock_1.seq d_cock_2.seq d_rev1.seq \
+	d_tbck_r.seq d_tbck_l.seq h_frnt_1.seq h_back_1.seq h_sde1_r.seq h_sde1_l.seq \
+	h_frnt_3.seq h_back5.seq trun.seq run.seq run_r.seq run_l.seq after_1.seq \
+	boxr_run.seq walk.seq cky_run1.seq jog_1.seq rdy_wb.seq trdy_r.seq d_fake_r.seq d_fake_l.seq \
+	p_chest.seq p_outb1.seq p_pas1_r.seq p_bbk2_r.seq p_bbk2_l.seq p_hard_r.seq p_hard_l.seq \
+	p_pas1_l.seq p_sid1_r.seq p_sid1_l.seq p_sid3_r.seq p_sid3_l.seq p_sid4_r.seq p_sid4_l.seq \
+	p_sid5_r.seq p_sid5_l.seq p_fwd1_r.seq p_fwd1_l.seq p_fwd2_b.seq p_fwd3_b.seq \
+	p_frd1_r.seq p_frd1_l.seq \
+	p_rht3_r.seq p_lft3_l.seq \
+	p_sid2_r.seq p_sid2_l.seq p_bck1_r.seq p_bck1_l.seq \
+	p_ovr_hd.seq p_btwn_r.seq p_btwn_l.seq p_ally1.seq p_ally5.seq \
+	p_fwdb_r.seq p_fwdb_l.seq p_diab_r.seq p_diab_l.seq p_bchs_r.seq p_bchs_l.seq \
+	p_cros_r.seq p_cros_l.seq p_back_r.seq p_back_l.seq p_back2r.seq p_back2l.seq \
+	p_bbck_r.seq p_bbck_l.seq p_bbkb_r.seq p_bbkb_l.seq p_obck_r.seq p_obck_l.seq \
+	p_bck2_r.seq p_bck2_l.seq p_ovr2_b.seq p_dia1_r.seq p_dia1_l.seq \
+	pair1_r.seq pair1_l.seq pair2_r.seq pair2_l.seq pair3_b.seq \
+	pair4_r.seq pair4_l.seq	pair5_r.seq pair5_l.seq \
+	p_fcp1_r.seq p_fcp1_l.seq k_1hnd_r.seq k_1hnd_l.seq k_1but_r.seq k_1but_l.seq \
+	k_quik_6.seq k_aly3_r.seq k_aly3_l.seq k_pmp2_r.seq k_pmp2_l.seq \
+	k_scr1_r.seq k_scr1_l.seq k_180w_r.seq k_180w_l.seq \
+	k_1mil_r.seq k_1mil_l.seq k_270h_r.seq k_270h_l.seq k_3603_r.seq k_3603_l.seq \
+	dslide_r.seq dslide_l.seq dslid2_r.seq dslid2_l.seq \
+	dslide_b.seq dslide_f.seq swipe1_r.seq swipe1_l.seq \
+	dfake1_r.seq dfake1_l.seq zero.seq \
+	m_elbow4.seq elbow_1.seq \
+	jsht1f_r.seq jsht1f_l.seq jsht2f_r.seq jsht2f_l.seq j_sht1_r.seq j_sht1_l.seq \
+	j_sht2_r.seq j_sht2_l.seq j_sht3_r.seq j_sht3_l.seq j_sht8_r.seq j_sht8_l.seq \
+	j_sht4_r.seq j_sht4_l.seq j_sht5_r.seq j_sht5_l.seq \
+	j_run1_r.seq j_run1_l.seq j_run2_r.seq j_run2_l.seq j_run_r.seq j_run_l.seq \
+	j_hook_r.seq j_hook_l.seq j_hok2_l.seq j_hok2_r.seq j_hok3_r.seq j_hok3_l.seq \
+	j_run3_r.seq j_run3_l.seq j_hve1_r.seq j_hve1_l.seq j_reactb.seq \
+	j_lean_l.seq j_lean_r.seq j_sht6_r.seq j_sht6_l.seq j_lean3r.seq j_lean3l.seq j_lean4r.seq j_lean4l.seq \
+	lay1_r.seq lay1_l.seq lay4_r.seq lay4_l.seq lay6a_r.seq lay6a_l.seq lay7_r.seq lay7_l.seq \
+	lay9_r.seq lay9_l.seq \
+	lay16_r.seq lay16_l.seq lay17_r.seq lay17_l.seq lay25_r.seq lay25_l.seq \
+	lay26_r.seq lay26_l.seq lay27_r.seq lay27_l.seq \
+	s_ready.seq \
+	sbreath1.seq sbreath3.seq s_cyc_1.seq s_cyc_3.seq pickup_1.seq \
+	pre_tip1.seq pre_tip3.seq pre_tip4.seq pre_tip5.seq \
+	t_jmp1_r.seq t_jmp1_l.seq \
+	t_rdy2.seq t_rdy3.seq t_rdy1_l.seq t_rdy1_r.seq t_jmp3_r.seq t_jmp3_l.seq \
+	t_jrdy_l.seq t_jrdy_r.seq \
+	f_st2_r.seq f_st2_l.seq f_st4_l.seq \
+	s_bat_r.seq s_bat_l.seq s_blok1r.seq s_blok1l.seq s_2hand1.seq \
+	s_2hand2.seq s_swat3r.seq s_swat3l.seq s_2hblk.seq s_bat_b.seq \
+	p_ch1_1p.seq p_ch2_1p.seq c_ovr_hd.seq \
+	c_fwd1_b.seq c_sid6_r.seq c_sid6_l.seq \
+	c_sid2_r.seq c_sid2_l.seq c_sid4_r.seq c_sid4_l.seq c_sid5_r.seq c_sid5_l.seq \
+	c_bck4_r.seq c_bck4_l.seq c_spn1_r.seq c_spn1_l.seq \
+	k_reac_l.seq k_reac_r.seq k_2hrev1.seq k_2hrev2.seq k_wind_r.seq k_wind_l.seq \
+	k_2hpmp1.seq k_360_1r.seq k_360_1l.seq k_toma_r.seq k_toma_l.seq \
+	k_1hd2_r.seq k_1hd2_l.seq k_1hd4_r.seq k_1hd4_l.seq k_2h360.seq k_hng3.seq \
+	k_hng5_l.seq k_hng5_r.seq k_hng6.seq k_2hpmp2.seq k_win2.seq \
+	k_qui1_r.seq k_qui2rv.seq k_qui3_r.seq k_qui3_l.seq \
+	lay23_l.seq lay23_r.seq lay24_l.seq lay24_r.seq \
+	refjb1_r.seq s_loop_1.seq s_loop_2.seq s_loop_3.seq s_loop_4.seq \
+	rb1_mis.seq rb2_mis.seq rb3_mis.seq rb1_grbl.seq rb1_grbr.seq rb2_grb.seq rb6_mis.seq rb6_grb.seq \
+	rb5_grbl.seq rb5_grbr.seq rb7_mis.seq rb8_r.seq lwrb1.seq lwrb2.seq \
+	push_4.seq push_6_l.seq push_6_r.seq kick.seq ballface.seq \
+	h_frnt_6.seq h_sid1_l.seq h_sid1_r.seq \
+	s_sblk_1.seq s_sblk_2.seq r2stop_2.seq wait_1.seq wait_3.seq \
+	tip_wup1.seq tip_wup3.seq tip_wup5.seq ft1.seq ft1_shtl.seq ft1_shtr.seq \
+	rpush1.seq rpush5_l.seq rpush5_r.seq ndunk6.seq ndunk5.seq dunk1.seq k_1hd3_r.seq \
+	k_strt1.seq k_strt2.seq \
+	k_strt9.seq k_strt11.seq k_strt12.seq k_strt13.seq wait1.seq wait2.seq wait3.seq
+
+
+WANS =	dribbles.wan dribble2.wan misc.wan pass.wan pass2.wan dunks.wan defense.wan misc2.wan \
+	allyoop.wan jumpers.wan layups.wan swats.wan falls.wan zero.wan taunts.wan tipoff.wan \
+	dunks2.wan stances.wan rebound.wan catches.wan freethrw.wan
+
+OUTS =	$(WANS:.wan=.out)
+
+#
+# Target basename & associated suffixes
+#
+BASE =	gen_seq
+SFXS =	.ani .dbg .equ .h
+
+PROJ =	$(addprefix $(BASE),$(SFXS))
+
+#
+# Phony make targets that don't want any implicit dependencies
+#
+.PHONY:	all prompt chk_tools clean clobber rebuild_msg rebuild
+
+#---------------------------------------
+#
+# What we are going to build
+#
+all:	prompt chk_tools $(OUTS) $(PROJ)
+	@echo MAKING `NBA\ANIM' DONE
+
+prompt:
+	@echo MAKING `NBA\ANIM'
+
+chk_tools:
+	@echo CHECKING CURRENT BUILD OF `TOOLS\SDL2SEQ'
+	@$(MAKE) --no-print-directory -C /video/tools/sdl2seq
+	@echo CHECKING CURRENT BUILD OF `TOOLS\SEQ2ANI'
+	@$(MAKE) --no-print-directory -C /video/tools/seq2ani
+
+#---------------------------------------
+#
+# Dependencies and rules
+#
+$(PROJ):	$(OUTS)
+	@echo CREATING `$(BASE).ANI' AND INCLUDE FILES
+	@seq2ani $(BASE) makefile >$(BASE).log
+
+%.out:	%.wan
+	@echo $< to $@
+#	@wan2seq -s 1.0 $< -p > $@
+	@wan2seq -s 0.1446258 $< -p > $@
+
+#---------------------------------------
+#
+# How to clean
+#
+clean:	clobber
+	@echo CLEANING `NBA\ANIM'
+	@if EXIST *.out del *.out
+	@if EXIST *.seq del *.seq
+	@echo CLEANING `NBA\ANIM' DONE
+
+#
+# How to clobber
+#
+clobber:
+	@echo CLOBBERING `NBA\ANIM'
+	@if EXIST $(BASE).* del $(BASE).*
+	@echo CLOBBERING `NBA\ANIM' DONE
+
+#
+# How to rebuild
+#
+rebuild_msg:
+	@echo REBUILDING `NBA\ANIM'
+
+rebuild:	rebuild_msg clean all
+	@echo REBUILDING `NBA\ANIM' DONE

@@ -1,0 +1,424 @@
+PUT ALL NEW STUFF TO DO UP AT THE TOP OF THE FILE:
+WE'LL THEN MOVE THINGS TO DIFFERENT PROGRAMMERS.
+
+
+HIGH PRIORITY STUFF - BEFORE SHIP:
+
+
+		- Rob, inbnds passes now go into wall and miss rcvr - after other bug fix
+
+
+
+Rob: - crash bug that Jason looked at and hopefully put a trap in for that will allow a recovery - anim.c line 1473
+******************************************************************************
+
+Exception frame: 0 - registers saved to: 800de558
+FPUUO: msub.s
+
+0x801A1C14:     4C8010A8        msub.s  f02,f04,f02,f00
+f02=0x3F8B7CB8, f04=0x415A7584, f02=0x3F8B7CB8, f00=0x7FA6828E>
+
+General Purpose Registers
+zero:00000000  at:  80210000  v0:  80533C04  v1:  0000003A
+a0:  8053394C  a1:  80412100  a2:  3E2AAAAB  a3:  80411D40
+t0:  8036E89C  t1:  00000000  t2:  8036E8A4  t3:  00000000
+t4:  80411B98  t5:  FFFFFFFF  t6:  FFFFFFFF  t7:  9EDEFFFF
+s0:  0000000F  s1:  80411AF0  s2:  80411B98  s3:  80411A98
+s4:  00000006  s5:  FFFFFFFF  s6:  80411A98  s7:  0000012A
+t8:  800088B8  t9:  BFC00450  k0:  8002B710  k1:  807FFD6C
+gp:  00090800  sp:  804F8400  fp:  80131E4C  ra:  801A1B70
+
+CP0 Registers
+index:   0000002F  random:  00000020  entrylo0:0005E000  entrylo1:0005F000
+context: 00000000  pagemask:0007E000  wired:   00000020  NOT USED:00000000
+badvaddr:00000000  count:   0001CA52  entryHi: 01780000  compare: 00000000
+status:  30015C02  cause:   0000803C  epc:     801A1C14  prid:    000028A0
+config:  304366F3  lladdr:  00000004  NOT USED:00000000  NOT USED:00000000
+XContext:00000000  NOT USED:00000000  NOT USED:00000000  NOT USED:00000000
+NOT USED:00000000  NOT USED:00000000  ecc:     00000000  cacheerr:100FB6FA
+taglo:   00000000  taghi:   00000000  errorpc: 8001450C  NOT USED:00000001
+
+Stack
+0x804F8300  0x00000001 0x801A1C14 0x0000005D 0x80011DB0
+0x804F8310  0x80029FCC 0x80131E4C 0x00009000 0x800DE558
+0x804F8320  0x0000005D 0x800DE558 0x800DE558 0x8002A384
+0x804F8330  0x00020000 0x0000803C 0x00000001 0x0000012A
+0x804F8340  0x80131E4C 0x80014444 0x3F7FF300 0x00000000
+0x804F8350  0xA4600000 0x8036F660 0x800DE558 0x00000005
+0x804F8360  0x80013574 0x801B79D0 0xBDEA940C 0x3F7D92F4
+0x804F8370  0x00009000 0x80013830 0x800135B8 0x80013830
+0x804F8380  0x3F6E9725 0xBC1B6C25 0xFFFFFFFF 0x8036F660
+0x804F8390  0x00000011 0x80013640 0x800E5748 0x80004430
+0x804F83A0  0x3DEC3027 0x3F6F7C44 0xA4600000 0x80411AF0
+0x804F83B0  0x800DE558 0x80411A98 0x00000006 0xFFFFFFFF
+0x804F83C0  0x80411A98 0x800136E0 0x80411A98 0x0000012A
+0x804F83D0  0x0000000E 0x80411AF0 0x0000803C 0x80013830
+0x804F83E0  0x3E2AAAAB 0x00000000 0x3F57A1CC 0x80131E4C
+0x804F83F0  0x0000000F 0x80411AF0 0x80411B98 0x80004430
+
+******************************************************************************
+ERROR: out of range dest frame on ANI_INTTOSEQ!
+Offender is in interpolating from C_BCK4_L to D_RUN2_L
+seq has 37 frames, trying for frame 58, original frame argument is -106.
+
+
+
+
+
+
+JBJ		- when you score spch gets cutoff too often by atlanta up by 1 type speech calls
+JBJ		- reduce taunt spch frequency
+		- maybe always have ball stick to swatter when a real goaltend is called - because drone has to go chase
+			down the swatted ball so the team can inbound - wastes time
+		- drone caught ball right under rim, began/completed a lean out jumper in wrong direction - perhaps
+			he was just past cener point, began seq that moved him over a bit, and rotate code decided to
+			rotate back the other way.
+		- 4/7/99 STILL! has problem of human running up to ball on the floor, doing pick-up seq, and not picking it up!!! 
+		- Rob, guy was on grnd in a falldown/flail near the free throw line, and he did a backboard ally!  stop flailing guys
+			from doing this
+		- guy dunks, is starting a rim hang, then morphs into a land on butt flail (no one touched him), that tries to stay
+			attached to the rim!  After getup finishes, the guy is standing in air and drifts down
+		- guy running in place in middle of court - flags showed that he was currently a dunker
+		- guy running against wall backwards, after sliding down court at wrong angles like we used to have!
+		- put out fire in a hurry spch call plays wen other team is not on fire!
+		- drone don't seem to respond to pass butn when nearing completion of a dunk
+		- human can't tell drone to layup out of a drone dunk
+		- tmsel snd gets cutoff even when only one guy is bought into game
+		- drones still don't recognize when their tmate goes up for an allyoop - even when other tm is on tm fire!
+			I saw a drone go up, and his tmate just stood alone, dribbling.
+JBJ		- free throw shooter glitches badly when his dribble seq runs out and he goes to holding ball
+JBJ		- 4/8/99 if you let meter time out, usually ball is in middle, and free throw is made!
+		- put some of the regular stance seqs into pre tip - maybe just for last guy on left, since he isn't
+			on scrn very long - fist pump, arm shake off pain, etc.
+JBJ		- tipoff seq for top left guy, doing wild stretching of legs plays too fast - maybe add it to pre tip also!
+		- find some god way to speed up jump ball
+		- force tournament mode on last 5 drone tms - cheap infinite turbo abuse, etc.
+		- shaq cuts off tmate spch call at pre tip - same for olujuwan?
+		- make sure game says thank you after all 29 tms beaten
+MCG		- do message at game over that say 2 pts awarded for create player - get cool snd from createp.bnk that snds like
+			points awarded - for use by Guido at end of game pts awarded message (#'s 67,66,68)
+		- search all of the FIX!!! / !!!FIX  comments
+		- make team jersey in CAP gray - not black - 3 of them
+BD		- BILL D. - allow backdoor setting of amode snds off/on
+		- add audits displaying frequency of crash bugs
+		- do pup tournament mode - check all places where it is needed - many no doubt
+		- Go thru teamdata table and look at the various stats
+		- have crowd in an animation at EOQ when camera pans on frozen action
+		- vs page crash - Mike needs to timeout something?
+		- add crowd snd at eoq!
+		- add end game period by period score page
+		- add percentaging to free throws
+		- add other powerups
+		- add fire to mug shot at half time
+		- limit create a player hotspot - don't allow at halfcourt
+		- 5/8/99 still have a blue flame problem on ball as it is dunked thru hoop...
+		- music volume powerup
+		- fix snds/grunts - too weak - only use loud/crisp ones
+		- maybe add crowd to outdoor courts - they are weak right now...
+		- show who scored flair effect
+		- rebnd went thru guy via cylinders - happens when a shot is blocked
+		- go thru all dunks
+		- need tm fire message
+		- add block attribute to something
+		- rim hangers get cylindered off rim when another guy tries to hang on rim
+		- amode crashed loading gameplay
+		- bozo boxes
+		- horse snds
+		- 3 successfull allyoops per drone tmate per period
+		- don't turbo if human isn't!
+		- no nasty at eoq if ahead?
+		- get some turbo refill on a turnover
+		- show adjusted % for shots
+		- guys jump up into tall rebnd when ball is at head height
+		- add swats off of rim - not always rebnd snag
+		- end game winner messages
+		- overtime message
+		- maybe get rid of ugly midair rotating towards ball as it sail past - just happens on blocks currently???
+		- k_pmp2dunk goes thru ground
+		- make fades/lean ins easier to trigger
+ROB	- the offscrn code doesn't work right.  Only speed up def guy when he is off scrn in x, and only
+			when he is coming back toward screen.  Right now, he speeds up on jump shots, and he speeds up when
+			he is just going up and down
+		- need more desperation shots that elevates and allows passing out of it
+		- choreograph speech at jump ball/anncr/crowd/whistle, etc.
+		- do better ref seqs.
+		- get more variety on put backs - they get the biggest reaction from new people
+		- guy went up for a layup, I was to his side, but when I jumped up to block, I floated back towards free throw line
+			lets look at blocking drifts, and maybe drift along with shooter
+		- coaching tip header is still the large font - match to other hdr bars
+		- layups happen from behind hoop - they start from behind hoop also
+		- add shoe squeaks/claps when guys are in pre tip warmup
+		- in human vs human game, they should guard each other regardless of which joystick they use
+		- target forward change problem - on shots/dunks/layups/etc.
+		- put in drone backpedals for inbound
+		- 2nd juke mv may be too strong
+		- knockdwn that happens when you steal/push a juker should only happen when jukers dribble rating is high
+		- ball was blocked, other guy was up in air doing a swat (2 handed swat down), and when he hit ball, the ball just
+			attached to him!  It needs to morph into rebnd grab, from whatever block/swat it is in
+		- put in cool inbound music snds
+		- Mike needs to update to newest Glide code!
+		- possibly add tm distinction type art to jumbotron - art is done
+		- lens flare on mugs not just a flash when selected
+		- have good passers do the cooler passes
+		- add regular pass trails to on fire shot
+		- add Isiah speech
+		- line up hi score pages - maybe only show 9 values - line up all #'s hz
+		- at start movie, the start butn is usually ignored - allow it
+		- running down court, guys get stuck running against somebody - drone change, or cylinder slip off?
+		- running pass stayed in one place
+		- put in john root/japple dances on buyin scrn
+		- use powerup snd that is hanging around from hangtime also
+		- two handed ugly swat needs to switch to a snag if he is going to hold on to the ball
+		- sometimes have ball swatted off of rim or try to rebound it but just deflect it around
+		- put in cool crowd snds
+		- put in lens flares
+		- drones pass too much when down low in the paint and guys are up in their face!  Just let them shoot and get blocked
+		- dbl tap turbo doesn't work on cabinet in hallway!  what the ? (only on player 1)
+		- have drones do juke and head for 3 pt rng when under rim
+		- don't allow drones to go behind hoop - ends up with ugly shots/etc.
+		- add different swats/blocks art, then check to see what seq your tmate is using, and use something different!
+		- in air pass towards a guy near the wall/corner caused recvr to run in place waiting for catch
+			but he then misses catch
+		- running in place pass still can happen
+		- disallow airball of on fire shot - don't allow loser to airball
+		- better crowd timing
+		- fix glitch in crowd animation - they sit dwon in middle of animation
+		- more airballs on full court (any 2%) shots
+		- stats pages need much work
+		- flash individual stat leader one at a time
+		- glow the leaders disc under score
+		- glow player leader
+		- on initials entry, center cursor, fix the way it wraps, and when the stats pages
+			appear, center the text in the box
+		- make vs. page use icons only
+		- add particles to on fire dunker?
+		- check into turning on ghost code again
+		- backdoor code
+		- jukes can head right into sideline - ugly
+		- at halftime, do stats zero out if you swap players?  my endgame stats don't nearly add up to what the score is
+		- add dive for loose balls - drones only?  (only when a dive won't slam them into invisible wall and look bad)
+		- award a free half to winner of 2 player game - option
+		- shot clock appeared at botm of scrn thru eoq
+		- when 4 create a players appear at halftime subs, the snds play/glitch loudly when they are auto repicked
+		- fix hands on rim from dunk - plyrseq.c
+		- the speedy getups don't seem to work - lets fix them - singlt tap getups, etc.
+		- delay butn reading as you enter halftime substitutions page - accidental picking is happening
+		- add other hook shots into game
+		- just bumping into a guy, who is going up into jump shot causes ball to break loose - and shooter is flailed
+
+NEW ART:
+
+		- fix nbc court
+		- two handed dunk where hands never touch ball - too wide - at least make it one handed!
+		- can see thru olajuwon's mouth
+TB	- make vs. page use icons only - what icons?
+		- brian grant of portland has a headband and dreadlocks now
+
+
+
+**********************************************************************************************************************
+
+Stuff for Rob
+
+ 		- still!! 3/12/99 crowd ends with a big glitch
+    	- put in stumble dribble
+    	- when retreiving ball prior to inbound, and running OB, just carry ball in hand - don't dribble (sometimes)
+		- put in walk ani rules
+	 	- do more quick off the backboard dunks
+		- Rules for hook shots suck - make them a higher shot % - turbo is a higher arc, and
+    	 	non turbo is a lower trajectory - all under player control!
+    	- Cheerleaders
+    	- Retro mode with big hair etc.
+    	- New hand model that has just index finger up in air - calling play seq, pointing seqs.
+		- Use all player attributes 
+    	- LO RES to ship day one
+
+**********************************************************************************************************************
+
+Stuff for Dan
+
+		- make it all 3 buttons to exit replay
+		- have juke camera up closer to action - perhaps do slowmo thru whole thing - just tighten up juke/score window
+		- maybe do a special camera on backboard allyoops - YES!!!
+		- flash screen white for 1 tick on on fire dunks
+		- check 2PLYR free stuff!
+		- Dan, the ally oop camera doesn't go up high enough on the pass
+		- no tipoff code
+		- tipoff is too hard - it sucks
+		- don't do replays on ugly dunks
+		- EOQ pans are too fast - just add some slow ones
+		- on body cursor/number appears when camera pans up and circle cursor goes off botm of screen (dunks)
+		- Dan, talk to me about spline slow down/speed up stuff
+		- camera on fire shot explosion - close pan around rim
+		- don't display please wait message at top of screen - only when start button has been hit
+		- show leader up close dribbling on court
+		- flag shot blocks for playing back in instant replay - don't always have to show te score after a score
+		- put cool spline jump ball camera into amode - whips around players at center court
+		- inbnd camera glitch
+		- inbnd camera should pull backa bit
+		- saw pre-tip camera that was much tighter on the guys - it was cool - don't know how it happened
+		- show the jumbo tron in some camera path
+		- CPU icons mess up from time to time when camera is moving around - especially other camera angles
+		- when retreiving ball after shotclock violation - zoom in on face of that guy as he goes gets it
+		- for end of period, camera will focus on rim when ball is in air - choose a shot with multiple rim hits!
+		- smooth camera
+		- Put number on chest when a pass is sent his way
+		- LO RES to ship day one
+		- fix up names/insert coins to control messages above turbo bars
+		- Trivia contest
+		- 4/8/99 after a replay - the camer has to do a major swing to show tms at inbound time - sometimes
+
+
+**********************************************************************************************************************
+
+Stuff for Guido
+
+		- Screen Grabber (SG.EXE) doesn't work on any Dingo systems!!!!
+		- need pcomm to work on Dingo!
+		- Trivia contest
+		- Cool moves in create a player - including dribble of ball
+		- Do an attract mode CAP demo
+		- LO RES to ship day one - do CAP lo res version
+		- Do one long seq. in CAP for the model - instead of switching based on mode
+		- Mark, this would be good info:
+			CMOS audit set a flag when games starts, clear the flag when game ends, check flag on power up
+		- advertise time release/rules
+
+**********************************************************************************************************************
+
+Stuff for Jeff
+
+		- Dive for loose balls like Blitz - rare to have a loose ball, but it would be cool - Rob was gonna look at it - check with him
+		- LO RES to ship day one
+
+**********************************************************************************************************************
+
+Stuff for Mark T. / General ideas we should think about implementing
+
+		- put in bozo boxes
+		- check possession change rules for shot clock
+		- add sparkles on up front screens
+		- put in cpu assistance stuff
+		- add sal to high scores
+		- shot clock doesn't appear when less than 30 seconds left in qrtr, but still active!
+		- scale up and down the halftime/endgame leader
+		- flash the clock when it's low
+		- bigger glow under ball owner - Put in big ball behind player turbo bar?
+		- LO RES to ship day one
+		- Use all player attributes
+		- Display mugshot during game - stats
+		- New icons for VS page powerups
+		- Do superstar intros in attract mode - closeup of dribble - display player name, stats on a box
+		- allow line drive style arcs for layups
+		- match all of the header text to the same yellow
+		- Retro mode with big hair etc.
+		- Shot Map - would be cool, talk trash to guy who takes bad shots
+
+**********************************************************************************************************************
+
+Stuff for Mike & Ed & Bill (Diagnostics)
+
+		- BILL D. - allow backdoor setting of amode snds off/on
+
+**********************************************************************************************************************
+
+Stuff for Shawn Liptak - drone stuff
+
+		- pay attention to fire/tm fire/hotspots - get opponent off of these modes also!
+		- drone run halfway to ball (ball up hi), stop, then run again
+			very important now that you can gt/swat ball away - as guy goes to retrieve ball, he glitches along as
+			he gets close - see it all the time
+		- drones run dwn court in front of offense guy without ball, hop skip, stop, hop skip, stop
+		- too many passes when well covered in the paint - they keep passing - just let a block happen
+		- allow passing out of flail
+		- big explosion on rim/bboard when we want to break backboard
+		- shawn, have drones do leaning in dribble seq.
+		- have drones run backwards downcourt
+		- drones fade away when they are near OB
+		- sometimes all 4 drones can't reach ball in corner - they wait forever
+		- can't tell my drone to layup out of dunks!  Is his butn already down?
+
+
+**********************************************************************************************************************
+
+Powerup ideas
+
+		- no crowd
+		- shirts off
+		- Powerup a different camera perspective
+		- Powerup mode where there is no crowd - just bleachers
+		- Powerup to turn off auto rebounding
+		- put in run n gun camera as powerup - camera mode needs some work
+		- Powerup to have center adverts scrolling fast/always - easy to do "next_scroll_wait"
+		- more snow
+		- no freethrows
+		- trees or ocean
+		- bigger snow flakes
+		- baby players
+		- jersey options
+		- powerup to jump straight up, no drift
+
+......................................................................................................................
+......................................................................................................................
+......................................................................................................................
+
+
+Art Stuff for Sal
+
+        - Camerapaths for freethrow
+    	- get women for still frames/movies
+	    - New movies - where to use them
+        - Transitions screens
+    	- get a feminine seq for create player animation?
+
+**********************************************************************************************************************
+
+Art Stuff for Sal or Jim or John R.
+
+		- get cocky dribble variety
+    	- Cocky run on a breakaway with the ball
+        - Drone sets a pick puppet move
+        - Chest thump/high five/butt slap/ puppet moves
+        - Pickup your teamate after game winning shot puppet move - celebration
+		- put in john root/japple dances on buyin scrn
+
+
+
+**********************************************************************************************************************
+
+Art Stuff for Matt
+
+    	- Need movie for art for Player beats all teams
+		- alternate indoor stadium
+    	- add anncrs at score table
+		- stadium/sun lights
+
+
+**********************************************************************************************************************
+
+Art Stuff for Eugene 
+
+		- SUPER LOW poly count models for PLAYER / MASCOT reflections
+		- Retro mode with big hair etc.
+
+
+**********************************************************************************************************************
+
+Art Stuff for Jennifer or Eugene 
+
+		- Make black guys pals distinct - team by team
+    	- Walt Williams has tall socks	
+
+
+**********************************************************************************************************************
+
+Art Stuff -  Jennifer 
+
+
+
+**********************************************************************************************************************
+
+Art Stuff -  Timmy B.
+
+TB		- cooler - more NBC looking DCS Logo screen
+TB		- LO RES to ship day one - do CAP lo res version

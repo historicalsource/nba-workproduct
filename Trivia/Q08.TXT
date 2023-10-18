@@ -1,0 +1,308 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+##801
+What player led the league in 1996-97 in assist/turnover ratio?
+**a) Muggsy Bogues ~~b) Gary Payton ~~c) Allen Iverson ~~d) Anfernee Hardaway
+##802
+What is Muggsy Bogues' given name?
+**a) Tyrone ~~b) Michael ~~c) Antoine ~~d) Gary
+##803
+What player ranks as the league's all-time leader in assist/turnover ratio?
+**a) Muggsy Bogues ~~b) Avery Johnson ~~c) Rod Strickland ~~d) Kenny Anderson
+##804
+Who is the Hornets all-time leader in assists, steals and minutes played?
+**a) Muggsy Bogues ~~b) Glen Rice ~~c) Matt Geiger ~~d) Kendall Gill
+##805
+Who is the only original Charlotte Hornet on the current roster?
+**a) Dell Curry ~~b) Matt Geiger ~~c) Glen Rice ~~d) Tony Delk
+##806
+What team selected Muggsy Bogues (eighth overall) in the 1987 NBA Draft?
+**a) Washington ~~b) Charlotte ~~c) Golden State ~~d) Minnesota
+##807
+Who ranks as the Charlotte Hornets all-time leading scorer?
+**a) Dell Curry ~~b) Rex Chapman ~~c) Muggsy Bogues ~~d) Glen Rice
+##808
+Who is the Hornets career leader in games played?
+**a) Dell Curry ~~b) Rex Chapman ~~c) Muggsy Bogues ~~d) Glen Rice
+##809
+What Charlotte guard won the 1993-94 Sixth Man of the Year Award?
+**a) Dell Curry ~~b) Larry Johnson ~~c) Matt Geiger ~~d) Kendall Gill
+##810
+Who was the only rookie to make the 1986-87 Utah Jazz team?
+**a) Dell Curry ~~b) John Stockton ~~c) Adam Keefe ~~d) Chris Morris
+##811
+What Charlotte player led Kentucky to its first national championship since 1978 with 24 points and seven rebounds in the Wildcats 76-67 victory over Syracuse in 1996?
+**a) Tony Delk ~~b) Rex Chapman ~~c) Chris Mills ~~d) Allen Iverson
+##812
+What team drafted Kobe Bryant in the 1996 NBA Draft?
+**a) Charlotte ~~b) Los Angeles Lakers ~~c) Chicago ~~d) Houston
+##813
+What player did the Lakers trade to Charlotte in exchange for the draft rights to Kobe Bryant?
+**a) Vlade Divac ~~b) Elden Campbell ~~c) Cedric Ceballos ~~d) Robert Horry
+##814
+What former Laker led the team in rebounding for four consecutive years (1992-93 to 1995-96)
+**a) Vlade Divac ~~b) Elden Campbell ~~c) Robert Horry ~~d) Cedric Ceballos
+##815
+What former Laker and current Eastern Conference player increased his scoring average in each of his first six years in the NBA?
+**a) Vlade Divac ~~b) Shaquille O'Neal ~~c) Glen Rice ~~d) George Lynch
+##816
+What players' marriage was attended by 1,000 people and televised nationally in Yugoslavia?
+**a) Vlade Divac ~~b) Luc Longley ~~c) Steve Nash ~~d) Vitaly Potapenko
+##817
+Prior to being acquired by the Hornets, Matt Geiger played for what team?
+**a) Miami ~~b) Los Angeles Lakers ~~c) Charlotte ~~d) New Jersey
+##818
+What former five-year New York Knick now plays for the Charlotte Hornets?
+**a) Anthony Mason ~~b) Larry Johnson ~~c) Alonzo Mourning ~~d) Vlade Divac
+##819
+Who was the only player in the NBA to rank in the top 25 in rebounding and assists for the 1996-97 season?
+**a) Anthony Mason ~~b) Dennis Rodman ~~c) Charles Barkley ~~d) John Stockton
+##820
+Who led the league in minutes played during the 1996-97 season?
+**a) Anthony Mason ~~b) Scottie Pippen ~~c) Karl Malone ~~d) Charles Barkley
+##821
+Who holds the New York Knicks single season record for total minutes played (3,457)?
+**a) Anthony Mason ~~b) Patrick Ewing ~~c) John Starks ~~d) Charles Oakley
+##822
+What Charlotte Hornet player won the 1991-92 NBA Rookie of the Year Award?
+**a) Larry Johnson ~~b) Alonzo Mourning ~~c) Glen Rice ~~d) Kendall Gill
+##823
+Who did the Houston Rockets defeat in the 1994 NBA Finals?
+**a) New York Knicks ~~b) Orlando Magic ~~c) Chicago Bulls ~~d) Indiana Pacers
+##824
+What team took the Houston Rockets to seven games in the 1994 NBA Finals?
+**a) New York Knicks ~~b) Orlando Magic ~~c) Chicago Bulls ~~d) Indiana Pacers
+##825
+What team swept the Orlando Magic to win the 1995 NBA Finals?
+**a) Houston Rockets ~~b) New York Knicks ~~c) Los Angeles Lakers ~~d) Seattle SuperSonics
+##826
+What team did Houston beat in the 1995 NBA Finals to win their second consecutive title?
+**a) Orlando Magic ~~b) New York Knicks ~~c) Chicago Bulls ~~d) Los Angeles Lakers
+##827
+What team has three active players who were named to the NBA's 50 All-Time Greatest Players list?
+**a) Houston Rockets ~~b) New York Knicks ~~c) Portland Trail Blazers ~~d) Los Angeles Lakers
+##828
+Which Houston Rocket player became the fourth player in NBA history to reach 20,000 points, 10,000 rebounds and 3,500 assists in career?
+**a) Charles Barkley ~~b) Robert Horry ~~c) Mario Elie ~~d) Clyde Drexler
+##829
+What Houston Rocket is one of only 11 players in NBA history to reach 20,000 points and 10,000 rebounds in his career?
+**a) Charles Barkley ~~b) Kevin Willis ~~c) Otis Thorpe ~~d) Clyde Drexler
+##830
+Who won the NBA's MVP Award in 1992-93 while playing with the Phoenix Suns, becoming only the third player in NBA history to win the award immediately after being traded?
+**a) Charles Barkley ~~b) Danny Manning ~~c) Scottie Pippen ~~d) Karl Malone
+##831
+Prior to 1998, who had been voted to 11 straight NBA All-Star Games, eight as a starter (1989-97)?
+**a) Charles Barkley ~~b) Karl Malone ~~c) Gary Payton ~~d) Shaquille O'Neal
+##832
+Who played eight seasons with Philadelphia before being traded to Phoenix prior to the 1992-93 season?
+**a) Charles Barkley ~~b) Danny Manning ~~c) Kevin Johnson ~~d) Jeff Hornacek
+##833
+Who scored 56 points in Game Three of the first round of the 1994 NBA Playoffs between Phoenix and Portland which stands as the third highest single-game total in NBA Playoff history?
+**a) Charles Barkley ~~b) Kevin Johnson ~~c) Clyde Drexler ~~d) Terry Porter
+##834
+Who holds the NBA playoff record for field goals made in a half with 15 in the first half of the game between Phoenix and Golden State in 1994?
+**a) Charles Barkley ~~b) Chris Mullin ~~c) Joe Smith ~~d) Kevin Johnson
+##835
+Who scored 44 points and grabbed 24 rebounds in Game 7 of 1993 NBA Western Conference Finals against Seattle to propel the Phoenix Suns to the NBA Finals?
+**a) Charles Barkley ~~b) Danny Manning ~~c) Mark Bryant ~~d) Cedric Ceballos
+##836
+Who owns seven Phoenix Suns' all-time playoff single-game records?
+**a) Charles Barkley ~~b) Jason Kidd ~~c) Jeff Hornacek ~~d) Danny Manning
+##837
+Who ranks as the Phoenix Suns all-time playoff leader in rebounds?
+**a) Charles Barkley ~~b) Danny Manning ~~c) Clifford Robinson ~~d) John Williams
+##838
+Who ranks as the Phoenix Suns all-time playoff leader in scoring average?
+**a) Charles Barkley ~~b) Danny Manning ~~c) Kevin Johnson ~~d) Mark Bryant
+##839
+Who is known as "The Glide" for his smooth moves to the basket?
+**a) Clyde Drexler ~~b) Shawn Kemp ~~c) Grant Hill ~~d) Allen Iverson
+##840
+What veteran guard was one assist shy of being the fifth player in NBA history to record a quadruple double on November 1, 1996, with 25 points, a career-high 10 steals, 10 rebounds and 9 assists?
+**a) Clyde Drexler ~~b) Charles Barkley ~~c) Grant Hill ~~d) Anfernee Hardaway
+##841
+For what team did Clyde Drexler play for 11 1/2 seasons before being traded to the Houston Rockets on February 14, 1995?
+**a) Portland Trail Blazers ~~b) Dallas Mavericks ~~c) Seattle SuperSonics ~~d) Chicago Bulls
+##842
+Who is the Portland Trail Blazers all-time leader in 10 statistical categories?
+**a) Clyde Drexler ~~b) Isaiah Rider ~~c) Terry Porter ~~d) Kenny Anderson
+##843
+In his 16-year career, how many NBA All-Star Games has Clyde Drexler been selected to?
+**a) 10 ~~b) 0 ~~c) 5 ~~d) 8
+##844
+What 16-year NBA veteran has participated in the postseason in every year he has been in the league?
+**a) Clyde Drexler ~~b) Charles Barkley ~~c) Patrick Ewing ~~d) Antoine Carr
+##845
+What player was traded to Houston in the middle of 1995, and helped propel them to their second straight championship, and his first career title?
+**a) Clyde Drexler ~~b) Charles Barkley ~~c) Sam Cassell ~~d) Matt Maloney
+!!846
+Who joined Hakeem Olajuwon to become only the third teammate duo in NBA playoff history to each score 40 or more points in the same game when he scored 41 points in Game Four of the 1995 Western Conference First Round against Utah?
+**a) Clyde Drexler ~~b) Charles Barkley ~~c) Mario Elie ~~d) Robert Horry
+##847
+Who is the Indiana Pacers career rebound leader?
+**a) Rik Smits ~~b) Herb Williams ~~c) Dale Davis ~~d) Detlef Schrempf
+##848
+Which Cleveland Cavaliers' guard is Stanford's all-time career assists leader?
+**a) Brevin Knight ~~b) Bob Sura ~~c) Terrell Brandon ~~d) Shawn Kemp
+##849
+What team selected Danny Ferry with the second overall pick in the 1989 NBA Draft?
+**a) Los Angeles Clippers ~~b) Washington Bullets ~~c) Cleveland Cavaliers ~~d) Charlotte Hornets
+##850
+Entering the 1997-98 season, what durable Cavalier has played in 541 of possible 574 games in his seven-year career?
+**a) Danny Ferry ~~b) Bob Sura ~~c) Tyrone Hill ~~d) Chris Mills
+##851
+On February 5, 1997, what Cleveland player recorded his second career four-point play (eighth in team history)?
+**a) Danny Ferry ~~b) Bob Sura ~~c) Terrell Brandon ~~d) Shawn Kemp
+##852
+What active NBA forward was the first player in ACC history with at least 2,000 career points, 1,000 rebounds and 500 assists?
+**a) Danny Ferry ~~b) Stephon Marbury ~~c) Tom Gugliotta ~~d) Sam Perkins
+##853
+During the 1989-90 season, Danny Ferry and Brian Shaw were teammates on what team?
+**a) Il Messaggero ~~b) Orlando Magic ~~c) Cleveland Cavaliers ~~d) Phoenix Suns
+##854
+What nine-year NBA veteran has appeared in six NBA All-Star Games, five for the Western Conference and one for the Eastern Conference squad?
+**a) Shawn Kemp ~~b) Patrick Ewing ~~c) Gary Payton ~~d) John Stockton
+##855
+What explosive NBA forward led the Seattle SuperSonics in rebounding in 1996-97?
+**a) Shawn Kemp ~~b) Vin Baker ~~c) Jim McIlvaine ~~d) Sam Perkins
+##856
+What Sonic is among Seattle's all-time Top 10 in 11 statistical categories?
+**a) Shawn Kemp ~~b) Detlef Schrempf ~~c) Hersey Hawkins ~~d) Sam Perkins
+##857
+What NBA forward increased his scoring and rebounding average in each of the first seven years of his career?
+**a) Shawn Kemp ~~b) Gary Payton ~~c) Detlef Schrempf ~~d) Sam Perkins
+##858
+What Seattle SuperSonic player averaged 11.4 rebounds per game during the 1995-96 season which was a Seattle player's best mark since the 1981-82 season?
+**a) Shawn Kemp ~~b) Vin Baker ~~c) Detlef Schrempf ~~d) Dennis Rodman
+##859
+Who was the first Seattle SuperSonic to ever start in three consecutive NBA All-Star Games?
+**a) Shawn Kemp ~~b) Detlef Schrempf ~~c) Clyde Drexler ~~d) Nate McMillan
+##860
+Who is the Seattle SuperSonics all-time blocked shot leader?
+**a) Shawn Kemp ~~b) Jim McIlvaine ~~c) Ervin Johnson ~~d) Vin Baker
+##861
+Who was the first Seattle SuperSonic to play in consecutive NBA All-Star Games?
+**a) Shawn Kemp ~~b) Nate McMillan ~~c) Detlef Schrempf ~~d) Hersey Hawkins
+##862
+What NBA guard is Stanford's all-time steals leader?
+**a) Brevin Knight ~~b) Lamond Murray ~~c) Gary Payton ~~d) Damon Stoudamire
+##863
+Who is nicknamed the "Ukraine Train"?
+**a) Vitaly Potapenko ~~b) Toni Kukoc ~~c) Luc Longley ~~d) Vlade Divac
+##864
+Who was named the MVP of the 1997 NBA Rookie Game in front of his home crowd?
+**a) Zydrunas Ilgauskas ~~b) Keith Van Horn ~~c) Tim Duncan ~~d) Chauncey Billups
+##865
+What second-year Cleveland guard had 13 rebounds on November 8, 1996, which was the most by a Cavalier starting guard since 1987?
+**a) Bob Sura ~~b) Terrell Brandon ~~c) Brevin Knight ~~d) Chris Mills
+##866
+What current NBA guard is Florida State's all-time leading scorer with 2,130 career points?
+**a) Bob Sura ~~b) Sam Cassell ~~c) Charlie Ward ~~d) Tom Gugliotta
+##867
+Who was the first player in ACC history to amass 2,000 points, 700 rebounds, 400 assists and 200 steals?
+**a) Bob Sura ~~b) Stephon Marbury ~~c) Jerry Stackhouse ~~d) Rasheed Wallace
+##868
+What Cavalier guard has an older brother who is also a noted NBA sharpshooter?
+**a) Wesley Person ~~b) Bob Sura ~~c) Shawn Kemp ~~d) Dan Majerle
+##869
+What player finished his college career as Auburn's all-time leader in three-point field goal percentage, three-point field goals made and three-point field goals attempted?
+**a) Wesley Person ~~b) Charles Barkley ~~c) Chuck Person ~~d) Eddie Johnson
+##870
+Which of the following NBA players is not from New York City?
+**a) Kevin Garnett ~~b) Mark Jackson ~~c) Stephon Marbury ~~d) Kenny Anderson
+##871
+Which of the following NBA players is not from the state of Michigan?
+**a) Jim Jackson ~~b) Glen Rice ~~c) Loy Vaught ~~d) Steve Smith
+##872
+Which of the following NBA players did not play collegiately at Georgetown?
+**a) Charles Oakley ~~b) Allen Iverson ~~c) Alonzo Mourning ~~d) Jerome Williams
+##873
+Which of the following NBA players did not play collegiately in the state of Connecticut?
+**a) Marcus Camby ~~b) Chris Dudley ~~c) Travis Knight ~~d) Vin Baker
+##874
+Which of the following NBA players did not play collegiately in the state of Florida?
+**a) Ron Harper ~~b) Travis Knight ~~c) Bob Sura ~~d) Sam Cassell
+##875
+Who holds the Cleveland Cavaliers all-time record for best field goal percentage (.600) in a season?
+**a) Tyrone Hill ~~b) Chris Mills ~~c) Mark Price ~~d) Ron Harper
+##876
+Who holds the Cleveland Cavaliers all-time record for highest free throw percentage (.948) in a season?
+**a) Mark Price ~~b) Danny Ferry ~~c) Wesley Person ~~d) Dan Majerle
+##877
+Who holds the Cleveland Cavaliers all-time record for highest three-point percentage (.507) in a season?
+**a) Steve Kerr ~~b) Mark Price ~~c) Danny Ferry ~~d) Wesley Person
+##878
+Which of the following players has never played for the Los Angeles Clippers?
+**a) Danny Ferry ~~b) Danny Manning ~~c) Michael Cage ~~d) Ron Harper
+##879
+Who holds the Cleveland Cavaliers all-time record for steals (209) in a season?
+**a) Ron Harper ~~b) Mark Price ~~c) Terrell Brandon ~~d) Mookie Blaylock
+##880
+Who is the Cleveland Cavaliers all-time leader in career field goal percentage (.553)?
+**a) Mark West ~~b) Mark Price ~~c) Chris Mills ~~d) Terrell Brandon
+##881
+Who is the Cleveland Cavaliers all-time leader in career free throw percentage (.906)?
+**a) Mark Price ~~b) Danny Ferry ~~c) Chris Mills ~~d) Steve Kerr
+##882
+Where did Charles Oakley attend college?
+**a) Virginia Union ~~b) University of Virginia ~~c) Virginia Tech ~~d) University of Richmond
+##883
+Where did Bimbo Coles attend college?
+**a) Virginia Tech ~~b) University of Virginia ~~c) University of Richmond ~~d) Virginia Union
+##884
+Who is the Cleveland Cavaliers all-time leader in career three-point field goal percentage (.472)?
+**a) Steve Kerr ~~b) Mark Price ~~c) Bob Sura ~~d) Chris Mills
+##885
+Who is the Cleveland Cavaliers all-time leader in career three-point field goals made (802)?
+**a) Mark Price ~~b) Danny Ferry ~~c) Terrell Brandon ~~d) Chris Mills
+##886
+Who is the Cleveland Cavaliers all-time leader in career assists (4,206)?
+**a) Mark Price ~~b) Terrell Brandon ~~c) Steve Kerr ~~d) Mark Jackson
+##887
+Entering the 1997-98 season, what Cavalier has led the team in minutes played for the last three seasons?
+**a) Chris Mills ~~b) Shawn Kemp ~~c) Danny Ferry ~~d) Bob Sura
+##888
+Which Ivy League college did Chris Dudley attend?
+**a) Yale ~~b) Harvard ~~c) Princeton ~~d) Penn
+##889
+What Cleveland guard led the team in assists for three straight seasons (1994-95 to 1996-97) but was traded prior to the start of the 1997-98 season?
+**a) Terrell Brandon ~~b) Mark Jackson ~~c) Bob Sura ~~d) Bobby Jackson
+##890
+Entering the 1997-98 season, who recorded the Cleveland Cavaliers last triple-double on April 19, 1995?
+**a) Bobby Phills ~~b) Bob Sura ~~c) Mark Price ~~d) Tyrone Hill
+##891
+Who recorded Cleveland's first ever four-point play?
+**a) Dell Curry ~~b) Danny Ferry ~~c) Steve Kerr ~~d) Mark Price
+##892
+Who is the only Cleveland player to be named to the All-NBA First Team?
+**a) Mark Price ~~b) Terrell Brandon ~~c) Gerald Wilkins ~~d) Dan Majerle
+##893
+Which NBA center will be starring with Billy Crystal in a new movie entitled My Giant?
+**a) Gheorghe Muresan ~~b) Patrick Ewing ~~c) Hakeem Olajuwon ~~d) Shaquille O'Neal
+##894
+Who holds the Cleveland Cavaliers record for most three-point field goals made in a single game (8)?
+**a) Danny Ferry ~~b) Mark Price ~~c) Steve Kerr ~~d) Chris Mills
+##895
+Who holds the Cleveland Cavaliers record for most consecutive games (34) with a made three-point field goal?
+**a) Mark Price ~~b) Steve Kerr ~~c) Dan Majerle ~~d) Chris Mills
+##896
+Which of the following NBA players did not attend Kentucky?
+**a) Greg Minor ~~b) Antoine Walker ~~c) Ron Mercer ~~d) Rex Chapman
+##897
+Who holds the Cleveland Cavaliers record for most steals in a single game (10)?
+**a) Ron Harper ~~b) Terrell Brandon ~~c) Mark Price ~~d) Tyrone Hill
+##898
+Who holds the Cleveland Cavaliers record for most free throws made in a single game (18)?
+**a) Mark Price ~~b) Chris Mills ~~c) Danny Ferry ~~d) Dan Majerle
+##899
+Which of the following NBA players is not from New Jersey?
+**a) Allen Iverson ~~b) Bobby Hurley ~~c) Terry Dehere ~~d) Brevin Knight
+##900
+Who holds the Cleveland Cavaliers NBA playoff record for all-time games played (47)?
+**a) Mark Price ~~b) Danny Ferry ~~c) Terrell Brandon ~~d) Shawn Kemp
+

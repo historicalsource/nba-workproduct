@@ -1,0 +1,63 @@
+#*****************************************************
+# SNDCALLS.EQU  (ONLY SOUNDS USED in SEQUENCES !!!!!!)
+#*****************************************************
+
+#
+# PRIORITIES
+#
+	.equ	PRIORITY_LVL0,						0
+	.equ	PRIORITY_LVL1,						1
+	.equ	PRIORITY_LVL2,						5
+	.equ	PRIORITY_LVL3,						10
+	.equ	PRIORITY_LVL4,						15
+	.equ	PRIORITY_LVL5,						20
+
+#
+# MISC. PLAYER SOUNDS
+#
+	.equ	HIT_RIM_SND,							7
+	.equ	DUNK_SND,									8
+
+#
+# MISC. PLAYER SPEECH
+#
+	.equ	THATS_ALL_NIGHT,					37
+	.equ	YOU_BETTER_RECOGNIZE,			46
+	.equ	YOU_BETTER_ASK_SOMEBODY,	47
+	.equ	HOOPERS_DONT_DANCE,						19
+
+	.equ	YEAH_1,									23
+	.equ	YEAH_2,									24
+	.equ	YEAH_3,									25
+	.equ	CHUMP,									80
+
+	.equ	HUH_1,									10
+	.equ	HUH_2,									4
+	.equ	UNGH,									67
+	.equ	AHHH,									68
+	.equ	DUNK_YELL,								69
+	.equ	YEAH_EXCITED,							70
+	.equ	DUNK_YELL_2,							71
+	.equ	UGH,									85
+	.equ	OO_OH,									86
+	.equ	AHH_PAIN,								87
+	.equ	UGH_2,									88
+	.equ	UGH_3,									89
+	.equ	UMM_QUICK,								90
+	.equ	UMM_BUMP,								91
+	.equ	UMM_MEAN,								92
+	.equ	OH_PAIN,								93
+	.equ	AIH_SCREAM,								94
+	.equ	AHH_PAIN_2,								95
+	.equ	UMM_MEAN_2,								96
+	.equ	UMM_WHY,								97
+
+	.equ	SWIPE1_SND,								51
+	.equ	SWIPE2_SND,								52
+	.equ	SWIPE3_SND,								55
+	.equ	SWIPE4_SND,								56
+
+#*****************************************************************
+#  ANYTHING ABOVE HERE....MUST ALSO be in SNDCALLS.H
+#*****************************************************************
+

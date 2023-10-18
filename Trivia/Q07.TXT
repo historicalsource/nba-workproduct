@@ -1,0 +1,308 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+##701
+Entering the 1998 NBA Playoffs, who is the Phoenix Suns career playoff points leader (1,942)?
+**a) Kevin Johnson ~~b) Charles Barkley ~~c) Danny Manning ~~d) Antonio McDyess
+##702
+Entering the 1998 NBA Playoffs, who is the Phoenix Suns career playoff rebound leader (644)?
+**a) Charles Barkley ~~b) Cedric Ceballos ~~c) Danny Manning ~~d) Antonio McDyess
+##703
+Who played an NBA Finals record 62 minutes in the 1993 NBA Finals Game 3 triple overtime game between Phoenix and Chicago?
+**a) Kevin Johnson ~~b) Scottie Pippen ~~c) Charles Barkley ~~d) Ron Harper
+##704
+Who was named the league's MVP and led his team to the NBA Finals in 1993?
+**a) Charles Barkley ~~b) Scottie Pippen ~~c) Hakeem Olajuwon ~~d) Shaquille O'Neal
+##705
+What British Columbia, Canada native was the Phoenix Suns first round pick in the 1996 NBA Draft?
+**a) Steve Nash ~~b) Luc Longley ~~c) Wesley Person ~~d) Christian Laettner
+##706
+Who hit an NBA record nine three-pointers in the first round of the 1997 NBA Playoffs between Phoenix and Seattle?
+**a) Rex Chapman ~~b) Hersey Hawkins ~~c) Jason Kidd ~~d) Sam Perkins
+##707
+Who after being traded from Philadelphia, led Phoenix to the 1993 NBA Finals?
+**a) Charles Barkley ~~b) Jeff Hornacek ~~c) Kevin Johnson ~~d) Danny Manning
+##708
+Who along with Dikembe Mutombo and LaPhonso Ellis is the only Nugget to ever earn All-Rookie First Team honors?
+**a) Antonio McDyess ~~b) Bryan Stith ~~c) Rodney Rogers ~~d) Bobby Jackson
+##709
+Who is the highest draft pick to play for the Nuggets since the team joined the NBA in 1976?
+**a) Antonio McDyess ~~b) Bobby Jackson ~~c) Dikembe Mutombo ~~d) Dale Ellis
+##710
+What two-time NBA All-Star was the first Los Angeles Clipper to attend the mid-season classic since 1986?
+**a) Danny Manning ~~b) Loy Vaught ~~c) Stanley Roberts ~~d) Lamond Murray
+##711
+Who was the first Dallas Maverick to start in an NBA All-Star Game?
+**a) Jason Kidd ~~b) Jamal Mashburn ~~c) Jim Jackson ~~d) Shawn Bradley
+##712
+On January 30, 1996, who registered 21 points, 16 rebounds and 16 assists to have the first triple-double of at least 20 points, 15 rebounds and 15 assists since 1989?
+**a) Jason Kidd ~~b) Grant Hill ~~c) Scottie Pippen ~~d) Mitch Richmond
+##713
+Who is the Phoenix Suns career playoff leader in eight statistical categories--points, steals, assists, games played, field goals made, field goals attempted, free throws made, and free throws attempted?
+**a) Kevin Johnson ~~b) Charles Barkley ~~c) Danny Manning ~~d) Dan Majerle
+##714
+Who set an NBA record with 21 consecutive free throws made in Game 7 of the 1994 NBA Western Conference Semifinals between Houston and Phoenix?
+**a) Kevin Johnson ~~b) Clyde Drexler ~~c) Matt Maloney ~~d) Jason Kidd
+##715
+What player averaged more than 20 points and more than 10 assists in three consecutive seasons to become one of only 5 NBA players to accomplish that feat?
+**a) Kevin Johnson ~~b) Gary Payton ~~c) Stephon Marbury ~~d) Rod Strickland
+##716
+Who won the 1992 Slam Dunk Championship with his blind-folded "hocus-pocus" dunk during the NBA's All-Star Weekend?
+**a) Cedric Ceballos ~~b) Kobe Bryant ~~c) Isaiah Rider ~~d) Shawn Kemp
+##717
+Whose 31.1 ppg scoring average ranked second for the 1997 NBA Playoffs?
+**a) Anfernee Hardaway ~~b) Scottie Pippen ~~c) Charles Barkley ~~d) Karl Malone
+##718
+Who is Orlando's all-time career leader in rebounds?
+**a) Shaquille O'Neal ~~b) Horace Grant ~~c) Charles Outlaw ~~d) Rony Seikaly
+##719
+What 13-year NBA veteran has played in all 82 games for eight consecutive seasons entering the 1997-98 campaign?
+**a) Michael Cage ~~b) Charles Barkley ~~c) Nate McMillan ~~d) Rick Mahorn
+##720
+What guard was a clutch performer in the Rockets back-to-back NBA title runs in his first two years in the league?
+**a) Sam Cassell ~~b) Mario Elie ~~c) Matt Maloney ~~d) Matt Bullard
+##721
+Playing for the Rockets during their back-to-back titles, who ranked third in NBA Finals history in free throw percentage (.882) and seventh in three-point percentage (.452)?
+**a) Sam Cassell ~~b) Clyde Drexler ~~c) Vernon Maxwell ~~d) Robert Horry
+##722
+Who led the Houston Rockets in assists during the 1994-95 season?
+**a) Sam Cassell ~~b) Stephon Marbury ~~c) Jason Kidd ~~d) Brent Price
+##723
+What NBA guard played for three teams-- Phoenix, Dallas and New Jersey -- during the 1996-97 season?
+**a) Sam Cassell ~~b) John Starks ~~c) Steve Nash ~~d) Kevin Johnson
+##724
+Who was the backcourt teammate of Charlie Ward at Florida State?
+**a) Sam Cassell ~~b) Kenny Anderson ~~c) Bobby Hurley ~~d) John Starks
+##725
+Who did not register an assist in his first two years in the NBA despite playing in 59 games for 629 minutes?
+**a) Yinka Dare ~~b) Shawn Kemp ~~c) Charles Oakley ~~d) Anthony Mason
+##726
+What player led the NBA in field goal percentage during the 1994-95 season shooting .633 from the field, the highest mark since 1984-85?
+**a) Chris Gatling ~~b) Horace Grant ~~c) Karl Malone ~~d) Shaquille O'Neal
+##727
+Who was the first New Jersey Net since 1978-79 to score more than 1,700 points in a season?
+**a) Kendall Gill ~~b) Sam Cassell ~~c) Keith Van Horn ~~d) Jayson Williams
+##728
+Which New Jersey Net finished the 1996-97 season ranked ninth in the league in scoring to become only the second Net to ever finish in NBA's top 10 in scoring?
+**a) Kendall Gill ~~b) Jayson Williams ~~c) Chris Childs ~~d) Jim Jackson
+##729
+Which NBA player in 1996-97 became only the fifth player in the 1990's to score in double figures in all 82 regular season games?
+**a) Kendall Gill ~~b) Charles Barkley ~~c) Grant Hill ~~d) Jason Kidd
+##730
+What New Jersey rookie set the Nets franchise rookie record for steals (157)?
+**a) Kerry Kittles ~~b) Keith Van Horn ~~c) Tim Thomas ~~d) Terry Dehere
+##731
+What NBA player ranks as the leading scorer in UCLA and Pac-10 history with 2,608 points?
+**a) Don MacLean ~~b) Pooh Richardson ~~c) Tracy Murray ~~d) Lamond Murray
+##732
+What team selected Keith Van Horn with the second overall pick in the 1997 NBA Draft?
+**a) Philadelphia ~~b) New Jersey ~~c) Utah ~~d) Milwaukee
+##733
+As one of the NBA's top rebounders, what eight-year NBA veteran made his first All-Star appearance in the 1998 mid-season classic?
+**a) Jayson Williams ~~b) Dennis Rodman ~~c) David Robinson ~~d) Tyrone Hill
+##734
+What player holds the Nets all-time record for three-point field goals attempted in a single game?
+**a) Kerry Kittles ~~b) Sam Cassell ~~c) Keith Van Horn ~~d) Chris Childs
+##735
+Who holds the career record for most points by a New Jersey Net (10,440)?
+**a) Buck Williams ~~b) Derrick Coleman ~~c) Kenny Anderson ~~d) Armon Gilliam
+##736
+Who holds the Nets career record for most games played (635)?
+**a) Buck Williams ~~b) Kendall Gill ~~c) Terry Cummings ~~d) Yinka Dare
+##737
+Which team was the ninth and final ABA Champion?
+**a) New York Nets ~~b) Philadelphia 76ers ~~c) Denver Nuggets ~~d) San Antonio Spurs
+##738
+Who won the first NBA Championship (1946-47)?
+**a) Philadelphia Warriors ~~b) Los Angeles Lakers ~~c) Boston Celtics ~~d) Milwaukee Bucks
+##739
+What Syracuse University player was the first overall player taken in the 1990 NBA Draft?
+**a) Derrick Coleman ~~b) Larry Johnson ~~c) Rony Seikaly ~~d) Alonzo Mourning
+##740
+What NBA forward was recognized by the NCAA as the first player to record at least 2,000 points, 1,500 rebounds and 300 blocks in a career?
+**a) Derrick Coleman ~~b) Alonzo Mourning ~~c) Jerome Williams ~~d) Shawn Bradley
+##741
+What 15-year NBA veteran was the 1983 NBA Rookie of the Year?
+**a) Terry Cummings ~~b) Clyde Drexler ~~c) Rick Mahorn ~~d) Joe Dumars
+##742
+What 15-year NBA veteran was the second overall pick in the 1982 NBA Draft by the San Diego Clippers?
+**a) Terry Cummings ~~b) Rick Mahorn ~~c) Horace Grant ~~d) Antoine Carr
+##743
+Who led all rookies in scoring (23.5 ppg), steals (4.1spg) and minutes played (40.1 mpg) for the 1996-97 season?
+**a) Allen Iverson ~~b) Tim Duncan ~~c) Kevin Garnett ~~d) Kobe Bryant
+##744
+Who was the first ever Philadelphia 76er to win the NBA Rookie of the Year Award?
+**a) Allen Iverson ~~b) Charles Barkley ~~c) Jerry Stackhouse ~~d) Nick Van Exel
+##745
+Who is the Philadelphia 76er's all-time rookie scoring leader (1,787 points)?
+**a) Allen Iverson ~~b) Charles Barkley ~~c) Jeff Hornacek ~~d) Jerry Stackhouse
+##746
+Who is the only rookie in NBA history to record five straight games of 40 points or more?
+**a) Allen Iverson ~~b) Kobe Bryant ~~c) Stephon Marbury ~~d) Tim Duncan
+##747
+Who is the second-youngest player (21 years and 310 days) in NBA history to score 50 points in a game?
+**a) Allen Iverson ~~b) Kobe Bryant ~~c) Jason Kidd ~~d) Antonio McDyess
+##748
+What team selected Jim Jackson with the fourth overall pick in the 1993 NBA Draft?
+**a) Dallas Mavericks ~~b) Cleveland Cavaliers ~~c) Detroit Pistons ~~d) Philadelphia 76ers
+##749
+How many games did the Chicago Bulls win during the 1995-96 season to set an NBA record for games won in a single season?
+**a) 72 ~~b) 65 ~~c) 80 ~~d) 69
+##750
+What University of North Carolina product was selected third overall in the 1995 NBA Draft?
+**a) Jerry Stackhouse ~~b) Sam Perkins ~~c) Rasheed Wallace ~~d) Tom Gugliotta
+##751
+Which Philadelphia 76er is playing in the same city where he played college basketball?
+**a) Tim Thomas ~~b) Allen Iverson ~~c) Derrick Coleman ~~d) Eddie Jones
+##752
+Which Philadelphia 76er was the first ever Villanova player to receive Big East Conference Rookie of the Year honors?
+**a) Tim Thomas ~~b) Eddie Jones ~~c) Terry Dehere ~~d) Kerry Kittles
+##753
+Who was the only Philadelphia 76er to start all 82 regular season games during the 1996-97 season?
+**a) Clarence Weatherspoon ~~b) Derrick Coleman ~~c) Allan Iverson ~~d) Kerry Kittles
+##754
+Who in January 1996 became the first Philadelphia 76er since Charles Barkley to record back-to-back 20 rebound games?
+**a) Clarence Weatherspoon ~~b) Derrick Coleman ~~c) Tony Massenburg ~~d) Don Reid
+##755
+What NBA player was the first University of Southern Mississippi basketball player to have his number retired, and the second athlete ever to be inducted into the school's Hall of Fame?
+**a) Clarence Weatherspoon ~~b) Dontae' Jones ~~c) Karl Malone ~~d) Joe Dumars
+##756
+Which Philadelphia 76er earned a championship ring in three of his first four seasons while playing with Chicago?
+**a) Scott Williams ~~b) Jason Caffey ~~c) Michael Cage ~~d) Steve Kerr
+##757
+Who is the last Philadelphia 76er to play in 82 games in consecutive seasons (1992-93 and 1993-94)?
+**a) Clarence Weatherspoon ~~b) Kendall Gill ~~c) Mark Jackson ~~d) Tim Thomas
+##758
+Who was the last Philadelphia 76er to appear in the NBA All-Star Game ?
+**a) Dana Barros ~~b) Kerry Kittles ~~c) Charles Barkley ~~d) Jeff Hornacek
+##759
+Who was the last Philadelphia 76er to appear on an All-NBA team?
+**a) Charles Barkley ~~b) Clarence Weatherspoon ~~c) Derrick Coleman ~~d) Kerry Kittles
+##760
+Who holds the Philadelphia career record for the most three-point field goals made (476) and attempted (1,172)?
+**a) Hersey Hawkins ~~b) Jerry Stackhouse ~~c) Jeff Hornacek ~~d) Rex Walters
+##761
+Who holds the Philadelphia career record for best three-point field goal percentage (.426)?
+**a) Dana Barros ~~b) Hersey Hawkins ~~c) Rex Walters ~~d) Jeff Hornacek
+##762
+Who holds the Philadelphia record for most blocks in a season (274)?
+**a) Shawn Bradley ~~b) Charles Barkley ~~c) Tony Massenburg ~~d) Dikembe Mutombo
+##763
+Before being traded to the Sonics in September 1997, Vin Baker played for which NBA team?
+**a) Milwaukee ~~b) Boston ~~c) New Jersey ~~d) Portland
+##764
+Who became the first Bucks player since 1974-75 to average more than 20 points and 10 rebounds in 1996-97?
+**a) Vin Baker ~~b) Glenn Robinson ~~c) Terrell Brandon ~~d) Tyrone Hill
+##765
+Who along with Chris Webber and Anfernee Hardaway was the only player to be named on every 1994 NBA All-Rookie Team ballot?
+**a) Vin Baker ~~b) Larry Johnson ~~c) Grant Hill ~~d) Kevin Garnett
+##766
+Which Seattle player has improved his free throw percentage each season?
+**a) Vin Baker ~~b) Detlef Schrempf ~~c) Hersey Hawkins ~~d) Gary Payton
+##767
+What player led the NBA in minutes played (3,361) in the 1994-95 season?
+**a) Vin Baker ~~b) Anthony Mason ~~c) Grant Hill ~~d) Chris Mills
+##768
+Which Seattle SuperSonic started all 82 regular season games for the fourth consecutive year entering the 1997-98 campaign?
+**a) Hersey Hawkins ~~b) Gary Payton ~~c) Detlef Schrempf ~~d) Nate McMillan
+##769
+What player has amassed more than 100 steals in each of his nine years in the NBA?
+**a) Hersey Hawkins ~~b) Nate McMillan ~~c) Mookie Blaylock ~~d) Anfernee Hardaway
+##770
+Entering 1997-98, what durable Sonics player has missed only seven games in his nine-year NBA career?
+**a) Hersey Hawkins ~~b) Nate McMillan ~~c) Detlef Schrempf ~~d) David Wingate
+##771
+What Sonics player has had previous stints with Philadelphia and Charlotte?
+**a) Hersey Hawkins ~~b) Detlef Schrempf ~~c) Gary Payton ~~d) Vin Baker
+##772
+What NBA guard has never shot less than 83 percent from the free throw line?
+**a) Hersey Hawkins ~~b) Gary Payton ~~c) Detlef Schrempf ~~d) Nate McMillan
+##773
+Who is the first player other than Shawn Kemp to lead the Sonics in blocked shots in the last seven years?
+**a) Jim McIlvaine ~~b) Ervin Johnson ~~c) Sam Perkins ~~d) Alonzo Mourning
+##774
+What 12-year NBA veteran has spent his entire career with the Seattle SuperSonics?
+**a) Nate McMillan ~~b) Detlef Schrempf ~~c) Vin Baker ~~d) Hersey Hawkins
+##775
+What Seattle player ranks in the Sonics all-time top 10 in 10 different statistical categories?
+**a) Nate McMillan ~~b) Kendall Gill ~~c) David Wingate ~~d) Jim McIlvaine
+##776
+What NBA player shares the league's single game rookie assist record (25)?
+**a) Nate McMillan ~~b) Allen Iverson ~~c) John Stockton ~~d) Nick Van Exel
+##777
+Who was the first Sonic since 1975-76 to lead the league in steals, averaging 2.96 spg?
+**a) Nate McMillan ~~b) Detlef Schrempf ~~c) Shawn Kemp ~~d) Scottie Pippen
+##778
+Who holds the Sonics single game playoff assist record (16)?
+**a) Nate McMillan ~~b) Gary Payton ~~c) Hersey Hawkins ~~d) Eric Snow
+##779
+Entering 1997-98, what Sonic player has been named to the NBA All-Defensive First Team for four consecutive years?
+**a) Gary Payton ~~b) Detlef Schrempf ~~c) Scottie Pippen ~~d) Nate McMillan
+##780
+What seven-year NBA guard had his first All-Star Game start in the 1997 midseason classic?
+**a) Gary Payton ~~b) Clyde Drexler ~~c) Nick Van Exel ~~d) Glen Rice
+##781
+Who, in 1996, became the first guard to win the NBA Defensive Player of the Year award since 1987-88?
+**a) Gary Payton ~~b) Glen Rice ~~c) Scottie Pippen ~~d) Mookie Blaylock
+##782
+Who is the highest player ever drafted (second overall) by the Seattle SuperSonics?
+**a) Gary Payton ~~b) Shawn Kemp ~~c) Kendall Gill ~~d) Glenn Robinson
+##783
+Entering the 1997-98 season, what durable NBA guard has missed only two games during his seven-year career?
+**a) Gary Payton ~~b) Allen Iverson ~~c) Nick Van Exel ~~d) Kenny Anderson
+##784
+On January 15, 1997, what Seattle player tied an NBA record with eight three-point field goals in one game without a miss?
+**a) Sam Perkins ~~b) Gary Payton ~~c) Detlef Schrempf ~~d) David Wingate
+##785
+What team selected Sam Perkins (4th overall) in the 1984 NBA Draft?
+**a) Dallas ~~b) Seattle ~~c) Los Angeles Lakers ~~d) Charlotte Hornets
+##786
+Who, in just over four years, became the Sonics all-time leader in three-point field goals made and attempted?
+**a) Sam Perkins ~~b) Dale Ellis ~~c) Gary Payton ~~d) Reggie Miller
+##787
+Which of the following Seattle SuperSonic players has averaged in double figure points in every year of his NBA career?
+**a) Sam Perkins ~~b) Gary Payton ~~c) Eric Snow ~~d) Detlef Schrempf
+##788
+Who, in his 13-year career, has played on just one team that finished with a losing record?
+**a) Sam Perkins ~~b) Dikembe Mutombo ~~c) Loy Vaught ~~d) Chris Mullin
+##789
+What NBA player in his 13-year career has been a member of 12 playoff teams, four Western Conference Finals teams and two NBA Finals teams?
+**a) Sam Perkins ~~b) Chris Mullin ~~c) Detlef Schrempf ~~d) Jeff Hornacek
+##790
+What NBA player has the nickname "The Big Smooth"?
+**a) Sam Perkins ~~b) Horace Grant ~~c) Pervis Ellison ~~d) Larry Johnson
+##791
+What player won the league's prestigious Sixth Man Award in 1991 and 1992?
+**a) Detlef Schrempf ~~b) Eddie Johnson ~~c) Anthony Mason ~~d) John Starks
+##792
+What team drafted Detlef Schrempf (eighth overall) in the 1985 NBA Draft?
+**a) Dallas ~~b) Seattle ~~c) Indiana ~~d) Portland
+##793
+In 1992-93, who was the only player in the NBA to rank in the top 25 in scoring, rebounding and assists?
+**a) Detlef Schrempf ~~b) Danny Manning ~~c) Joe Dumars ~~d) Dell Curry
+##794
+Undrafted, this NBA forward is currently playing for his fifth team, the Seattle SuperSonics?
+**a) Aaron Williams ~~b) Eric Snow ~~c) Jim McIlvaine ~~d) Sam Perkins
+##795
+What Sonic player attended the fabled Dunbar High?
+**a) David Wingate ~~b) Gary Payton ~~c) Sam Perkins ~~d) Kenny Anderson
+##796
+Who holds the Sonics all-time assist record?
+**a) Nate McMillan ~~b) Sam Perkins ~~c) Shawn Kemp ~~d) Kendall Gill
+##797
+Entering 1997-98, who holds the all-time Sonics record for points in a season (2,253)?
+**a) Dale Ellis ~~b) Kendall Gill ~~c) Shawn Kemp ~~d) Detlef Schrempf
+##798
+Who set his team's record for most consecutive field goals made in a game when he hit 14 on January 4, 1995?
+**a) Gary Payton ~~b) Reggie Miller ~~c) Glen Rice ~~d) Terry Mills
+##799
+What team led the league in steals in 1996-97 for the fifth straight season, becoming the only team in NBA history to lead the league in steals five consecutive years?
+**a) Seattle ~~b) Chicago ~~c) Utah ~~d) Miami
+##800
+What team drafted University of Minnesota guard Bobby Jackson in the 1997 NBA Draft?
+**a) Seattle ~~b) Denver ~~c) Minnesota ~~d) Milwaukee
+

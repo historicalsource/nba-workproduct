@@ -1,0 +1,95 @@
+NBA on NBC (c) 1999 Midway - Choose a create-A-P n (03/23/99 13:38:46) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: ALLCREAT.BNK
+
+Size of .BNK file including header: 164456 bytes ($28268 bytes)
+
+Size of playlist table: 220 bytes ($DC bytes)
+
+Size of playlist and sound data only: 164102 bytes ($28106 bytes)
+
+Checksum: $E874
+
+Total number of playlists: 54 ($36)
+
+Total number of sound files: 54 ($36)
+
+Average bit rate for bank: 30.5 kbits/sec
+
+Total linear amount of sound: 0:42.755 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1       44.4    50.9  Alien C
+  2    $0002   1       39.8    45.6  Badger C
+  3    $0003   1       46.5    53.3  The Bear C
+  4    $0004   1       33.9    38.9  Benny C
+  5    $0005   1       38.9    44.6  Boomer C
+  6    $0006   1       47.3    54.2  The Bride C
+  7    $0007   1       44.4    50.9  The Chief C
+  8    $0008   1       45.6    52.3  Coyote C
+  9    $0009   1       35.2    40.3  Creed C
+  10   $000a   1       41.9    48.0  Crispy C
+  11   $000b   1       35.2    40.3  Crunch C
+  12   $000c   1       49.4    56.6  Cyan C
+  13   $000d   1       28.5    32.6  Dart C
+  14   $000e   1       31.8    36.5  Dice C
+  15   $000f   1       49.0    56.2  Dragon C
+  16   $0010   1       36.8    42.2  Falcon C
+  17   $0011   1       64.5    73.9  Frankenstein C
+  18   $0012   1       34.7    39.8  Frost C
+  19   $0013   1       39.3    45.1  The Gorilla C
+  20   $0014   1       52.7    60.5  Grandpa C
+  21   $0015   1       36.0    41.3  The Hawk C
+  22   $0016   1       32.2    37.0  Horse C
+  23   $0017   1       46.9    53.8  Hugo C
+  24   $0018   1       46.9    53.8  Iceman C
+  25   $0019   1       46.0    52.8  Jack-O C
+  26   $001a   1       39.3    45.1  Kerri C
+  27   $001b   1       41.9    48.0  Legend C
+  28   $001c   1       42.7    49.0  Lia C
+  29   $001d   1       49.8    57.1  The Mummy C
+ 
+NBA on NBC (c) 1999 Midway - Choose a create-A-P n (03/23/99 13:38:46) page 2
+
+
+Playlist Table (continued)
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  30   $001e   1       47.7    54.7  Nikko C
+  31   $001f   1       59.9    68.6  The Old Man C
+  32   $0020   1       26.0    29.8  Phat C
+  33   $0021   1       43.5    49.9  Pinkerton C
+  34   $0022   1       45.6    52.3  Pinto C
+  35   $0023   1       44.8    51.4  The Raptor C
+  36   $0024   1       39.3    45.1  The Ref C
+  37   $0025   1       64.5    73.9  Retro Rob C
+  38   $0026   1       39.3    45.1  The Rock C
+  39   $0027   1       40.2    46.1  Rocky C
+  40   $0028   1       47.7    54.7  Sasquatch C
+  41   $0029   1       38.5    44.2  Shaman C
+  42   $002a   1       25.1    28.8  Shoop C
+  43   $002b   1       42.3    48.5  Sly C
+  44   $002c   1       49.8    57.1  Spacey C
+  45   $002d   1       46.5    53.3  Stallion C
+  46   $002e   1       49.4    56.6  Toolman C
+  47   $002f   1       50.2    57.6  Turbo C
+  48   $0030   1       36.8    42.2  Twilight C
+  49   $0031   1       43.9    50.4  T-Zone C
+  50   $0032   1       46.9    53.8  Valkyrie C
+  51   $0033   1       43.1    49.4  The Wizz C
+  52   $0034   1       41.9    48.0  Wizard C
+  53   $0035   1       60.3    69.1  Wolfman C
+  54   $0036   1       39.8    45.6  Zephyr C
+
+Total 54 Playlists

@@ -1,0 +1,5956 @@
+DEFINITION	/* ALIAS SDL File Version 8.5 */
+			/* Apparently from wire file '/matt/mgilmore/user_data/NBAonNBC/wire/Jumbo/jumbotron05'. */
+	version = 8.5;
+
+	xleft  = 0;
+	xright = 1279;
+	ylow   = 0;
+	yhigh  = 1023;
+	resolution = 1280 1024;
+	aalevelmin   = 3;
+	aalevelmax   = 12;
+	aathreshold  = 0.6;
+	post_filter   = OFF;
+	post_center   = 8;    /* Values for a bartlet filter. */
+	post_adjacent = 1;
+	post_diagonal = 1;
+
+	composite_rendering = OFF;
+	invisible_objects_cast_shadows = OFF;
+	image_format = ALIAS;
+	jitter       = ON;
+	reduced_samples = OFF;
+	textures_active    = ON;
+
+	clamp_bumpsize = 0.0;
+
+	up = yaxis;
+
+	motion_blur_on = OFF;
+	shutter_angle  = 144.0;
+	animation  = OFF;
+	startframe = 0.0;
+	endframe = 0.0;
+	fields          = FALSE;
+	odd             = FALSE;
+	even            = FALSE;
+	odd_field_first = TRUE;
+
+	triple Camera_view(0.0, 0.0, 0.0);
+	triple Camera_up(0.0, 0.0, 0.0);
+
+	subdivision_recursion_limit = 2;
+	grid_cache = 4000;
+	bbox_memory = FULL;
+	rt_voxel_res_type = AUTOMATIC;
+
+	max_reflections             = 10;
+	max_refractions             = 10;
+	max_shadow_level            = 10;
+	preview_ray_trace           = OFF;
+
+	scalar pixel_aspect ( 1.0 );
+	hline_to_fill_color  = FALSE;
+	hline_fill_color     = (255.0, 255.0, 255.0);
+	hline_line_color     = (0.0, 255.0, 255.0);
+	hline_isoparam_u     = 0;
+	hline_isoparam_v     = 0;
+
+	show_particles       = TRUE;
+	simulation_substeps  = 1;
+	simulation_frames_per_second = 30;
+
+triple Lightview#2(0.0, 0.0, 0.0);
+triple Lightup#2(0.0, 0.0, 0.0);
+triple Lightview(0.0, 0.0, 0.0);
+triple Lightup(0.0, 0.0, 0.0);
+
+light Light#2 ( model = directional,
+	active = ON,
+	exclusive = FALSE,
+	light_emission = ON,
+	color = (255.0, 255.0, 255.0),
+	shadow_color = (0.0, 0.0, 0.0),
+	intensity = 1.0,
+	force_type = OFF,
+	force_intensity = 1.0,
+	warp = OFF,
+	glow_type = OFF,
+	halo_type = OFF,
+	fog_type = OFF,
+	flare = OFF,
+	psys_emission = OFF,
+	shadow = FALSE,
+	soft_shadows = FALSE,
+	light_radius = 1.0,
+	shadow_samples = 2.0,
+	use_shadow_map = 0.0,
+	direction = (0.000000, 0.000000, -1.000000)
+);
+
+light Light ( model = ambient,
+	active = ON,
+	exclusive = FALSE,
+	light_emission = ON,
+	color = (100.0, 100.0, 100.0),
+	shadow_color = (0.0, 0.0, 0.0),
+	intensity = 1.0,
+	force_type = OFF,
+	force_intensity = 1.0,
+	warp = OFF,
+	glow_type = OFF,
+	halo_type = OFF,
+	fog_type = OFF,
+	flare = OFF,
+	psys_emission = OFF,
+	shadow = FALSE,
+	soft_shadows = FALSE,
+	light_radius = 1.0,
+	shadow_samples = 2.0,
+	use_shadow_map = 0.0,
+	ambient_shade = 0.5
+);
+
+texture supportfile (
+        procedure = file,
+        rgbout = (77.392006, 157.227982, 121.239746),
+        active = ON,
+        image = "/matt/mgilmore/user_data/NBAonNBC/pix/support.TIF",
+        use_extension = OFF,
+        frame_extension = 1,
+        filter =  BLEND_FILTER,
+        cache = OFF,
+        rgbmult = (1.0, 1.0, 1.0),
+        rgboffset = (0.0, 0.0, 0.0),
+        blurmult = 1.0,
+        bluroffset = 0.0,
+        rotate = 0.0,
+        urepeat = 1.0,
+        vrepeat = 1.0,
+        uoffset = 0.0,
+        voffset = 0.0,
+        mirror = OFF,
+        stagger = OFF,
+        worldspace = OFF,
+        chord_length = OFF,
+        ucoverage = 1.0,
+        vcoverage = 1.0,
+        utranslate = 0.0,
+        vtranslate = 0.0,
+        uwrap = ON,
+        vwrap = ON,
+        invert = OFF
+);
+
+shader support ( model = lambert,
+        diffuse = 0.8,
+        color = supportfile,
+        incandescence = (0.0, 0.0, 0.0),
+        transparency = (0.0, 0.0, 0.0),
+        shading_map = (0.0, 0.0, 0.0),
+        translucence = 0.0,
+        translucence_depth = 0.5,
+        opacity_depth = 0.0,
+        use_background_color = OFF,
+        matte_fraction = 0.0,
+        psys_emission = OFF,
+        glow_intensity = 0.0,
+        hide_glow_source = OFF,
+        refractive_index = 1.6,
+        reflection_limit = 1,
+        refraction_limit = 6,
+        shadow_level_limit = 0,
+        surface_width = 0.0,
+        transparency_shade = 0.0,
+        transparency_depth = 0.0,
+        chromatic_abberation = 0.0,
+        refraction_jitter = 0.0,
+        refraction_samples = 0,
+        respect_reflection_map = OFF,
+        use_fill_color = ON,
+        fill_color = (255.0, 255.0, 255.0),
+        u_patch_lines = 0,
+        v_patch_lines = 0,
+        density = 1.0,
+        elasticity = 0.707,
+        friction = 0.0,
+        drag_coeff = 0.5
+);
+
+texture LEDstrip (
+        procedure = file,
+        rgbout = (0.0, 150.0, 255.0),
+        active = ON,
+        image = "/usr/people/mgilmore/user_data/NBAonNBC/pix/ledstrip.TIF",
+        use_extension = OFF,
+        frame_extension = 1,
+        filter =  BLEND_FILTER,
+        cache = OFF,
+        rgbmult = (1.0, 1.0, 1.0),
+        rgboffset = (0.0, 0.0, 0.0),
+        blurmult = 1.0,
+        bluroffset = 0.0,
+        rotate = 0.0,
+        urepeat = 1.0,
+        vrepeat = 1.0,
+        uoffset = 0.0,
+        voffset = 0.0,
+        mirror = OFF,
+        stagger = OFF,
+        worldspace = OFF,
+        chord_length = OFF,
+        ucoverage = 1.0,
+        vcoverage = 1.0,
+        utranslate = 0.0,
+        vtranslate = 0.0,
+        uwrap = ON,
+        vwrap = ON,
+        invert = OFF
+);
+
+shader led ( model = lambert,
+        diffuse = 0.8,
+        color = LEDstrip,
+        incandescence = (0.0, 0.0, 0.0),
+        transparency = (0.0, 0.0, 0.0),
+        shading_map = (0.0, 0.0, 0.0),
+        translucence = 0.0,
+        translucence_depth = 0.5,
+        opacity_depth = 0.0,
+        use_background_color = OFF,
+        matte_fraction = 0.0,
+        psys_emission = OFF,
+        glow_intensity = 0.0,
+        hide_glow_source = OFF,
+        refractive_index = 1.6,
+        reflection_limit = 1,
+        refraction_limit = 6,
+        shadow_level_limit = 0,
+        surface_width = 0.0,
+        transparency_shade = 0.0,
+        transparency_depth = 0.0,
+        chromatic_abberation = 0.0,
+        refraction_jitter = 0.0,
+        refraction_samples = 0,
+        respect_reflection_map = OFF,
+        use_fill_color = ON,
+        fill_color = (255.0, 255.0, 255.0),
+        u_patch_lines = 0,
+        v_patch_lines = 0,
+        density = 1.0,
+        elasticity = 0.707,
+        friction = 0.0,
+        drag_coeff = 0.5
+);
+
+texture awayteamfile (
+        procedure = file,
+        rgbout = (0.0, 150.0, 255.0),
+        active = ON,
+        image = "/matt/mgilmore/user_data/NBAonNBC/pix/jumbo/mintag.tif",
+        use_extension = OFF,
+        frame_extension = 1,
+        filter =  BLEND_FILTER,
+        cache = OFF,
+        rgbmult = (1.0, 1.0, 1.0),
+        rgboffset = (0.0, 0.0, 0.0),
+        blurmult = 1.0,
+        bluroffset = 0.0,
+        rotate = 0.0,
+        urepeat = 1.0,
+        vrepeat = 1.0,
+        uoffset = 0.0,
+        voffset = 0.0,
+        mirror = OFF,
+        stagger = OFF,
+        worldspace = OFF,
+        chord_length = OFF,
+        ucoverage = 1.0,
+        vcoverage = 1.0,
+        utranslate = 0.0,
+        vtranslate = 0.0,
+        uwrap = ON,
+        vwrap = ON,
+        invert = OFF
+);
+
+shader awayteam ( model = lambert,
+        diffuse = 0.8,
+        color = awayteamfile,
+        incandescence = (0.0, 0.0, 0.0),
+        transparency = (0.0, 0.0, 0.0),
+        shading_map = (0.0, 0.0, 0.0),
+        translucence = 0.0,
+        translucence_depth = 0.5,
+        opacity_depth = 0.0,
+        use_background_color = OFF,
+        matte_fraction = 0.0,
+        psys_emission = OFF,
+        glow_intensity = 0.0,
+        hide_glow_source = OFF,
+        refractive_index = 1.6,
+        reflection_limit = 1,
+        refraction_limit = 6,
+        shadow_level_limit = 0,
+        surface_width = 0.0,
+        transparency_shade = 0.0,
+        transparency_depth = 0.0,
+        chromatic_abberation = 0.0,
+        refraction_jitter = 0.0,
+        refraction_samples = 0,
+        respect_reflection_map = OFF,
+        use_fill_color = ON,
+        fill_color = (255.0, 255.0, 255.0),
+        u_patch_lines = 0,
+        v_patch_lines = 0,
+        density = 1.0,
+        elasticity = 0.707,
+        friction = 0.0,
+        drag_coeff = 0.5
+);
+
+texture omnifontfile (
+        procedure = file,
+        rgbout = (222.383728, 11.522475, 11.522475),
+        active = ON,
+        image = "/matt/mgilmore/user_data/NBAonNBC/pix/omnifont.tif",
+        use_extension = OFF,
+        frame_extension = 1,
+        filter =  BLEND_FILTER,
+        cache = OFF,
+        rgbmult = (1.0, 1.0, 1.0),
+        rgboffset = (0.0, 0.0, 0.0),
+        blurmult = 0.0,
+        bluroffset = 0.0,
+        rotate = 0.0,
+        urepeat = 1.0,
+        vrepeat = 1.0,
+        uoffset = 0.0,
+        voffset = 0.0,
+        mirror = OFF,
+        stagger = OFF,
+        worldspace = OFF,
+        chord_length = OFF,
+        ucoverage = 1.0,
+        vcoverage = 1.0,
+        utranslate = 0.0,
+        vtranslate = 0.0,
+        uwrap = ON,
+        vwrap = ON,
+        invert = OFF
+);
+
+shader BigNumbers ( model = lambert,
+        diffuse = 0.8,
+        color = omnifontfile,
+        incandescence = (0.0, 0.0, 0.0),
+        transparency = (0.0, 0.0, 0.0),
+        shading_map = (0.0, 0.0, 0.0),
+        translucence = 0.0,
+        translucence_depth = 0.5,
+        opacity_depth = 0.0,
+        use_background_color = OFF,
+        matte_fraction = 0.0,
+        psys_emission = OFF,
+        glow_intensity = 0.0,
+        hide_glow_source = OFF,
+        refractive_index = 1.6,
+        reflection_limit = 1,
+        refraction_limit = 6,
+        shadow_level_limit = 0,
+        surface_width = 0.0,
+        transparency_shade = 0.0,
+        transparency_depth = 0.0,
+        chromatic_abberation = 0.0,
+        refraction_jitter = 0.0,
+        refraction_samples = 0,
+        respect_reflection_map = OFF,
+        use_fill_color = ON,
+        fill_color = (255.0, 255.0, 255.0),
+        u_patch_lines = 0,
+        v_patch_lines = 0,
+        density = 1.0,
+        elasticity = 0.707,
+        friction = 0.0,
+        drag_coeff = 0.5
+);
+
+texture hometeamfile (
+        procedure = file,
+        rgbout = (0.0, 150.0, 255.0),
+        active = ON,
+        image = "/matt/mgilmore/user_data/NBAonNBC/pix/jumbo/mintag.tif",
+        use_extension = OFF,
+        frame_extension = 1,
+        filter =  BLEND_FILTER,
+        cache = OFF,
+        rgbmult = (1.0, 1.0, 1.0),
+        rgboffset = (0.0, 0.0, 0.0),
+        blurmult = 1.0,
+        bluroffset = 0.0,
+        rotate = 0.0,
+        urepeat = 1.0,
+        vrepeat = 1.0,
+        uoffset = 0.0,
+        voffset = 0.0,
+        mirror = OFF,
+        stagger = OFF,
+        worldspace = OFF,
+        chord_length = OFF,
+        ucoverage = 1.0,
+        vcoverage = 1.0,
+        utranslate = 0.0,
+        vtranslate = 0.0,
+        uwrap = ON,
+        vwrap = ON,
+        invert = OFF
+);
+
+shader hometeam ( model = lambert,
+        diffuse = 0.8,
+        color = hometeamfile,
+        incandescence = (0.0, 0.0, 0.0),
+        transparency = (0.0, 0.0, 0.0),
+        shading_map = (0.0, 0.0, 0.0),
+        translucence = 0.0,
+        translucence_depth = 0.5,
+        opacity_depth = 0.0,
+        use_background_color = OFF,
+        matte_fraction = 0.0,
+        psys_emission = OFF,
+        glow_intensity = 0.0,
+        hide_glow_source = OFF,
+        refractive_index = 1.6,
+        reflection_limit = 1,
+        refraction_limit = 6,
+        shadow_level_limit = 0,
+        surface_width = 0.0,
+        transparency_shade = 0.0,
+        transparency_depth = 0.0,
+        chromatic_abberation = 0.0,
+        refraction_jitter = 0.0,
+        refraction_samples = 0,
+        respect_reflection_map = OFF,
+        use_fill_color = ON,
+        fill_color = (255.0, 255.0, 255.0),
+        u_patch_lines = 0,
+        v_patch_lines = 0,
+        density = 1.0,
+        elasticity = 0.707,
+        friction = 0.0,
+        drag_coeff = 0.5
+);
+
+texture JumboScreenFIle (
+        procedure = file,
+        rgbout = (222.383728, 11.522475, 11.522475),
+        active = ON,
+        image = "/matt/mgilmore/user_data/NBAonNBC/pix/jumbo/phojumbo.tif",
+        use_extension = OFF,
+        frame_extension = 1,
+        filter =  BLEND_FILTER,
+        cache = OFF,
+        rgbmult = (1.0, 1.0, 1.0),
+        rgboffset = (0.0, 0.0, 0.0),
+        blurmult = 1.0,
+        bluroffset = 0.0,
+        rotate = 0.0,
+        urepeat = 1.0,
+        vrepeat = 1.0,
+        uoffset = 0.0,
+        voffset = 0.0,
+        mirror = OFF,
+        stagger = OFF,
+        worldspace = OFF,
+        chord_length = OFF,
+        ucoverage = 1.0,
+        vcoverage = 1.0,
+        utranslate = 0.0,
+        vtranslate = 0.0,
+        uwrap = ON,
+        vwrap = ON,
+        invert = OFF
+);
+
+shader JumboScreen ( model = lambert,
+        diffuse = 0.8,
+        color = JumboScreenFIle,
+        incandescence = (0.0, 0.0, 0.0),
+        transparency = (0.0, 0.0, 0.0),
+        shading_map = (0.0, 0.0, 0.0),
+        translucence = 0.0,
+        translucence_depth = 0.5,
+        opacity_depth = 0.0,
+        use_background_color = OFF,
+        matte_fraction = 0.0,
+        psys_emission = OFF,
+        glow_intensity = 0.0,
+        hide_glow_source = OFF,
+        refractive_index = 1.6,
+        reflection_limit = 1,
+        refraction_limit = 6,
+        shadow_level_limit = 0,
+        surface_width = 0.0,
+        transparency_shade = 0.0,
+        transparency_depth = 0.0,
+        chromatic_abberation = 0.0,
+        refraction_jitter = 0.0,
+        refraction_samples = 0,
+        respect_reflection_map = OFF,
+        use_fill_color = ON,
+        fill_color = (255.0, 255.0, 255.0),
+        u_patch_lines = 0,
+        v_patch_lines = 0,
+        density = 1.0,
+        elasticity = 0.707,
+        friction = 0.0,
+        drag_coeff = 0.5
+);
+
+texture FACEtexture (
+        procedure = file,
+        rgbout = (222.383728, 11.522475, 11.522475),
+        active = ON,
+        image = "matts/mgilmore/user_data/NBAonNBC/pix/omniface.tif",
+        use_extension = OFF,
+        frame_extension = 1,
+        filter =  BLEND_FILTER,
+        cache = OFF,
+        rgbmult = (1.0, 1.0, 1.0),
+        rgboffset = (0.0, 0.0, 0.0),
+        blurmult = 0.011628,
+        bluroffset = 0.0,
+        rotate = 0.0,
+        urepeat = 1.0,
+        vrepeat = 1.0,
+        uoffset = 0.0,
+        voffset = 0.0,
+        mirror = OFF,
+        stagger = OFF,
+        worldspace = OFF,
+        chord_length = OFF,
+        ucoverage = 1.0,
+        vcoverage = 1.0,
+        utranslate = 0.0,
+        vtranslate = 0.0,
+        uwrap = ON,
+        vwrap = ON,
+        invert = OFF
+);
+
+shader omniface ( model = lambert,
+        diffuse = 0.8,
+        color = FACEtexture,
+        incandescence = (0.0, 0.0, 0.0),
+        transparency = (0.0, 0.0, 0.0),
+        shading_map = (0.0, 0.0, 0.0),
+        translucence = 0.0,
+        translucence_depth = 0.5,
+        opacity_depth = 0.0,
+        use_background_color = OFF,
+        matte_fraction = 0.0,
+        psys_emission = OFF,
+        glow_intensity = 0.0,
+        hide_glow_source = OFF,
+        refractive_index = 1.6,
+        reflection_limit = 1,
+        refraction_limit = 6,
+        shadow_level_limit = 0,
+        surface_width = 0.0,
+        transparency_shade = 0.0,
+        transparency_depth = 0.0,
+        chromatic_abberation = 0.0,
+        refraction_jitter = 0.0,
+        refraction_samples = 0,
+        respect_reflection_map = OFF,
+        use_fill_color = ON,
+        fill_color = (255.0, 255.0, 255.0),
+        u_patch_lines = 0,
+        v_patch_lines = 0,
+        density = 1.0,
+        elasticity = 0.707,
+        friction = 0.0,
+        drag_coeff = 0.5
+);
+
+texture omnibitsFILE (
+        procedure = file,
+        rgbout = (222.383728, 11.522475, 11.522475),
+        active = ON,
+        image = "matt/mgilmore/user_data/NBAonNBC/pix/omnibits.tif",
+        use_extension = OFF,
+        frame_extension = 1,
+        filter =  BLEND_FILTER,
+        cache = OFF,
+        rgbmult = (1.0, 1.0, 1.0),
+        rgboffset = (0.0, 0.0, 0.0),
+        blurmult = 0.046512,
+        bluroffset = 0.0,
+        rotate = 0.0,
+        urepeat = 1.0,
+        vrepeat = 1.0,
+        uoffset = 0.0,
+        voffset = 0.0,
+        mirror = OFF,
+        stagger = OFF,
+        worldspace = OFF,
+        chord_length = OFF,
+        ucoverage = 1.0,
+        vcoverage = 1.0,
+        utranslate = 0.0,
+        vtranslate = 0.0,
+        uwrap = ON,
+        vwrap = ON,
+        invert = OFF
+);
+
+shader omniBits ( model = blinn,
+        diffuse = 0.8,
+        specular = (0.5, 0.5, 0.5),
+        specular_rolloff = 0.3,
+        eccentricity = 0.27828,
+        reflectivity = 0.5,
+        reflect_background = OFF,
+        color = omnibitsFILE,
+        incandescence = (0.0, 0.0, 0.0),
+        transparency = (0.0, 0.0, 0.0),
+        shading_map = (0.0, 0.0, 0.0),
+        translucence = 0.0,
+        translucence_depth = 0.5,
+        opacity_depth = 0.0,
+        use_background_color = OFF,
+        matte_fraction = 0.0,
+        psys_emission = OFF,
+        glow_intensity = 0.0,
+        hide_glow_source = OFF,
+        refractive_index = 1.6,
+        reflection_limit = 1,
+        refraction_limit = 6,
+        shadow_level_limit = 0,
+        surface_width = 0.0,
+        transparency_shade = 0.0,
+        transparency_depth = 0.0,
+        chromatic_abberation = 0.0,
+        refraction_jitter = 0.0,
+        refraction_samples = 0,
+        respect_reflection_map = OFF,
+        use_fill_color = ON,
+        fill_color = (255.0, 255.0, 255.0),
+        u_patch_lines = 0,
+        v_patch_lines = 0,
+        density = 1.0,
+        elasticity = 0.707,
+        friction = 0.0,
+        drag_coeff = 0.5
+);
+
+polyset jumbotron (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (omniface ),
+	shader = (omniBits ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.369231, 7.551756, -1.360844), 1)),
+			(cv((1.369231, 7.551756, -1.360844), 1)),
+			(cv((1.369231, 10.223221, -1.962884), 1)),
+			(cv((-1.369231, 10.223221, -1.962884), 1)),
+			(cv((-1.369231, 7.551756, 1.369231), 1)),
+			(cv((0.0, 7.170888, 0.0), 1)),
+			(cv((-1.369231, 7.551756, -1.369231), 1)),
+			(cv((1.369231, 7.551756, -1.369231), 1)),
+			(cv((1.369231, 7.551756, 1.369231), 1)),
+			(cv((-1.971272, 10.223221, 1.377619), 1)),
+			(cv((-1.369231, 10.223221, 1.97966), 1)),
+			(cv((-1.369231, 7.551756, 1.377619), 1)),
+			(cv((1.369231, 10.223221, 1.97966), 1)),
+			(cv((1.971272, 10.223221, 1.377619), 1)),
+			(cv((1.369231, 7.551756, 1.377619), 1)),
+			(cv((1.369231, 7.551756, 1.377619), 1)),
+			(cv((-1.369231, 7.551756, 1.377619), 1)),
+			(cv((-1.369231, 10.223221, 1.97966), 1)),
+			(cv((1.369231, 10.223221, 1.97966), 1)),
+			(cv((1.971272, 10.223221, -1.360844), 1)),
+			(cv((1.369231, 10.223221, -1.962884), 1)),
+			(cv((1.369231, 7.551756, -1.360844), 1)),
+			(cv((-1.369231, 10.223221, -1.962884), 1)),
+			(cv((-1.971272, 10.223221, -1.360844), 1)),
+			(cv((-1.369231, 7.551756, -1.360844), 1)),
+			(cv((1.369231, 7.551756, -1.360844), 1)),
+			(cv((1.369231, 7.551756, 1.377619), 1)),
+			(cv((1.971272, 10.223221, 1.377619), 1)),
+			(cv((1.971272, 10.223221, -1.360844), 1)),
+			(cv((-1.369231, 7.551756, 1.377619), 1)),
+			(cv((-1.369231, 7.551756, -1.360844), 1)),
+			(cv((-1.971272, 10.223221, -1.360844), 1)),
+			(cv((-1.971272, 10.223221, 1.377619), 1)),
+			(cv((-1.516587, 10.57375, -1.507297), 1)),
+			(cv((1.516587, 10.57375, -1.507297), 1)),
+			(cv((1.369231, 10.223221, -1.962884), 1)),
+			(cv((-1.369231, 10.223221, -1.962884), 1)),
+			(cv((-1.516587, 10.57375, 1.525878), 1)),
+			(cv((-1.971272, 10.223221, -1.360844), 1)),
+			(cv((1.516587, 10.57375, 1.525878), 1)),
+			(cv((-1.971272, 10.223221, 1.377619), 1)),
+			(cv((-1.369231, 10.223221, 1.97966), 1)),
+			(cv((1.369231, 10.223221, 1.97966), 1)),
+			(cv((1.971272, 10.223221, 1.377619), 1)),
+			(cv((1.971272, 10.223221, -1.360844), 1))	),
+	texture_vertices = (
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.500000, 0.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.500000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.500000, 0.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.500000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.500000, 0.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.989636, 0.992326 ),
+			st( 0.989636, 0.992326 ),
+			st( 0.066068, 0.865874 ),
+			st( 0.498726, -0.001515 ),
+			st( 0.500000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.002591, 0.988040 ),
+			st( 0.005809, 0.987002 ),
+			st( 0.004211, 0.992737 ),
+			st( 0.500000, 0.000000 ),
+			st( 0.987046, 0.990183 ),
+			st( 0.987046, 0.990183 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.060886, 0.864975 ),
+			st( 0.060886, 0.864975 ),
+			st( 0.769410, 0.534914 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.924864, 0.862832 ),
+			st( 0.227999, 0.534914 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.928750, 0.865874 ),
+			st( 0.985189, 0.989458 ),
+			st( 0.988384, 0.992326 ),
+			st( 0.928750, 0.865874 ),
+			st( 0.500000, 0.000000 ),
+			st( 0.060886, 0.868017 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.769410, 0.534914 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.500324, 0.004221 ),
+			st( 0.500000, 0.000000 ),
+			st( 0.930046, 0.868018 ),
+			st( 0.930046, 0.868018 ),
+			st( 0.001295, 0.990183 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.990932, 1.000000 ),
+			st( 0.229294, 0.534914 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.769410, 0.534914 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.227999, 0.534914 ),
+			st( 0.993523, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.769410, 0.534914 ),
+			st( 0.059591, 0.864975 ),
+			st( 0.059591, 0.864975 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.229294, 0.534914 ),
+			st( 0.927455, 0.862832 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 ),
+		polygon ((4, 5, 6),(4, 5, 6), 1 ),
+		polygon ((6, 5, 7),(6, 5, 7), 1 ),
+		polygon ((7, 5, 8),(7, 5, 8), 1 ),
+		polygon ((8, 5, 4),(8, 5, 4), 1 ),
+		polygon ((9, 10, 11),(9, 10, 11), 1 ),
+		polygon ((12, 13, 14),(12, 13, 14), 1 ),
+		polygon ((15, 16, 17),(15, 16, 17), 0 ),
+		polygon ((17, 18, 15),(17, 18, 15), 0 ),
+		polygon ((19, 20, 21),(19, 20, 21), 1 ),
+		polygon ((22, 23, 24),(22, 23, 24), 1 ),
+		polygon ((25, 26, 27),(25, 26, 27), 0 ),
+		polygon ((27, 28, 25),(27, 28, 25), 0 ),
+		polygon ((29, 30, 31),(29, 30, 31), 0 ),
+		polygon ((31, 32, 29),(31, 32, 29), 0 ),
+		polygon ((35, 34, 33),(47, 40, 34), 1 ),
+		polygon ((33, 36, 35),(35, 51, 48), 1 ),
+		polygon ((38, 33, 37),(60, 36, 54), 1 ),
+		polygon ((34, 37, 33),(41, 55, 37), 1 ),
+		polygon ((39, 37, 34),(63, 56, 42), 1 ),
+		polygon ((37, 40, 38),(57, 69, 60), 1 ),
+		polygon ((37, 41, 40),(58, 72, 70), 1 ),
+		polygon ((39, 43, 42),(64, 79, 76), 1 ),
+		polygon ((41, 37, 39),(73, 59, 65), 1 ),
+		polygon ((39, 42, 41),(66, 77, 74), 1 ),
+		polygon ((34, 35, 44),(43, 49, 83), 1 ),
+		polygon ((33, 38, 36),(38, 61, 52), 1 ),
+		polygon ((43, 39, 34),(80, 67, 44), 1 ),
+		polygon ((34, 44, 43),(45, 84, 81), 1 )
+	)
+); /* end of polyset 'jumbotron' */
+
+polyset Jumbo_Support (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (support ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-3.045082, 16.346147, 0.8596), 1)),
+			(cv((-1.329069, 10.57375, 0.8596), 1)),
+			(cv((-1.329069, 10.57375, 0.664096), 1)),
+			(cv((-3.045082, 16.346147, 0.664096), 1)),
+			(cv((-3.045082, 16.346147, -0.867944), 1)),
+			(cv((-1.329069, 10.57375, -0.867944), 1)),
+			(cv((-1.150328, 10.57375, -0.867944), 1)),
+			(cv((-2.866341, 16.425354, -0.867944), 1)),
+			(cv((-3.045082, 16.346147, 0.664096), 1)),
+			(cv((-1.329069, 10.57375, 0.664096), 1)),
+			(cv((-1.150328, 10.57375, 0.664096), 1)),
+			(cv((-2.866341, 16.425354, 0.664096), 1)),
+			(cv((-1.150328, 10.57375, 0.8596), 1)),
+			(cv((-1.329069, 10.57375, 0.8596), 1)),
+			(cv((-3.045082, 16.346147, 0.8596), 1)),
+			(cv((-2.866341, 16.425354, 0.8596), 1)),
+			(cv((-1.150328, 10.57375, -0.672439), 1)),
+			(cv((-1.329069, 10.57375, -0.672439), 1)),
+			(cv((-3.045082, 16.346147, -0.672439), 1)),
+			(cv((-2.866341, 16.425354, -0.672439), 1)),
+			(cv((-3.045082, 16.346147, -0.672439), 1)),
+			(cv((-1.329069, 10.57375, -0.672439), 1)),
+			(cv((-1.329069, 10.57375, -0.867944), 1)),
+			(cv((-3.045082, 16.346147, -0.867944), 1)),
+			(cv((-0.8596, 16.346147, -3.045082), 1)),
+			(cv((-0.8596, 10.57375, -1.329069), 1)),
+			(cv((-0.664096, 10.57375, -1.329069), 1)),
+			(cv((-0.664096, 16.346147, -3.045082), 1)),
+			(cv((0.867944, 16.346147, -3.045082), 1)),
+			(cv((0.867944, 10.57375, -1.329069), 1)),
+			(cv((0.867944, 10.57375, -1.150328), 1)),
+			(cv((0.867944, 16.425354, -2.866341), 1)),
+			(cv((-0.664096, 16.346147, -3.045082), 1)),
+			(cv((-0.664096, 10.57375, -1.329069), 1)),
+			(cv((-0.664096, 10.57375, -1.150328), 1)),
+			(cv((-0.664096, 16.425354, -2.866341), 1)),
+			(cv((-0.8596, 10.57375, -1.150328), 1)),
+			(cv((-0.8596, 10.57375, -1.329069), 1)),
+			(cv((-0.8596, 16.346147, -3.045082), 1)),
+			(cv((-0.8596, 16.425354, -2.866341), 1)),
+			(cv((0.672439, 10.57375, -1.150328), 1)),
+			(cv((0.672439, 10.57375, -1.329069), 1)),
+			(cv((0.672439, 16.346147, -3.045082), 1)),
+			(cv((0.672439, 16.425354, -2.866341), 1)),
+			(cv((0.672439, 16.346147, -3.045082), 1)),
+			(cv((0.672439, 10.57375, -1.329069), 1)),
+			(cv((0.867944, 10.57375, -1.329069), 1)),
+			(cv((0.867944, 16.346147, -3.045082), 1)),
+			(cv((0.8596, 16.346147, 3.045082), 1)),
+			(cv((0.8596, 10.57375, 1.329069), 1)),
+			(cv((0.664096, 10.57375, 1.329069), 1)),
+			(cv((0.664096, 16.346147, 3.045082), 1)),
+			(cv((-0.867944, 16.346147, 3.045082), 1)),
+			(cv((-0.867944, 10.57375, 1.329069), 1)),
+			(cv((-0.867944, 10.57375, 1.150328), 1)),
+			(cv((-0.867944, 16.425354, 2.866341), 1)),
+			(cv((0.664096, 16.346147, 3.045082), 1)),
+			(cv((0.664096, 10.57375, 1.329069), 1)),
+			(cv((0.664096, 10.57375, 1.150328), 1)),
+			(cv((0.664096, 16.425354, 2.866341), 1)),
+			(cv((0.8596, 10.57375, 1.150328), 1)),
+			(cv((0.8596, 10.57375, 1.329069), 1)),
+			(cv((0.8596, 16.346147, 3.045082), 1)),
+			(cv((0.8596, 16.425354, 2.866341), 1)),
+			(cv((-0.672439, 10.57375, 1.150328), 1)),
+			(cv((-0.672439, 10.57375, 1.329069), 1)),
+			(cv((-0.672439, 16.346147, 3.045082), 1)),
+			(cv((-0.672439, 16.425354, 2.866341), 1)),
+			(cv((-0.672439, 16.346147, 3.045082), 1)),
+			(cv((-0.672439, 10.57375, 1.329069), 1)),
+			(cv((-0.867944, 10.57375, 1.329069), 1)),
+			(cv((-0.867944, 16.346147, 3.045082), 1)),
+			(cv((3.045082, 16.346147, -0.8596), 1)),
+			(cv((1.329069, 10.57375, -0.8596), 1)),
+			(cv((1.329069, 10.57375, -0.664096), 1)),
+			(cv((3.045082, 16.346147, -0.664096), 1)),
+			(cv((3.045082, 16.346147, 0.867944), 1)),
+			(cv((1.329069, 10.57375, 0.867944), 1)),
+			(cv((1.150328, 10.57375, 0.867944), 1)),
+			(cv((2.866341, 16.425354, 0.867944), 1)),
+			(cv((3.045082, 16.346147, -0.664096), 1)),
+			(cv((1.329069, 10.57375, -0.664096), 1)),
+			(cv((1.150328, 10.57375, -0.664096), 1)),
+			(cv((2.866341, 16.425354, -0.664096), 1)),
+			(cv((1.150328, 10.57375, -0.8596), 1)),
+			(cv((1.329069, 10.57375, -0.8596), 1)),
+			(cv((3.045082, 16.346147, -0.8596), 1)),
+			(cv((2.866341, 16.425354, -0.8596), 1)),
+			(cv((1.150328, 10.57375, 0.672439), 1)),
+			(cv((1.329069, 10.57375, 0.672439), 1)),
+			(cv((3.045082, 16.346147, 0.672439), 1)),
+			(cv((2.866341, 16.425354, 0.672439), 1)),
+			(cv((3.045082, 16.346147, 0.672439), 1)),
+			(cv((1.329069, 10.57375, 0.672439), 1)),
+			(cv((1.329069, 10.57375, 0.867944), 1)),
+			(cv((3.045082, 16.346147, 0.867944), 1))	),
+	texture_vertices = (
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 ),
+		polygon ((4, 5, 6),(4, 5, 6), 0 ),
+		polygon ((6, 7, 4),(6, 7, 4), 0 ),
+		polygon ((8, 9, 10),(8, 9, 10), 0 ),
+		polygon ((10, 11, 8),(10, 11, 8), 0 ),
+		polygon ((12, 13, 14),(12, 13, 14), 0 ),
+		polygon ((14, 15, 12),(14, 15, 12), 0 ),
+		polygon ((16, 17, 18),(16, 17, 18), 0 ),
+		polygon ((18, 19, 16),(18, 19, 16), 0 ),
+		polygon ((20, 21, 22),(20, 21, 22), 0 ),
+		polygon ((22, 23, 20),(22, 23, 20), 0 ),
+		polygon ((24, 25, 26),(24, 25, 26), 0 ),
+		polygon ((26, 27, 24),(26, 27, 24), 0 ),
+		polygon ((28, 29, 30),(28, 29, 30), 0 ),
+		polygon ((30, 31, 28),(30, 31, 28), 0 ),
+		polygon ((32, 33, 34),(32, 33, 34), 0 ),
+		polygon ((34, 35, 32),(34, 35, 32), 0 ),
+		polygon ((36, 37, 38),(36, 37, 38), 0 ),
+		polygon ((38, 39, 36),(38, 39, 36), 0 ),
+		polygon ((40, 41, 42),(40, 41, 42), 0 ),
+		polygon ((42, 43, 40),(42, 43, 40), 0 ),
+		polygon ((44, 45, 46),(44, 45, 46), 0 ),
+		polygon ((46, 47, 44),(46, 47, 44), 0 ),
+		polygon ((48, 49, 50),(48, 49, 50), 0 ),
+		polygon ((50, 51, 48),(50, 51, 48), 0 ),
+		polygon ((52, 53, 54),(52, 53, 54), 0 ),
+		polygon ((54, 55, 52),(54, 55, 52), 0 ),
+		polygon ((56, 57, 58),(56, 57, 58), 0 ),
+		polygon ((58, 59, 56),(58, 59, 56), 0 ),
+		polygon ((60, 61, 62),(60, 61, 62), 0 ),
+		polygon ((62, 63, 60),(62, 63, 60), 0 ),
+		polygon ((64, 65, 66),(64, 65, 66), 0 ),
+		polygon ((66, 67, 64),(66, 67, 64), 0 ),
+		polygon ((68, 69, 70),(68, 69, 70), 0 ),
+		polygon ((70, 71, 68),(70, 71, 68), 0 ),
+		polygon ((72, 73, 74),(72, 73, 74), 0 ),
+		polygon ((74, 75, 72),(74, 75, 72), 0 ),
+		polygon ((76, 77, 78),(76, 77, 78), 0 ),
+		polygon ((78, 79, 76),(78, 79, 76), 0 ),
+		polygon ((80, 81, 82),(80, 81, 82), 0 ),
+		polygon ((82, 83, 80),(82, 83, 80), 0 ),
+		polygon ((84, 85, 86),(84, 85, 86), 0 ),
+		polygon ((86, 87, 84),(86, 87, 84), 0 ),
+		polygon ((88, 89, 90),(88, 89, 90), 0 ),
+		polygon ((90, 91, 88),(90, 91, 88), 0 ),
+		polygon ((92, 93, 94),(92, 93, 94), 0 ),
+		polygon ((94, 95, 92),(94, 95, 92), 0 )
+	)
+); /* end of polyset 'Jumbo_Support' */
+
+polyset away_player2_tens_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.554464, 8.299426, -0.703005), 1)),
+			(cv((1.59658, 8.48185, -0.703642), 1)),
+			(cv((1.595427, 8.481693, -0.824736), 1)),
+			(cv((1.553311, 8.29927, -0.8241), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player2_tens_east' */
+
+polyset away_player2_ones_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.554499, 8.299645, -0.831264), 1)),
+			(cv((1.596615, 8.482068, -0.831901), 1)),
+			(cv((1.595462, 8.481911, -0.952995), 1)),
+			(cv((1.553346, 8.299488, -0.952358), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player2_ones_east' */
+
+polyset away_points2_tens_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.554464, 8.299426, -1.058476), 1)),
+			(cv((1.59658, 8.48185, -1.059113), 1)),
+			(cv((1.595427, 8.481693, -1.180207), 1)),
+			(cv((1.553311, 8.29927, -1.17957), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points2_tens_east' */
+
+polyset away_points2_ones_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.554499, 8.299645, -1.186734), 1)),
+			(cv((1.596615, 8.482068, -1.187371), 1)),
+			(cv((1.595462, 8.481911, -1.308465), 1)),
+			(cv((1.553346, 8.299488, -1.307828), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points2_ones_east' */
+
+polyset away_player3_tens_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.50337, 8.06893, -0.703005), 1)),
+			(cv((1.545485, 8.251353, -0.703642), 1)),
+			(cv((1.544333, 8.251196, -0.824736), 1)),
+			(cv((1.502217, 8.068773, -0.8241), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player3_tens_east' */
+
+polyset away_player3_ones_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.503404, 8.069148, -0.831264), 1)),
+			(cv((1.54552, 8.251571, -0.831901), 1)),
+			(cv((1.544367, 8.251414, -0.952995), 1)),
+			(cv((1.502252, 8.068991, -0.952358), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player3_ones_east' */
+
+polyset away_points3_tens_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.50337, 8.06893, -1.058476), 1)),
+			(cv((1.545485, 8.251353, -1.059113), 1)),
+			(cv((1.544333, 8.251196, -1.180207), 1)),
+			(cv((1.502217, 8.068773, -1.17957), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points3_tens_east' */
+
+polyset away_points3_ones_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.503404, 8.069148, -1.186734), 1)),
+			(cv((1.54552, 8.251571, -1.187371), 1)),
+			(cv((1.544367, 8.251414, -1.308465), 1)),
+			(cv((1.502252, 8.068991, -1.307828), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points3_ones_east' */
+
+polyset away_player1_tens_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.603003, 8.527362, -0.703005), 1)),
+			(cv((1.645119, 8.709785, -0.703642), 1)),
+			(cv((1.643967, 8.709629, -0.824736), 1)),
+			(cv((1.601851, 8.527206, -0.8241), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player1_tens_east' */
+
+polyset away_player1_ones_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.603038, 8.52758, -0.831264), 1)),
+			(cv((1.645154, 8.710004, -0.831901), 1)),
+			(cv((1.644001, 8.709847, -0.952995), 1)),
+			(cv((1.601885, 8.527424, -0.952358), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player1_ones_east' */
+
+polyset away_points1_tens_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.603003, 8.527362, -1.058476), 1)),
+			(cv((1.645119, 8.709785, -1.059113), 1)),
+			(cv((1.643967, 8.709629, -1.180207), 1)),
+			(cv((1.601851, 8.527206, -1.17957), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points1_tens_east' */
+
+polyset away_points1_ones_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.603038, 8.52758, -1.186734), 1)),
+			(cv((1.645154, 8.710004, -1.187371), 1)),
+			(cv((1.644001, 8.709847, -1.308465), 1)),
+			(cv((1.601885, 8.527424, -1.307828), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points1_ones_east' */
+
+polyset awaytag_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (awayteam ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.897573, 9.716006, -1.331965), 1)),
+			(cv((1.862836, 9.561866, -1.331965), 1)),
+			(cv((1.862836, 9.561866, -0.699943), 1)),
+			(cv((1.897573, 9.716006, -0.699943), 1))	),
+	texture_vertices = (
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'awaytag_east' */
+
+polyset home_player2_tens_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.554464, 8.299426, 1.322366), 1)),
+			(cv((1.59658, 8.48185, 1.321729), 1)),
+			(cv((1.595427, 8.481693, 1.200635), 1)),
+			(cv((1.553311, 8.29927, 1.201271), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player2_tens_east' */
+
+polyset home_player2_ones_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.554499, 8.299645, 1.194107), 1)),
+			(cv((1.596615, 8.482068, 1.19347), 1)),
+			(cv((1.595462, 8.481911, 1.072376), 1)),
+			(cv((1.553346, 8.299488, 1.073013), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player2_ones_east' */
+
+polyset home_points2_tens_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.554464, 8.299426, 0.966895), 1)),
+			(cv((1.59658, 8.48185, 0.966258), 1)),
+			(cv((1.595427, 8.481693, 0.845164), 1)),
+			(cv((1.553311, 8.29927, 0.845801), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points2_tens_east' */
+
+polyset home_points2_ones_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.554499, 8.299645, 0.838637), 1)),
+			(cv((1.596615, 8.482068, 0.838), 1)),
+			(cv((1.595462, 8.481911, 0.716906), 1)),
+			(cv((1.553346, 8.299488, 0.717543), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points2_ones_east' */
+
+polyset seconds_tens_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.79623, 9.346299, -0.371075), 1)),
+			(cv((1.79623, 9.346299, -0.039115), 1)),
+			(cv((1.932779, 9.952212, -0.039115), 1)),
+			(cv((1.932779, 9.952212, -0.371075), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'seconds_tens_east' */
+
+polyset minutes_tens_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.79623, 9.349617, 0.338047), 1)),
+			(cv((1.79623, 9.349617, 0.670007), 1)),
+			(cv((1.932779, 9.955531, 0.670007), 1)),
+			(cv((1.932779, 9.955531, 0.338047), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'minutes_tens_east' */
+
+polyset seconds_ones_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.79623, 9.346299, -0.658807), 1)),
+			(cv((1.79623, 9.346299, -0.326847), 1)),
+			(cv((1.932779, 9.952212, -0.326847), 1)),
+			(cv((1.932779, 9.952212, -0.658807), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'seconds_ones_east' */
+
+polyset minutes_ones_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.79623, 9.346299, 0.043688), 1)),
+			(cv((1.79623, 9.346299, 0.375648), 1)),
+			(cv((1.932779, 9.952212, 0.375648), 1)),
+			(cv((1.932779, 9.952212, 0.043688), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'minutes_ones_east' */
+
+polyset hometag_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (hometeam ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.897573, 9.716006, 0.702664), 1)),
+			(cv((1.862836, 9.561866, 0.702664), 1)),
+			(cv((1.862836, 9.561866, 1.334686), 1)),
+			(cv((1.897573, 9.716006, 1.334686), 1))	),
+	texture_vertices = (
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'hometag_east' */
+
+polyset home_player1_tens_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.603003, 8.527362, 1.322366), 1)),
+			(cv((1.645119, 8.709785, 1.321729), 1)),
+			(cv((1.643967, 8.709629, 1.200635), 1)),
+			(cv((1.601851, 8.527206, 1.201271), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player1_tens_east' */
+
+polyset home_player1_ones_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.603038, 8.52758, 1.194107), 1)),
+			(cv((1.645154, 8.710004, 1.19347), 1)),
+			(cv((1.644001, 8.709847, 1.072376), 1)),
+			(cv((1.601885, 8.527424, 1.073013), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player1_ones_east' */
+
+polyset home_points1_tens_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.603003, 8.527362, 0.966895), 1)),
+			(cv((1.645119, 8.709785, 0.966258), 1)),
+			(cv((1.643967, 8.709629, 0.845164), 1)),
+			(cv((1.601851, 8.527206, 0.845801), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points1_tens_east' */
+
+polyset home_points1_ones_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.603038, 8.52758, 0.838637), 1)),
+			(cv((1.645154, 8.710004, 0.838), 1)),
+			(cv((1.644001, 8.709847, 0.716906), 1)),
+			(cv((1.601885, 8.527424, 0.717543), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points1_ones_east' */
+
+polyset home_player3_tens_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.50337, 8.06893, 1.322366), 1)),
+			(cv((1.545485, 8.251353, 1.321729), 1)),
+			(cv((1.544333, 8.251196, 1.200635), 1)),
+			(cv((1.502217, 8.068773, 1.201271), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player3_tens_east' */
+
+polyset home_player3_ones_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.503404, 8.069148, 1.194107), 1)),
+			(cv((1.54552, 8.251571, 1.19347), 1)),
+			(cv((1.544367, 8.251414, 1.072376), 1)),
+			(cv((1.502252, 8.068991, 1.073013), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player3_ones_east' */
+
+polyset home_points3_tens_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.50337, 8.06893, 0.966895), 1)),
+			(cv((1.545485, 8.251353, 0.966258), 1)),
+			(cv((1.544333, 8.251196, 0.845164), 1)),
+			(cv((1.502217, 8.068773, 0.845801), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points3_tens_east' */
+
+polyset home_points3_ones_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.503404, 8.069148, 0.838637), 1)),
+			(cv((1.54552, 8.251571, 0.838), 1)),
+			(cv((1.544367, 8.251414, 0.716906), 1)),
+			(cv((1.502252, 8.068991, 0.717543), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points3_ones_east' */
+
+polyset home_tens_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.696172, 8.919786, 0.975183), 1)),
+			(cv((1.696172, 8.919786, 1.374082), 1)),
+			(cv((1.833881, 9.530847, 1.374082), 1)),
+			(cv((1.833881, 9.530847, 0.975183), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_tens_east' */
+
+polyset home_ones_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.696172, 8.919786, 0.684813), 1)),
+			(cv((1.696172, 8.919786, 1.083713), 1)),
+			(cv((1.833881, 9.530847, 1.083713), 1)),
+			(cv((1.833881, 9.530847, 0.684813), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_ones_east' */
+
+polyset awayscore_tens_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.696172, 8.919786, -1.056659), 1)),
+			(cv((1.696172, 8.919786, -0.678992), 1)),
+			(cv((1.833881, 9.530847, -0.678992), 1)),
+			(cv((1.833881, 9.530847, -1.056659), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'awayscore_tens_east' */
+
+polyset awayscore_ones_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.696172, 8.919786, -1.35697), 1)),
+			(cv((1.696172, 8.919786, -0.979303), 1)),
+			(cv((1.833881, 9.530847, -0.979303), 1)),
+			(cv((1.833881, 9.530847, -1.35697), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'awayscore_ones_east' */
+
+polyset logo_screen_east (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (JumboScreen ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.506853, 8.012233, -0.668428), 1)),
+			(cv((1.506853, 8.012233, 0.668428), 1)),
+			(cv((1.819855, 9.389915, 0.668428), 1)),
+			(cv((1.819855, 9.389915, -0.668428), 1))	),
+	texture_vertices = (
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'logo_screen_east' */
+
+polyset away_player2_tens_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.554464, 8.299426, 0.703005), 1)),
+			(cv((-1.59658, 8.48185, 0.703642), 1)),
+			(cv((-1.595427, 8.481693, 0.824736), 1)),
+			(cv((-1.553311, 8.29927, 0.8241), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player2_tens_west' */
+
+polyset away_player2_ones_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.554499, 8.299645, 0.831264), 1)),
+			(cv((-1.596615, 8.482068, 0.831901), 1)),
+			(cv((-1.595462, 8.481911, 0.952995), 1)),
+			(cv((-1.553346, 8.299488, 0.952358), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player2_ones_west' */
+
+polyset away_points2_tens_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.554464, 8.299426, 1.058476), 1)),
+			(cv((-1.59658, 8.48185, 1.059113), 1)),
+			(cv((-1.595427, 8.481693, 1.180207), 1)),
+			(cv((-1.553311, 8.29927, 1.17957), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points2_tens_west' */
+
+polyset away_points2_ones_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.554499, 8.299645, 1.186734), 1)),
+			(cv((-1.596615, 8.482068, 1.187371), 1)),
+			(cv((-1.595462, 8.481911, 1.308465), 1)),
+			(cv((-1.553346, 8.299488, 1.307828), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points2_ones_west' */
+
+polyset away_player3_tens_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.50337, 8.06893, 0.703005), 1)),
+			(cv((-1.545485, 8.251353, 0.703642), 1)),
+			(cv((-1.544333, 8.251196, 0.824736), 1)),
+			(cv((-1.502217, 8.068773, 0.8241), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player3_tens_west' */
+
+polyset away_player3_ones_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.503404, 8.069148, 0.831264), 1)),
+			(cv((-1.54552, 8.251571, 0.831901), 1)),
+			(cv((-1.544367, 8.251414, 0.952995), 1)),
+			(cv((-1.502252, 8.068991, 0.952358), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player3_ones_west' */
+
+polyset away_points3_tens_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.50337, 8.06893, 1.058476), 1)),
+			(cv((-1.545485, 8.251353, 1.059113), 1)),
+			(cv((-1.544333, 8.251196, 1.180207), 1)),
+			(cv((-1.502217, 8.068773, 1.17957), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points3_tens_west' */
+
+polyset away_points3_ones_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.503404, 8.069148, 1.186734), 1)),
+			(cv((-1.54552, 8.251571, 1.187371), 1)),
+			(cv((-1.544367, 8.251414, 1.308465), 1)),
+			(cv((-1.502252, 8.068991, 1.307828), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points3_ones_west' */
+
+polyset away_player1_tens_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.603003, 8.527362, 0.703005), 1)),
+			(cv((-1.645119, 8.709785, 0.703642), 1)),
+			(cv((-1.643967, 8.709629, 0.824736), 1)),
+			(cv((-1.601851, 8.527206, 0.8241), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player1_tens_west' */
+
+polyset away_player1_ones_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.603038, 8.52758, 0.831264), 1)),
+			(cv((-1.645154, 8.710004, 0.831901), 1)),
+			(cv((-1.644001, 8.709847, 0.952995), 1)),
+			(cv((-1.601885, 8.527424, 0.952358), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player1_ones_west' */
+
+polyset away_points1_tens_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.603003, 8.527362, 1.058476), 1)),
+			(cv((-1.645119, 8.709785, 1.059113), 1)),
+			(cv((-1.643967, 8.709629, 1.180207), 1)),
+			(cv((-1.601851, 8.527206, 1.17957), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points1_tens_west' */
+
+polyset away_points1_ones_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.603038, 8.52758, 1.186734), 1)),
+			(cv((-1.645154, 8.710004, 1.187371), 1)),
+			(cv((-1.644001, 8.709847, 1.308465), 1)),
+			(cv((-1.601885, 8.527424, 1.307828), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points1_ones_west' */
+
+polyset awaytag_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (awayteam ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.897573, 9.716006, 1.331965), 1)),
+			(cv((-1.862836, 9.561866, 1.331965), 1)),
+			(cv((-1.862836, 9.561866, 0.699943), 1)),
+			(cv((-1.897573, 9.716006, 0.699943), 1))	),
+	texture_vertices = (
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'awaytag_west' */
+
+polyset home_player2_tens_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.554464, 8.299426, -1.322366), 1)),
+			(cv((-1.59658, 8.48185, -1.321729), 1)),
+			(cv((-1.595427, 8.481693, -1.200635), 1)),
+			(cv((-1.553311, 8.29927, -1.201271), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player2_tens_west' */
+
+polyset home_player2_ones_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.554499, 8.299645, -1.194107), 1)),
+			(cv((-1.596615, 8.482068, -1.19347), 1)),
+			(cv((-1.595462, 8.481911, -1.072376), 1)),
+			(cv((-1.553346, 8.299488, -1.073013), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player2_ones_west' */
+
+polyset home_points2_tens_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.554464, 8.299426, -0.966895), 1)),
+			(cv((-1.59658, 8.48185, -0.966258), 1)),
+			(cv((-1.595427, 8.481693, -0.845164), 1)),
+			(cv((-1.553311, 8.29927, -0.845801), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points2_tens_west' */
+
+polyset home_points2_ones_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.554499, 8.299645, -0.838637), 1)),
+			(cv((-1.596615, 8.482068, -0.838), 1)),
+			(cv((-1.595462, 8.481911, -0.716906), 1)),
+			(cv((-1.553346, 8.299488, -0.717543), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points2_ones_west' */
+
+polyset seconds_tens_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.79623, 9.346299, 0.371075), 1)),
+			(cv((-1.79623, 9.346299, 0.039115), 1)),
+			(cv((-1.932779, 9.952212, 0.039115), 1)),
+			(cv((-1.932779, 9.952212, 0.371075), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'seconds_tens_west' */
+
+polyset minutes_tens_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.79623, 9.349617, -0.338047), 1)),
+			(cv((-1.79623, 9.349617, -0.670007), 1)),
+			(cv((-1.932779, 9.955531, -0.670007), 1)),
+			(cv((-1.932779, 9.955531, -0.338047), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'minutes_tens_west' */
+
+polyset seconds_ones_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.79623, 9.346299, 0.658807), 1)),
+			(cv((-1.79623, 9.346299, 0.326847), 1)),
+			(cv((-1.932779, 9.952212, 0.326847), 1)),
+			(cv((-1.932779, 9.952212, 0.658807), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'seconds_ones_west' */
+
+polyset minutes_ones_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.79623, 9.346299, -0.043688), 1)),
+			(cv((-1.79623, 9.346299, -0.375648), 1)),
+			(cv((-1.932779, 9.952212, -0.375648), 1)),
+			(cv((-1.932779, 9.952212, -0.043688), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'minutes_ones_west' */
+
+polyset hometag_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (hometeam ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.897573, 9.716006, -0.702664), 1)),
+			(cv((-1.862836, 9.561866, -0.702664), 1)),
+			(cv((-1.862836, 9.561866, -1.334686), 1)),
+			(cv((-1.897573, 9.716006, -1.334686), 1))	),
+	texture_vertices = (
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'hometag_west' */
+
+polyset home_player1_tens_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.603003, 8.527362, -1.322366), 1)),
+			(cv((-1.645119, 8.709785, -1.321729), 1)),
+			(cv((-1.643967, 8.709629, -1.200635), 1)),
+			(cv((-1.601851, 8.527206, -1.201271), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player1_tens_west' */
+
+polyset home_player1_ones_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.603038, 8.52758, -1.194107), 1)),
+			(cv((-1.645154, 8.710004, -1.19347), 1)),
+			(cv((-1.644001, 8.709847, -1.072376), 1)),
+			(cv((-1.601885, 8.527424, -1.073013), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player1_ones_west' */
+
+polyset home_points1_tens_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.603003, 8.527362, -0.966895), 1)),
+			(cv((-1.645119, 8.709785, -0.966258), 1)),
+			(cv((-1.643967, 8.709629, -0.845164), 1)),
+			(cv((-1.601851, 8.527206, -0.845801), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points1_tens_west' */
+
+polyset home_points1_ones_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.603038, 8.52758, -0.838637), 1)),
+			(cv((-1.645154, 8.710004, -0.838), 1)),
+			(cv((-1.644001, 8.709847, -0.716906), 1)),
+			(cv((-1.601885, 8.527424, -0.717543), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points1_ones_west' */
+
+polyset home_player3_tens_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.50337, 8.06893, -1.322366), 1)),
+			(cv((-1.545485, 8.251353, -1.321729), 1)),
+			(cv((-1.544333, 8.251196, -1.200635), 1)),
+			(cv((-1.502217, 8.068773, -1.201271), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player3_tens_west' */
+
+polyset home_player3_ones_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.503404, 8.069148, -1.194107), 1)),
+			(cv((-1.54552, 8.251571, -1.19347), 1)),
+			(cv((-1.544367, 8.251414, -1.072376), 1)),
+			(cv((-1.502252, 8.068991, -1.073013), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player3_ones_west' */
+
+polyset home_points3_tens_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.50337, 8.06893, -0.966895), 1)),
+			(cv((-1.545485, 8.251353, -0.966258), 1)),
+			(cv((-1.544333, 8.251196, -0.845164), 1)),
+			(cv((-1.502217, 8.068773, -0.845801), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points3_tens_west' */
+
+polyset home_points3_ones_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.503404, 8.069148, -0.838637), 1)),
+			(cv((-1.54552, 8.251571, -0.838), 1)),
+			(cv((-1.544367, 8.251414, -0.716906), 1)),
+			(cv((-1.502252, 8.068991, -0.717543), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points3_ones_west' */
+
+polyset home_tens_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.696172, 8.919786, -0.975183), 1)),
+			(cv((-1.696172, 8.919786, -1.374082), 1)),
+			(cv((-1.833881, 9.530847, -1.374082), 1)),
+			(cv((-1.833881, 9.530847, -0.975183), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_tens_west' */
+
+polyset home_ones_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.696172, 8.919786, -0.684813), 1)),
+			(cv((-1.696172, 8.919786, -1.083713), 1)),
+			(cv((-1.833881, 9.530847, -1.083713), 1)),
+			(cv((-1.833881, 9.530847, -0.684813), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_ones_west' */
+
+polyset awayscore_tens_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.696172, 8.919786, 1.056659), 1)),
+			(cv((-1.696172, 8.919786, 0.678992), 1)),
+			(cv((-1.833881, 9.530847, 0.678992), 1)),
+			(cv((-1.833881, 9.530847, 1.056659), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'awayscore_tens_west' */
+
+polyset awayscore_ones_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.696172, 8.919786, 1.35697), 1)),
+			(cv((-1.696172, 8.919786, 0.979303), 1)),
+			(cv((-1.833881, 9.530847, 0.979303), 1)),
+			(cv((-1.833881, 9.530847, 1.35697), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'awayscore_ones_west' */
+
+polyset logo_screen_west (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (JumboScreen ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.506853, 8.012233, 0.668428), 1)),
+			(cv((-1.506853, 8.012233, -0.668428), 1)),
+			(cv((-1.819855, 9.389915, -0.668428), 1)),
+			(cv((-1.819855, 9.389915, 0.668428), 1))	),
+	texture_vertices = (
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'logo_screen_west' */
+
+polyset away_player2_tens_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.703005, 8.299426, -1.554464), 1)),
+			(cv((-0.703642, 8.48185, -1.59658), 1)),
+			(cv((-0.824736, 8.481693, -1.595427), 1)),
+			(cv((-0.8241, 8.29927, -1.553311), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player2_tens_north' */
+
+polyset away_player2_ones_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.831264, 8.299645, -1.554499), 1)),
+			(cv((-0.831901, 8.482068, -1.596615), 1)),
+			(cv((-0.952995, 8.481911, -1.595462), 1)),
+			(cv((-0.952358, 8.299488, -1.553346), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player2_ones_north' */
+
+polyset away_points2_tens_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.058476, 8.299426, -1.554464), 1)),
+			(cv((-1.059113, 8.48185, -1.59658), 1)),
+			(cv((-1.180207, 8.481693, -1.595427), 1)),
+			(cv((-1.17957, 8.29927, -1.553311), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points2_tens_north' */
+
+polyset away_points2_ones_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.186734, 8.299645, -1.554499), 1)),
+			(cv((-1.187371, 8.482068, -1.596615), 1)),
+			(cv((-1.308465, 8.481911, -1.595462), 1)),
+			(cv((-1.307828, 8.299488, -1.553346), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points2_ones_north' */
+
+polyset away_player3_tens_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.703005, 8.06893, -1.50337), 1)),
+			(cv((-0.703642, 8.251353, -1.545485), 1)),
+			(cv((-0.824736, 8.251196, -1.544333), 1)),
+			(cv((-0.8241, 8.068773, -1.502217), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player3_tens_north' */
+
+polyset away_player3_ones_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.831264, 8.069148, -1.503404), 1)),
+			(cv((-0.831901, 8.251571, -1.54552), 1)),
+			(cv((-0.952995, 8.251414, -1.544367), 1)),
+			(cv((-0.952358, 8.068991, -1.502252), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player3_ones_north' */
+
+polyset away_points3_tens_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.058476, 8.06893, -1.50337), 1)),
+			(cv((-1.059113, 8.251353, -1.545485), 1)),
+			(cv((-1.180207, 8.251196, -1.544333), 1)),
+			(cv((-1.17957, 8.068773, -1.502217), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points3_tens_north' */
+
+polyset away_points3_ones_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.186734, 8.069148, -1.503404), 1)),
+			(cv((-1.187371, 8.251571, -1.54552), 1)),
+			(cv((-1.308465, 8.251414, -1.544367), 1)),
+			(cv((-1.307828, 8.068991, -1.502252), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points3_ones_north' */
+
+polyset away_player1_tens_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.703005, 8.527362, -1.603003), 1)),
+			(cv((-0.703642, 8.709785, -1.645119), 1)),
+			(cv((-0.824736, 8.709629, -1.643967), 1)),
+			(cv((-0.8241, 8.527206, -1.601851), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player1_tens_north' */
+
+polyset away_player1_ones_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.831264, 8.52758, -1.603038), 1)),
+			(cv((-0.831901, 8.710004, -1.645154), 1)),
+			(cv((-0.952995, 8.709847, -1.644001), 1)),
+			(cv((-0.952358, 8.527424, -1.601885), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player1_ones_north' */
+
+polyset away_points1_tens_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.058476, 8.527362, -1.603003), 1)),
+			(cv((-1.059113, 8.709785, -1.645119), 1)),
+			(cv((-1.180207, 8.709629, -1.643967), 1)),
+			(cv((-1.17957, 8.527206, -1.601851), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points1_tens_north' */
+
+polyset away_points1_ones_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.186734, 8.52758, -1.603038), 1)),
+			(cv((-1.187371, 8.710004, -1.645154), 1)),
+			(cv((-1.308465, 8.709847, -1.644001), 1)),
+			(cv((-1.307828, 8.527424, -1.601885), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points1_ones_north' */
+
+polyset awaytag_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (awayteam ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.331965, 9.716006, -1.897573), 1)),
+			(cv((-1.331965, 9.561866, -1.862836), 1)),
+			(cv((-0.699943, 9.561866, -1.862836), 1)),
+			(cv((-0.699943, 9.716006, -1.897573), 1))	),
+	texture_vertices = (
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'awaytag_north' */
+
+polyset home_player2_tens_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.322366, 8.299426, -1.554464), 1)),
+			(cv((1.321729, 8.48185, -1.59658), 1)),
+			(cv((1.200635, 8.481693, -1.595427), 1)),
+			(cv((1.201271, 8.29927, -1.553311), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player2_tens_north' */
+
+polyset home_player2_ones_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.194107, 8.299645, -1.554499), 1)),
+			(cv((1.19347, 8.482068, -1.596615), 1)),
+			(cv((1.072376, 8.481911, -1.595462), 1)),
+			(cv((1.073013, 8.299488, -1.553346), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player2_ones_north' */
+
+polyset home_points2_tens_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.966895, 8.299426, -1.554464), 1)),
+			(cv((0.966258, 8.48185, -1.59658), 1)),
+			(cv((0.845164, 8.481693, -1.595427), 1)),
+			(cv((0.845801, 8.29927, -1.553311), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points2_tens_north' */
+
+polyset home_points2_ones_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.838637, 8.299645, -1.554499), 1)),
+			(cv((0.838, 8.482068, -1.596615), 1)),
+			(cv((0.716906, 8.481911, -1.595462), 1)),
+			(cv((0.717543, 8.299488, -1.553346), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points2_ones_north' */
+
+polyset seconds_tens_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.371075, 9.346299, -1.79623), 1)),
+			(cv((-0.039115, 9.346299, -1.79623), 1)),
+			(cv((-0.039115, 9.952212, -1.932779), 1)),
+			(cv((-0.371075, 9.952212, -1.932779), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'seconds_tens_north' */
+
+polyset minutes_tens_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.338047, 9.349617, -1.79623), 1)),
+			(cv((0.670007, 9.349617, -1.79623), 1)),
+			(cv((0.670007, 9.955531, -1.932779), 1)),
+			(cv((0.338047, 9.955531, -1.932779), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'minutes_tens_north' */
+
+polyset seconds_ones_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.658807, 9.346299, -1.79623), 1)),
+			(cv((-0.326847, 9.346299, -1.79623), 1)),
+			(cv((-0.326847, 9.952212, -1.932779), 1)),
+			(cv((-0.658807, 9.952212, -1.932779), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'seconds_ones_north' */
+
+polyset minutes_ones_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.043688, 9.346299, -1.79623), 1)),
+			(cv((0.375648, 9.346299, -1.79623), 1)),
+			(cv((0.375648, 9.952212, -1.932779), 1)),
+			(cv((0.043688, 9.952212, -1.932779), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'minutes_ones_north' */
+
+polyset hometag_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (hometeam ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.702664, 9.716006, -1.897573), 1)),
+			(cv((0.702664, 9.561866, -1.862836), 1)),
+			(cv((1.334686, 9.561866, -1.862836), 1)),
+			(cv((1.334686, 9.716006, -1.897573), 1))	),
+	texture_vertices = (
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'hometag_north' */
+
+polyset home_player1_tens_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.322366, 8.527362, -1.603003), 1)),
+			(cv((1.321729, 8.709785, -1.645119), 1)),
+			(cv((1.200635, 8.709629, -1.643967), 1)),
+			(cv((1.201271, 8.527206, -1.601851), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player1_tens_north' */
+
+polyset home_player1_ones_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.194107, 8.52758, -1.603038), 1)),
+			(cv((1.19347, 8.710004, -1.645154), 1)),
+			(cv((1.072376, 8.709847, -1.644001), 1)),
+			(cv((1.073013, 8.527424, -1.601885), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player1_ones_north' */
+
+polyset home_points1_tens_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.966895, 8.527362, -1.603003), 1)),
+			(cv((0.966258, 8.709785, -1.645119), 1)),
+			(cv((0.845164, 8.709629, -1.643967), 1)),
+			(cv((0.845801, 8.527206, -1.601851), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points1_tens_north' */
+
+polyset home_points1_ones_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.838637, 8.52758, -1.603038), 1)),
+			(cv((0.838, 8.710004, -1.645154), 1)),
+			(cv((0.716906, 8.709847, -1.644001), 1)),
+			(cv((0.717543, 8.527424, -1.601885), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points1_ones_north' */
+
+polyset home_player3_tens_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.322366, 8.06893, -1.50337), 1)),
+			(cv((1.321729, 8.251353, -1.545485), 1)),
+			(cv((1.200635, 8.251196, -1.544333), 1)),
+			(cv((1.201271, 8.068773, -1.502217), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player3_tens_north' */
+
+polyset home_player3_ones_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.194107, 8.069148, -1.503404), 1)),
+			(cv((1.19347, 8.251571, -1.54552), 1)),
+			(cv((1.072376, 8.251414, -1.544367), 1)),
+			(cv((1.073013, 8.068991, -1.502252), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player3_ones_north' */
+
+polyset home_points3_tens_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.966895, 8.06893, -1.50337), 1)),
+			(cv((0.966258, 8.251353, -1.545485), 1)),
+			(cv((0.845164, 8.251196, -1.544333), 1)),
+			(cv((0.845801, 8.068773, -1.502217), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points3_tens_north' */
+
+polyset home_points3_ones_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.838637, 8.069148, -1.503404), 1)),
+			(cv((0.838, 8.251571, -1.54552), 1)),
+			(cv((0.716906, 8.251414, -1.544367), 1)),
+			(cv((0.717543, 8.068991, -1.502252), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points3_ones_north' */
+
+polyset home_tens_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.975183, 8.919786, -1.696172), 1)),
+			(cv((1.374082, 8.919786, -1.696172), 1)),
+			(cv((1.374082, 9.530847, -1.833881), 1)),
+			(cv((0.975183, 9.530847, -1.833881), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_tens_north' */
+
+polyset home_ones_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.684813, 8.919786, -1.696172), 1)),
+			(cv((1.083713, 8.919786, -1.696172), 1)),
+			(cv((1.083713, 9.530847, -1.833881), 1)),
+			(cv((0.684813, 9.530847, -1.833881), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_ones_north' */
+
+polyset awayscore_tens_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.056659, 8.919786, -1.696172), 1)),
+			(cv((-0.678992, 8.919786, -1.696172), 1)),
+			(cv((-0.678992, 9.530847, -1.833881), 1)),
+			(cv((-1.056659, 9.530847, -1.833881), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'awayscore_tens_north' */
+
+polyset awayscore_ones_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.35697, 8.919786, -1.696172), 1)),
+			(cv((-0.979303, 8.919786, -1.696172), 1)),
+			(cv((-0.979303, 9.530847, -1.833881), 1)),
+			(cv((-1.35697, 9.530847, -1.833881), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'awayscore_ones_north' */
+
+polyset logo_screen_north (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (JumboScreen ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.668428, 8.012233, -1.506853), 1)),
+			(cv((0.668428, 8.012233, -1.506853), 1)),
+			(cv((0.668428, 9.389915, -1.819855), 1)),
+			(cv((-0.668428, 9.389915, -1.819855), 1))	),
+	texture_vertices = (
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'logo_screen_north' */
+
+polyset away_player2_tens_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.703005, 8.299426, 1.554464), 1)),
+			(cv((0.703642, 8.48185, 1.59658), 1)),
+			(cv((0.824736, 8.481693, 1.595427), 1)),
+			(cv((0.8241, 8.29927, 1.553311), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player2_tens_south' */
+
+polyset away_player2_ones_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.831264, 8.299645, 1.554499), 1)),
+			(cv((0.831901, 8.482068, 1.596615), 1)),
+			(cv((0.952995, 8.481911, 1.595462), 1)),
+			(cv((0.952358, 8.299488, 1.553346), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player2_ones_south' */
+
+polyset away_points2_tens_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.058476, 8.299426, 1.554464), 1)),
+			(cv((1.059113, 8.48185, 1.59658), 1)),
+			(cv((1.180207, 8.481693, 1.595427), 1)),
+			(cv((1.17957, 8.29927, 1.553311), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points2_tens_south' */
+
+polyset away_points2_ones_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.186734, 8.299645, 1.554499), 1)),
+			(cv((1.187371, 8.482068, 1.596615), 1)),
+			(cv((1.308465, 8.481911, 1.595462), 1)),
+			(cv((1.307828, 8.299488, 1.553346), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points2_ones_south' */
+
+polyset away_player3_tens_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.703005, 8.06893, 1.50337), 1)),
+			(cv((0.703642, 8.251353, 1.545485), 1)),
+			(cv((0.824736, 8.251196, 1.544333), 1)),
+			(cv((0.8241, 8.068773, 1.502217), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player3_tens_south' */
+
+polyset away_player3_ones_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.831264, 8.069148, 1.503404), 1)),
+			(cv((0.831901, 8.251571, 1.54552), 1)),
+			(cv((0.952995, 8.251414, 1.544367), 1)),
+			(cv((0.952358, 8.068991, 1.502252), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player3_ones_south' */
+
+polyset away_points3_tens_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.058476, 8.06893, 1.50337), 1)),
+			(cv((1.059113, 8.251353, 1.545485), 1)),
+			(cv((1.180207, 8.251196, 1.544333), 1)),
+			(cv((1.17957, 8.068773, 1.502217), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points3_tens_south' */
+
+polyset away_points3_ones_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.186734, 8.069148, 1.503404), 1)),
+			(cv((1.187371, 8.251571, 1.54552), 1)),
+			(cv((1.308465, 8.251414, 1.544367), 1)),
+			(cv((1.307828, 8.068991, 1.502252), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points3_ones_south' */
+
+polyset away_player1_tens_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.703005, 8.527362, 1.603003), 1)),
+			(cv((0.703642, 8.709785, 1.645119), 1)),
+			(cv((0.824736, 8.709629, 1.643967), 1)),
+			(cv((0.8241, 8.527206, 1.601851), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player1_tens_south' */
+
+polyset away_player1_ones_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.831264, 8.52758, 1.603038), 1)),
+			(cv((0.831901, 8.710004, 1.645154), 1)),
+			(cv((0.952995, 8.709847, 1.644001), 1)),
+			(cv((0.952358, 8.527424, 1.601885), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_player1_ones_south' */
+
+polyset away_points1_tens_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.058476, 8.527362, 1.603003), 1)),
+			(cv((1.059113, 8.709785, 1.645119), 1)),
+			(cv((1.180207, 8.709629, 1.643967), 1)),
+			(cv((1.17957, 8.527206, 1.601851), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points1_tens_south' */
+
+polyset away_points1_ones_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.186734, 8.52758, 1.603038), 1)),
+			(cv((1.187371, 8.710004, 1.645154), 1)),
+			(cv((1.308465, 8.709847, 1.644001), 1)),
+			(cv((1.307828, 8.527424, 1.601885), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'away_points1_ones_south' */
+
+polyset awaytag_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (awayteam ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.331965, 9.716006, 1.897573), 1)),
+			(cv((1.331965, 9.561866, 1.862836), 1)),
+			(cv((0.699943, 9.561866, 1.862836), 1)),
+			(cv((0.699943, 9.716006, 1.897573), 1))	),
+	texture_vertices = (
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'awaytag_south' */
+
+polyset home_player2_tens_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.322366, 8.299426, 1.554464), 1)),
+			(cv((-1.321729, 8.48185, 1.59658), 1)),
+			(cv((-1.200635, 8.481693, 1.595427), 1)),
+			(cv((-1.201271, 8.29927, 1.553311), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player2_tens_south' */
+
+polyset home_player2_ones_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.194107, 8.299645, 1.554499), 1)),
+			(cv((-1.19347, 8.482068, 1.596615), 1)),
+			(cv((-1.072376, 8.481911, 1.595462), 1)),
+			(cv((-1.073013, 8.299488, 1.553346), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player2_ones_south' */
+
+polyset home_points2_tens_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.966895, 8.299426, 1.554464), 1)),
+			(cv((-0.966258, 8.48185, 1.59658), 1)),
+			(cv((-0.845164, 8.481693, 1.595427), 1)),
+			(cv((-0.845801, 8.29927, 1.553311), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points2_tens_south' */
+
+polyset home_points2_ones_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.838637, 8.299645, 1.554499), 1)),
+			(cv((-0.838, 8.482068, 1.596615), 1)),
+			(cv((-0.716906, 8.481911, 1.595462), 1)),
+			(cv((-0.717543, 8.299488, 1.553346), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points2_ones_south' */
+
+polyset seconds_tens_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.371075, 9.346299, 1.79623), 1)),
+			(cv((0.039115, 9.346299, 1.79623), 1)),
+			(cv((0.039115, 9.952212, 1.932779), 1)),
+			(cv((0.371075, 9.952212, 1.932779), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'seconds_tens_south' */
+
+polyset minutes_tens_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.338047, 9.349617, 1.79623), 1)),
+			(cv((-0.670007, 9.349617, 1.79623), 1)),
+			(cv((-0.670007, 9.955531, 1.932779), 1)),
+			(cv((-0.338047, 9.955531, 1.932779), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'minutes_tens_south' */
+
+polyset seconds_ones_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.658807, 9.346299, 1.79623), 1)),
+			(cv((0.326847, 9.346299, 1.79623), 1)),
+			(cv((0.326847, 9.952212, 1.932779), 1)),
+			(cv((0.658807, 9.952212, 1.932779), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'seconds_ones_south' */
+
+polyset minutes_ones_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.043688, 9.346299, 1.79623), 1)),
+			(cv((-0.375648, 9.346299, 1.79623), 1)),
+			(cv((-0.375648, 9.952212, 1.932779), 1)),
+			(cv((-0.043688, 9.952212, 1.932779), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'minutes_ones_south' */
+
+polyset hometag_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = ON,
+	opposite = OFF,
+	shader = (hometeam ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.702664, 9.716006, 1.897573), 1)),
+			(cv((-0.702664, 9.561866, 1.862836), 1)),
+			(cv((-1.334686, 9.561866, 1.862836), 1)),
+			(cv((-1.334686, 9.716006, 1.897573), 1))	),
+	texture_vertices = (
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'hometag_south' */
+
+polyset home_player1_tens_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.322366, 8.527362, 1.603003), 1)),
+			(cv((-1.321729, 8.709785, 1.645119), 1)),
+			(cv((-1.200635, 8.709629, 1.643967), 1)),
+			(cv((-1.201271, 8.527206, 1.601851), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player1_tens_south' */
+
+polyset home_player1_ones_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.194107, 8.52758, 1.603038), 1)),
+			(cv((-1.19347, 8.710004, 1.645154), 1)),
+			(cv((-1.072376, 8.709847, 1.644001), 1)),
+			(cv((-1.073013, 8.527424, 1.601885), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player1_ones_south' */
+
+polyset home_points1_tens_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.966895, 8.527362, 1.603003), 1)),
+			(cv((-0.966258, 8.709785, 1.645119), 1)),
+			(cv((-0.845164, 8.709629, 1.643967), 1)),
+			(cv((-0.845801, 8.527206, 1.601851), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points1_tens_south' */
+
+polyset home_points1_ones_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.838637, 8.52758, 1.603038), 1)),
+			(cv((-0.838, 8.710004, 1.645154), 1)),
+			(cv((-0.716906, 8.709847, 1.644001), 1)),
+			(cv((-0.717543, 8.527424, 1.601885), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points1_ones_south' */
+
+polyset home_player3_tens_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.322366, 8.06893, 1.50337), 1)),
+			(cv((-1.321729, 8.251353, 1.545485), 1)),
+			(cv((-1.200635, 8.251196, 1.544333), 1)),
+			(cv((-1.201271, 8.068773, 1.502217), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player3_tens_south' */
+
+polyset home_player3_ones_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-1.194107, 8.069148, 1.503404), 1)),
+			(cv((-1.19347, 8.251571, 1.54552), 1)),
+			(cv((-1.072376, 8.251414, 1.544367), 1)),
+			(cv((-1.073013, 8.068991, 1.502252), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_player3_ones_south' */
+
+polyset home_points3_tens_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.966895, 8.06893, 1.50337), 1)),
+			(cv((-0.966258, 8.251353, 1.545485), 1)),
+			(cv((-0.845164, 8.251196, 1.544333), 1)),
+			(cv((-0.845801, 8.068773, 1.502217), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points3_tens_south' */
+
+polyset home_points3_ones_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.838637, 8.069148, 1.503404), 1)),
+			(cv((-0.838, 8.251571, 1.54552), 1)),
+			(cv((-0.716906, 8.251414, 1.544367), 1)),
+			(cv((-0.717543, 8.068991, 1.502252), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_points3_ones_south' */
+
+polyset home_tens_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.975183, 8.919786, 1.696172), 1)),
+			(cv((-1.374082, 8.919786, 1.696172), 1)),
+			(cv((-1.374082, 9.530847, 1.833881), 1)),
+			(cv((-0.975183, 9.530847, 1.833881), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_tens_south' */
+
+polyset home_ones_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-0.684813, 8.919786, 1.696172), 1)),
+			(cv((-1.083713, 8.919786, 1.696172), 1)),
+			(cv((-1.083713, 9.530847, 1.833881), 1)),
+			(cv((-0.684813, 9.530847, 1.833881), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'home_ones_south' */
+
+polyset awayscore_tens_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.056659, 8.919786, 1.696172), 1)),
+			(cv((0.678992, 8.919786, 1.696172), 1)),
+			(cv((0.678992, 9.530847, 1.833881), 1)),
+			(cv((1.056659, 9.530847, 1.833881), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'awayscore_tens_south' */
+
+polyset awayscore_ones_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (BigNumbers ),
+	casts_shadow = TRUE,
+	vertices = ((cv((1.35697, 8.919786, 1.696172), 1)),
+			(cv((0.979303, 8.919786, 1.696172), 1)),
+			(cv((0.979303, 9.530847, 1.833881), 1)),
+			(cv((1.35697, 9.530847, 1.833881), 1))	),
+	texture_vertices = (
+			st( 0.093750, 0.031250 ),
+			st( 0.003900, 0.031250 ),
+			st( 0.003900, 0.968750 ),
+			st( 0.093750, 0.968750 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'awayscore_ones_south' */
+
+polyset logo_screen_south (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (JumboScreen ),
+	casts_shadow = TRUE,
+	vertices = ((cv((0.668428, 8.012233, 1.506853), 1)),
+			(cv((-0.668428, 8.012233, 1.506853), 1)),
+			(cv((-0.668428, 9.389915, 1.819855), 1)),
+			(cv((0.668428, 9.389915, 1.819855), 1))	),
+	texture_vertices = (
+			st( 1.000000, 0.000000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'logo_screen_south' */
+
+ENVIRONMENT
+background ( 
+        color = (0.0, 0.0, 0.0)
+);
+shader_glow ( 
+,
+        glow_type =  LINEAR_GLOW,
+        halo_type =  LINEAR_GLOW,
+        auto_exposure = ON,
+        quality = 0.5,
+        threshold = 0.0,
+        glow_color = (100.0, 100.0, 100.0),
+        glow_intensity = 1.0,
+        glow_spread = 0.05,
+        glow_eccentricity = 0.1,
+        glow_radial_noise = 0.0,
+        glow_star_level = 0.0,
+        glow_opacity = 0.0,
+        halo_color = (100.0, 100.0, 100.0),
+        halo_intensity = 1.0,
+        halo_spread = 0.3,
+        halo_eccentricity = 0.1,
+        halo_radial_noise = 0.0,
+        halo_star_level = 0.0,
+        halo_lens_flare = 0.0,
+        rotation = 0.0,
+        radial_noise_frequency = 0.5,
+        star_points = 4.0
+);
+photo_effects ( 
+,
+        film_grain = 0.0,
+        filter = (255.0, 255.0, 255.0)
+);
+master_light ( 
+,
+        intensity = 1.0,
+        light_color = (255.0, 255.0, 255.0)
+);
+dynamics ( 
+,
+        gravity = 1.0,
+        air_density = 0.05,
+        Floor = ON,
+        floor_offset = 0.0,
+        ceiling = OFF,
+        ceiling_offset = 20.0,
+        left = OFF,
+        left_offset = -10.0,
+        right = OFF,
+        right_offset = 10.0,
+        front = OFF,
+        front_offset = -10.0,
+        back = OFF,
+        back_offset = 10.0,
+        wall_friction = 0.0,
+        wall_elasticity = 0.707,
+        turbulence_intensity = 0.0,
+        turbulence_spread = 0.5,
+        turbulence_persistence = 5.0,
+        turbulence_animated = ON,
+        turbulence_space_resolution =  16,
+        turbulence_time_resolution =  16,
+        turbulence_roughness = 0.5,
+        turbulence_variability = 0.5,
+        turbulence_granularity = 0.0
+);
+
+MODEL
+/* Only expression assignments should appear above this line and below the MODEL directive. */
+/* Placing any other commands in the above section will produce incorrect expression behaviour. */
+{
+	instance jumbotron();
+}
+{
+	{
+		rot (yaxis, -145.0);
+		rot (xaxis, 45.0);
+		inst Light#2();
+	}
+	{
+		trn(-2.0, -2.0, 0.0);
+		Lightview#2 = current_position(( 0.0,  0.0,  0.0));
+	}
+	{
+		trn(0.0, 10.0, 0.0);
+		Lightup#2 = current_position(( 0.0,  0.0,  0.0));
+	}
+}
+{
+	trn(0.0, 0.0, 12.0);
+	{
+		inst Light();
+	}
+	{
+		trn(-2.0, -2.0, 0.0);
+		Lightview = current_position(( 0.0,  0.0,  0.0));
+	}
+	{
+		trn(0.0, 10.0, 0.0);
+		Lightup = current_position(( 0.0,  0.0,  0.0));
+	}
+}
+{
+	trn_ro(0.0, 10.187361, 0.0);
+	trn_ri(0.0, -10.187361, 0.0);
+	trn_so(0.0, 10.187361, 0.0);
+	trn_si(0.0, -10.187361, 0.0);
+	{
+		trn_ro(0.0, 5.288249, 0.0);
+		trn_ri(0.0, -5.288249, 0.0);
+		trn_so(0.0, 5.288249, 0.0);
+		trn_si(0.0, -5.288249, 0.0);
+		instance Jumbo_Support();
+	}
+	{
+		trn_ro(0.0, 4.813293, 0.0);
+		trn_ri(0.0, -4.813293, 0.0);
+		trn_so(0.0, 4.813293, 0.0);
+		trn_si(0.0, -4.813293, 0.0);
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.576615, 8.391566, -0.76537);
+					trn_ri(-1.576615, -8.391566, 0.76537);
+					trn_so(1.576616, 8.391566, -0.76537);
+					trn_si(-1.576616, -8.391566, 0.76537);
+					instance away_player2_tens_east();
+				}
+				{
+					trn_ro(1.576615, 8.393605, -0.893635);
+					trn_ri(-1.576615, -8.393605, 0.893635);
+					trn_so(1.576616, 8.393604, -0.893635);
+					trn_si(-1.576616, -8.393604, 0.893635);
+					instance away_player2_ones_east();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.576615, 8.391566, -1.120841);
+					trn_ri(-1.576615, -8.391566, 1.120841);
+					trn_so(1.576616, 8.391566, -1.120841);
+					trn_si(-1.576616, -8.391566, 1.120841);
+					instance away_points2_tens_east();
+				}
+				{
+					trn_ro(1.576615, 8.393605, -1.249105);
+					trn_ri(-1.576615, -8.393605, 1.249105);
+					trn_so(1.576616, 8.393604, -1.249105);
+					trn_si(-1.576616, -8.393604, 1.249105);
+					instance away_points2_ones_east();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.525521, 8.161069, -0.76537);
+					trn_ri(-1.525521, -8.161069, 0.76537);
+					trn_so(1.525522, 8.161069, -0.76537);
+					trn_si(-1.525522, -8.161069, 0.76537);
+					instance away_player3_tens_east();
+				}
+				{
+					trn_ro(1.525521, 8.163108, -0.893635);
+					trn_ri(-1.525521, -8.163108, 0.893635);
+					trn_so(1.525522, 8.163107, -0.893635);
+					trn_si(-1.525522, -8.163107, 0.893635);
+					instance away_player3_ones_east();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.525521, 8.161069, -1.120841);
+					trn_ri(-1.525521, -8.161069, 1.120841);
+					trn_so(1.525522, 8.161069, -1.120841);
+					trn_si(-1.525522, -8.161069, 1.120841);
+					instance away_points3_tens_east();
+				}
+				{
+					trn_ro(1.525521, 8.163108, -1.249105);
+					trn_ri(-1.525521, -8.163108, 1.249105);
+					trn_so(1.525522, 8.163107, -1.249105);
+					trn_si(-1.525522, -8.163107, 1.249105);
+					instance away_points3_ones_east();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.625155, 8.619502, -0.76537);
+					trn_ri(-1.625155, -8.619502, 0.76537);
+					trn_so(1.625156, 8.619502, -0.76537);
+					trn_si(-1.625156, -8.619502, 0.76537);
+					instance away_player1_tens_east();
+				}
+				{
+					trn_ro(1.625155, 8.62154, -0.893635);
+					trn_ri(-1.625155, -8.62154, 0.893635);
+					trn_so(1.625156, 8.62154, -0.893635);
+					trn_si(-1.625156, -8.62154, 0.893635);
+					instance away_player1_ones_east();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.625155, 8.619502, -1.120841);
+					trn_ri(-1.625155, -8.619502, 1.120841);
+					trn_so(1.625156, 8.619502, -1.120841);
+					trn_si(-1.625156, -8.619502, 1.120841);
+					instance away_points1_tens_east();
+				}
+				{
+					trn_ro(1.625155, 8.62154, -1.249105);
+					trn_ri(-1.625155, -8.62154, 1.249105);
+					trn_so(1.625156, 8.62154, -1.249105);
+					trn_si(-1.625156, -8.62154, 1.249105);
+					instance away_points1_ones_east();
+				}
+			}
+		}
+		{
+			trn_ro(1.880213, 9.638973, -1.01609);
+			trn_ri(-1.880213, -9.638973, 1.01609);
+			trn_so(1.880213, 9.638973, -1.01609);
+			trn_si(-1.880213, -9.638973, 1.01609);
+			instance awaytag_east();
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.576615, 8.391566, 1.260001);
+					trn_ri(-1.576615, -8.391566, -1.260001);
+					trn_so(1.576617, 8.391566, 1.260001);
+					trn_si(-1.576617, -8.391566, -1.260001);
+					instance home_player2_tens_east();
+				}
+				{
+					trn_ro(1.576615, 8.393605, 1.131736);
+					trn_ri(-1.576615, -8.393605, -1.131736);
+					trn_so(1.576617, 8.393604, 1.131736);
+					trn_si(-1.576617, -8.393604, -1.131736);
+					instance home_player2_ones_east();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.576615, 8.391566, 0.90453);
+					trn_ri(-1.576615, -8.391566, -0.90453);
+					trn_so(1.576617, 8.391566, 0.90453);
+					trn_si(-1.576617, -8.391566, -0.90453);
+					instance home_points2_tens_east();
+				}
+				{
+					trn_ro(1.576615, 8.393605, 0.776266);
+					trn_ri(-1.576615, -8.393605, -0.776266);
+					trn_so(1.576617, 8.393604, 0.776266);
+					trn_si(-1.576617, -8.393604, -0.776266);
+					instance home_points2_ones_east();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(1.862791, 9.641655, -0.211282);
+				trn_ri(-1.862791, -9.641655, 0.211282);
+				trn_so(1.862791, 9.641655, -0.211282);
+				trn_si(-1.862791, -9.641655, 0.211282);
+				instance seconds_tens_east();
+			}
+			{
+				trn_ro(1.862791, 9.644974, 0.49784);
+				trn_ri(-1.862791, -9.644974, -0.49784);
+				trn_so(1.862791, 9.644974, 0.49784);
+				trn_si(-1.862791, -9.644974, -0.49784);
+				instance minutes_tens_east();
+			}
+			{
+				trn_ro(1.862791, 9.641655, -0.499013);
+				trn_ri(-1.862791, -9.641655, 0.499013);
+				trn_so(1.862791, 9.641655, -0.499013);
+				trn_si(-1.862791, -9.641655, 0.499013);
+				instance seconds_ones_east();
+			}
+			{
+				trn_ro(1.862791, 9.641655, 0.203481);
+				trn_ri(-1.862791, -9.641655, -0.203481);
+				trn_so(1.862791, 9.641655, 0.203481);
+				trn_si(-1.862791, -9.641655, -0.203481);
+				instance minutes_ones_east();
+			}
+		}
+		{
+			trn_ro(1.880213, 9.638973, 1.018538);
+			trn_ri(-1.880213, -9.638973, -1.018538);
+			trn_so(1.880213, 9.638973, 1.018539);
+			trn_si(-1.880213, -9.638973, -1.018539);
+			instance hometag_east();
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.625155, 8.619502, 1.260001);
+					trn_ri(-1.625155, -8.619502, -1.260001);
+					trn_so(1.625156, 8.619502, 1.260001);
+					trn_si(-1.625156, -8.619502, -1.260001);
+					instance home_player1_tens_east();
+				}
+				{
+					trn_ro(1.625155, 8.62154, 1.131736);
+					trn_ri(-1.625155, -8.62154, -1.131736);
+					trn_so(1.625156, 8.62154, 1.131736);
+					trn_si(-1.625156, -8.62154, -1.131736);
+					instance home_player1_ones_east();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.625155, 8.619502, 0.90453);
+					trn_ri(-1.625155, -8.619502, -0.90453);
+					trn_so(1.625156, 8.619502, 0.90453);
+					trn_si(-1.625156, -8.619502, -0.90453);
+					instance home_points1_tens_east();
+				}
+				{
+					trn_ro(1.625155, 8.62154, 0.776266);
+					trn_ri(-1.625155, -8.62154, -0.776266);
+					trn_so(1.625156, 8.62154, 0.776266);
+					trn_si(-1.625156, -8.62154, -0.776266);
+					instance home_points1_ones_east();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.525521, 8.161069, 1.260001);
+					trn_ri(-1.525521, -8.161069, -1.260001);
+					trn_so(1.525522, 8.161069, 1.260001);
+					trn_si(-1.525522, -8.161069, -1.260001);
+					instance home_player3_tens_east();
+				}
+				{
+					trn_ro(1.525521, 8.163108, 1.131736);
+					trn_ri(-1.525521, -8.163108, -1.131736);
+					trn_so(1.525522, 8.163107, 1.131736);
+					trn_si(-1.525522, -8.163107, -1.131736);
+					instance home_player3_ones_east();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.525521, 8.161069, 0.90453);
+					trn_ri(-1.525521, -8.161069, -0.90453);
+					trn_so(1.525522, 8.161069, 0.90453);
+					trn_si(-1.525522, -8.161069, -0.90453);
+					instance home_points3_tens_east();
+				}
+				{
+					trn_ro(1.525521, 8.163108, 0.776266);
+					trn_ri(-1.525521, -8.163108, -0.776266);
+					trn_so(1.525522, 8.163107, 0.776266);
+					trn_si(-1.525522, -8.163107, -0.776266);
+					instance home_points3_ones_east();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(1.763299, 9.217651, 1.167198);
+				trn_ri(-1.763299, -9.217651, -1.167198);
+				trn_so(1.763299, 9.217651, 1.167198);
+				trn_si(-1.763299, -9.217651, -1.167198);
+				instance home_tens_east();
+			}
+			{
+				trn_ro(1.763299, 9.217651, 0.876828);
+				trn_ri(-1.763299, -9.217651, -0.876828);
+				trn_so(1.763299, 9.217651, 0.876828);
+				trn_si(-1.763299, -9.217651, -0.876828);
+				instance home_ones_east();
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(1.763299, 9.217651, -0.874864);
+				trn_ri(-1.763299, -9.217651, 0.874864);
+				trn_so(1.763299, 9.217651, -0.874864);
+				trn_si(-1.763299, -9.217651, 0.874864);
+				instance awayscore_tens_east();
+			}
+			{
+				trn_ro(1.763299, 9.217651, -1.175175);
+				trn_ri(-1.763299, -9.217651, 1.175175);
+				trn_so(1.763299, 9.217651, -1.175175);
+				trn_si(-1.763299, -9.217651, 1.175175);
+				instance awayscore_ones_east();
+			}
+		}
+		{
+			trn_ro(1.663354, 8.701074, 0.0);
+			trn_ri(-1.663354, -8.701074, 0.0);
+			trn_so(1.663354, 8.701074, 0.0);
+			trn_si(-1.663354, -8.701074, 0.0);
+			instance logo_screen_east();
+		}
+	}
+	{
+		trn_ro(0.0, 4.813293, 0.0);
+		trn_ri(0.0, -4.813293, 0.0);
+		trn_so(0.0, 4.813293, 0.0);
+		trn_si(0.0, -4.813293, 0.0);
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.576615, 8.391566, 0.76537);
+					trn_ri(1.576615, -8.391566, -0.76537);
+					trn_so(-1.576616, 8.391566, 0.76537);
+					trn_si(1.576616, -8.391566, -0.76537);
+					instance away_player2_tens_west();
+				}
+				{
+					trn_ro(-1.576615, 8.393605, 0.893635);
+					trn_ri(1.576615, -8.393605, -0.893635);
+					trn_so(-1.576616, 8.393604, 0.893635);
+					trn_si(1.576616, -8.393604, -0.893635);
+					instance away_player2_ones_west();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.576615, 8.391566, 1.120841);
+					trn_ri(1.576615, -8.391566, -1.120841);
+					trn_so(-1.576616, 8.391566, 1.120841);
+					trn_si(1.576616, -8.391566, -1.120841);
+					instance away_points2_tens_west();
+				}
+				{
+					trn_ro(-1.576615, 8.393605, 1.249105);
+					trn_ri(1.576615, -8.393605, -1.249105);
+					trn_so(-1.576616, 8.393604, 1.249105);
+					trn_si(1.576616, -8.393604, -1.249105);
+					instance away_points2_ones_west();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.525521, 8.161069, 0.76537);
+					trn_ri(1.525521, -8.161069, -0.76537);
+					trn_so(-1.525522, 8.161069, 0.76537);
+					trn_si(1.525522, -8.161069, -0.76537);
+					instance away_player3_tens_west();
+				}
+				{
+					trn_ro(-1.525521, 8.163108, 0.893635);
+					trn_ri(1.525521, -8.163108, -0.893635);
+					trn_so(-1.525522, 8.163107, 0.893635);
+					trn_si(1.525522, -8.163107, -0.893635);
+					instance away_player3_ones_west();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.525521, 8.161069, 1.120841);
+					trn_ri(1.525521, -8.161069, -1.120841);
+					trn_so(-1.525522, 8.161069, 1.120841);
+					trn_si(1.525522, -8.161069, -1.120841);
+					instance away_points3_tens_west();
+				}
+				{
+					trn_ro(-1.525521, 8.163108, 1.249105);
+					trn_ri(1.525521, -8.163108, -1.249105);
+					trn_so(-1.525522, 8.163107, 1.249105);
+					trn_si(1.525522, -8.163107, -1.249105);
+					instance away_points3_ones_west();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.625155, 8.619502, 0.76537);
+					trn_ri(1.625155, -8.619502, -0.76537);
+					trn_so(-1.625156, 8.619502, 0.76537);
+					trn_si(1.625156, -8.619502, -0.76537);
+					instance away_player1_tens_west();
+				}
+				{
+					trn_ro(-1.625155, 8.62154, 0.893635);
+					trn_ri(1.625155, -8.62154, -0.893635);
+					trn_so(-1.625156, 8.62154, 0.893635);
+					trn_si(1.625156, -8.62154, -0.893635);
+					instance away_player1_ones_west();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.625155, 8.619502, 1.120841);
+					trn_ri(1.625155, -8.619502, -1.120841);
+					trn_so(-1.625156, 8.619502, 1.120841);
+					trn_si(1.625156, -8.619502, -1.120841);
+					instance away_points1_tens_west();
+				}
+				{
+					trn_ro(-1.625155, 8.62154, 1.249105);
+					trn_ri(1.625155, -8.62154, -1.249105);
+					trn_so(-1.625156, 8.62154, 1.249105);
+					trn_si(1.625156, -8.62154, -1.249105);
+					instance away_points1_ones_west();
+				}
+			}
+		}
+		{
+			trn_ro(-1.880213, 9.638973, 1.01609);
+			trn_ri(1.880213, -9.638973, -1.01609);
+			trn_so(-1.880213, 9.638973, 1.01609);
+			trn_si(1.880213, -9.638973, -1.01609);
+			instance awaytag_west();
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.576615, 8.391566, -1.260001);
+					trn_ri(1.576615, -8.391566, 1.260001);
+					trn_so(-1.576617, 8.391566, -1.260001);
+					trn_si(1.576617, -8.391566, 1.260001);
+					instance home_player2_tens_west();
+				}
+				{
+					trn_ro(-1.576615, 8.393605, -1.131736);
+					trn_ri(1.576615, -8.393605, 1.131736);
+					trn_so(-1.576616, 8.393604, -1.131736);
+					trn_si(1.576616, -8.393604, 1.131736);
+					instance home_player2_ones_west();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.576615, 8.391566, -0.90453);
+					trn_ri(1.576615, -8.391566, 0.90453);
+					trn_so(-1.576616, 8.391566, -0.904531);
+					trn_si(1.576616, -8.391566, 0.904531);
+					instance home_points2_tens_west();
+				}
+				{
+					trn_ro(-1.576615, 8.393605, -0.776266);
+					trn_ri(1.576615, -8.393605, 0.776266);
+					trn_so(-1.576616, 8.393604, -0.776266);
+					trn_si(1.576616, -8.393604, 0.776266);
+					instance home_points2_ones_west();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(-1.862791, 9.641655, 0.211282);
+				trn_ri(1.862791, -9.641655, -0.211282);
+				trn_so(-1.862791, 9.641655, 0.211282);
+				trn_si(1.862791, -9.641655, -0.211282);
+				instance seconds_tens_west();
+			}
+			{
+				trn_ro(-1.862791, 9.644974, -0.49784);
+				trn_ri(1.862791, -9.644974, 0.49784);
+				trn_so(-1.862791, 9.644974, -0.49784);
+				trn_si(1.862791, -9.644974, 0.49784);
+				instance minutes_tens_west();
+			}
+			{
+				trn_ro(-1.862791, 9.641655, 0.499013);
+				trn_ri(1.862791, -9.641655, -0.499013);
+				trn_so(-1.862791, 9.641655, 0.499013);
+				trn_si(1.862791, -9.641655, -0.499013);
+				instance seconds_ones_west();
+			}
+			{
+				trn_ro(-1.862791, 9.641655, -0.203482);
+				trn_ri(1.862791, -9.641655, 0.203482);
+				trn_so(-1.862791, 9.641655, -0.203482);
+				trn_si(1.862791, -9.641655, 0.203482);
+				instance minutes_ones_west();
+			}
+		}
+		{
+			trn_ro(-1.880213, 9.638973, -1.018539);
+			trn_ri(1.880213, -9.638973, 1.018539);
+			trn_so(-1.880213, 9.638973, -1.018539);
+			trn_si(1.880213, -9.638973, 1.018539);
+			instance hometag_west();
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.625155, 8.619502, -1.260001);
+					trn_ri(1.625155, -8.619502, 1.260001);
+					trn_so(-1.625156, 8.619502, -1.260001);
+					trn_si(1.625156, -8.619502, 1.260001);
+					instance home_player1_tens_west();
+				}
+				{
+					trn_ro(-1.625155, 8.62154, -1.131736);
+					trn_ri(1.625155, -8.62154, 1.131736);
+					trn_so(-1.625156, 8.62154, -1.131736);
+					trn_si(1.625156, -8.62154, 1.131736);
+					instance home_player1_ones_west();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.625155, 8.619502, -0.90453);
+					trn_ri(1.625155, -8.619502, 0.90453);
+					trn_so(-1.625156, 8.619502, -0.904531);
+					trn_si(1.625156, -8.619502, 0.904531);
+					instance home_points1_tens_west();
+				}
+				{
+					trn_ro(-1.625155, 8.62154, -0.776266);
+					trn_ri(1.625155, -8.62154, 0.776266);
+					trn_so(-1.625156, 8.62154, -0.776266);
+					trn_si(1.625156, -8.62154, 0.776266);
+					instance home_points1_ones_west();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.525521, 8.161069, -1.260001);
+					trn_ri(1.525521, -8.161069, 1.260001);
+					trn_so(-1.525522, 8.161069, -1.260001);
+					trn_si(1.525522, -8.161069, 1.260001);
+					instance home_player3_tens_west();
+				}
+				{
+					trn_ro(-1.525521, 8.163108, -1.131736);
+					trn_ri(1.525521, -8.163108, 1.131736);
+					trn_so(-1.525522, 8.163107, -1.131736);
+					trn_si(1.525522, -8.163107, 1.131736);
+					instance home_player3_ones_west();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.525521, 8.161069, -0.90453);
+					trn_ri(1.525521, -8.161069, 0.90453);
+					trn_so(-1.525522, 8.161069, -0.904531);
+					trn_si(1.525522, -8.161069, 0.904531);
+					instance home_points3_tens_west();
+				}
+				{
+					trn_ro(-1.525521, 8.163108, -0.776266);
+					trn_ri(1.525521, -8.163108, 0.776266);
+					trn_so(-1.525522, 8.163107, -0.776266);
+					trn_si(1.525522, -8.163107, 0.776266);
+					instance home_points3_ones_west();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(-1.763299, 9.217651, -1.167198);
+				trn_ri(1.763299, -9.217651, 1.167198);
+				trn_so(-1.763299, 9.217651, -1.167198);
+				trn_si(1.763299, -9.217651, 1.167198);
+				instance home_tens_west();
+			}
+			{
+				trn_ro(-1.763299, 9.217651, -0.876828);
+				trn_ri(1.763299, -9.217651, 0.876828);
+				trn_so(-1.763299, 9.217651, -0.876828);
+				trn_si(1.763299, -9.217651, 0.876828);
+				instance home_ones_west();
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(-1.763299, 9.217651, 0.874864);
+				trn_ri(1.763299, -9.217651, -0.874864);
+				trn_so(-1.763299, 9.217651, 0.874864);
+				trn_si(1.763299, -9.217651, -0.874864);
+				instance awayscore_tens_west();
+			}
+			{
+				trn_ro(-1.763299, 9.217651, 1.175175);
+				trn_ri(1.763299, -9.217651, -1.175175);
+				trn_so(-1.763299, 9.217651, 1.175175);
+				trn_si(1.763299, -9.217651, -1.175175);
+				instance awayscore_ones_west();
+			}
+		}
+		{
+			trn_ro(-1.663354, 8.701074, 0.0);
+			trn_ri(1.663354, -8.701074, 0.0);
+			trn_so(-1.663354, 8.701074, 0.0);
+			trn_si(1.663354, -8.701074, 0.0);
+			instance logo_screen_west();
+		}
+	}
+	{
+		trn_ro(0.0, 4.813293, 0.0);
+		trn_ri(0.0, -4.813293, 0.0);
+		trn_so(0.0, 4.813293, 0.0);
+		trn_si(0.0, -4.813293, 0.0);
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-0.76537, 8.391566, -1.576615);
+					trn_ri(0.76537, -8.391566, 1.576615);
+					trn_so(-0.76537, 8.391566, -1.576616);
+					trn_si(0.76537, -8.391566, 1.576616);
+					instance away_player2_tens_north();
+				}
+				{
+					trn_ro(-0.893635, 8.393605, -1.576615);
+					trn_ri(0.893635, -8.393605, 1.576615);
+					trn_so(-0.893635, 8.393604, -1.576616);
+					trn_si(0.893635, -8.393604, 1.576616);
+					instance away_player2_ones_north();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.120841, 8.391566, -1.576615);
+					trn_ri(1.120841, -8.391566, 1.576615);
+					trn_so(-1.120841, 8.391566, -1.576616);
+					trn_si(1.120841, -8.391566, 1.576616);
+					instance away_points2_tens_north();
+				}
+				{
+					trn_ro(-1.249106, 8.393605, -1.576615);
+					trn_ri(1.249106, -8.393605, 1.576615);
+					trn_so(-1.249106, 8.393604, -1.576616);
+					trn_si(1.249106, -8.393604, 1.576616);
+					instance away_points2_ones_north();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-0.76537, 8.161069, -1.525521);
+					trn_ri(0.76537, -8.161069, 1.525521);
+					trn_so(-0.76537, 8.161069, -1.525522);
+					trn_si(0.76537, -8.161069, 1.525522);
+					instance away_player3_tens_north();
+				}
+				{
+					trn_ro(-0.893635, 8.163108, -1.525521);
+					trn_ri(0.893635, -8.163108, 1.525521);
+					trn_so(-0.893635, 8.163107, -1.525522);
+					trn_si(0.893635, -8.163107, 1.525522);
+					instance away_player3_ones_north();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.120841, 8.161069, -1.525521);
+					trn_ri(1.120841, -8.161069, 1.525521);
+					trn_so(-1.120841, 8.161069, -1.525522);
+					trn_si(1.120841, -8.161069, 1.525522);
+					instance away_points3_tens_north();
+				}
+				{
+					trn_ro(-1.249106, 8.163108, -1.525521);
+					trn_ri(1.249106, -8.163108, 1.525521);
+					trn_so(-1.249106, 8.163107, -1.525522);
+					trn_si(1.249106, -8.163107, 1.525522);
+					instance away_points3_ones_north();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-0.76537, 8.619502, -1.625155);
+					trn_ri(0.76537, -8.619502, 1.625155);
+					trn_so(-0.76537, 8.619502, -1.625156);
+					trn_si(0.76537, -8.619502, 1.625156);
+					instance away_player1_tens_north();
+				}
+				{
+					trn_ro(-0.893635, 8.62154, -1.625155);
+					trn_ri(0.893635, -8.62154, 1.625155);
+					trn_so(-0.893635, 8.62154, -1.625156);
+					trn_si(0.893635, -8.62154, 1.625156);
+					instance away_player1_ones_north();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.120841, 8.619502, -1.625155);
+					trn_ri(1.120841, -8.619502, 1.625155);
+					trn_so(-1.120841, 8.619502, -1.625156);
+					trn_si(1.120841, -8.619502, 1.625156);
+					instance away_points1_tens_north();
+				}
+				{
+					trn_ro(-1.249106, 8.62154, -1.625155);
+					trn_ri(1.249106, -8.62154, 1.625155);
+					trn_so(-1.249106, 8.62154, -1.625156);
+					trn_si(1.249106, -8.62154, 1.625156);
+					instance away_points1_ones_north();
+				}
+			}
+		}
+		{
+			trn_ro(-1.01609, 9.638973, -1.880212);
+			trn_ri(1.01609, -9.638973, 1.880212);
+			trn_so(-1.01609, 9.638973, -1.880213);
+			trn_si(1.01609, -9.638973, 1.880213);
+			instance awaytag_north();
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.260001, 8.391566, -1.576616);
+					trn_ri(-1.260001, -8.391566, 1.576616);
+					trn_so(1.260001, 8.391566, -1.576617);
+					trn_si(-1.260001, -8.391566, 1.576617);
+					instance home_player2_tens_north();
+				}
+				{
+					trn_ro(1.131736, 8.393605, -1.576616);
+					trn_ri(-1.131736, -8.393605, 1.576616);
+					trn_so(1.131736, 8.393604, -1.576617);
+					trn_si(-1.131736, -8.393604, 1.576617);
+					instance home_player2_ones_north();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(0.90453, 8.391566, -1.576615);
+					trn_ri(-0.90453, -8.391566, 1.576615);
+					trn_so(0.90453, 8.391566, -1.576617);
+					trn_si(-0.90453, -8.391566, 1.576617);
+					instance home_points2_tens_north();
+				}
+				{
+					trn_ro(0.776266, 8.393605, -1.576615);
+					trn_ri(-0.776266, -8.393605, 1.576615);
+					trn_so(0.776265, 8.393604, -1.576617);
+					trn_si(-0.776265, -8.393604, 1.576617);
+					instance home_points2_ones_north();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(-0.211282, 9.641655, -1.862791);
+				trn_ri(0.211282, -9.641655, 1.862791);
+				trn_so(-0.211282, 9.641655, -1.862792);
+				trn_si(0.211282, -9.641655, 1.862792);
+				instance seconds_tens_north();
+			}
+			{
+				trn_ro(0.49784, 9.644974, -1.862791);
+				trn_ri(-0.49784, -9.644974, 1.862791);
+				trn_so(0.49784, 9.644974, -1.862792);
+				trn_si(-0.49784, -9.644974, 1.862792);
+				instance minutes_tens_north();
+			}
+			{
+				trn_ro(-0.499014, 9.641655, -1.862791);
+				trn_ri(0.499014, -9.641655, 1.862791);
+				trn_so(-0.499014, 9.641655, -1.862791);
+				trn_si(0.499014, -9.641655, 1.862791);
+				instance seconds_ones_north();
+			}
+			{
+				trn_ro(0.203481, 9.641655, -1.862791);
+				trn_ri(-0.203481, -9.641655, 1.862791);
+				trn_so(0.203481, 9.641655, -1.862792);
+				trn_si(-0.203481, -9.641655, 1.862792);
+				instance minutes_ones_north();
+			}
+		}
+		{
+			trn_ro(1.018538, 9.638973, -1.880213);
+			trn_ri(-1.018538, -9.638973, 1.880213);
+			trn_so(1.018538, 9.638973, -1.880213);
+			trn_si(-1.018538, -9.638973, 1.880213);
+			instance hometag_north();
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.260001, 8.619502, -1.625155);
+					trn_ri(-1.260001, -8.619502, 1.625155);
+					trn_so(1.260001, 8.619502, -1.625156);
+					trn_si(-1.260001, -8.619502, 1.625156);
+					instance home_player1_tens_north();
+				}
+				{
+					trn_ro(1.131736, 8.62154, -1.625155);
+					trn_ri(-1.131736, -8.62154, 1.625155);
+					trn_so(1.131736, 8.62154, -1.625156);
+					trn_si(-1.131736, -8.62154, 1.625156);
+					instance home_player1_ones_north();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(0.90453, 8.619502, -1.625155);
+					trn_ri(-0.90453, -8.619502, 1.625155);
+					trn_so(0.90453, 8.619502, -1.625156);
+					trn_si(-0.90453, -8.619502, 1.625156);
+					instance home_points1_tens_north();
+				}
+				{
+					trn_ro(0.776266, 8.62154, -1.625155);
+					trn_ri(-0.776266, -8.62154, 1.625155);
+					trn_so(0.776265, 8.62154, -1.625156);
+					trn_si(-0.776265, -8.62154, 1.625156);
+					instance home_points1_ones_north();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.260001, 8.161069, -1.525521);
+					trn_ri(-1.260001, -8.161069, 1.525521);
+					trn_so(1.260001, 8.161069, -1.525522);
+					trn_si(-1.260001, -8.161069, 1.525522);
+					instance home_player3_tens_north();
+				}
+				{
+					trn_ro(1.131736, 8.163108, -1.525521);
+					trn_ri(-1.131736, -8.163108, 1.525521);
+					trn_so(1.131736, 8.163107, -1.525522);
+					trn_si(-1.131736, -8.163107, 1.525522);
+					instance home_player3_ones_north();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(0.90453, 8.161069, -1.525521);
+					trn_ri(-0.90453, -8.161069, 1.525521);
+					trn_so(0.90453, 8.161069, -1.525522);
+					trn_si(-0.90453, -8.161069, 1.525522);
+					instance home_points3_tens_north();
+				}
+				{
+					trn_ro(0.776266, 8.163108, -1.525521);
+					trn_ri(-0.776266, -8.163108, 1.525521);
+					trn_so(0.776265, 8.163107, -1.525522);
+					trn_si(-0.776265, -8.163107, 1.525522);
+					instance home_points3_ones_north();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(1.167198, 9.217651, -1.763299);
+				trn_ri(-1.167198, -9.217651, 1.763299);
+				trn_so(1.167198, 9.217651, -1.763299);
+				trn_si(-1.167198, -9.217651, 1.763299);
+				instance home_tens_north();
+			}
+			{
+				trn_ro(0.876828, 9.217651, -1.763299);
+				trn_ri(-0.876828, -9.217651, 1.763299);
+				trn_so(0.876828, 9.217651, -1.763299);
+				trn_si(-0.876828, -9.217651, 1.763299);
+				instance home_ones_north();
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(-0.874864, 9.217651, -1.763299);
+				trn_ri(0.874864, -9.217651, 1.763299);
+				trn_so(-0.874865, 9.217651, -1.763299);
+				trn_si(0.874865, -9.217651, 1.763299);
+				instance awayscore_tens_north();
+			}
+			{
+				trn_ro(-1.175175, 9.217651, -1.763299);
+				trn_ri(1.175175, -9.217651, 1.763299);
+				trn_so(-1.175175, 9.217651, -1.763299);
+				trn_si(1.175175, -9.217651, 1.763299);
+				instance awayscore_ones_north();
+			}
+		}
+		{
+			trn_ro(0.0, 8.701074, -1.663354);
+			trn_ri(0.0, -8.701074, 1.663354);
+			trn_so(0.0, 8.701074, -1.663354);
+			trn_si(0.0, -8.701074, 1.663354);
+			instance logo_screen_north();
+		}
+	}
+	{
+		trn_ro(0.0, 4.813293, 0.0);
+		trn_ri(0.0, -4.813293, 0.0);
+		trn_so(0.0, 4.813293, 0.0);
+		trn_si(0.0, -4.813293, 0.0);
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(0.76537, 8.391566, 1.576615);
+					trn_ri(-0.76537, -8.391566, -1.576615);
+					trn_so(0.76537, 8.391566, 1.576616);
+					trn_si(-0.76537, -8.391566, -1.576616);
+					instance away_player2_tens_south();
+				}
+				{
+					trn_ro(0.893635, 8.393605, 1.576615);
+					trn_ri(-0.893635, -8.393605, -1.576615);
+					trn_so(0.893635, 8.393604, 1.576616);
+					trn_si(-0.893635, -8.393604, -1.576616);
+					instance away_player2_ones_south();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.120841, 8.391566, 1.576615);
+					trn_ri(-1.120841, -8.391566, -1.576615);
+					trn_so(1.120841, 8.391566, 1.576616);
+					trn_si(-1.120841, -8.391566, -1.576616);
+					instance away_points2_tens_south();
+				}
+				{
+					trn_ro(1.249105, 8.393605, 1.576615);
+					trn_ri(-1.249105, -8.393605, -1.576615);
+					trn_so(1.249105, 8.393604, 1.576616);
+					trn_si(-1.249105, -8.393604, -1.576616);
+					instance away_points2_ones_south();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(0.76537, 8.161069, 1.525521);
+					trn_ri(-0.76537, -8.161069, -1.525521);
+					trn_so(0.76537, 8.161069, 1.525522);
+					trn_si(-0.76537, -8.161069, -1.525522);
+					instance away_player3_tens_south();
+				}
+				{
+					trn_ro(0.893635, 8.163108, 1.525521);
+					trn_ri(-0.893635, -8.163108, -1.525521);
+					trn_so(0.893635, 8.163107, 1.525522);
+					trn_si(-0.893635, -8.163107, -1.525522);
+					instance away_player3_ones_south();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.120841, 8.161069, 1.525521);
+					trn_ri(-1.120841, -8.161069, -1.525521);
+					trn_so(1.120841, 8.161069, 1.525522);
+					trn_si(-1.120841, -8.161069, -1.525522);
+					instance away_points3_tens_south();
+				}
+				{
+					trn_ro(1.249105, 8.163108, 1.525521);
+					trn_ri(-1.249105, -8.163108, -1.525521);
+					trn_so(1.249105, 8.163107, 1.525522);
+					trn_si(-1.249105, -8.163107, -1.525522);
+					instance away_points3_ones_south();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(0.76537, 8.619502, 1.625155);
+					trn_ri(-0.76537, -8.619502, -1.625155);
+					trn_so(0.76537, 8.619502, 1.625156);
+					trn_si(-0.76537, -8.619502, -1.625156);
+					instance away_player1_tens_south();
+				}
+				{
+					trn_ro(0.893635, 8.62154, 1.625155);
+					trn_ri(-0.893635, -8.62154, -1.625155);
+					trn_so(0.893635, 8.62154, 1.625156);
+					trn_si(-0.893635, -8.62154, -1.625156);
+					instance away_player1_ones_south();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(1.120841, 8.619502, 1.625155);
+					trn_ri(-1.120841, -8.619502, -1.625155);
+					trn_so(1.120841, 8.619502, 1.625156);
+					trn_si(-1.120841, -8.619502, -1.625156);
+					instance away_points1_tens_south();
+				}
+				{
+					trn_ro(1.249105, 8.62154, 1.625155);
+					trn_ri(-1.249105, -8.62154, -1.625155);
+					trn_so(1.249105, 8.62154, 1.625156);
+					trn_si(-1.249105, -8.62154, -1.625156);
+					instance away_points1_ones_south();
+				}
+			}
+		}
+		{
+			trn_ro(1.01609, 9.638973, 1.880213);
+			trn_ri(-1.01609, -9.638973, -1.880213);
+			trn_so(1.01609, 9.638973, 1.880213);
+			trn_si(-1.01609, -9.638973, -1.880213);
+			instance awaytag_south();
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.260001, 8.391566, 1.576615);
+					trn_ri(1.260001, -8.391566, -1.576615);
+					trn_so(-1.260001, 8.391566, 1.576616);
+					trn_si(1.260001, -8.391566, -1.576616);
+					instance home_player2_tens_south();
+				}
+				{
+					trn_ro(-1.131736, 8.393605, 1.576615);
+					trn_ri(1.131736, -8.393605, -1.576615);
+					trn_so(-1.131736, 8.393604, 1.576616);
+					trn_si(1.131736, -8.393604, -1.576616);
+					instance home_player2_ones_south();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-0.90453, 8.391566, 1.576615);
+					trn_ri(0.90453, -8.391566, -1.576615);
+					trn_so(-0.904531, 8.391566, 1.576616);
+					trn_si(0.904531, -8.391566, -1.576616);
+					instance home_points2_tens_south();
+				}
+				{
+					trn_ro(-0.776266, 8.393605, 1.576615);
+					trn_ri(0.776266, -8.393605, -1.576615);
+					trn_so(-0.776266, 8.393604, 1.576616);
+					trn_si(0.776266, -8.393604, -1.576616);
+					instance home_points2_ones_south();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.211282, 9.641655, 1.862791);
+				trn_ri(-0.211282, -9.641655, -1.862791);
+				trn_so(0.211282, 9.641655, 1.862791);
+				trn_si(-0.211282, -9.641655, -1.862791);
+				instance seconds_tens_south();
+			}
+			{
+				trn_ro(-0.49784, 9.644974, 1.862791);
+				trn_ri(0.49784, -9.644974, -1.862791);
+				trn_so(-0.49784, 9.644974, 1.862791);
+				trn_si(0.49784, -9.644974, -1.862791);
+				instance minutes_tens_south();
+			}
+			{
+				trn_ro(0.499013, 9.641655, 1.862791);
+				trn_ri(-0.499013, -9.641655, -1.862791);
+				trn_so(0.499013, 9.641655, 1.862791);
+				trn_si(-0.499013, -9.641655, -1.862791);
+				instance seconds_ones_south();
+			}
+			{
+				trn_ro(-0.203482, 9.641655, 1.862791);
+				trn_ri(0.203482, -9.641655, -1.862791);
+				trn_so(-0.203482, 9.641655, 1.862791);
+				trn_si(0.203482, -9.641655, -1.862791);
+				instance minutes_ones_south();
+			}
+		}
+		{
+			trn_ro(-1.018539, 9.638973, 1.880213);
+			trn_ri(1.018539, -9.638973, -1.880213);
+			trn_so(-1.018539, 9.638973, 1.880213);
+			trn_si(1.018539, -9.638973, -1.880213);
+			instance hometag_south();
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.260001, 8.619502, 1.625155);
+					trn_ri(1.260001, -8.619502, -1.625155);
+					trn_so(-1.260001, 8.619502, 1.625156);
+					trn_si(1.260001, -8.619502, -1.625156);
+					instance home_player1_tens_south();
+				}
+				{
+					trn_ro(-1.131736, 8.62154, 1.625155);
+					trn_ri(1.131736, -8.62154, -1.625155);
+					trn_so(-1.131736, 8.62154, 1.625156);
+					trn_si(1.131736, -8.62154, -1.625156);
+					instance home_player1_ones_south();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-0.90453, 8.619502, 1.625155);
+					trn_ri(0.90453, -8.619502, -1.625155);
+					trn_so(-0.904531, 8.619502, 1.625156);
+					trn_si(0.904531, -8.619502, -1.625156);
+					instance home_points1_tens_south();
+				}
+				{
+					trn_ro(-0.776266, 8.62154, 1.625155);
+					trn_ri(0.776266, -8.62154, -1.625155);
+					trn_so(-0.776266, 8.62154, 1.625156);
+					trn_si(0.776266, -8.62154, -1.625156);
+					instance home_points1_ones_south();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-1.260001, 8.161069, 1.525521);
+					trn_ri(1.260001, -8.161069, -1.525521);
+					trn_so(-1.260001, 8.161069, 1.525522);
+					trn_si(1.260001, -8.161069, -1.525522);
+					instance home_player3_tens_south();
+				}
+				{
+					trn_ro(-1.131736, 8.163108, 1.525521);
+					trn_ri(1.131736, -8.163108, -1.525521);
+					trn_so(-1.131736, 8.163107, 1.525522);
+					trn_si(1.131736, -8.163107, -1.525522);
+					instance home_player3_ones_south();
+				}
+			}
+			{
+				trn_ro(0.0, 4.813293, 0.0);
+				trn_ri(0.0, -4.813293, 0.0);
+				trn_so(0.0, 4.813293, 0.0);
+				trn_si(0.0, -4.813293, 0.0);
+				{
+					trn_ro(-0.90453, 8.161069, 1.525521);
+					trn_ri(0.90453, -8.161069, -1.525521);
+					trn_so(-0.904531, 8.161069, 1.525522);
+					trn_si(0.904531, -8.161069, -1.525522);
+					instance home_points3_tens_south();
+				}
+				{
+					trn_ro(-0.776266, 8.163108, 1.525521);
+					trn_ri(0.776266, -8.163108, -1.525521);
+					trn_so(-0.776266, 8.163107, 1.525522);
+					trn_si(0.776266, -8.163107, -1.525522);
+					instance home_points3_ones_south();
+				}
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(-1.167198, 9.217651, 1.763299);
+				trn_ri(1.167198, -9.217651, -1.763299);
+				trn_so(-1.167198, 9.217651, 1.763299);
+				trn_si(1.167198, -9.217651, -1.763299);
+				instance home_tens_south();
+			}
+			{
+				trn_ro(-0.876828, 9.217651, 1.763299);
+				trn_ri(0.876828, -9.217651, -1.763299);
+				trn_so(-0.876828, 9.217651, 1.763299);
+				trn_si(0.876828, -9.217651, -1.763299);
+				instance home_ones_south();
+			}
+		}
+		{
+			trn_ro(0.0, 4.813293, 0.0);
+			trn_ri(0.0, -4.813293, 0.0);
+			trn_so(0.0, 4.813293, 0.0);
+			trn_si(0.0, -4.813293, 0.0);
+			{
+				trn_ro(0.874864, 9.217651, 1.763299);
+				trn_ri(-0.874864, -9.217651, -1.763299);
+				trn_so(0.874864, 9.217651, 1.763299);
+				trn_si(-0.874864, -9.217651, -1.763299);
+				instance awayscore_tens_south();
+			}
+			{
+				trn_ro(1.175175, 9.217651, 1.763299);
+				trn_ri(-1.175175, -9.217651, -1.763299);
+				trn_so(1.175175, 9.217651, 1.763299);
+				trn_si(-1.175175, -9.217651, -1.763299);
+				instance awayscore_ones_south();
+			}
+		}
+		{
+			trn_ro(0.0, 8.701074, 1.663354);
+			trn_ri(0.0, -8.701074, -1.663354);
+			trn_so(0.0, 8.701074, 1.663354);
+			trn_si(0.0, -8.701074, -1.663354);
+			instance logo_screen_south();
+		}
+	}
+}
+{
+	{
+		trn(-6.193347, -4.566109, 34.663086);
+		camera (
+			perspective = TRUE,
+			eye   = ( 0.0,  0.0,  0.0),
+			active = ON,
+			pix   = "pix/jumbo.sdl",
+			view  = Camera_view,
+			up  = Camera_up,
+			aov = 55.0,
+			filmaperture_x = 0.4,
+			filmaperture_y = 0.285,
+			filmoffset_x = 0.0,
+			filmoffset_y = 0.0,
+			placement_fit_code = 0,
+			placement_shift = 0.0,
+			aspect   = pixel_aspect,
+			aspect_ratio_pixel = pixel_aspect,
+			near = 0.1,
+			far = 200.0,
+			depth_of_field = 0.0,
+			scaling_factor = 1.0,
+			f_stop = 3.5,
+			focal_distance = 12.0,
+			auto_focus = OFF,
+			motion_blur = 0.0
+		);
+	}
+	{
+		trn(-3.474839, 1.868432, 18.590073);
+		Camera_view = current_position( (0, 0, 0) );
+	}
+	{
+		trn(-6.254579, -3.635951, 35.025105);
+		Camera_up = current_position( (0, 0, 0) );
+	}
+}
+

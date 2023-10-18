@@ -1,0 +1,42 @@
+NBA on NBC (c) 1998 Midway - TIMK : Retro Rob (03/15/99 14:41:03) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SC_RETRO.BNK
+
+Size of .BNK file including header: 27368 bytes ($6AE8 bytes)
+
+Size of playlist table: 40 bytes ($28 bytes)
+
+Size of playlist and sound data only: 27194 bytes ($6A3A bytes)
+
+Checksum: $7665
+
+Total number of playlists: 9 ($9)
+
+Total number of sound files: 8 ($8)
+
+Average bit rate for bank: 27.0 kbits/sec
+
+Total linear amount of sound: 0:08.003 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1       64.5    73.9  Retro Rob
+  2    $0002   1       45.6    52.3  Retro Rob A
+  3    $0003   1       57.8    66.2  Retro B
+  4    $0004   1       64.5    73.9  Retro Rob C
+  5    $0005   1       35.2    40.3  To Retro
+  6    $0006   1       55.2    63.4  Hands Off to Retro
+  7    $0007   1       56.5    64.8  Dishes to Retro
+  8    $0008   1       52.7    60.5  Finds Retro
+  9    $0009   1       69.1    79.2  Nice Feed to Retro
+
+Total 9 Playlists

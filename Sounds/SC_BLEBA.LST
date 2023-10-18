@@ -1,0 +1,42 @@
+NBA on NBC (c) 1998 Midway - TIMK : Brian LeBaron (04/07/99 14:46:31) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SC_BLEBA.BNK
+
+Size of .BNK file including header: 28756 bytes ($7054 bytes)
+
+Size of playlist table: 40 bytes ($28 bytes)
+
+Size of playlist and sound data only: 28582 bytes ($6FA6 bytes)
+
+Checksum: $59AB
+
+Total number of playlists: 9 ($9)
+
+Total number of sound files: 9 ($9)
+
+Average bit rate for bank: 25.3 kbits/sec
+
+Total linear amount of sound: 0:08.993 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1       67.4    77.3  Brian LeBaron
+  2    $0002   1       37.7    43.2  LeBaron A
+  3    $0003   1       61.5    70.6  LeBaron B
+  4    $0004   1       49.8    57.1  LeBaron C
+  5    $0005   1       37.7    43.2  To LeBaron
+  6    $0006   1       58.6    67.2  Hands off to LeBaron
+  7    $0007   1       59.9    68.6  Dishes to LeBaron
+  8    $0008   1       46.9    53.8  Finds LeBaron
+  9    $0009   1       72.0    82.6  Nice Feed to LeBaron
+
+Total 9 Playlists

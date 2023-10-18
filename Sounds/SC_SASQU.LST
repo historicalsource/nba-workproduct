@@ -1,0 +1,42 @@
+NBA on NBC (c) 1998 Midway - TIMK : Sasquatch  (03/24/99 03:07:33) page 1
+
+PLBUILD version 3.0G
+
+Bank Information
+----------------
+
+Bank name: SC_SASQU.BNK
+
+Size of .BNK file including header: 38186 bytes ($952A bytes)
+
+Size of playlist table: 40 bytes ($28 bytes)
+
+Size of playlist and sound data only: 38012 bytes ($947C bytes)
+
+Checksum: $FD98
+
+Total number of playlists: 9 ($9)
+
+Total number of sound files: 9 ($9)
+
+Average bit rate for bank: 28.5 kbits/sec
+
+Total linear amount of sound: 0:10.621 (min:sec.msec)
+
+
+
+Playlist Table
+
+  Dec  Hex   # Trks  Video  Pinball  Description
+  ---- ----- ------ ------- -------  -----------
+  1    $0001   1      103.4   118.6  Sasquatch 
+  2    $0002   1       47.3    54.2  Sasquatch A
+  3    $0003   1       59.9    68.6  Sasquatch B
+  4    $0004   1       47.7    54.7  Sasquatch C
+  5    $0005   1       43.9    50.4  To Sasquatch
+  6    $0006   1       67.0    76.8  Hands Off to Sasquatch
+  7    $0007   1       70.7    81.1  Dishes to Sasquatch
+  8    $0008   1       56.1    64.3  Finds Sasquatch
+  9    $0009   1       83.3    95.5  Nice Feed to Sasquatch
+
+Total 9 Playlists

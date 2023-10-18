@@ -1,0 +1,801 @@
+DEFINITION	/* ALIAS SDL File Version 8.5 */
+			/* Apparently from wire file '/usr/people/mgilmore/user_data/NBAonNBC/wire/Nets/shot_clock/clock04'. */
+	version = 8.5;
+
+	xleft  = 0;
+	xright = 319;
+	ylow   = 0;
+	yhigh  = 239;
+	resolution = 320 240;
+	aalevelmin   = 3;
+	aalevelmax   = 12;
+	aathreshold  = 0.6;
+	post_filter   = OFF;
+	post_center   = 8;    /* Values for a bartlet filter. */
+	post_adjacent = 1;
+	post_diagonal = 1;
+
+	composite_rendering = OFF;
+	invisible_objects_cast_shadows = OFF;
+	image_format = TIFF;
+	jitter       = ON;
+	reduced_samples = OFF;
+	textures_active    = ON;
+
+	clamp_bumpsize = 0.0;
+
+	up = yaxis;
+
+	motion_blur_on = OFF;
+	shutter_angle  = 144.0;
+	animation  = ON;
+	startframe      = 0.0;
+	endframe        = 10.0;
+	byframe         = 1.0;
+
+	fields          = FALSE;
+	odd             = FALSE;
+	even            = FALSE;
+	odd_field_first = TRUE;
+
+	triple Camera_view(0.0, 0.0, 0.0);
+	triple Camera_up(0.0, 0.0, 0.0);
+
+	subdivision_recursion_limit = 2;
+	grid_cache = 4000;
+	bbox_memory = FULL;
+	rt_voxel_res_type = AUTOMATIC;
+
+	max_reflections             = 10;
+	max_refractions             = 10;
+	max_shadow_level            = 10;
+	preview_ray_trace           = OFF;
+
+	scalar pixel_aspect ( 1.0 );
+	hline_to_fill_color  = FALSE;
+	hline_fill_color     = (255.0, 255.0, 255.0);
+	hline_line_color     = (0.0, 255.0, 255.0);
+	hline_isoparam_u     = 0;
+	hline_isoparam_v     = 0;
+
+	show_particles       = TRUE;
+	simulation_substeps  = 1;
+	simulation_frames_per_second = 30;
+
+triple Lightview(0.0, 0.0, 0.0);
+triple Lightup(0.0, 0.0, 0.0);
+
+light Light ( model = ambient,
+	active = ON,
+	exclusive = FALSE,
+	light_emission = ON,
+	color = (255.0, 255.0, 255.0),
+	shadow_color = (0.0, 0.0, 0.0),
+	intensity = 1.0,
+	force_type = OFF,
+	force_intensity = 1.0,
+	warp = OFF,
+	glow_type = OFF,
+	halo_type = OFF,
+	fog_type = OFF,
+	flare = OFF,
+	psys_emission = OFF,
+	shadow = FALSE,
+	soft_shadows = FALSE,
+	light_radius = 1.0,
+	shadow_samples = 2.0,
+	use_shadow_map = 0.0,
+	ambient_shade = 0.0
+);
+
+shader default ( model = lambert,
+        diffuse = 0.8,
+        color = (18.497383, 0.0, 255.0),
+        incandescence = (0.0, 0.0, 0.0),
+        transparency = (0.0, 0.0, 0.0),
+        shading_map = (0.0, 0.0, 0.0),
+        translucence = 0.0,
+        translucence_depth = 0.5,
+        opacity_depth = 0.0,
+        use_background_color = OFF,
+        matte_fraction = 0.0,
+        psys_emission = OFF,
+        glow_intensity = 0.0,
+        hide_glow_source = OFF,
+        refractive_index = 1.6,
+        reflection_limit = 1,
+        refraction_limit = 6,
+        shadow_level_limit = 0,
+        surface_width = 0.0,
+        transparency_shade = 0.0,
+        transparency_depth = 0.0,
+        chromatic_abberation = 0.0,
+        refraction_jitter = 0.0,
+        refraction_samples = 0,
+        respect_reflection_map = OFF,
+        use_fill_color = ON,
+        fill_color = (255.0, 255.0, 255.0),
+        u_patch_lines = 0,
+        v_patch_lines = 0,
+        density = 1.0,
+        elasticity = 0.707,
+        friction = 0.0,
+        drag_coeff = 0.5
+);
+
+texture WHITEPOSTtexture (
+        procedure = file,
+        rgbout = (241.787567, 249.559586, 255.0),
+        active = ON,
+        image = "/usr/people/mgilmore/user_data/NBAonNBC/pix/whitpost.TIF",
+        use_extension = OFF,
+        frame_extension = 1,
+        filter =  BLEND_FILTER,
+        cache = OFF,
+        rgbmult = (1.0, 1.0, 1.0),
+        rgboffset = (0.0, 0.0, 0.0),
+        blurmult = 1.0,
+        bluroffset = 0.0,
+        rotate = 0.0,
+        urepeat = 1.0,
+        vrepeat = 1.0,
+        uoffset = 0.0,
+        voffset = 0.0,
+        mirror = OFF,
+        stagger = OFF,
+        worldspace = OFF,
+        chord_length = OFF,
+        ucoverage = 1.0,
+        vcoverage = 1.0,
+        utranslate = 0.0,
+        vtranslate = 0.0,
+        uwrap = ON,
+        vwrap = ON,
+        invert = OFF
+);
+
+shader WHITEPOST ( model = lambert,
+        diffuse = 0.8,
+        color = WHITEPOSTtexture,
+        incandescence = (0.0, 0.0, 0.0),
+        transparency = (0.0, 0.0, 0.0),
+        shading_map = (0.0, 0.0, 0.0),
+        translucence = 0.0,
+        translucence_depth = 0.5,
+        opacity_depth = 0.0,
+        use_background_color = OFF,
+        matte_fraction = 0.0,
+        psys_emission = OFF,
+        glow_intensity = 0.0,
+        hide_glow_source = OFF,
+        refractive_index = 1.6,
+        reflection_limit = 1,
+        refraction_limit = 6,
+        shadow_level_limit = 0,
+        surface_width = 0.0,
+        transparency_shade = 0.0,
+        transparency_depth = 0.0,
+        chromatic_abberation = 0.0,
+        refraction_jitter = 0.0,
+        refraction_samples = 0,
+        respect_reflection_map = OFF,
+        use_fill_color = ON,
+        fill_color = (255.0, 255.0, 255.0),
+        u_patch_lines = 0,
+        v_patch_lines = 0,
+        density = 1.0,
+        elasticity = 0.707,
+        friction = 0.0,
+        drag_coeff = 0.5
+);
+
+texture SHOTCLOCKfile (
+        procedure = file,
+        rgbout = (37.609352, 45.137367, 50.406979),
+        active = ON,
+        image = "/usr/people/mgilmore/user_data/NBAonNBC/pix/shotclck.tif",
+        use_extension = OFF,
+        frame_extension = 1,
+        filter =  BLEND_FILTER,
+        cache = OFF,
+        rgbmult = (1.0, 1.0, 1.0),
+        rgboffset = (0.0, 0.0, 0.0),
+        blurmult = 0.081395,
+        bluroffset = 0.0,
+        rotate = 0.0,
+        urepeat = 1.0,
+        vrepeat = 1.0,
+        uoffset = 0.0,
+        voffset = 0.0,
+        mirror = OFF,
+        stagger = OFF,
+        worldspace = OFF,
+        chord_length = OFF,
+        ucoverage = 1.0,
+        vcoverage = 1.0,
+        utranslate = 0.0,
+        vtranslate = 0.0,
+        uwrap = ON,
+        vwrap = ON,
+        invert = OFF
+);
+
+shader shotclockSHADER ( model = lambert,
+        diffuse = 0.8,
+        color = SHOTCLOCKfile,
+        incandescence = (0.0, 0.0, 0.0),
+        transparency = (0.0, 0.0, 0.0),
+        shading_map = (0.0, 0.0, 0.0),
+        translucence = 0.0,
+        translucence_depth = 0.5,
+        opacity_depth = 0.0,
+        use_background_color = OFF,
+        matte_fraction = 0.0,
+        psys_emission = OFF,
+        glow_intensity = 0.0,
+        hide_glow_source = OFF,
+        refractive_index = 1.6,
+        reflection_limit = 1,
+        refraction_limit = 6,
+        shadow_level_limit = 0,
+        surface_width = 0.0,
+        transparency_shade = 0.0,
+        transparency_depth = 0.0,
+        chromatic_abberation = 0.0,
+        refraction_jitter = 0.0,
+        refraction_samples = 0,
+        respect_reflection_map = OFF,
+        use_fill_color = ON,
+        fill_color = (255.0, 255.0, 255.0),
+        u_patch_lines = 0,
+        v_patch_lines = 0,
+        density = 1.0,
+        elasticity = 0.707,
+        friction = 0.0,
+        drag_coeff = 0.5
+);
+
+texture LEDstrip (
+        procedure = file,
+        rgbout = (0.0, 150.0, 255.0),
+        active = ON,
+        image = "/usr/people/mgilmore/user_data/NBAonNBC/pix/ledstrip.TIF",
+        use_extension = OFF,
+        frame_extension = 1,
+        filter =  BLEND_FILTER,
+        cache = OFF,
+        rgbmult = (1.0, 1.0, 1.0),
+        rgboffset = (0.0, 0.0, 0.0),
+        blurmult = 1.0,
+        bluroffset = 0.0,
+        rotate = 0.0,
+        urepeat = 1.0,
+        vrepeat = 1.0,
+        uoffset = 0.0,
+        voffset = 0.0,
+        mirror = OFF,
+        stagger = OFF,
+        worldspace = OFF,
+        chord_length = OFF,
+        ucoverage = 1.0,
+        vcoverage = 1.0,
+        utranslate = 0.0,
+        vtranslate = 0.0,
+        uwrap = ON,
+        vwrap = ON,
+        invert = OFF
+);
+
+shader led ( model = lambert,
+        diffuse = 0.8,
+        color = LEDstrip,
+        incandescence = (0.0, 0.0, 0.0),
+        transparency = (0.0, 0.0, 0.0),
+        shading_map = (0.0, 0.0, 0.0),
+        translucence = 0.0,
+        translucence_depth = 0.5,
+        opacity_depth = 0.0,
+        use_background_color = OFF,
+        matte_fraction = 0.0,
+        psys_emission = OFF,
+        glow_intensity = 0.0,
+        hide_glow_source = OFF,
+        refractive_index = 1.6,
+        reflection_limit = 1,
+        refraction_limit = 6,
+        shadow_level_limit = 0,
+        surface_width = 0.0,
+        transparency_shade = 0.0,
+        transparency_depth = 0.0,
+        chromatic_abberation = 0.0,
+        refraction_jitter = 0.0,
+        refraction_samples = 0,
+        respect_reflection_map = OFF,
+        use_fill_color = ON,
+        fill_color = (255.0, 255.0, 255.0),
+        u_patch_lines = 0,
+        v_patch_lines = 0,
+        density = 1.0,
+        elasticity = 0.707,
+        friction = 0.0,
+        drag_coeff = 0.5
+);
+
+polyset clock (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (WHITEPOST ),
+	shader = (shotclockSHADER ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-7.424742, 2.816182, 0.158863), 1)),
+			(cv((-7.424642, 2.504929, 0.158863), 1)),
+			(cv((-7.448157, 2.501139, 0.124266), 1)),
+			(cv((-7.467051, 2.5045, 0.157436), 1)),
+			(cv((-7.467151, 2.823754, 0.157436), 1)),
+			(cv((-7.448257, 2.819972, 0.124266), 1)),
+			(cv((-7.424742, 2.816182, -0.158863), 1)),
+			(cv((-7.424642, 2.504929, -0.158863), 1)),
+			(cv((-7.448157, 2.501139, -0.124266), 1)),
+			(cv((-7.467051, 2.5045, -0.157436), 1)),
+			(cv((-7.467151, 2.823754, -0.157436), 1)),
+			(cv((-7.448257, 2.819972, -0.124266), 1)),
+			(cv((-7.335694, 3.141897, -0.240988), 1)),
+			(cv((-7.426822, 3.158787, -0.240988), 1)),
+			(cv((-7.488161, 2.827831, -0.240988), 1)),
+			(cv((-7.397033, 2.810941, -0.240988), 1)),
+			(cv((-7.395484, 2.810654, 0.240988), 1)),
+			(cv((-7.334145, 3.14161, 0.240988), 1)),
+			(cv((-7.488161, 2.827831, 0.240988), 1)),
+			(cv((-7.426822, 3.158787, 0.240988), 1))	),
+	texture_vertices = (
+			st( 1.000000, 0.250000 ),
+			st( 0.000000, 0.250000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.008669, 0.756941 ),
+			st( 0.000000, 0.500000 ),
+			st( 1.000000, 0.500000 ),
+			st( 0.984829, 0.763822 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.984829, 0.763822 ),
+			st( 1.000000, 0.250000 ),
+			st( 0.000000, 0.250000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.008669, 0.756941 ),
+			st( 0.000000, 0.500000 ),
+			st( 1.000000, 0.500000 ),
+			st( 0.984829, 0.763822 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.984829, 0.763822 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.495000, 0.495000 ),
+			st( 0.495000, 0.495000 ),
+			st( 0.746761, 0.509783 ),
+			st( 0.125000, 1.000000 ),
+			st( 0.121652, 0.994582 ),
+			st( 0.121652, 0.994582 ),
+			st( 0.866944, 0.510875 ),
+			st( 0.866944, 0.510875 ),
+			st( 0.125000, 0.500000 ),
+			st( 0.121652, 0.504582 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.000000, 0.500000 ),
+			st( 0.495000, 0.000000 ),
+			st( 0.870940, 0.999961 ),
+			st( 0.005000, 0.000000 ),
+			st( 0.000000, 0.500000 ),
+			st( 0.870940, 0.511982 ),
+			st( 0.870940, 0.511982 ),
+			st( 0.005000, 0.495000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.746817, 0.998079 ),
+			st( 0.746817, 0.998079 ),
+			st( 0.125000, 0.500000 ),
+			st( 0.611652, 0.504582 ),
+			st( 0.611652, 0.504582 ),
+			st( 1.000000, 0.511962 ),
+			st( 0.125000, 1.000000 ),
+			st( 0.611652, 0.994582 ),
+			st( 0.866944, 0.997249 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((3, 4, 5),(4, 5, 6), 0 ),
+		polygon ((0, 4, 3),(0, 5, 4), 0 ),
+		polygon ((3, 1, 0),(4, 1, 0), 0 ),
+		polygon ((2, 5, 0),(2, 7, 0), 0 ),
+		polygon ((2, 3, 5),(3, 4, 8), 0 ),
+		polygon ((6, 7, 8),(9, 10, 11), 0 ),
+		polygon ((9, 10, 11),(13, 14, 15), 0 ),
+		polygon ((6, 10, 9),(9, 14, 13), 0 ),
+		polygon ((9, 7, 6),(13, 10, 9), 0 ),
+		polygon ((8, 11, 6),(11, 16, 9), 0 ),
+		polygon ((8, 9, 11),(12, 13, 17), 0 ),
+		polygon ((12, 13, 14),(18, 22, 27), 1 ),
+		polygon ((14, 15, 12),(27, 31, 18), 1 ),
+		polygon ((16, 17, 12),(34, 38, 19), 1 ),
+		polygon ((12, 15, 16),(20, 32, 34), 1 ),
+		polygon ((18, 19, 17),(43, 47, 39), 1 ),
+		polygon ((17, 16, 18),(40, 35, 43), 1 ),
+		polygon ((18, 14, 13),(44, 28, 23), 1 ),
+		polygon ((13, 19, 18),(24, 48, 45), 1 ),
+		polygon ((16, 15, 14),(36, 33, 29), 1 ),
+		polygon ((14, 18, 16),(30, 46, 37), 1 ),
+		polygon ((17, 19, 13),(41, 49, 25), 1 ),
+		polygon ((13, 12, 17),(26, 21, 42), 1 )
+	)
+); /* end of polyset 'clock' */
+
+polyset tens (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-7.380133, 2.851625, 0.185468), 1)),
+			(cv((-7.334703, 3.096745, 0.185468), 1)),
+			(cv((-7.336252, 3.097032, 0.041143), 1)),
+			(cv((-7.381682, 2.851912, 0.041143), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'tens' */
+
+polyset ones (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((-7.380133, 2.851625, -0.026413), 1)),
+			(cv((-7.334703, 3.096745, -0.026413), 1)),
+			(cv((-7.336252, 3.097032, -0.170738), 1)),
+			(cv((-7.381682, 2.851912, -0.170738), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'ones' */
+
+polyset clock2 (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (WHITEPOST ),
+	shader = (shotclockSHADER ),
+	casts_shadow = TRUE,
+	vertices = ((cv((7.424742, 2.816182, -0.158863), 1)),
+			(cv((7.424642, 2.504929, -0.158863), 1)),
+			(cv((7.448157, 2.501139, -0.124266), 1)),
+			(cv((7.467051, 2.5045, -0.157436), 1)),
+			(cv((7.467151, 2.823754, -0.157436), 1)),
+			(cv((7.448257, 2.819972, -0.124266), 1)),
+			(cv((7.424742, 2.816182, 0.158863), 1)),
+			(cv((7.424642, 2.504929, 0.158863), 1)),
+			(cv((7.448157, 2.501139, 0.124266), 1)),
+			(cv((7.467051, 2.5045, 0.157436), 1)),
+			(cv((7.467151, 2.823754, 0.157436), 1)),
+			(cv((7.448257, 2.819972, 0.124266), 1)),
+			(cv((7.335694, 3.141897, 0.240988), 1)),
+			(cv((7.426822, 3.158787, 0.240988), 1)),
+			(cv((7.488161, 2.827831, 0.240988), 1)),
+			(cv((7.397033, 2.810941, 0.240988), 1)),
+			(cv((7.395484, 2.810654, -0.240988), 1)),
+			(cv((7.334145, 3.14161, -0.240988), 1)),
+			(cv((7.488161, 2.827831, -0.240988), 1)),
+			(cv((7.426822, 3.158787, -0.240988), 1))	),
+	texture_vertices = (
+			st( 1.000000, 0.250000 ),
+			st( 0.000000, 0.250000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.008669, 0.756941 ),
+			st( 0.000000, 0.500000 ),
+			st( 1.000000, 0.500000 ),
+			st( 0.984829, 0.763822 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.984829, 0.763822 ),
+			st( 1.000000, 0.250000 ),
+			st( 0.000000, 0.250000 ),
+			st( 0.000000, 0.000000 ),
+			st( 0.008669, 0.756941 ),
+			st( 0.000000, 0.500000 ),
+			st( 1.000000, 0.500000 ),
+			st( 0.984829, 0.763822 ),
+			st( 1.000000, 0.000000 ),
+			st( 0.984829, 0.763822 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.495000, 0.495000 ),
+			st( 0.495000, 0.495000 ),
+			st( 0.746761, 0.509783 ),
+			st( 0.125000, 1.000000 ),
+			st( 0.121652, 0.994582 ),
+			st( 0.121652, 0.994582 ),
+			st( 0.866944, 0.510875 ),
+			st( 0.866944, 0.510875 ),
+			st( 0.125000, 0.500000 ),
+			st( 0.121652, 0.504582 ),
+			st( 1.000000, 1.000000 ),
+			st( 1.000000, 1.000000 ),
+			st( 0.000000, 0.500000 ),
+			st( 0.495000, 0.000000 ),
+			st( 0.870940, 0.999961 ),
+			st( 0.005000, 0.000000 ),
+			st( 0.000000, 0.500000 ),
+			st( 0.870940, 0.511982 ),
+			st( 0.870940, 0.511982 ),
+			st( 0.005000, 0.495000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.746817, 0.998079 ),
+			st( 0.746817, 0.998079 ),
+			st( 0.125000, 0.500000 ),
+			st( 0.611652, 0.504582 ),
+			st( 0.611652, 0.504582 ),
+			st( 1.000000, 0.511962 ),
+			st( 0.125000, 1.000000 ),
+			st( 0.611652, 0.994582 ),
+			st( 0.866944, 0.997249 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((3, 4, 5),(4, 5, 6), 0 ),
+		polygon ((0, 4, 3),(0, 5, 4), 0 ),
+		polygon ((3, 1, 0),(4, 1, 0), 0 ),
+		polygon ((2, 5, 0),(2, 7, 0), 0 ),
+		polygon ((2, 3, 5),(3, 4, 8), 0 ),
+		polygon ((6, 7, 8),(9, 10, 11), 0 ),
+		polygon ((9, 10, 11),(13, 14, 15), 0 ),
+		polygon ((6, 10, 9),(9, 14, 13), 0 ),
+		polygon ((9, 7, 6),(13, 10, 9), 0 ),
+		polygon ((8, 11, 6),(11, 16, 9), 0 ),
+		polygon ((8, 9, 11),(12, 13, 17), 0 ),
+		polygon ((12, 13, 14),(18, 22, 27), 1 ),
+		polygon ((14, 15, 12),(27, 31, 18), 1 ),
+		polygon ((16, 17, 12),(34, 38, 19), 1 ),
+		polygon ((12, 15, 16),(20, 32, 34), 1 ),
+		polygon ((18, 19, 17),(43, 47, 39), 1 ),
+		polygon ((17, 16, 18),(40, 35, 43), 1 ),
+		polygon ((18, 14, 13),(44, 28, 23), 1 ),
+		polygon ((13, 19, 18),(24, 48, 45), 1 ),
+		polygon ((16, 15, 14),(36, 33, 29), 1 ),
+		polygon ((14, 18, 16),(30, 46, 37), 1 ),
+		polygon ((17, 19, 13),(41, 49, 25), 1 ),
+		polygon ((13, 12, 17),(26, 21, 42), 1 )
+	)
+); /* end of polyset 'clock2' */
+
+polyset tens2 (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((7.380133, 2.851625, -0.185468), 1)),
+			(cv((7.334703, 3.096745, -0.185468), 1)),
+			(cv((7.336252, 3.097032, -0.041143), 1)),
+			(cv((7.381682, 2.851912, -0.041143), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'tens2' */
+
+polyset ones2 (
+	active = ON,
+	motion_blur = ON,
+	smooth = ON,
+	doublesided = OFF,
+	opposite = OFF,
+	shader = (led ),
+	casts_shadow = TRUE,
+	vertices = ((cv((7.380133, 2.851625, 0.026413), 1)),
+			(cv((7.334703, 3.096745, 0.026413), 1)),
+			(cv((7.336252, 3.097032, 0.170738), 1)),
+			(cv((7.381682, 2.851912, 0.170738), 1))	),
+	texture_vertices = (
+			st( 0.000000, 0.000000 ),
+			st( 0.000000, 1.000000 ),
+			st( 0.097600, 1.000000 ),
+			st( 0.097600, 0.000000 ) ),
+	polygons = (
+		polygon ((0, 1, 2),(0, 1, 2), 0 ),
+		polygon ((2, 3, 0),(2, 3, 0), 0 )
+	)
+); /* end of polyset 'ones2' */
+
+ENVIRONMENT
+background ( 
+        color = (0.0, 0.0, 0.0)
+);
+shader_glow ( 
+,
+        glow_type =  LINEAR_GLOW,
+        halo_type =  LINEAR_GLOW,
+        auto_exposure = ON,
+        quality = 0.5,
+        threshold = 0.0,
+        glow_color = (100.0, 100.0, 100.0),
+        glow_intensity = 1.0,
+        glow_spread = 0.05,
+        glow_eccentricity = 0.1,
+        glow_radial_noise = 0.0,
+        glow_star_level = 0.0,
+        glow_opacity = 0.0,
+        halo_color = (100.0, 100.0, 100.0),
+        halo_intensity = 1.0,
+        halo_spread = 0.3,
+        halo_eccentricity = 0.1,
+        halo_radial_noise = 0.0,
+        halo_star_level = 0.0,
+        halo_lens_flare = 0.0,
+        rotation = 0.0,
+        radial_noise_frequency = 0.5,
+        star_points = 4.0
+);
+photo_effects ( 
+,
+        film_grain = 0.0,
+        filter = (255.0, 255.0, 255.0)
+);
+master_light ( 
+,
+        intensity = 1.0,
+        light_color = (255.0, 255.0, 255.0)
+);
+dynamics ( 
+,
+        gravity = 1.0,
+        air_density = 0.05,
+        Floor = ON,
+        floor_offset = 0.0,
+        ceiling = OFF,
+        ceiling_offset = 20.0,
+        left = OFF,
+        left_offset = -10.0,
+        right = OFF,
+        right_offset = 10.0,
+        front = OFF,
+        front_offset = -10.0,
+        back = OFF,
+        back_offset = 10.0,
+        wall_friction = 0.0,
+        wall_elasticity = 0.707,
+        turbulence_intensity = 0.0,
+        turbulence_spread = 0.5,
+        turbulence_persistence = 5.0,
+        turbulence_animated = ON,
+        turbulence_space_resolution =  16,
+        turbulence_time_resolution =  16,
+        turbulence_roughness = 0.5,
+        turbulence_variability = 0.5,
+        turbulence_granularity = 0.0
+);
+
+MODEL
+/* Only expression assignments should appear above this line and below the MODEL directive. */
+/* Placing any other commands in the above section will produce incorrect expression behaviour. */
+{
+	{
+		trn_ro(-7.87732, 2.6579, 0.000001);
+		trn_ri(7.87732, -2.6579, -0.000001);
+		trn_so(-7.877319, 2.6579, 0.000001);
+		trn_si(7.877319, -2.6579, -0.000001);
+		instance clock();
+	}
+	{
+		trn_ro(-7.434323, 2.817852, 0.211882);
+		trn_ri(7.434323, -2.817852, -0.211882);
+		trn_so(-7.434323, 2.817852, 0.211882);
+		trn_si(7.434323, -2.817852, -0.211882);
+		instance tens();
+	}
+	{
+		trn_ro(-7.434323, 2.817852, 0.000001);
+		trn_ri(7.434323, -2.817852, -0.000001);
+		trn_so(-7.434323, 2.817852, 0.000001);
+		trn_si(7.434323, -2.817852, -0.000001);
+		instance ones();
+	}
+}
+{
+	{
+		trn_ro(7.87732, 2.6579, 0.0);
+		trn_ri(-7.87732, -2.6579, 0.0);
+		trn_so(7.877319, 2.6579, 0.0);
+		trn_si(-7.877319, -2.6579, 0.0);
+		instance clock2();
+	}
+	{
+		trn_ro(7.434323, 2.817852, -0.211881);
+		trn_ri(-7.434323, -2.817852, 0.211881);
+		trn_so(7.434323, 2.817852, -0.211881);
+		trn_si(-7.434323, -2.817852, 0.211881);
+		instance tens2();
+	}
+	{
+		trn_ro(7.434323, 2.817852, 0.0);
+		trn_ri(-7.434323, -2.817852, 0.0);
+		trn_so(7.434323, 2.817852, 0.0);
+		trn_si(-7.434323, -2.817852, 0.0);
+		instance ones2();
+	}
+}
+{
+	trn(0.0, 0.0, 12.0);
+	{
+		inst Light();
+	}
+	{
+		trn(-2.0, -2.0, 0.0);
+		Lightview = current_position(( 0.0,  0.0,  0.0));
+	}
+	{
+		trn(0.0, 10.0, 0.0);
+		Lightup = current_position(( 0.0,  0.0,  0.0));
+	}
+}
+{
+	{
+		trn(5.408232, 2.771156, -2.161696);
+		camera (
+			perspective = TRUE,
+			eye   = ( 0.0,  0.0,  0.0),
+			active = ON,
+			pix   = "pix/clock.sdl",
+			view  = Camera_view,
+			up  = Camera_up,
+			aov = 55.0,
+			filmaperture_x = 0.4,
+			filmaperture_y = 0.285,
+			filmoffset_x = 0.0,
+			filmoffset_y = 0.0,
+			placement_fit_code = 0,
+			placement_shift = 0.0,
+			aspect   = pixel_aspect,
+			aspect_ratio_pixel = pixel_aspect,
+			near = 0.1,
+			far = 200.0,
+			depth_of_field = 0.0,
+			scaling_factor = 1.0,
+			f_stop = 3.5,
+			focal_distance = 12.0,
+			auto_focus = OFF,
+			motion_blur = 0.0
+		);
+	}
+	{
+		trn(8.684304, -1.112025, -3.85608);
+		Camera_view = current_position( (0, 0, 0) );
+	}
+	{
+		trn(6.052265, 3.459836, -2.494786);
+		Camera_up = current_position( (0, 0, 0) );
+	}
+}
+

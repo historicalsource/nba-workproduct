@@ -1,0 +1,308 @@
+ ## = Valid question number - multiple choice
+ @@ = Valid question number - true/false
+ !! = Invalid question number
+ ~~ = Incorrect answer follows
+ ** = Correct answer follows
+ && = FYI text follows
+
+##401
+How many minutes are their in a regulation NBA game?
+**a) 48 ~~b) 40 ~~c) 44 ~~d) 32
+##402
+What 1989 NBA All-Rookie Team member played with metal rods in both legs?
+**a) Willie Anderson ~~b) Muggsy Bogues ~~c) Mark Price ~~d) Scottie Pippen
+##403
+What team was known as "Showtime"?
+**a) Los Angeles Lakers ~~b) New York Knicks ~~c) Orlando Magic ~~d) Cleveland Cavaliers
+##404
+What are the Bulls' team colors?
+**a) Red, white and black ~~b) Red, black and blue ~~c) Black, red, white and teal ~~d) Red, black, white and maroon
+##405
+What are the Nuggets' team colors?
+**a) Gold, blue and red ~~b) Red, black and blue ~~c) Orange and yellow ~~d) Gold, silver and maroon
+##406
+What is Dikembe Mutombo's shoe size?
+**a) 22 ~~b) 27 ~~c) 16 ~~d) 12
+##407
+What 1998 NBA All-Star grew up in Holland?
+**a) Rik Smits ~~b) Dikembe Mutombo ~~c) John Stockton ~~d) Tim Duncan
+##408
+How tall is Shaquille O'Neal?
+**a) 7'1" ~~b) 6'11" ~~c) 7'4" ~~d) 7'0"
+##409
+How tall was David Robinson when he entered the Navy?
+**a) 6'4" ~~b) 6'0 ~~c) 7'0" ~~d) 6'10"
+##410
+What number does Shaquille O'Neal wear with the Los Angeles Lakers?
+**a) 34 ~~b) 43 ~~c) 32 ~~d) 3
+##411
+How tall is David Robinson?
+**a) 7'1" ~~b) 7'0" ~~c) 6'10" ~~d) 7'3"
+##412
+How tall is Muggsy Bogues?
+**a) 5'3" ~~b) 5'7" ~~c) 6'1" ~~d) 6'3"
+##413
+How tall is Gheorghe Muresan?
+**a) 7'7" ~~b) 7'4" ~~c) 6'11" ~~d) 6'9"
+##414
+Whose #1 was retired by the Charlotte Hornets
+**a) It is for the fans -- the sixth man ~~b) Team owner ~~c) To honor the first team in history ~~d) To commemorate their first playoff victory
+##415
+How tall is Allen Iverson?
+**a) 6'0" ~~b) 6'2" ~~c) 5'10" ~~d) 5'11"
+##416
+What NBA player was born in Landstuhl, Germany?
+**a) Shawn Bradley ~~b) Detlef Schrempf ~~c) Jim Jackson ~~d) Mahmoud Abdul-Rauf
+##417
+What is the nickname of Vernell Eufaye Coles?
+**a) Bimbo ~~b) Vern ~~c) Faye ~~d) Jim
+##418
+What Orlando Magic player took a record 12 three-pointers in a 1995 NBA Finals game?
+**a) Nick Anderson ~~b) Dennis Scott ~~c) Anfernee Hardaway ~~d) Shaquille O'Neal
+##419
+What team had the best regular season record but lost in the 1993 Finals?
+**a) Phoenix Suns ~~b) Chicago Bulls ~~c) Portland Trail Blazers ~~d) New York Knicks
+##420
+What player for the Chicago Bulls missed 22 games in 1996-97 after a body-surfing accident?
+**a) Luc Longley ~~b) Dennis Rodman ~~c) Scottie Pippen ~~d) Steve Kerr
+##421
+What is the slang term for a shot that misses the basket and backboard?
+**a) Airball ~~b) Floater ~~c) Alley-oop ~~d) Swish
+##422
+The free throw lane is also known as what?
+**a) Key ~~b) The Zone ~~c) Circle ~~d) Rectangle
+##423
+The glass is the slangword used for what?
+**a) Backboard ~~b) Sidelines ~~c) A style of defense ~~d) A style of offense
+##424
+A made shot is called what?
+**a) Field goal ~~b) Field goal attempt ~~c) Check ~~d) Extra point
+!!425
+What is a triple-double?
+**a) Reaching double figures in three statistical categories ~~b) The third time a player scores 10 or more points ~~c) A style of offense ~~d) A style of defense
+##426
+What is 24 second clock used for?
+**a) The time each team has to take a shot ~~b) The timing for a timeout ~~c) The time a player has to check into the game ~~d) The length of the game
+##427
+What was Anfernee Hardaway's nickname while he was growing up?
+**a) Pretty ~~b) Anf ~~c) Fern ~~d) Penny
+##428
+Which NBA team first drafted Steve Smith?
+**a) Miami ~~b) Atlanta ~~c) Orlando ~~d) Detroit
+##429
+Which NBA team first drafted Dikembe Mutombo?
+**a) Denver ~~b) Atlanta ~~c) Washington ~~d) LA Clippers
+##430
+Which team first drafted Mookie Blaylock?
+**a) New Jersey ~~b) Atlanta ~~c) Dallas ~~d) Houston
+##431
+Which team first drafted Scottie Pippen?
+**a) Seattle ~~b) Chicago ~~c) Dallas ~~d) Phoenix
+##432
+Which team first drafted Charles Oakley?
+**a) Cleveland ~~b) Chicago ~~c) New York ~~d) Seattle
+##433
+Which team first drafted Allan Houston?
+**a) Detroit ~~b) New York ~~c) Atlanta ~~d) Indiana
+##434
+In the 1993 draft, Chris Webber was the first player selected and Anfernee Hardaway was the third. Who was the second?
+**a) Shawn Bradley ~~b) Kendall Gill ~~c) Christian Laettner ~~d) Dikembe Mutombo
+##435
+Which team first drafted Christian Laettner?
+**a) Minnesota ~~b) Atlanta ~~c) Detroit ~~d) Boston
+##436
+Which team first drafted Kenny Anderson?
+**a) New Jersey ~~b) Charlotte ~~c) Boston ~~d) Portland
+##437
+Which team first drafted Michael Finley?
+**a) Phoenix ~~b) Dallas ~~c) Houston ~~d) San Antonio
+##438
+Which team has Rony Seikaly not played for?
+**a) Charlotte ~~b) Orlando ~~c) Golden State ~~d) Miami
+##439
+Alonzo Mourning was first drafted by which team?
+**a) Charlotte ~~b) Miami ~~c) Washington ~~d) Golden State
+##440
+Alonzo Mourning was the second player selected in the 1992 NBA Draft. Who was the first player taken in that draft?
+**a) Shaquille O'Neal ~~b) Derrick Coleman ~~c) Chris Webber ~~d) Larry Johnson
+##441
+Gary Payton was the second player selected in the 1990 NBA Draft. Who was the first player selected?
+**a) Derrick Coleman ~~b) Pervis Ellison ~~c) Larry Johnson ~~d) Shaquille O'Neal
+##442
+Which team selected Tyrone Corbin in the 1989 expansion draft?
+**a) Minnesota ~~b) Charlotte ~~c) Orlando ~~d) Miami
+##443
+Grant Hill was taken by Detroit with the third pick in the 1994 NBA Draft. Who was the first player taken in that draft?
+**a) Glenn Robinson ~~b) Jason Kidd ~~c) Anfernee Hardaway ~~d) Jim Jackson
+##444
+Which team has Jim Jackson not played for?
+**a) Boston ~~b) Golden State ~~c) New Jersey ~~d) Philadelphia
+##445
+The first five picks of the 1992 NBA Draft were Shaquille O'Neal, Alonzo Mourning, Christian Laettner, Jim Jackson and LaPhonso Ellis. Who was the sixth player taken?
+**a) Tom Gugliotta ~~b) Bryant Reeves ~~c) Walt Williams ~~d) Robert Horry
+##446
+Glenn Robinson, Jason Kidd and Grant Hill were the first three players selected in the 1994 NBA Draft. Who was the fourth player taken?
+**a) Donyell Marshall ~~b) Juwan Howard ~~c) J.R. Rider ~~d) Jamal Mashburn
+##447
+Which of the following players was selected before Mitch Richmond in the 1988 NBA Draft?
+**a) Chris Morris ~~b) Rex Chapman ~~c) Scottie Pippen ~~d) Rony Seikaly
+##448
+David Robinson was the Rookie of the Year in 1989. In what year did San Antonio draft him?
+**a) 1987 ~~b) 1988 ~~c) 1986 ~~d) 1989
+##449
+Who was the No. 1 pick in the 1988 NBA Draft?
+**a) Danny Manning ~~b) David Robinson ~~c) Pervis Ellison ~~d) Derrick Coleman
+##450
+Who was the No. 1 pick in the 1989 NBA Draft?
+**a) Pervis Ellison ~~b) David Robinson ~~c) Danny Ferry ~~d) Derrick Coleman
+##451
+Which team has Eric Montross not played for?
+**a) Charlotte ~~b) Dallas ~~c) Detroit ~~d) New Jersey
+##452
+Which team originally drafted Jalen Rose?
+**a) Denver ~~b) Indiana ~~c) Detroit ~~d) Cleveland
+##453
+Who was the first college player ever drafted by the Charlotte Hornets?
+**a) Rex Chapman ~~b) J.R. Reid ~~c) Kendall Gill ~~d) Rony Seikaly
+##454
+Who was the first college player ever drafted by the Miami Heat?
+**a) Rony Seikaly ~~b) Kevin Edwards ~~c) Glen Rice ~~d) Charles Smith
+##455
+Who was the Minnesota Timberwolves' first-round draft pick in 1991?
+**a) Luc Longley ~~b) Christian Laettner ~~c) Felton Spencer ~~d) Doug West
+##456
+Who was the Miami Heat's first draft pick in 1991?
+**a) Steve Smith ~~b) Khalid Reeves ~~c) Rony Seikaly ~~d) Glen Rice
+##457
+What team originally drafted Nick Anderson?
+**a) Orlando ~~b) Miami ~~c) Chicago ~~d) Houston
+##458
+Who was Golden State's first-round draft pick in 1993?
+**a) Anfernee Hardaway ~~b) Chris Webber ~~c) Chris Mullin ~~d) Tim Hardaway
+##459
+Who was Orlando's first-round draft pick in 1993?
+**a) Chris Webber ~~b) Anfernee Hardaway ~~c) Dennis Scott ~~d) Nick Anderson
+##460
+Who was the first college player ever drafted by Toronto?
+**a) Damon Stoudamire ~~b) Doug Christie ~~c) Marcus Camby ~~d) Popeye Jones
+##461
+Which team originally drafted Doug Christie?
+**a) Seattle ~~b) Los Angeles Lakers ~~c) New York ~~d) Toronto
+##462
+Who was the first college player ever drafted by Vancouver?
+**a) Bryant Reeves ~~b) Lee Mayberry ~~c) Shareef Abdur-Rahim ~~d) Roy Rogers
+##463
+Who was the Philadelphia 76ers first draft pick in 1997?
+**a) Keith Van Horn ~~b) Tim Thomas ~~c) Allen Iverson ~~d) Jerry Stackhouse
+##464
+Which team originally drafted Dennis Rodman?
+**a) Detroit ~~b) San Antonio ~~c) Chicago ~~d) Dallas
+##465
+Who was the third player taken in the 1997 NBA Draft?
+**a) Chauncey Billups ~~b) Keith Van Horn ~~c) Antonio Daniels ~~d) Ron Mercer
+##466
+Portland drafted Chris Anstey with its first pick in the 1997 Draft, then traded him for the rights to which player?
+**a) Kelvin Cato ~~b) Jermaine O'Neal ~~c) Kenny Anderson ~~d) Gary Trent
+##467
+What team drafted Bobby Jackson in 1997 and then traded him to Denver?
+**a) Seattle ~~b) Portland ~~c) Houston ~~d) Chicago
+##468
+Who was the only player taken in the first round of the 1997 NBA Draft who was not at least 6-0 tall?
+**a) Brevin Knight ~~b) Bobby Jackson ~~c) Jacque Vaughn ~~d) Chauncey Billups
+##469
+Who were the All-NBA First Team forwards in the 1996-97 season?
+**a) Grant Hill and Karl Malone ~~b) Karl Malone and Scottie Pippen ~~c) Karl Malone and Glenn Rice ~~d) Grant Hill and Scottie Pippen
+##470
+Who was the All-NBA First Team center in the 1996-97 season?
+**a) Hakeem Olajuwon ~~b) Shaquille O'Neal ~~c) Alonzo Mourning ~~d) Patrick Ewing
+##471
+Which played did not make any of the first three All-NBA teams in the 1996-97 season?
+**a) Charles Barkley ~~b) Anthony Mason ~~c) Glen Rice ~~d) Tim Hardaway
+##472
+Which of the following players was not on the All-NBA First Team in the 1996-97 season?
+**a) Gary Payton ~~b) Tim Hardaway ~~c) Grant Hill ~~d) Hakeem Olajuwon
+##473
+Which of the following players did not make the All-NBA Defensive First Team in the 1996-97 season?
+**a) Hakeem Olajuwon ~~b) Dikembe Mutombo ~~c) Karl Malone ~~d) Scottie Pippen
+##474
+Who was the NBA's Most Improved Player in the 1996-97 season?
+**a) Isaac Austin ~~b) Gheorghe Muresan ~~c) Brian Williams ~~d) Kendall Gill
+##475
+Which player did not make the NBA All-Rookie First Team in the 1996-97 season?
+**a) Kobe Bryant ~~b) Stephon Marbury ~~c) Marcus Camby ~~d) Antoine Walker
+##476
+Who won the NBA Sixth Man Award in the 1996-97 season?
+**a) John Starks ~~b) Toni Kukoc ~~c) Ike Austin ~~d) Kobe Bryant
+##477
+Who was the NBA Defensive Player of the Year in the 1996-97 season?
+**a) Dikembe Mutombo ~~b) David Robinson ~~c) Gary Payton ~~d) Shaquille O'Neal
+##478
+He was not selected as one of the NBA's 50 Greatest Players?
+**a) Grant Hill ~~b) Shaquille O'Neal ~~c) Scottie Pippen ~~d) Charles Barkley
+##479
+Who was the NBA's Most Valuable Player in the 1996-97 season?
+**a) Karl Malone ~~b) Scottie Pippen ~~c) Charles Barkley ~~d) David Robinson
+##480
+Who was the NBA's Most Valuable Player in the 1994-95 season?
+**a) David Robinson ~~b) Hakeem Olajuwon ~~c) Patrick Ewing ~~d) Charles Barkley
+##481
+Who was the NBA's Most Valuable Player in the 1993-94 season?
+**a) Hakeem Olajuwon ~~b) Shawn Kemp ~~c) Charles Barkley ~~d) David Robinson
+##482
+Who was the NBA's Most Valuable Player in the 1992-93 NBA season?
+**a) Charles Barkley ~~b) Patrick Ewing ~~c) Gary Payton ~~d) Scottie Pippen
+##483
+Who was the NBA's Rookie of the Year in the 1993-94 season?
+**a) Chris Webber ~~b) Anfernee Hardaway ~~c) Shaquille O'Neal ~~d) Derrick Coleman
+##484
+Who was the NBA's Rookie of the Year in the 1995-96 season?
+**a) Damon Stoudamire ~~b) Joe Smith ~~c) Kevin Garnett ~~d) Jason Kidd
+##485
+Which of the following players has not won a Rookie of the Year award?
+**a) Hakeem Olajuwon ~~b) David Robinson ~~c) Larry Johnson ~~d) Patrick Ewing
+##486
+Which of the following players has not won an MVP award?
+**a) Patrick Ewing ~~b) Charles Barkley ~~c) Hakeem Olajuwon ~~d) David Robinson
+##487
+Which of the following players has never won a Defensive Player of the Year award?
+**a) Scottie Pippen ~~b) Gary Payton ~~c) Dennis Rodman ~~d) Hakeem Olajuwon
+##488
+Which player has never won the Sixth Man Award?
+**a) Nick Anderson ~~b) Toni Kukoc ~~c) Anthony Mason ~~d) Dell Curry
+##489
+Who won consecutive MVP awards during the NBA Finals in the '90s?
+**a) Hakeem Olajuwon ~~b) Karl Malone ~~c) Scottie Pippen ~~d) Dennis Rodman
+##490
+Who were the All-NBA First Team forward in the 1995-96 season?
+**a) Scottie Pippen and Karl Malone ~~b) Grant Hill and Karl Malone ~~c) Charles Barkley and Scottie Pippen ~~d) Shawn Kemp and Grant Hill
+##491
+Who was the All-NBA First Team center in the 1995-96 season?
+**a) David Robinson ~~b) Alonzo Mourning ~~c) Shaquille O'Neal ~~d) Hakeem Olajuwon
+##492
+Which of the following players was not on the Rockets' 1994 NBA Championship team?
+**a) Clyde Drexler ~~b) Mario Elie ~~c) Sam Cassell ~~d) Vernon Maxwell
+##493
+Who was the NBA Defensive Player of the Year in the 1995-96 season?
+**a) Gary Payton ~~b) Dennis Rodman ~~c) Scottie Pippen ~~d) Dikembe Mutombo
+##494
+Who was the first player selected in the 1996 NBA Draft?
+**a) Allen Iverson ~~b) Glenn Robinson ~~c) Joe Smith ~~d) Jason Kidd
+##495
+Who was the second player selected in the 1996 NBA Draft?
+**a) Marcus Camby ~~b) Stephon Marbury ~~c) Jason Kidd ~~d) Grant Hill
+##496
+Who selected Stephon Marbury in the 1996 NBA Draft?
+**a) Milwaukee ~~b) Minnesota ~~c) New York ~~d) Atlanta
+##497
+After Minnesota selected Ray Allen in the 1996 NBA Draft, the Timberwolves traded him to Milwaukee for what player?
+**a) Stephon Marbury ~~b) Kevin Garnett ~~c) Tom Gugliotta ~~d) Luc Longley
+##498
+Who selected Kobe Bryant with their first pick in the 1996 NBA Draft?
+**a) Charlotte Hornets ~~b) Los Angeles Lakers ~~c) Philadelphia 76ers ~~d) Los Angeles Clippers
+##499
+Which of the following players was not selected by the New York Knicks in the 1996 NBA Draft?
+**a) Jerome Williams ~~b) John Wallace ~~c) Donate' Jones ~~d) Walter McCarty
+##500
+Which of the following players was not involved in a trade for Charles Barkley?
+**a) Rex Chapman ~~b) Jeff Hornacek ~~c) Sam Cassell ~~d) Robert Horry
+

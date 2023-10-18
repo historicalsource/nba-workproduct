@@ -1,0 +1,291 @@
+HFILE> \video\nba\include\scorinfo.h
+
+#
+# All this stuff needs to be loaded in during gameplay
+# This is the top of screen scoreplate/turbo bar art
+#
+#MIDST> ON
+MIDST> OFF
+
+OUTPUTXY> 128 256
+
+INPUT> nbacgrfx.wif
+-----> jmpbar, jmpbarmtr, jmpwrdl
+EXECUTE> jmeter
+MAKEBAT> scorinfo.bat jmeter*.tga texus -mn -de -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+#
+# End of 1st/3rd period plaque
+# Halftime/End game plaque
+#
+OUTPUTXY> 256 256
+
+INPUT> NBACgrfx.wif
+-----> SCRPLAQ1,SCRPLAQ2,SCRPLAQ3,SCRPLAQT
+-----> SHOTCLK1,SCORCLK2,SHTPRCTBK,NBCCOLOR
+-----> SP_1ST,SP_2ND,SP_3RD,SP_4TH,SP_OT
+-----> ENDQTR1,ENDQTR2,ENDQTR3,ENDQTR4,ENDQTROT,FINAL
+-----> ft_meter, ft_ball, THREEPT
+EXECUTE> scinfo
+MAKEBAT> scorinfo.bat scinfo*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+OUTPUTXY> 256 32
+
+INPUT> NBACgrfx.wif
+-----> teamfire
+EXECUTE> tmfire
+MAKEBAT> scorinfo.bat tmfire*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+#
+# Turbo bars
+#
+#MIDST> OFF
+OUTPUTXY> 256 256
+INPUT> NBACgrfx.wif
+-----> t_foul_b,t_foul_g,t_foul_r,t_foul_y
+-----> t_foul_b2,t_foul_g2,t_foul_r2,t_foul_y2
+-----> trbobar_l,trbobar_r
+-----> trboglo_l,trboglo_r
+-----> TRBORED2,TRBOYLW2,TRBOGRN2,TRBOBLU2
+-----> turbo_b,turbo_g,turbo_r,turbo_y
+-----> t_0,t_1,t_2,t_3,t_4,t_5,t_6,t_7,t_8,t_9
+EXECUTE> turbar
+MAKEBAT> scorinfo.bat turbar*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+OUTPUTXY> 128 128
+INPUT> NBACgrfx.wif
+-----> playball
+EXECUTE> plyball
+MAKEBAT> scorinfo.bat plyball*.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+OUTPUTXY> 256 256
+INPUT> NBACgrfx.wif
+-----> nbcsports
+EXECUTE> nbcspr
+MAKEBAT> scorinfo.bat nbcspr*.tga texus -de -mn -t argb1555 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+
+INPUT> upfront6.wif
+-----> GTg,GTo,GTo2,GTa,GTl,GTt,GTt2,GTe,GTn,GTn3,GTd,GTi,GTi2,GTxc
+-----> GT2,GT3,GTp,GTs
+-----> SCVs,SCVh,SCVo,SCVt,SCVc,SCVl,SCVk,SCVv,SCVi
+-----> SCVa,SCVn,SCVxc
+-----> OTo,OTv,OTe,OTr,OTt,OTi,OTm,OTxc
+-----> FFf,FFw,
+EXECUTE> lettrs
+MAKEBAT> scorinfo.bat lettrs*.tga texus -mn -de -rn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df | 
+
+#
+# These are the team logos, city names, and plaques that appear at end of periods and game over
+#
+OUTPUTXY> 256 128
+
+INPUT> UpFront2.wif
+-----> atllog2
+INPUT> NBACgrfx.wif
+-----> ATL20,ATLHAWK
+EXECUTE> txt_atl
+MAKEBAT> scorinfo.bat txt_atl.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> boslog2
+INPUT> NBACgrfx.wif
+-----> BOS20,BOSCELT
+EXECUTE> txt_bos
+MAKEBAT> scorinfo.bat txt_bos.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> chalog2
+INPUT> NBACgrfx.wif
+-----> CHA20,CHAHORN
+EXECUTE> txt_cha
+MAKEBAT> scorinfo.bat txt_cha.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> chilog2
+INPUT> NBACgrfx.wif
+-----> CHI20,CHIBULL
+EXECUTE> txt_chi
+MAKEBAT> scorinfo.bat txt_chi.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> clelog2
+INPUT> NBACgrfx.wif
+-----> CLE20,CLECAVA
+EXECUTE> txt_cle
+MAKEBAT> scorinfo.bat txt_cle.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> dallog2
+INPUT> NBACgrfx.wif
+-----> DAL20,DALMAVE
+EXECUTE> txt_dal
+MAKEBAT> scorinfo.bat txt_dal.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> denlog2
+INPUT> NBACgrfx.wif
+-----> DEN20,DENNUGG
+EXECUTE> txt_den
+MAKEBAT> scorinfo.bat txt_den.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> detlog2
+INPUT> NBACgrfx.wif
+-----> DET20,DETPIST
+EXECUTE> txt_det
+MAKEBAT> scorinfo.bat txt_det.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> gollog2
+INPUT> NBACgrfx.wif
+-----> GOL20,GOLWARR
+EXECUTE> txt_gol
+MAKEBAT> scorinfo.bat txt_gol.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> houlog2
+INPUT> NBACgrfx.wif
+-----> HOU20,HOUROCK
+EXECUTE> txt_hou
+MAKEBAT> scorinfo.bat txt_hou.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> indlog2
+INPUT> NBACgrfx.wif
+-----> IND20,INDPACE
+EXECUTE> txt_ind
+MAKEBAT> scorinfo.bat txt_ind.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> laclog2
+INPUT> NBACgrfx.wif
+-----> LAC20,LACLIPP
+EXECUTE> txt_lac
+MAKEBAT> scorinfo.bat txt_lac.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> lallog2
+INPUT> NBACgrfx.wif
+-----> LAL20,LALAKER
+EXECUTE> txt_lal
+MAKEBAT> scorinfo.bat txt_lal.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> mialog2
+INPUT> NBACgrfx.wif
+-----> MIA20,MIAHEAT
+EXECUTE> txt_mia
+MAKEBAT> scorinfo.bat txt_mia.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> millog2
+INPUT> NBACgrfx.wif
+-----> MIL20,MILBUCK
+EXECUTE> txt_mil
+MAKEBAT> scorinfo.bat txt_mil.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> minlog2
+INPUT> NBACgrfx.wif
+-----> MIN20,MINTIMB
+EXECUTE> txt_min
+MAKEBAT> scorinfo.bat txt_min.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> nwjlog2
+INPUT> NBACgrfx.wif
+-----> NWJ20,NWJNETS
+EXECUTE> txt_nwj
+MAKEBAT> scorinfo.bat txt_nwj.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> nwylog2
+INPUT> NBACgrfx.wif
+-----> NWY20,NWYKNIC
+EXECUTE> txt_nwy
+MAKEBAT> scorinfo.bat txt_nwy.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> orllog2
+INPUT> NBACgrfx.wif
+-----> ORL20,ORLMAGI
+EXECUTE> txt_orl
+MAKEBAT> scorinfo.bat txt_orl.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> philog2
+INPUT> NBACgrfx.wif
+-----> PHI20,PHI76ER
+EXECUTE> txt_phi
+MAKEBAT> scorinfo.bat txt_phi.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> pholog2
+INPUT> NBACgrfx.wif
+-----> PHO20,PHOSUNS
+EXECUTE> txt_pho
+MAKEBAT> scorinfo.bat txt_pho.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> porlog2
+INPUT> NBACgrfx.wif
+-----> POR20,PORTRAI
+EXECUTE> txt_por
+MAKEBAT> scorinfo.bat txt_por.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> saclog2
+INPUT> NBACgrfx.wif
+-----> SAC20,SACKING
+EXECUTE> txt_sac
+MAKEBAT> scorinfo.bat txt_sac.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> sanlog2
+INPUT> NBACgrfx.wif
+-----> SAN20,SANSPUR
+EXECUTE> txt_san
+MAKEBAT> scorinfo.bat txt_san.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> sealog2
+INPUT> NBACgrfx.wif
+-----> SEA20,SEASUPE
+EXECUTE> txt_sea
+MAKEBAT> scorinfo.bat txt_sea.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> torlog2
+INPUT> NBACgrfx.wif
+-----> TOR20,TORRAPT
+EXECUTE> txt_tor
+MAKEBAT> scorinfo.bat txt_tor.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> utalog2
+INPUT> NBACgrfx.wif
+-----> UTA20,UTAJAZZ
+EXECUTE> txt_uta
+MAKEBAT> scorinfo.bat txt_uta.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> vanlog2
+INPUT> NBACgrfx.wif
+-----> VAN20,VANGRIZ
+EXECUTE> txt_van
+MAKEBAT> scorinfo.bat txt_van.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> waslog2
+INPUT> NBACgrfx.wif
+-----> WAS20,WASWIZA
+EXECUTE> txt_was
+MAKEBAT> scorinfo.bat txt_was.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
+
+INPUT> UpFront2.wif
+-----> ALSLOG2
+INPUT> NBACgrfx.wif
+-----> ALS20,MIDALST
+EXECUTE> txt_mid
+MAKEBAT> scorinfo.bat txt_mid.tga texus -de -mn -t argb4444 -o $(filename).3df $(filename).tga | 3df2wms $(filename).3df |
